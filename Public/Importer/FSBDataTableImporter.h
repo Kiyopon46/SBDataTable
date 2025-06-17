@@ -9,20 +9,26 @@ class FSBDataTableImporter
 public:
     virtual ~FSBDataTableImporter() {}
 
-    // JSONファイルを読み込み、"Rows" 部分を返す
-    virtual TSharedPtr<FJsonObject> LoadJsonRows(const FString& FilePath) = 0;
-
-    // DataTable に行データを流し込む
-    virtual void PopulateDataTable(UDataTable* Table, const TSharedPtr<FJsonObject>& RowsObject) = 0;
-
-    // 出力先 DataTable のパッケージパス（例："/Game/Local/Data/CharacterTable"）
+    /**
+     * Get the package path of the output DataTable (e.g. "/Game/Local/Data/CharacterTable")
+     */
     virtual FString GetPackagePath() const = 0;
 
-    // 対応する構造体
+    /**
+     * Returns the UScriptStruct object representing the type information of the DataTable row. 
+     */
     virtual UScriptStruct* GetRowStruct() const = 0;
+
+    /**
+     * Populating a DataTable with Row Data
+     */
+    virtual void PopulateDataTable(UDataTable* Table, const TSharedPtr<FJsonObject>& RowsObject) = 0;
 
 protected:
 
+    /**
+     * Get the string value by specifying the key and set it in the DataTable.
+     */
     void TryApplyStringField(
         const TSharedPtr<FJsonObject>& JsonObject,
         const FString& Key,
@@ -40,6 +46,9 @@ protected:
         }
     }
 
+    /**
+     * Get the integer value by specifying the key and set it in the DataTable.
+     */
     void TryApplyIntField(
         const TSharedPtr<FJsonObject>& JsonObject,
         const FString& Key,
@@ -57,6 +66,9 @@ protected:
         }
     }
 
+    /**
+     * Get the float value by specifying the key and set it in the DataTable.
+     */
     void TryApplyFloatField(
         const TSharedPtr<FJsonObject>& JsonObject,
         const FString& Key,
@@ -74,6 +86,9 @@ protected:
         }
     }
 
+    /**
+     * Get the string array value by specifying the key and set it in the DataTable.
+     */
     void TryApplyStringArrayField(
         const TSharedPtr<FJsonObject>& JsonObject,
         const FString& Key,
@@ -96,6 +111,9 @@ protected:
         }
     }
 
+    /**
+     * Get the boolean value by specifying the key and set it in the DataTable.
+     */
     void TryApplyBoolField(
         const TSharedPtr<FJsonObject>& JsonObject,
         const FString& Key,
