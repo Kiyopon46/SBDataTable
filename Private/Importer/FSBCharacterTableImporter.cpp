@@ -206,7 +206,7 @@ void FSBCharacterTableImporter::PopulateDataTable(UDataTable* TargetTable, const
         TryApplyStringField(RowDataObject, TEXT("OverrideCharacterSoundSet"), RowName, [&](const FString& Val) { NewRow.OverrideCharacterSoundSet = Val; });
         TryApplyStringField(RowDataObject, TEXT("FileSuffix"), RowName, [&](const FString& Val) { NewRow.FileSuffix = Val; });
 
-        // DataTable に追加（事前に UDataTable* TargetTable を作成している前提）
+        // Add to DataTable (assuming you have created a UDataTable* TargetTable beforehand)
         TargetTable->AddRow(FName(*RowName), NewRow);
 
         UE_LOG(LogTemp, Log, TEXT("Added row: %s"), *RowName);
