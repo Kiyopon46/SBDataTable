@@ -4,6 +4,23 @@
 #include "Serialization/JsonReader.h"
 #include "Serialization/JsonSerializer.h"
 
+#define LOCTEXT_NAMESPACE "FSBPhotoModeImageTableImporter"
+
+FSBMenuEntry FSBPhotoModeImageTableImporter::GetMenuEntry()
+{
+    FSBMenuEntry Entry;
+    Entry.Name = "PhotoModeImageTableEntry";
+    Entry.Label = LOCTEXT("PhotoModeImageTableEntry", "PhotoModeImageTable");
+    Entry.Tooltip = LOCTEXT("PhotoModeImageTableEntry_Tooltip", "Run PhotoModeImageTable tool");
+
+    Entry.Callback = [this]()
+    {
+        this->Execute();
+    };
+
+    return Entry;
+}
+
 FString FSBPhotoModeImageTableImporter::GetPackagePath() const
 {
     return TEXT("/Game/Local/Data/PhotoModeImageTable");
@@ -40,3 +57,5 @@ void FSBPhotoModeImageTableImporter::PopulateDataTable(UDataTable* TargetTable, 
         UE_LOG(LogTemp, Log, TEXT("Added row: %s"), *RowName);
     }
 }
+
+#undef LOCTEXT_NAMESPACE

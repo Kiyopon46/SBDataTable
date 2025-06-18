@@ -4,6 +4,23 @@
 #include "Serialization/JsonReader.h"
 #include "Serialization/JsonSerializer.h"
 
+#define LOCTEXT_NAMESPACE "FSBCharacterTableImporter"
+
+FSBMenuEntry FSBCharacterTableImporter::GetMenuEntry()
+{
+    FSBMenuEntry Entry;
+    Entry.Name = "CharacterTableEntry";
+    Entry.Label = LOCTEXT("CharacterTableEntry", "CharacterTable");
+    Entry.Tooltip = LOCTEXT("CharacterTableEntry_Tooltip", "Run CharacterTable tool");
+
+    Entry.Callback = [this]()
+    {
+        this->Execute();
+    };
+
+    return Entry;
+}
+
 FString FSBCharacterTableImporter::GetPackagePath() const
 {
     return TEXT("/Game/Local/Data/CharacterTable");
@@ -212,3 +229,5 @@ void FSBCharacterTableImporter::PopulateDataTable(UDataTable* TargetTable, const
         UE_LOG(LogTemp, Log, TEXT("Added row: %s"), *RowName);
     }
 }
+
+#undef LOCTEXT_NAMESPACE
