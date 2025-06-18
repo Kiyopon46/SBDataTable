@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventGiftTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventGiftTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "BossChallenge_01": {
+        "ID": 1000001,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_BossChallenge",
+        "ItemList": [
+          "BS_52"
+        ],
+        "ItemAmountList": [
+          1
+        ],
+        "ItemLevelList": [
+          1
+        ],
+        "FileSuffix": "None"
+      },
+      "BossChallenge_02": {
+        "ID": 1000002,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_BossChallenge",
+        "ItemList": [
+          "BS_44_Var3_E"
+        ],
+        "ItemAmountList": [
+          1
+        ],
+        "ItemLevelList": [
+          1
+        ],
+        "FileSuffix": "None"
+      },
+      "BossChallenge_03": {
+        "ID": 1000003,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_BossChallenge",
+        "ItemList": [
+          "BS_RoyalGuard_01"
+        ],
+        "ItemAmountList": [
+          1
+        ],
+        "ItemLevelList": [
+          1
+        ],
+        "FileSuffix": "None"
+      },
+      "BossChallenge_04": {
+        "ID": 1000004,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_BossChallenge",
+        "ItemList": [
+          "BS_Nikke_01",
+          "Hair_Nikke_01",
+          "Nikke_LP8"
+        ],
+        "ItemAmountList": [
+          1,
+          1,
+          1
+        ],
+        "ItemLevelList": [
+          1,
+          1,
+          1
+        ],
+        "FileSuffix": "None"
+      },
+      "Update_v1003_01": {
+        "ID": 2000001,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_Event",
+        "ItemList": [
+          "BS_08",
+          "BS_08_Var2"
+        ],
+        "ItemAmountList": [
+          1,
+          1
+        ],
+        "ItemLevelList": [
+          1,
+          1
+        ],
+        "FileSuffix": "None"
+      },
+      "Update_02": {
+        "ID": 2000002,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_Event",
+        "ItemList": [
+          "BS_OneMillion_01"
+        ],
+        "ItemAmountList": [
+          1
+        ],
+        "ItemLevelList": [
+          1
+        ],
+        "FileSuffix": "None"
+      },
+      "FusionEndingGift": {
+        "ID": 3000001,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_FusionEndingGift",
+        "ItemList": [
+          "Earring_018"
+        ],
+        "ItemAmountList": [
+          1
+        ],
+        "ItemLevelList": [
+          1
+        ],
+        "FileSuffix": "None"
+      },
+      "PSNReward": {
+        "ID": 4000001,
+        "GiftType": "ESBEventGiftType::ESBEventGiftType_MAX",
+        "ItemList": [
+          "BS_02"
+        ],
+        "ItemAmountList": [
+          1
+        ],
+        "ItemLevelList": [
+          1
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WorldMapTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBWorldMapTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "WorldAlias"
+      ]
+    },
+    "Rows": {
+      "SysTest_P": {
+        "ID": 1,
+        "WorldAlias": "SysTest_P",
+        "PrevWorldMapAlias": "None",
+        "NextWorldMapAlias": "None",
+        "ExceptIsolatedAreaAlias": "None",
+        "AssetImage": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_WasteLand.M_Map_WasteLand'",
+        "AssetImageBG": "Texture2D'/Game/Art/UI/Texture/Map/WorldMap_WasteLand_RT_Tex_BG.WorldMap_WasteLand_RT_Tex_BG'",
+        "AssetImageTitle": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_titleWasteLand.M_Map_titleWasteLand'",
+        "InitiaImageSize": 2160.0,
+        "InitialZoomLevel": 1,
+        "Size1": 1.0,
+        "Speed1": 1400.0,
+        "Size2": 1.5,
+        "Speed2": 1100.0,
+        "Size3": 2.5,
+        "Speed3": 800.0,
+        "UnlockAchievementAlias": "None"
+      },
+      "WasteLandA": {
+        "ID": 2,
+        "WorldAlias": "WasteLandA",
+        "PrevWorldMapAlias": "None",
+        "NextWorldMapAlias": "None",
+        "ExceptIsolatedAreaAlias": "None",
+        "AssetImage": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_WasteLand.M_Map_WasteLand'",
+        "AssetImageBG": "Texture2D'/Game/Art/UI/Texture/Map/WorldMap_WasteLand_RT_Tex_BG.WorldMap_WasteLand_RT_Tex_BG'",
+        "AssetImageTitle": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_titleWasteLand.M_Map_titleWasteLand'",
+        "InitiaImageSize": 2160.0,
+        "InitialZoomLevel": 1,
+        "Size1": 1.0,
+        "Speed1": 1400.0,
+        "Size2": 1.5,
+        "Speed2": 1100.0,
+        "Size3": 2.5,
+        "Speed3": 800.0,
+        "UnlockAchievementAlias": "None"
+      },
+      "WasteLandB": {
+        "ID": 3,
+        "WorldAlias": "WasteLandB",
+        "PrevWorldMapAlias": "None",
+        "NextWorldMapAlias": "None",
+        "ExceptIsolatedAreaAlias": "GreatDesert_MatrixEntrance",
+        "AssetImage": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_GreatDesert.M_Map_GreatDesert'",
+        "AssetImageBG": "Texture2D'/Game/Art/UI/Texture/Map/WorldMap_GreatDesert_RT_Tex_BG.WorldMap_GreatDesert_RT_Tex_BG'",
+        "AssetImageTitle": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_titleGreatDesert.M_Map_titleGreatDesert'",
+        "InitiaImageSize": 2160.0,
+        "InitialZoomLevel": 1,
+        "Size1": 1.0,
+        "Speed1": 1400.0,
+        "Size2": 1.5,
+        "Speed2": 1100.0,
+        "Size3": 2.5,
+        "Speed3": 800.0,
+        "UnlockAchievementAlias": "None"
+      },
+      "Xion_Ground": {
+        "ID": 4,
+        "WorldAlias": "Xion",
+        "PrevWorldMapAlias": "Xion_UnderGround",
+        "NextWorldMapAlias": "Xion_UnderGround",
+        "ExceptIsolatedAreaAlias": "None",
+        "AssetImage": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_Xion.M_Map_Xion'",
+        "AssetImageBG": "Texture2D'/Game/Art/UI/Texture/Map/WorldMap_XION_RT_Tex_BG_2048.WorldMap_XION_RT_Tex_BG_2048'",
+        "AssetImageTitle": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_titleXion.M_Map_titleXion'",
+        "InitiaImageSize": 2160.0,
+        "InitialZoomLevel": 1,
+        "Size1": 1.0,
+        "Speed1": 1400.0,
+        "Size2": 1.5,
+        "Speed2": 1100.0,
+        "Size3": 2.5,
+        "Speed3": 800.0,
+        "UnlockAchievementAlias": "None"
+      },
+      "Xion_Underground": {
+        "ID": 5,
+        "WorldAlias": "Xion",
+        "PrevWorldMapAlias": "Xion_Ground",
+        "NextWorldMapAlias": "Xion_Ground",
+        "ExceptIsolatedAreaAlias": "None",
+        "AssetImage": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_XionUnderground.M_Map_XionUnderground'",
+        "AssetImageBG": "Texture2D'/Game/Art/UI/Texture/Map/WorldMap_XIONUNDERGROUND_RT_Tex_BG_2048.WorldMap_XIONUNDERGROUND_RT_Tex_BG_2048'",
+        "AssetImageTitle": "MaterialInstanceConstant'/Game/Art/UI/Material/Map/M_Map_titleXion.M_Map_titleXion'",
+        "InitiaImageSize": 2160.0,
+        "InitialZoomLevel": 1,
+        "Size1": 1.0,
+        "Speed1": 1400.0,
+        "Size2": 1.5,
+        "Speed2": 1100.0,
+        "Size3": 2.5,
+        "Speed3": 800.0,
+        "UnlockAchievementAlias": "None"
+      }
+    }
+  }
+]

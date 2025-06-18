@@ -1,0 +1,295 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhotoModeEyesPositionByPoseTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBPhotoModeEyesPositionByPoseProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Victory": {
+        "ID": 1000001,
+        "PoseName": "UI_PhotoMode_Pose_Victory",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.08,0.05,0.00,0.05",
+        "EyesPosition_Adam": "0.19,0.02,-0.05,0.02",
+        "EyesPosition_Lily": "0.06,-0.27,-0.17,-0.27",
+        "FileSuffix": "None"
+      },
+      "ThumbUp": {
+        "ID": 1000002,
+        "PoseName": "UI_PhotoMode_Pose_ThumbUp",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.10,0.03,-0.02,0.03",
+        "EyesPosition_Adam": "0.17,0.08,0.02,0.08",
+        "EyesPosition_Lily": "-0.09,0.06,-0.17,0.06",
+        "FileSuffix": "None"
+      },
+      "Confident": {
+        "ID": 1000003,
+        "PoseName": "UI_PhotoMode_Pose_Confident",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.16,-0.34,0.06,-0.34",
+        "EyesPosition_Adam": "0.16,-0.65,0.01,-0.65",
+        "EyesPosition_Lily": "0.14,-0.55,-0.12,-0.55",
+        "FileSuffix": "None"
+      },
+      "HandHeart": {
+        "ID": 1000004,
+        "PoseName": "UI_PhotoMode_Pose_HandHeart",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "-0.10,-0.10,-0.03,-0.10",
+        "EyesPosition_Adam": "0.10,0.08,-0.03,0.08",
+        "EyesPosition_Lily": "0.15,-0.20,-0.12,-0.20",
+        "FileSuffix": "None"
+      },
+      "Worry": {
+        "ID": 1000005,
+        "PoseName": "UI_PhotoMode_Pose_Worry",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.02,-0.26,-0.12,-0.26",
+        "EyesPosition_Adam": "0.04,-0.24,-0.22,-0.24",
+        "EyesPosition_Lily": "0.14,-0.46,0.10,-0.46",
+        "FileSuffix": "None"
+      },
+      "Stretch": {
+        "ID": 1000006,
+        "PoseName": "UI_PhotoMode_Pose_Stretch",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.06,0.36,0.03,0.34",
+        "EyesPosition_Adam": "0.16,0.06,0.09,0.06",
+        "EyesPosition_Lily": "0.34,0.70,0.18,0.70",
+        "FileSuffix": "None"
+      },
+      "OMG": {
+        "ID": 1000007,
+        "PoseName": "UI_PhotoMode_Pose_OMG",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.10,0.26,0.02,0.26",
+        "EyesPosition_Adam": "0.14,-0.61,-0.04,-0.61",
+        "EyesPosition_Lily": "0.35,-0.63,0.35,-0.63",
+        "FileSuffix": "None"
+      },
+      "Clap": {
+        "ID": 1000008,
+        "PoseName": "UI_PhotoMode_Pose_Clap",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.13,0.18,0.11,0.18",
+        "EyesPosition_Adam": "0.23,-0.45,0.07,-0.45",
+        "EyesPosition_Lily": "0.17,0.20,0.10,0.20",
+        "FileSuffix": "None"
+      },
+      "Salute": {
+        "ID": 1000009,
+        "PoseName": "UI_PhotoMode_Pose_Salute",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.21,-0.09,-0.03,-0.09",
+        "EyesPosition_Adam": "0.15,-0.21,0.01,-0.21",
+        "EyesPosition_Lily": "0.17,-0.20,-0.02,-0.20",
+        "FileSuffix": "None"
+      },
+      "Hush": {
+        "ID": 1000010,
+        "PoseName": "UI_PhotoMode_Pose_Hush",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "-0.06,-0.09,-0.00,-0.09",
+        "EyesPosition_Adam": "0.15,-0.08,-0.07,-0.08",
+        "EyesPosition_Lily": "0.14,0.14,-0.05,0.14",
+        "FileSuffix": "None"
+      },
+      "Walk": {
+        "ID": 1000011,
+        "PoseName": "UI_PhotoMode_Pose_Walk",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "-0.13,-0.14,-0.08,-0.14",
+        "EyesPosition_Adam": "0.15,-0.24,-0.07,-0.24",
+        "EyesPosition_Lily": "-0.04,0.01,-0.15,-0.01",
+        "FileSuffix": "None"
+      },
+      "ShutterChance1": {
+        "ID": 1000012,
+        "PoseName": "UI_PhotoMode_Pose_ShutterChance1",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.40,-0.43,0.55,-0.43",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "None",
+        "FileSuffix": "None"
+      },
+      "ShutterChance2": {
+        "ID": 1000013,
+        "PoseName": "UI_PhotoMode_Pose_ShutterChance2",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "-0.04,-0.04,-0.04,-0.04",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "None",
+        "FileSuffix": "None"
+      },
+      "ShutterChance3": {
+        "ID": 1000014,
+        "PoseName": "UI_PhotoMode_Pose_ShutterChance3",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.17,-0.40,0.10,-0.40",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "None",
+        "FileSuffix": "None"
+      },
+      "Cutie": {
+        "ID": 1000015,
+        "PoseName": "UI_PhotoMode_Pose_Cutie",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.17,0.25,0.09,0.25",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "0.14,-0.36,-0.12,-0.36",
+        "FileSuffix": "None"
+      },
+      "Wish": {
+        "ID": 1000016,
+        "PoseName": "UI_PhotoMode_Pose_Wish",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.08,-0.08,0.05,-0.08",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "0.08,-0.16,-0.11,-0.16",
+        "FileSuffix": "None"
+      },
+      "Sweetie": {
+        "ID": 1000017,
+        "PoseName": "UI_PhotoMode_Pose_Sweetie",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.18,0.05,0.14,0.05",
+        "EyesPosition_Adam": "0.16,-0.16,-0.05,-0.16",
+        "EyesPosition_Lily": "0.19,0.11,-0.01,0.11",
+        "FileSuffix": "None"
+      },
+      "BringItOn": {
+        "ID": 1000018,
+        "PoseName": "UI_PhotoMode_Pose_BringItOn",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.18,-0.37,0.14,-0.37",
+        "EyesPosition_Adam": "0.16,-0.65,0.01,-0.65",
+        "EyesPosition_Lily": "0.08,-0.56,-0.11,-0.56",
+        "FileSuffix": "None"
+      },
+      "What": {
+        "ID": 1000019,
+        "PoseName": "UI_PhotoMode_Pose_What",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.16,0.09,0.13,0.09",
+        "EyesPosition_Adam": "0.16,-0.37,-0.04,-0.37",
+        "EyesPosition_Lily": "0.10,0.32,-0.15,0.32",
+        "FileSuffix": "None"
+      },
+      "KungFuSalute": {
+        "ID": 1000020,
+        "PoseName": "UI_PhotoMode_Pose_KungFuSalute",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.05,0.02,0.02,0.02",
+        "EyesPosition_Adam": "0.13,-0.26,-0.11,-0.26",
+        "EyesPosition_Lily": "0.13,0.10,-0.08,0.10",
+        "FileSuffix": "None"
+      },
+      "WarmUp": {
+        "ID": 1000021,
+        "PoseName": "UI_PhotoMode_Pose_WarmUp",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "-0.25,0.03,-0.28,0.03",
+        "EyesPosition_Adam": "-0.15,0.13,-0.46,0.13",
+        "EyesPosition_Lily": "None",
+        "FileSuffix": "None"
+      },
+      "GiveMe": {
+        "ID": 1000022,
+        "PoseName": "UI_PhotoMode_Pose_GiveMe",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.09,-0.08,0.07,-0.08",
+        "EyesPosition_Adam": "0.10,-0.32,-0.17,-0.32",
+        "EyesPosition_Lily": "0.15,-0.25,-0.07,-0.25",
+        "FileSuffix": "None"
+      },
+      "WeDidIt": {
+        "ID": 1000023,
+        "PoseName": "UI_PhotoMode_Pose_WeDidIt",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.16,0.40,0.15,0.40",
+        "EyesPosition_Adam": "0.38,-0.18,0.17,-0.18",
+        "EyesPosition_Lily": "0.00,0.10,-0.17,0.10",
+        "FileSuffix": "None"
+      },
+      "Toast": {
+        "ID": 1000024,
+        "PoseName": "UI_PhotoMode_Pose_Toast",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "-0.08,0.24,-0.12,0.24",
+        "EyesPosition_Adam": "0.16,-0.11,0.09,-0.11",
+        "EyesPosition_Lily": "0.23,-0.13,0.04,-0.13",
+        "FileSuffix": "None"
+      },
+      "SlavSquart": {
+        "ID": 1000025,
+        "PoseName": "UI_PhotoMode_Pose_SlavSquart",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.35,0.36,0.30,0.36",
+        "EyesPosition_Adam": "0.16,0.08,0.09,0.08",
+        "EyesPosition_Lily": "None",
+        "FileSuffix": "None"
+      },
+      "Natarajasana": {
+        "ID": 1000026,
+        "PoseName": "UI_PhotoMode_Pose_YogaPose",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.05,-0.17,0.00,-0.18",
+        "EyesPosition_Adam": "0.05,-0.50,-0.18,-0.50",
+        "EyesPosition_Lily": "0.13,-0.25,-0.00,-0.25",
+        "FileSuffix": "None"
+      },
+      "Kiss": {
+        "ID": 1000027,
+        "PoseName": "UI_PhotoMode_Pose_Kiss",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.11,-0.02,-0.05,-0.02",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "0.21,0.08,0.07,0.08",
+        "FileSuffix": "None"
+      },
+      "Charm": {
+        "ID": 1000028,
+        "PoseName": "UI_PhotoMode_Pose_Charm",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.12,-0.06,0.02,-0.06",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "0.09,-0.13,-0.05,-0.13",
+        "FileSuffix": "None"
+      },
+      "Reach": {
+        "ID": 1000029,
+        "PoseName": "UI_PhotoMode_Pose_Reach",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "-0.14,0.14,-0.16,0.14",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "0.05,0.17,-0.17,0.17",
+        "FileSuffix": "None"
+      },
+      "Flow": {
+        "ID": 1000030,
+        "PoseName": "UI_PhotoMode_Pose_Flow",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "0.12,-0.31,0.11,-0.31",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "-0.11,-0.40,-0.28,-0.40",
+        "FileSuffix": "None"
+      },
+      "Sit": {
+        "ID": 1000031,
+        "PoseName": "UI_PhotoMode_Pose_Sit",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "EyesPosition": "None",
+        "EyesPosition_Adam": "None",
+        "EyesPosition_Lily": "0.02,0.02,-0.15,0.02",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterWeightTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBCharacterWeightTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Smallest": {
+        "ID": 1,
+        "Small_MoveXY": 100.0,
+        "Small_MoveZ": 100.0,
+        "Normal_MoveXY": 0.0,
+        "Normal_MoveZ": 0.0,
+        "Medium_MoveXY": 0.0,
+        "Medium_MoveZ": 0.0,
+        "Large_MoveXY": 0.0,
+        "Large_MoveZ": 0.0,
+        "SuperLarge_MoveXY": 0.0,
+        "SuperLarge_MoveZ": 0.0,
+        "FileSuffix": "None"
+      },
+      "Small": {
+        "ID": 2,
+        "Small_MoveXY": 100.0,
+        "Small_MoveZ": 100.0,
+        "Normal_MoveXY": 100.0,
+        "Normal_MoveZ": 100.0,
+        "Medium_MoveXY": 0.0,
+        "Medium_MoveZ": 0.0,
+        "Large_MoveXY": 0.0,
+        "Large_MoveZ": 0.0,
+        "SuperLarge_MoveXY": 0.0,
+        "SuperLarge_MoveZ": 0.0,
+        "FileSuffix": "None"
+      },
+      "Normal": {
+        "ID": 3,
+        "Small_MoveXY": 100.0,
+        "Small_MoveZ": 100.0,
+        "Normal_MoveXY": 100.0,
+        "Normal_MoveZ": 100.0,
+        "Medium_MoveXY": 100.0,
+        "Medium_MoveZ": 100.0,
+        "Large_MoveXY": 100.0,
+        "Large_MoveZ": 100.0,
+        "SuperLarge_MoveXY": 0.0,
+        "SuperLarge_MoveZ": 0.0,
+        "FileSuffix": "None"
+      },
+      "Medium": {
+        "ID": 4,
+        "Small_MoveXY": 100.0,
+        "Small_MoveZ": 100.0,
+        "Normal_MoveXY": 100.0,
+        "Normal_MoveZ": 100.0,
+        "Medium_MoveXY": 100.0,
+        "Medium_MoveZ": 100.0,
+        "Large_MoveXY": 100.0,
+        "Large_MoveZ": 100.0,
+        "SuperLarge_MoveXY": 0.0,
+        "SuperLarge_MoveZ": 0.0,
+        "FileSuffix": "None"
+      },
+      "Large": {
+        "ID": 5,
+        "Small_MoveXY": 100.0,
+        "Small_MoveZ": 100.0,
+        "Normal_MoveXY": 100.0,
+        "Normal_MoveZ": 100.0,
+        "Medium_MoveXY": 100.0,
+        "Medium_MoveZ": 100.0,
+        "Large_MoveXY": 100.0,
+        "Large_MoveZ": 100.0,
+        "SuperLarge_MoveXY": 0.0,
+        "SuperLarge_MoveZ": 0.0,
+        "FileSuffix": "None"
+      },
+      "SuperLarge": {
+        "ID": 6,
+        "Small_MoveXY": 100.0,
+        "Small_MoveZ": 100.0,
+        "Normal_MoveXY": 100.0,
+        "Normal_MoveZ": 100.0,
+        "Medium_MoveXY": 100.0,
+        "Medium_MoveZ": 100.0,
+        "Large_MoveXY": 100.0,
+        "Large_MoveZ": 100.0,
+        "SuperLarge_MoveXY": 100.0,
+        "SuperLarge_MoveZ": 100.0,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

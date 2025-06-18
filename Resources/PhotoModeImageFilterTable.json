@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhotoModeImageFilterTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBPhotoModeImageFilterTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "ImageFilter_BlackAndWhite": {
+        "ID": 1000001,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_GreyScale.PP_Filter_GreyScale'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Ash": {
+        "ID": 1000002,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_GreyScale_LowContrast.PP_Filter_GreyScale_LowContrast'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Noir": {
+        "ID": 1000003,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_GreyScale_HighContrast.PP_Filter_GreyScale_HighContrast'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Sepia": {
+        "ID": 1000004,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Sepia.PP_Filter_Sepia'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Nostalgia": {
+        "ID": 1000005,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Sepia_2.PP_Filter_Sepia_2'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Pastel": {
+        "ID": 1000006,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Pastel.PP_Filter_Pastel'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Vintage": {
+        "ID": 1000007,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Vintage.PP_Filter_Vintage'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Vivid": {
+        "ID": 1000008,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Vivid.PP_Filter_Vivid'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Cool": {
+        "ID": 1000009,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter__Cold.PP_Filter__Cold'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Warm": {
+        "ID": 1000010,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Warm.PP_Filter_Warm'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Horror": {
+        "ID": 1000011,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Horror.PP_Filter_Horror'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Purple": {
+        "ID": 1000012,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Magenta.PP_Filter_Magenta'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Blood": {
+        "ID": 1000013,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Crimson.PP_Filter_Crimson'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Blood2": {
+        "ID": 1000014,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Crimson_2.PP_Filter_Crimson_2'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Brilliance": {
+        "ID": 1000015,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_brilliance.PP_Filter_brilliance'",
+        "FileSuffix": "None"
+      },
+      "ImageZoomBlur_1": {
+        "ID": 1000016,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/MI_PhotoModeZoomBlur_1.MI_PhotoModeZoomBlur_1'",
+        "FileSuffix": "None"
+      },
+      "ImageChromaticAberration_1": {
+        "ID": 1000017,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/PPM_ChromaticRGBSplit_1.PPM_ChromaticRGBSplit_1'",
+        "FileSuffix": "None"
+      },
+      "ImageHue_1": {
+        "ID": 1000018,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/PPM_PhotoModeHue_1.PPM_PhotoModeHue_1'",
+        "FileSuffix": "None"
+      },
+      "ImageFilmGrain_Iso": {
+        "ID": 1000019,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Noise/PPM_GrainNoise_Iso.PPM_GrainNoise_Iso'",
+        "FileSuffix": "None"
+      },
+      "ImageFilmGrain_Iso2": {
+        "ID": 1000020,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Noise/PPM_GrainNoise_Iso2.PPM_GrainNoise_Iso2'",
+        "FileSuffix": "None"
+      },
+      "ImageFilmGrain_TV": {
+        "ID": 1000021,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Noise/PPM_GrainNoise_TV.PPM_GrainNoise_TV'",
+        "FileSuffix": "None"
+      },
+      "ImageFilmGrain_TV2": {
+        "ID": 1000022,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Noise/PPM_GrainNoise_TV2.PPM_GrainNoise_TV2'",
+        "FileSuffix": "None"
+      },
+      "DOFVisualize_1": {
+        "ID": 1000023,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/PhotoMode/MI_PhotoMode_DOF_Visualize.MI_PhotoMode_DOF_Visualize'",
+        "FileSuffix": "None"
+      },
+      "NoLight": {
+        "ID": 1000024,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/MI_PhotoModeNoLightMode_1.MI_PhotoModeNoLightMode_1'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_BlackAndWhite_HDR": {
+        "ID": 1000025,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_GreyScale_HDR.PP_Filter_GreyScale_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Ash_HDR": {
+        "ID": 1000026,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_GreyScale_LowContrast_HDR.PP_Filter_GreyScale_LowContrast_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Noir_HDR": {
+        "ID": 1000027,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_GreyScale_HighContrast_HDR.PP_Filter_GreyScale_HighContrast_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Sepia_HDR": {
+        "ID": 1000028,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Sepia_HDR.PP_Filter_Sepia_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Nostalgia_HDR": {
+        "ID": 1000029,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Sepia_2_HDR.PP_Filter_Sepia_2_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Pastel_HDR": {
+        "ID": 1000030,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Pastel_HDR.PP_Filter_Pastel_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Vintage_HDR": {
+        "ID": 1000031,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Vintage_HDR.PP_Filter_Vintage_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Vivid_HDR": {
+        "ID": 1000032,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Vivid_HDR.PP_Filter_Vivid_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Cool_HDR": {
+        "ID": 1000033,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter__Cold_HDR.PP_Filter__Cold_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Warm_HDR": {
+        "ID": 1000034,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Warm_HDR.PP_Filter_Warm_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Horror_HDR": {
+        "ID": 1000035,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Horror_HDR.PP_Filter_Horror_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Purple_HDR": {
+        "ID": 1000036,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Magenta_HDR.PP_Filter_Magenta_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Blood_HDR": {
+        "ID": 1000037,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Crimson_HDR.PP_Filter_Crimson_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Blood2_HDR": {
+        "ID": 1000038,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_Crimson_2_HDR.PP_Filter_Crimson_2_HDR'",
+        "FileSuffix": "None"
+      },
+      "ImageFilter_Brilliance_HDR": {
+        "ID": 1000039,
+        "AssetPath": "MaterialInstanceConstant'/Game/Art/FX/PhotoFilter/Setup/PP_Filter_brilliance_HDR.PP_Filter_brilliance_HDR'",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

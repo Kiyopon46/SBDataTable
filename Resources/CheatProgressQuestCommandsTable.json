@@ -1,0 +1,1736 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CheatProgressQuestCommandsTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBCheatProgressQuestCommandsTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "EP01_First_Prologue": {
+        "ID": 1,
+        "CompleteQuestList": [
+          "Quest_Epic_01"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_01_04",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP01_Second_TowerFall": {
+        "ID": 2,
+        "CompleteQuestList": [
+          "Quest_Epic_01"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_01_14",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP01_Third_ItemUse": {
+        "ID": 3,
+        "CompleteQuestList": [
+          "Quest_Epic_01"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_01_29",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP01_Fourth_Sprint": {
+        "ID": 4,
+        "CompleteQuestList": [
+          "Quest_Epic_01"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_01_48",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP01_Fifth_AssemblyPlace": {
+        "ID": 5,
+        "CompleteQuestList": [
+          "Quest_Epic_01"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_01_66",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP02_Intro": {
+        "ID": 6,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_01",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP02_Opener": {
+        "ID": 7,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_45",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 4,
+        "FileSuffix": "None"
+      },
+      "EP02_DED01Station": {
+        "ID": 8,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_59",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 8,
+        "FileSuffix": "None"
+      },
+      "EP02_Monorail": {
+        "ID": 9,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_62",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 10,
+        "FileSuffix": "None"
+      },
+      "EP02_Shoppingmall": {
+        "ID": 10,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_66",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 10,
+        "FileSuffix": "None"
+      },
+      "EP02_MemorialTower": {
+        "ID": 11,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_77",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 13,
+        "FileSuffix": "None"
+      },
+      "EP02_Archive": {
+        "ID": 12,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_93",
+        "QuestPathIndex": 1,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP02_GrubShooter": {
+        "ID": 13,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_99",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP02_Construction": {
+        "ID": 14,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_104",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 2,
+        "FileSuffix": "None"
+      },
+      "EP02_Crane": {
+        "ID": 15,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_112",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 3,
+        "FileSuffix": "None"
+      },
+      "EP02_DED03Start": {
+        "ID": 16,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_124",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 1,
+        "FileSuffix": "None"
+      },
+      "EP02_DED03Puzzle": {
+        "ID": 17,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_127",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 2,
+        "FileSuffix": "None"
+      },
+      "EP02_Gorilla": {
+        "ID": 18,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_144",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 3,
+        "FileSuffix": "None"
+      },
+      "EP02_Droppod": {
+        "ID": 19,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_02_150",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP03_1stEnterXionTetrapod": {
+        "ID": 20,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP03_1stEnterXion": {
+        "ID": 21,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_002",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP03_After1stEnterXion": {
+        "ID": 22,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_005",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP03_1stMeetOrcal": {
+        "ID": 23,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_011",
+        "QuestPathIndex": 1,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP03_HyperDrive": {
+        "ID": 24,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_013",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP03_Kaya": {
+        "ID": 25,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_022",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP03_AcquireKaya001": {
+        "ID": 26,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_024",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 1,
+        "FileSuffix": "None"
+      },
+      "EP03_Rangemode": {
+        "ID": 27,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_026",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 2,
+        "FileSuffix": "None"
+      },
+      "EP03_AfterRangemode": {
+        "ID": 28,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_03_029",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 2,
+        "FileSuffix": "None"
+      },
+      "EP04_1stEnterWLA": {
+        "ID": 29,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_RoyalGuardQuiel": {
+        "ID": 30,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_007",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 7,
+        "FileSuffix": "None"
+      },
+      "EP04_EnterAltesLabor": {
+        "ID": 31,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_072",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 7,
+        "FileSuffix": "None"
+      },
+      "EP04_AltesLabStart": {
+        "ID": 32,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_012",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL01PurifyingScanner": {
+        "ID": 33,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_096",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL01HallwayCamp": {
+        "ID": 34,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_097",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL01SectorA07": {
+        "ID": 35,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_098",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL01PreservationLab": {
+        "ID": 36,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_099",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL02elevatorOpen": {
+        "ID": 37,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_100",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL02ResearchComplexCamp": {
+        "ID": 38,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_101",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL03DeterioratedLobby": {
+        "ID": 39,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_102",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL03AirVent": {
+        "ID": 40,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_103",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_ATL03_FullCamp": {
+        "ID": 41,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_104",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP04_Maelstrom": {
+        "ID": 42,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_04_011",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP05_ClearAltesLabor": {
+        "ID": 43,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_05_017",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP05_Orcal": {
+        "ID": 44,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_05_017",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 2,
+        "FileSuffix": "None"
+      },
+      "EP05_2ndHypercell": {
+        "ID": 45,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_05_002",
+        "QuestPathIndex": 1,
+        "QuestPathNodeIndex": 1,
+        "FileSuffix": "None"
+      },
+      "EP05_AgitToMatrix": {
+        "ID": 46,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_05_015",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP06_MatrixTetrapod": {
+        "ID": 47,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP06_Intro": {
+        "ID": 48,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_205",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP06_Train": {
+        "ID": 49,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_039",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 4,
+        "FileSuffix": "None"
+      },
+      "EP06_Sawshark": {
+        "ID": 50,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_071",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 7,
+        "FileSuffix": "None"
+      },
+      "EP06_Sewer": {
+        "ID": 51,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_087",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 10,
+        "FileSuffix": "None"
+      },
+      "EP06_Mercy": {
+        "ID": 52,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_149",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 11,
+        "FileSuffix": "None"
+      },
+      "EP06_DiagonalLift": {
+        "ID": 53,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_159",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 14,
+        "FileSuffix": "None"
+      },
+      "EP06_SkullJuggernaut": {
+        "ID": 54,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_164",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 15,
+        "FileSuffix": "None"
+      },
+      "EP06_SewerQTE": {
+        "ID": 55,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_181",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 19,
+        "FileSuffix": "None"
+      },
+      "EP06_TachyBattle": {
+        "ID": 56,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_192",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 22,
+        "FileSuffix": "None"
+      },
+      "EP06_TachyKill": {
+        "ID": 57,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_06_201",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 22,
+        "FileSuffix": "None"
+      },
+      "EP07_MatrixToXion": {
+        "ID": 58,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_07_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP07_AgitToWLB": {
+        "ID": 59,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_07_004",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_1stEnterWLB": {
+        "ID": 60,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_RoyalGuardShael": {
+        "ID": 61,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_004",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_EnterAbyssLabor": {
+        "ID": 62,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_006",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_SQ7EnterWLB": {
+        "ID": 63,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_010",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_Phase04": {
+        "ID": 64,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_011",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_AbyssLabStart": {
+        "ID": 65,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_012",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_AYLAfterVent": {
+        "ID": 66,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_015",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_AYLClusterRoom": {
+        "ID": 67,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_022",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_AYLCorridorBattle": {
+        "ID": 68,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_025",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_AYLReactor": {
+        "ID": 69,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_036",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_AYLRuins": {
+        "ID": 70,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_037",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP08_AYLMaelstrom": {
+        "ID": 71,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_08_055",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP09_WLBToXion": {
+        "ID": 72,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_09_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP09_AgitToSE": {
+        "ID": 73,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_09_004",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EPHidden_1stEnterEidos9": {
+        "ID": 74,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Sub_011",
+          "Quest_Sub_012",
+          "Quest_Epic_Hidden"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_Hidden_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EPHidden_Area1Start": {
+        "ID": 75,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Sub_011",
+          "Quest_Sub_012",
+          "Quest_Epic_Hidden"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_Hidden_002",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EPHidden_Area2Start": {
+        "ID": 76,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Sub_011",
+          "Quest_Sub_012",
+          "Quest_Epic_Hidden"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_Hidden_012",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EPHidden_RollercoasterStart": {
+        "ID": 77,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Sub_011",
+          "Quest_Sub_012",
+          "Quest_Epic_Hidden"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_Hidden_027",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EPHidden_DoubleBoss": {
+        "ID": 78,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Sub_011",
+          "Quest_Sub_012",
+          "Quest_Epic_Hidden"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_Hidden_031",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EPHidden_AtelierArrive": {
+        "ID": 79,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Sub_011",
+          "Quest_Sub_012",
+          "Quest_Epic_Hidden"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_Hidden_024",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_Intro": {
+        "ID": 80,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_SE02_Start": {
+        "ID": 81,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_042",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_Tunnel": {
+        "ID": 82,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_054",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_WeaponMaster1st": {
+        "ID": 83,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_189",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_SE05Start": {
+        "ID": 84,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_059",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_SE05SimpleCamp": {
+        "ID": 85,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_063",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_SE05FullCamp": {
+        "ID": 86,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_066",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_TurretRoad": {
+        "ID": 87,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_078",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_SpaceCenter": {
+        "ID": 88,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_080",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_SE06PuzzleDone": {
+        "ID": 89,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_094",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_WeaponMaster2nd": {
+        "ID": 90,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_100",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_CargoLift": {
+        "ID": 91,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_110",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_CargoLift2ndFloor": {
+        "ID": 92,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_125",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_OuterWall": {
+        "ID": 93,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_126",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_SE07-2QTE": {
+        "ID": 94,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_134",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_PassengerLift": {
+        "ID": 95,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_182",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_PassengerLiftBattle": {
+        "ID": 96,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_144",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_Marionette": {
+        "ID": 97,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_155",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP10_Crawler": {
+        "ID": 98,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_173",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 34,
+        "FileSuffix": "None"
+      },
+      "EP10_Gorgon": {
+        "ID": 99,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_10_179",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP11_XionP5": {
+        "ID": 100,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_11_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP11_XionRaven": {
+        "ID": 101,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_11_003",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP11_DeadOrcal": {
+        "ID": 102,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_11_006",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP11_AdiosXion": {
+        "ID": 103,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_11_009",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP11_AfterAdiosXion": {
+        "ID": 104,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_11_011",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP12_WLANestEntrance": {
+        "ID": 105,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11",
+          "Quest_Epic_12"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_12_011",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP12_Legacy": {
+        "ID": 106,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11",
+          "Quest_Epic_12"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_12_004",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP12_Adamsbike": {
+        "ID": 107,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11",
+          "Quest_Epic_12"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_12_006",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP12_WLARaven": {
+        "ID": 108,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11",
+          "Quest_Epic_12"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_12_007",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP13_EnterNest": {
+        "ID": 109,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11",
+          "Quest_Epic_12",
+          "Quest_Epic_13"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_13_001",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 0,
+        "FileSuffix": "None"
+      },
+      "EP13_MeetAdam": {
+        "ID": 110,
+        "CompleteQuestList": [
+          "Quest_Epic_01",
+          "Quest_Epic_02",
+          "Quest_Epic_03",
+          "Quest_Epic_04",
+          "Quest_Epic_05",
+          "Quest_Epic_06",
+          "Quest_Epic_07",
+          "Quest_Epic_08",
+          "Quest_Epic_09",
+          "Quest_Epic_10",
+          "Quest_Epic_11",
+          "Quest_Epic_12",
+          "Quest_Epic_13"
+        ],
+        "GamePlayProgressRecord": "Quest_Epic_13_018",
+        "QuestPathIndex": 0,
+        "QuestPathNodeIndex": 4,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

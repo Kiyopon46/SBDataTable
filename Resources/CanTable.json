@@ -1,0 +1,1579 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CanTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBCanTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Can_001": {
+        "ID": 1,
+        "ItemAlias": "Can_001",
+        "StringKeyTitle": "item_Can_001_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_001_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_01.MI_Can_01",
+        "DetectEnvSpawnAlias": "DED20_EnvS_212",
+        "AcquireEnvSpawnAlias": "DED20_EnvS_248",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          1,
+          1
+        ],
+        "CollectionYList": [
+          1,
+          1
+        ],
+        "AchievementAlias": "Acquire_Item_Can_001",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_002": {
+        "ID": 2,
+        "ItemAlias": "Can_002",
+        "StringKeyTitle": "item_Can_002_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_002_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_02.MI_Can_02",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_148",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          2,
+          2
+        ],
+        "CollectionYList": [
+          1,
+          1
+        ],
+        "AchievementAlias": "Acquire_Item_Can_002",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_003": {
+        "ID": 3,
+        "ItemAlias": "Can_003",
+        "StringKeyTitle": "item_Can_003_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_003_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_03.MI_Can_03",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_103",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          3,
+          3
+        ],
+        "CollectionYList": [
+          1,
+          1
+        ],
+        "AchievementAlias": "Acquire_Item_Can_003",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_004": {
+        "ID": 4,
+        "ItemAlias": "Can_004",
+        "StringKeyTitle": "item_Can_004_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_004_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_04.MI_Can_04",
+        "DetectEnvSpawnAlias": "WLA_30_EnvS_069",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          4,
+          4
+        ],
+        "CollectionYList": [
+          1,
+          1
+        ],
+        "AchievementAlias": "Acquire_Item_Can_004",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_005": {
+        "ID": 5,
+        "ItemAlias": "Can_005",
+        "StringKeyTitle": "item_Can_005_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_005_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_05.MI_Can_05",
+        "DetectEnvSpawnAlias": "ME_05_EnvS_061",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          5,
+          5
+        ],
+        "CollectionYList": [
+          1,
+          1
+        ],
+        "AchievementAlias": "Acquire_Item_Can_005",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_006": {
+        "ID": 6,
+        "ItemAlias": "Can_006",
+        "StringKeyTitle": "item_Can_006_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_006_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_06.MI_Can_06",
+        "DetectEnvSpawnAlias": "WLB_10_EnvS_069",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          6,
+          6
+        ],
+        "CollectionYList": [
+          1,
+          1
+        ],
+        "AchievementAlias": "Acquire_Item_Can_006",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_007": {
+        "ID": 7,
+        "ItemAlias": "Can_007",
+        "StringKeyTitle": "item_Can_007_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_007_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_07.MI_Can_07",
+        "DetectEnvSpawnAlias": "SE_04_EnvS_013",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          7,
+          7
+        ],
+        "CollectionYList": [
+          1,
+          1
+        ],
+        "AchievementAlias": "Acquire_Item_Can_007",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_008": {
+        "ID": 8,
+        "ItemAlias": "Can_008",
+        "StringKeyTitle": "item_Can_008_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_008_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_08.MI_Can_08",
+        "DetectEnvSpawnAlias": "WLB_10_EnvS_087",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          1,
+          1
+        ],
+        "CollectionYList": [
+          2,
+          2
+        ],
+        "AchievementAlias": "Acquire_Item_Can_008",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_009": {
+        "ID": 9,
+        "ItemAlias": "Can_009",
+        "StringKeyTitle": "item_Can_009_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_009_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_09.MI_Can_09",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_031",
+        "AcquireEnvSpawnAlias": "Xion_10_EnvS_182",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          2,
+          2
+        ],
+        "CollectionYList": [
+          2,
+          2
+        ],
+        "AchievementAlias": "Acquire_Item_Can_009",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_010": {
+        "ID": 10,
+        "ItemAlias": "Can_010",
+        "StringKeyTitle": "item_Can_010_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_010_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_10.MI_Can_10",
+        "DetectEnvSpawnAlias": "WLA_30_EnvS_071",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          3,
+          3
+        ],
+        "CollectionYList": [
+          2,
+          2
+        ],
+        "AchievementAlias": "Acquire_Item_Can_010",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_011": {
+        "ID": 11,
+        "ItemAlias": "Can_011",
+        "StringKeyTitle": "item_Can_011_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_011_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_11.MI_Can_11",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_029",
+        "AcquireEnvSpawnAlias": "Xion_10_EnvS_183",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          4,
+          4
+        ],
+        "CollectionYList": [
+          2,
+          2
+        ],
+        "AchievementAlias": "Acquire_Item_Can_011",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_012": {
+        "ID": 12,
+        "ItemAlias": "Can_012",
+        "StringKeyTitle": "item_Can_012_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_012_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_12.MI_Can_12",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_145",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          5,
+          5
+        ],
+        "CollectionYList": [
+          2,
+          2
+        ],
+        "AchievementAlias": "Acquire_Item_Can_012",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_013": {
+        "ID": 13,
+        "ItemAlias": "Can_013",
+        "StringKeyTitle": "item_Can_013_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_013_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_13.MI_Can_13",
+        "DetectEnvSpawnAlias": "ME_03_EnvS_063",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          6,
+          6
+        ],
+        "CollectionYList": [
+          2,
+          2
+        ],
+        "AchievementAlias": "Acquire_Item_Can_013",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_014": {
+        "ID": 14,
+        "ItemAlias": "Can_014",
+        "StringKeyTitle": "item_Can_014_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_014_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_14.MI_Can_14",
+        "DetectEnvSpawnAlias": "WLB_30_EnvS_037",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          7,
+          7
+        ],
+        "CollectionYList": [
+          2,
+          2
+        ],
+        "AchievementAlias": "Acquire_Item_Can_014",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_015": {
+        "ID": 15,
+        "ItemAlias": "Can_015",
+        "StringKeyTitle": "item_Can_015_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_015_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_15.MI_Can_15",
+        "DetectEnvSpawnAlias": "WLB_10_EnvS_153",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          1,
+          1
+        ],
+        "CollectionYList": [
+          3,
+          3
+        ],
+        "AchievementAlias": "Acquire_Item_Can_015",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_016": {
+        "ID": 16,
+        "ItemAlias": "Can_016",
+        "StringKeyTitle": "item_Can_016_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_016_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_16.MI_Can_16",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_075",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          2,
+          2
+        ],
+        "CollectionYList": [
+          3,
+          3
+        ],
+        "AchievementAlias": "Acquire_Item_Can_016",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_017": {
+        "ID": 17,
+        "ItemAlias": "Can_017",
+        "StringKeyTitle": "item_Can_017_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_017_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_17.MI_Can_17",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_147",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          3,
+          3
+        ],
+        "CollectionYList": [
+          3,
+          3
+        ],
+        "AchievementAlias": "Acquire_Item_Can_017",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_018": {
+        "ID": 18,
+        "ItemAlias": "Can_018",
+        "StringKeyTitle": "item_Can_018_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_018_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_18.MI_Can_18",
+        "DetectEnvSpawnAlias": "WLA_30_EnvS_083",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          4,
+          4
+        ],
+        "CollectionYList": [
+          3,
+          3
+        ],
+        "AchievementAlias": "Acquire_Item_Can_018",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_019": {
+        "ID": 19,
+        "ItemAlias": "Can_019",
+        "StringKeyTitle": "item_Can_019_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_019_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_19.MI_Can_19",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_105",
+        "AcquireEnvSpawnAlias": "Xion_10_EnvS_180",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          5,
+          5
+        ],
+        "CollectionYList": [
+          3,
+          3
+        ],
+        "AchievementAlias": "Acquire_Item_Can_019",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_020": {
+        "ID": 20,
+        "ItemAlias": "Can_020",
+        "StringKeyTitle": "item_Can_020_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_020_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_20.MI_Can_20",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_151",
+        "AcquireEnvSpawnAlias": "WLA_10_EnvS_201",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          6,
+          6
+        ],
+        "CollectionYList": [
+          3,
+          3
+        ],
+        "AchievementAlias": "Acquire_Item_Can_020",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_021": {
+        "ID": 21,
+        "ItemAlias": "Can_021",
+        "StringKeyTitle": "item_Can_021_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_021_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_21.MI_Can_21",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_149",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          7,
+          7
+        ],
+        "CollectionYList": [
+          3,
+          3
+        ],
+        "AchievementAlias": "Acquire_Item_Can_021",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_022": {
+        "ID": 22,
+        "ItemAlias": "Can_022",
+        "StringKeyTitle": "item_Can_022_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_022_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_22.MI_Can_22",
+        "DetectEnvSpawnAlias": "WLB_10_EnvS_083",
+        "AcquireEnvSpawnAlias": "WLB_10_EnvS_151",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          1,
+          1
+        ],
+        "CollectionYList": [
+          4,
+          4
+        ],
+        "AchievementAlias": "Acquire_Item_Can_022",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_023": {
+        "ID": 23,
+        "ItemAlias": "Can_023",
+        "StringKeyTitle": "item_Can_023_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_023_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_23.MI_Can_23",
+        "DetectEnvSpawnAlias": "SE_06_EnvS_075",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          2,
+          2
+        ],
+        "CollectionYList": [
+          4,
+          4
+        ],
+        "AchievementAlias": "Acquire_Item_Can_023",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_024": {
+        "ID": 24,
+        "ItemAlias": "Can_024",
+        "StringKeyTitle": "item_Can_024_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_024_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_24.MI_Can_24",
+        "DetectEnvSpawnAlias": "WLB_10_EnvS_095",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          3,
+          3
+        ],
+        "CollectionYList": [
+          4,
+          4
+        ],
+        "AchievementAlias": "Acquire_Item_Can_024",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_025": {
+        "ID": 25,
+        "ItemAlias": "Can_025",
+        "StringKeyTitle": "item_Can_025_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_025_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_25.MI_Can_25",
+        "DetectEnvSpawnAlias": "DED20_EnvS_213",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          4,
+          4
+        ],
+        "CollectionYList": [
+          4,
+          4
+        ],
+        "AchievementAlias": "Acquire_Item_Can_025",
+        "OverrideDetectDistance": 900.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_026": {
+        "ID": 26,
+        "ItemAlias": "Can_026",
+        "StringKeyTitle": "item_Can_026_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_026_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_26.MI_Can_26",
+        "DetectEnvSpawnAlias": "WLA_40_EnvS_088",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          5,
+          5
+        ],
+        "CollectionYList": [
+          4,
+          4
+        ],
+        "AchievementAlias": "Acquire_Item_Can_026",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_027": {
+        "ID": 27,
+        "ItemAlias": "Can_027",
+        "StringKeyTitle": "item_Can_027_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_027_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_27.MI_Can_27",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_033",
+        "AcquireEnvSpawnAlias": "Xion_10_EnvS_184",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          6,
+          6
+        ],
+        "CollectionYList": [
+          4,
+          4
+        ],
+        "AchievementAlias": "Acquire_Item_Can_027",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_028": {
+        "ID": 28,
+        "ItemAlias": "Can_028",
+        "StringKeyTitle": "item_Can_028_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_028_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_28.MI_Can_28",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_150",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          7,
+          7
+        ],
+        "CollectionYList": [
+          4,
+          4
+        ],
+        "AchievementAlias": "Acquire_Item_Can_028",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_029": {
+        "ID": 29,
+        "ItemAlias": "Can_029",
+        "StringKeyTitle": "item_Can_029_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_029_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_29.MI_Can_29",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_076",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          1,
+          1
+        ],
+        "CollectionYList": [
+          5,
+          5
+        ],
+        "AchievementAlias": "Acquire_Item_Can_029",
+        "OverrideDetectDistance": 1500.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_030": {
+        "ID": 30,
+        "ItemAlias": "Can_030",
+        "StringKeyTitle": "item_Can_030_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_030_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_30.MI_Can_30",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_064",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          2,
+          2
+        ],
+        "CollectionYList": [
+          5,
+          5
+        ],
+        "AchievementAlias": "Acquire_Item_Can_030",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_031": {
+        "ID": 31,
+        "ItemAlias": "Can_031",
+        "StringKeyTitle": "item_Can_031_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_031_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_31.MI_Can_31",
+        "DetectEnvSpawnAlias": "SE_05_EnvS_100",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          3,
+          3
+        ],
+        "CollectionYList": [
+          5,
+          5
+        ],
+        "AchievementAlias": "Acquire_Item_Can_031",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_032": {
+        "ID": 32,
+        "ItemAlias": "Can_032",
+        "StringKeyTitle": "item_Can_032_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_032_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_32.MI_Can_32",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_077",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          4,
+          4
+        ],
+        "CollectionYList": [
+          5,
+          5
+        ],
+        "AchievementAlias": "Acquire_Item_Can_032",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_033": {
+        "ID": 33,
+        "ItemAlias": "Can_033",
+        "StringKeyTitle": "item_Can_033_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_033_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_33.MI_Can_33",
+        "DetectEnvSpawnAlias": "DED20_EnvS_214",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          5,
+          5
+        ],
+        "CollectionYList": [
+          5,
+          5
+        ],
+        "AchievementAlias": "Acquire_Item_Can_033",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_034": {
+        "ID": 34,
+        "ItemAlias": "Can_034",
+        "StringKeyTitle": "item_Can_034_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_034_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_34.MI_Can_34",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_167",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          6,
+          6
+        ],
+        "CollectionYList": [
+          5,
+          5
+        ],
+        "AchievementAlias": "Acquire_Item_Can_034",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_035": {
+        "ID": 35,
+        "ItemAlias": "Can_035",
+        "StringKeyTitle": "item_Can_035_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_035_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_35.MI_Can_35",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_054",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          7,
+          7
+        ],
+        "CollectionYList": [
+          5,
+          5
+        ],
+        "AchievementAlias": "Acquire_Item_Can_035",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_036": {
+        "ID": 36,
+        "ItemAlias": "Can_036",
+        "StringKeyTitle": "item_Can_036_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_036_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_36.MI_Can_36",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_106",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          1,
+          1
+        ],
+        "CollectionYList": [
+          6,
+          6
+        ],
+        "AchievementAlias": "Acquire_Item_Can_036",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_037": {
+        "ID": 37,
+        "ItemAlias": "Can_037",
+        "StringKeyTitle": "item_Can_037_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_037_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_37.MI_Can_37",
+        "DetectEnvSpawnAlias": "SE_07_EnvS_087",
+        "AcquireEnvSpawnAlias": "SE_07_EnvS_090",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          2,
+          2
+        ],
+        "CollectionYList": [
+          6,
+          6
+        ],
+        "AchievementAlias": "Acquire_Item_Can_037",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_038": {
+        "ID": 38,
+        "ItemAlias": "Can_038",
+        "StringKeyTitle": "item_Can_038_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_038_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_38.MI_Can_38",
+        "DetectEnvSpawnAlias": "WLB_10_EnvS_091",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          3,
+          3
+        ],
+        "CollectionYList": [
+          6,
+          6
+        ],
+        "AchievementAlias": "Acquire_Item_Can_038",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_039": {
+        "ID": 39,
+        "ItemAlias": "Can_039",
+        "StringKeyTitle": "item_Can_039_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_039_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_39.MI_Can_39",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_040",
+        "AcquireEnvSpawnAlias": "Xion_10_EnvS_185",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          4,
+          4
+        ],
+        "CollectionYList": [
+          6,
+          6
+        ],
+        "AchievementAlias": "Acquire_Item_Can_039",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_040": {
+        "ID": 40,
+        "ItemAlias": "Can_040",
+        "StringKeyTitle": "item_Can_040_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_040_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_40.MI_Can_40",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_063",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          5,
+          5
+        ],
+        "CollectionYList": [
+          6,
+          6
+        ],
+        "AchievementAlias": "Acquire_Item_Can_040",
+        "OverrideDetectDistance": 1500.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_041": {
+        "ID": 41,
+        "ItemAlias": "Can_041",
+        "StringKeyTitle": "item_Can_041_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_041_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_41.MI_Can_41",
+        "DetectEnvSpawnAlias": "WLA_10_EnvS_146",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          6,
+          6
+        ],
+        "CollectionYList": [
+          6,
+          6
+        ],
+        "AchievementAlias": "Acquire_Item_Can_041",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_042": {
+        "ID": 42,
+        "ItemAlias": "Can_042",
+        "StringKeyTitle": "item_Can_042_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_042_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_42.MI_Can_42",
+        "DetectEnvSpawnAlias": "WLA_40_EnvS_136",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          7,
+          7
+        ],
+        "CollectionYList": [
+          6,
+          6
+        ],
+        "AchievementAlias": "Acquire_Item_Can_042",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_043": {
+        "ID": 43,
+        "ItemAlias": "Can_043",
+        "StringKeyTitle": "item_Can_043_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_043_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_43.MI_Can_43",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_062",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          1,
+          1
+        ],
+        "CollectionYList": [
+          7,
+          7
+        ],
+        "AchievementAlias": "Acquire_Item_Can_043",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_044": {
+        "ID": 44,
+        "ItemAlias": "Can_044",
+        "StringKeyTitle": "item_Can_044_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_044_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_44.MI_Can_44",
+        "DetectEnvSpawnAlias": "WLA_40_EnvS_086",
+        "AcquireEnvSpawnAlias": "WLA_40_EnvS_172",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          2,
+          2
+        ],
+        "CollectionYList": [
+          7,
+          7
+        ],
+        "AchievementAlias": "Acquire_Item_Can_044",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_045": {
+        "ID": 45,
+        "ItemAlias": "Can_045",
+        "StringKeyTitle": "item_Can_045_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_045_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_45.MI_Can_45",
+        "DetectEnvSpawnAlias": "Xion_10_EnvS_107",
+        "AcquireEnvSpawnAlias": "Xion_10_EnvS_181",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          3,
+          3
+        ],
+        "CollectionYList": [
+          7,
+          7
+        ],
+        "AchievementAlias": "Acquire_Item_Can_045",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_046": {
+        "ID": 46,
+        "ItemAlias": "Can_046",
+        "StringKeyTitle": "item_Can_046_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_046_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_46.MI_Can_46",
+        "DetectEnvSpawnAlias": "WLA_40_EnvS_094",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          4,
+          4
+        ],
+        "CollectionYList": [
+          7,
+          7
+        ],
+        "AchievementAlias": "Acquire_Item_Can_046",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_047": {
+        "ID": 47,
+        "ItemAlias": "Can_047",
+        "StringKeyTitle": "item_Can_047_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_047_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_47.MI_Can_47",
+        "DetectEnvSpawnAlias": "ME_05_EnvS_059",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          5,
+          5
+        ],
+        "CollectionYList": [
+          7,
+          7
+        ],
+        "AchievementAlias": "Acquire_Item_Can_047",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_048": {
+        "ID": 48,
+        "ItemAlias": "Can_048",
+        "StringKeyTitle": "item_Can_048_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_048_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_48.MI_Can_48",
+        "DetectEnvSpawnAlias": "WLB_20_EnvS_114",
+        "AcquireEnvSpawnAlias": "None",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          6,
+          6
+        ],
+        "CollectionYList": [
+          7,
+          7
+        ],
+        "AchievementAlias": "Acquire_Item_Can_048",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_049": {
+        "ID": 49,
+        "ItemAlias": "Can_049",
+        "StringKeyTitle": "item_Can_049_Name",
+        "StringKeyFunc": "item_Can_Function",
+        "StringKeyContent": "item_Can_049_Content",
+        "Asset3D": "/Game/Art/Item/Item_CollectionCan/ETC_Can.ETC_Can",
+        "AssetMaterial": "/Game/Art/Item/Item_CollectionCan/Materials/MI_Can_49.MI_Can_49",
+        "DetectEnvSpawnAlias": "WLB_50_EnvS_053",
+        "AcquireEnvSpawnAlias": "WLB_50_EnvS_219",
+        "CollectionEnvSpawnAliases": [
+          "SYS01_EnvS_297",
+          "Xion_10_EnvS_102"
+        ],
+        "CollectionXList": [
+          7,
+          7
+        ],
+        "CollectionYList": [
+          7,
+          7
+        ],
+        "AchievementAlias": "Acquire_Item_Can_049",
+        "OverrideDetectDistance": 3000.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_1": {
+        "ID": 101,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_30_EnvS_121",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_2": {
+        "ID": 102,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_10_EnvS_213",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_3": {
+        "ID": 103,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_10_EnvS_214",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_4": {
+        "ID": 104,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_40_EnvS_185",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_5": {
+        "ID": 105,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_50_EnvS_055",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_6": {
+        "ID": 106,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_10_EnvS_215",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_7": {
+        "ID": 107,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_10_EnvS_216",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_8": {
+        "ID": 108,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLA_40_EnvS_186",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_9": {
+        "ID": 109,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLB_30_EnvS_081",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_10": {
+        "ID": 110,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLB_10_EnvS_161",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_11": {
+        "ID": 111,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLB_10_EnvS_162",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_12": {
+        "ID": 112,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLB_10_EnvS_163",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_13": {
+        "ID": 113,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLB_50_EnvS_242",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_14": {
+        "ID": 114,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLB_50_EnvS_243",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Can_Nier_15": {
+        "ID": 115,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "WLB_20_EnvS_195",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Test_Can_Nier_1": {
+        "ID": 901,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "SysTestD_01_EnvS_002",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      },
+      "Test_Can_Nier_2": {
+        "ID": 902,
+        "ItemAlias": "Money_Nier",
+        "StringKeyTitle": "",
+        "StringKeyFunc": "",
+        "StringKeyContent": "",
+        "Asset3D": "",
+        "AssetMaterial": "",
+        "DetectEnvSpawnAlias": "None",
+        "AcquireEnvSpawnAlias": "SysTestD_01_EnvS_005",
+        "CollectionEnvSpawnAliases": [],
+        "CollectionXList": [],
+        "CollectionYList": [],
+        "AchievementAlias": "None",
+        "OverrideDetectDistance": 0.0,
+        "OverrideAutoInteractionDistance": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WorldTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBWorldTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "NKGameWaste": {
+        "ID": 32,
+        "UMapPath": "/Game/DLC_2/Art/BG/WorldMap_NK_MiniGame/NK_MiniGame_P.NK_MiniGame_P",
+        "FileSuffix": "None"
+      },
+      "SysTest_Nikke_P": {
+        "ID": 1014,
+        "UMapPath": "/Game/GameDesign/Test/Level/SysTest/SysTest_Nikke_P.SysTest_Nikke_P",
+        "FileSuffix": "None"
+      },
+      "NKBoss": {
+        "ID": 31,
+        "UMapPath": "/Game/DLC_2/Art/BG/WorldMap_NK/NK_P.NK_P",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Nikke_03": {
+        "ID": 1013,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_Test_Nikke_03.LV_Test_Nikke_03",
+        "FileSuffix": "None"
+      },
+      "Test_NikkeSooting": {
+        "ID": 1011,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_Test_Nikke_01.LV_Test_Nikke_01",
+        "FileSuffix": "None"
+      },
+      "Metropolitan": {
+        "ID": 30,
+        "UMapPath": "/Game/Art/BG/WorldMap_DLC_01/Level_P/MET_P.MET_P",
+        "FileSuffix": "None"
+      },
+      "Arden": {
+        "ID": 29,
+        "UMapPath": "/Game/Art/BG/WorldMap_DLC_01/Level_P/ARD_P.ARD_P",
+        "FileSuffix": "None"
+      },
+      "DLCMatrix13": {
+        "ID": 2800,
+        "UMapPath": "/Game/Art/BG/WorldMap_DLC_01/Level_P/MXIII_P.MXIII_P",
+        "FileSuffix": "None"
+      },
+      "MatrixEleven_Demo": {
+        "ID": 27,
+        "UMapPath": "/Game/Art/BG/Demo/Matrix_XI_Demo_P.Matrix_XI_Demo_P",
+        "FileSuffix": "None"
+      },
+      "Zone_LV_Test_Map": {
+        "ID": 7000,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_TestMap_P.LV_TestMap_P",
+        "FileSuffix": "None"
+      },
+      "Epilogue": {
+        "ID": 26,
+        "UMapPath": "/Game/Art/BG/WorldMap/Dungeon_P/Epilogue_P.Epilogue_P",
+        "FileSuffix": "None"
+      },
+      "LV_Test_GuideAction": {
+        "ID": 1010,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_Test_GuideAction_P.LV_Test_GuideAction_P",
+        "FileSuffix": "None"
+      },
+      "Ending": {
+        "ID": 25,
+        "UMapPath": "/Game/Art/BG/WorldMap/Dungeon_P/Ending_P.Ending_P",
+        "FileSuffix": "None"
+      },
+      "WLANight": {
+        "ID": 24,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/WasteLand_Night_P.WasteLand_Night_P",
+        "FileSuffix": "None"
+      },
+      "MENight": {
+        "ID": 23,
+        "UMapPath": "/Game/Art/BG/WorldMap/Dungeon_P/Matrix_XI_Night.Matrix_XI_Night",
+        "FileSuffix": "None"
+      },
+      "TestLevel_Grab": {
+        "ID": 6002,
+        "UMapPath": "/Game/Test/Grab/TestLevel_Grab.TestLevel_Grab",
+        "FileSuffix": "None"
+      },
+      "TestLevel_Widget": {
+        "ID": 6001,
+        "UMapPath": "/Game/Test/Widget/TestLevel_Widget.TestLevel_Widget",
+        "FileSuffix": "None"
+      },
+      "AbyssLab": {
+        "ID": 22,
+        "UMapPath": "/Game/Art/BG/WorldMap/Dungeon_P/AbyssLab_P.AbyssLab_P",
+        "FileSuffix": "None"
+      },
+      "Costume": {
+        "ID": 6000,
+        "UMapPath": "/Game/Art/Character/PC/99_CostumePreview/Costume_ConfirmLevel.Costume_ConfirmLevel",
+        "FileSuffix": "None"
+      },
+      "AltesLab": {
+        "ID": 19,
+        "UMapPath": "/Game/Art/BG/WorldMap/Dungeon_P/AltesLab_P.AltesLab_P",
+        "FileSuffix": "None"
+      },
+      "LobbyWorld": {
+        "ID": 1,
+        "UMapPath": "/Game/Lobby/Lobby.Lobby",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Puzzle_01": {
+        "ID": 1009,
+        "UMapPath": "/Game/GameDesign/Test/Level/Puzzle/LV_Test_Puzzle_01.LV_Test_Puzzle_01",
+        "FileSuffix": "None"
+      },
+      "RavenBossTest": {
+        "ID": 5000,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_RavenBoss_Test.LV_RavenBoss_Test",
+        "FileSuffix": "None"
+      },
+      "DEDA": {
+        "ID": 21,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/F01.F01",
+        "FileSuffix": "None"
+      },
+      "Nest": {
+        "ID": 18,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/C05.C05",
+        "FileSuffix": "None"
+      },
+      "Beach": {
+        "ID": 17,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/G03.G03",
+        "FileSuffix": "None"
+      },
+      "DEDNight": {
+        "ID": 20,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/F02_Night.F02_Night",
+        "FileSuffix": "None"
+      },
+      "LV_TransitZone_Test": {
+        "ID": 1008,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_TransitZone_Test.LV_TransitZone_Test",
+        "FileSuffix": "None"
+      },
+      "SysTest_P": {
+        "ID": 1007,
+        "UMapPath": "/Game/GameDesign/Test/Level/SysTest/SysTest_P.SysTest_P",
+        "FileSuffix": "None"
+      },
+      "LV_Test_LastLegacy": {
+        "ID": 1005,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_Test_LastLegacy.LV_Test_LastLegacy",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Tetrapod": {
+        "ID": 1004,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LevelTestMap/LV_Test_Tetrapod.LV_Test_Tetrapod",
+        "FileSuffix": "None"
+      },
+      "CombatTestMapMk2": {
+        "ID": 1003,
+        "UMapPath": "/Game/GameDesign/Combat/CombatTestMap/CombatTestMapMk2.CombatTestMapMk2",
+        "FileSuffix": "None"
+      },
+      "Xion": {
+        "ID": 16,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/E04.E04",
+        "FileSuffix": "None"
+      },
+      "WasteLandB": {
+        "ID": 15,
+        "UMapPath": "/Game/Art/BG/WorldMap/E05_GreatDesert_P/E05_GreatDesert_P.E05_GreatDesert_P",
+        "FileSuffix": "None"
+      },
+      "WasteLandA": {
+        "ID": 14,
+        "UMapPath": "/Game/Art/BG/WorldMap/E03_WasteLand_P/E03_WasteLand_P.E03_WasteLand_P",
+        "FileSuffix": "None"
+      },
+      "ForbiddenAreas_01": {
+        "ID": 101,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LV_GreyMap/ForbiddenAreas_01/ForbiddenAreas_01.ForbiddenAreas_01",
+        "FileSuffix": "None"
+      },
+      "SpaceElevator": {
+        "ID": 13,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/B07.B07",
+        "FileSuffix": "None"
+      },
+      "MultiplayTest": {
+        "ID": 999,
+        "UMapPath": "/Game/GameDesign/Test/Level/Map/LV_GreyMap/Grey_MultiplayTest/Grey_MultiplayTest_P.Grey_MultiplayTest_P",
+        "FileSuffix": "None"
+      },
+      "CombatBalanceTest": {
+        "ID": 717,
+        "UMapPath": "/Game/Developers/Jusun/CombatBalance/TestMap_CombatBalance.TestMap_CombatBalance",
+        "FileSuffix": "None"
+      },
+      "LV_FX_PerformanceTest": {
+        "ID": 4000,
+        "UMapPath": "/Game/Art/FX/Level/LV_FX_PerformanceTest.LV_FX_PerformanceTest",
+        "FileSuffix": "None"
+      },
+      "MatrixEleven": {
+        "ID": 12,
+        "UMapPath": "/Game/Art/BG/WorldMap/Dungeon_P/Matrix_XI.Matrix_XI",
+        "FileSuffix": "None"
+      },
+      "DrownedEidosDistrict": {
+        "ID": 11,
+        "UMapPath": "/Game/Art/BG/WorldMap/Level_P/F02.F02",
+        "FileSuffix": "None"
+      },
+      "World_P": {
+        "ID": 10,
+        "UMapPath": "/Game/Art/BG/WorldMap/World_P.World_P",
+        "FileSuffix": "None"
+      },
+      "Prototype01": {
+        "ID": 1100,
+        "UMapPath": "/Game/Art/BG/PMap/LV_Prototype04_P.LV_Prototype04_P",
+        "FileSuffix": "None"
+      },
+      "QuestTest00": {
+        "ID": 3000,
+        "UMapPath": "/Game/GameDesign/Test/Level/QuestTest00/P_Test00.P_Test00",
+        "FileSuffix": "None"
+      },
+      "DestroyedCity": {
+        "ID": 2000,
+        "UMapPath": "/Game/Art/FX/Level/LV_FXTest01_P.LV_FXTest01_P",
+        "FileSuffix": "None"
+      },
+      "LV_CombatTest01_P": {
+        "ID": 1002,
+        "UMapPath": "/Game/Art/BG/PMap/LV_CombatTest01_P.LV_CombatTest01_P",
+        "FileSuffix": "None"
+      },
+      "GreyMap_Subway01": {
+        "ID": 1001,
+        "UMapPath": "/Game/Art/BG/PMap/LV_Graymap_Subway01.LV_Graymap_Subway01",
+        "FileSuffix": "None"
+      },
+      "TestMap01": {
+        "ID": 1000,
+        "UMapPath": "/Game/Art/BG/PMap/LV_Test01_P.LV_Test01_P",
+        "FileSuffix": "None"
+      },
+      "NKGameCity": {
+        "ID": 33,
+        "UMapPath": "/Game/DLC_2/Art/BG/WorldMap_NK_MiniGame/NK_MiniGame_02_P.NK_MiniGame_02_P",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

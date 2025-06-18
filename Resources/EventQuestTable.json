@@ -1,0 +1,552 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventQuestTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventQuestTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "subway_desertedcity01_E_Quest_001": {
+        "ID": 17,
+        "Quest": "EQ_DownTown_Quest_01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DesertedCity01_E_Quest_002": {
+        "ID": 18,
+        "Quest": "EQ_Arcade_Q04",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_Quest_007": {
+        "ID": 59,
+        "Quest": "CQ_Public_ForceGreenDot",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_Quest_001": {
+        "ID": 21,
+        "Quest": "CQ_DED02_CraneItem_Count",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "EQ_DownTown_QuestStart": {
+        "ID": 22,
+        "Quest": "EQ_DownTown_Quest_01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "EQ_Arcade_Q04_Start": {
+        "ID": 23,
+        "Quest": "EQ_Arcade_Q04",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "EQ_SYS_Q01": {
+        "ID": 24,
+        "Quest": "EQ_SYS_Q01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Shooting_01_E_Quest_001": {
+        "ID": 28,
+        "Quest": "LV_Test_Shooting_01_01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_01_E_Quest_003": {
+        "ID": 31,
+        "Quest": "CQ_ME01_GetFusionCell02",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_01_E_Quest_002": {
+        "ID": 30,
+        "Quest": "CQ_ME01_GetFusionCell01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_Quest_005": {
+        "ID": 50,
+        "Quest": "TQ_SysTest_Q03",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_Quest_001": {
+        "ID": 33,
+        "Quest": "CQ_WLA50_GetNetworkCode",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_22_E_Quest_001": {
+        "ID": 38,
+        "Quest": "Quest_Epic_05",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_01_E_Quest_001": {
+        "ID": 41,
+        "Quest": "Quest_Epic_10",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_01_E_Quest_001": {
+        "ID": 29,
+        "Quest": "CQ_ME01_KillTumblerDrone",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_015_E_Quest__016_001": {
+        "ID": 12,
+        "Quest": "Quest_Sub_015",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DEDN_10_E_Quest_001": {
+        "ID": 4,
+        "Quest": "Quest_DEDN_001",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_Quest_004": {
+        "ID": 49,
+        "Quest": "TQ_SysTest_Q04",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_Quest_001": {
+        "ID": 3,
+        "Quest": "Quest_Epic_01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_Quest_001": {
+        "ID": 7,
+        "Quest": "Quest_Sub_025",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_Quest_003": {
+        "ID": 40,
+        "Quest": "CQ_Xion20_EQ09_AdamSpawnCheck",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_Quest_002": {
+        "ID": 39,
+        "Quest": "LV_Temp_Trailer2022_Chamber",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_Quest_002": {
+        "ID": 43,
+        "Quest": "CQ_SD10_RR",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_Quest_003": {
+        "ID": 25,
+        "Quest": "LV_Test_Quest_01_01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_Quest_015": {
+        "ID": 16,
+        "Quest": "Quest_Sub_043",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_Quest_014": {
+        "ID": 15,
+        "Quest": "CQ_Xion10_Records_IlusionBait",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_Quest_004": {
+        "ID": 51,
+        "Quest": "Quest_Epic_08",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED40_E_Quest_002": {
+        "ID": 66,
+        "Quest": "CQ_DEDA_DoubleBossKillCheck",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_Quest_011": {
+        "ID": 14,
+        "Quest": "CQ_Xion10_GetFirstCan",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_Quest_010": {
+        "ID": 11,
+        "Quest": "Quest_Sub_020",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_Quest_005": {
+        "ID": 9,
+        "Quest": "Quest_Sub_001",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_Quest_004": {
+        "ID": 2,
+        "Quest": "Quest_Sub_007",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_Quest_006": {
+        "ID": 58,
+        "Quest": "CQ_DED01_TrialVersion_Complete",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_010": {
+        "ID": 48,
+        "Quest": "CQ_Records_Passcode_WLB_50_EnvS_117",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_009": {
+        "ID": 47,
+        "Quest": "CQ_Records_Passcode_WLB_20_EnvS_008",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_008": {
+        "ID": 46,
+        "Quest": "CQ_Records_Passcode_WLB_10_EnvS_080",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_007": {
+        "ID": 45,
+        "Quest": "CQ_Records_Passcode_ME_04_EnvS_129",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_006": {
+        "ID": 44,
+        "Quest": "CQ_Records_Passcode_WLA_40_EnvS_036",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_005": {
+        "ID": 42,
+        "Quest": "CQ_Records_Passcode_WLA_30_EnvS_070",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_004": {
+        "ID": 37,
+        "Quest": "CQ_Records_Passcode_WLA_30_EnvS_024",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_003": {
+        "ID": 36,
+        "Quest": "CQ_Records_Passcode_WLA_10_EnvS_158",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_002": {
+        "ID": 35,
+        "Quest": "CQ_Records_Passcode_Xion_10_EnvS_096",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "CQ_Records_Passcode_E_Quest__016_001": {
+        "ID": 34,
+        "Quest": "CQ_Records_Passcode_DED20_EnvS_211",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_Quest_002": {
+        "ID": 6,
+        "Quest": "TQ_SysTest_Q02",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_Quest_001": {
+        "ID": 5,
+        "Quest": "TQ_SysTest_Q01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_Quest_003": {
+        "ID": 10,
+        "Quest": "Quest_Sub_019",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_Quest_003": {
+        "ID": 1,
+        "Quest": "Quest_Sub_017",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LYC02GO_E_Quest_001": {
+        "ID": 53,
+        "Quest": "TQ_LDTest_Quest_01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_Quest_001": {
+        "ID": 54,
+        "Quest": "Quest_WALN10_001",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_Quest_003": {
+        "ID": 57,
+        "Quest": "Quest_Epic_14_3",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_LocalPlayer",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_Quest_002": {
+        "ID": 56,
+        "Quest": "Quest_Epic_14_2",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_LocalPlayer",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_Quest_001": {
+        "ID": 55,
+        "Quest": "Quest_Epic_14_1",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_LocalPlayer",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_Quest_005": {
+        "ID": 32,
+        "Quest": "CQ_Xion10_GetFirstCan_NotDrone_Seq",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_Quest_004": {
+        "ID": 27,
+        "Quest": "CQ_Xion10_GetFirstCan_Seq",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_Quest_001": {
+        "ID": 20,
+        "Quest": "LV_Temp_Trailer2022",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_034_E_Quest__016_001": {
+        "ID": 52,
+        "Quest": "CQ_Xion10_SQ34_CyrusSpawnCheck",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_04_E_Quest_001": {
+        "ID": 60,
+        "Quest": "CQ_ME04_GetFusionCell01",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_03_E_Quest_001": {
+        "ID": 61,
+        "Quest": "CQ_ME03_OpenMode_Burst",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_Quest_001": {
+        "ID": 62,
+        "Quest": "CQ_WLA10_Can002",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_Quest_002": {
+        "ID": 63,
+        "Quest": "Quest_Epic_12",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_022_E_Quest__016_001": {
+        "ID": 64,
+        "Quest": "Quest_Request_022_hidden",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_Quest_001": {
+        "ID": 65,
+        "Quest": "Quest_Sub_011",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_Quest_003": {
+        "ID": 26,
+        "Quest": "CQ_Records_Passcode",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_05_E_Quest__016_001": {
+        "ID": 8,
+        "Quest": "CQ_Public_ForceGreenDot",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_Quest_002": {
+        "ID": 19,
+        "Quest": "CQ_DED01_KillTumblerDrone",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED40_E_Quest_001": {
+        "ID": 13,
+        "Quest": "Quest_Epic_Hidden",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_Quest_008": {
+        "ID": 67,
+        "Quest": "CQ_Xion10_CanCollectAssist",
+        "TargetType": "ESBQuestEventTargetType::ESBQuestEventTargetType_Eventor",
+        "EventCondition": "None",
+        "EventConditionGroup": "CQ_Xion10_CanCollectAssist_ConditionGroup__022_001",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

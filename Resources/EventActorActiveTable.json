@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventActorActiveTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBZoneEventActorActiveTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Player_Active": {
+        "ID": 1,
+        "Active": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToPlayer",
+        "TargetTagName": "None",
+        "FileSuffix": "None"
+      },
+      "Player_Deactive": {
+        "ID": 2,
+        "Active": false,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "Player",
+        "FileSuffix": "None"
+      },
+      "CH_M_NA_14_Blueprint_Seq_Active": {
+        "ID": 3,
+        "Active": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "CH_M_NA_14_Blueprint_Seq",
+        "FileSuffix": "None"
+      },
+      "CH_M_NA_17_Blueprint_Seq_Active": {
+        "ID": 4,
+        "Active": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "CH_M_NA_17_Blueprint_Seq",
+        "FileSuffix": "None"
+      },
+      "CH_M_NA_16_Blueprint_Seq_Active": {
+        "ID": 5,
+        "Active": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "CH_M_NA_16_Blueprint_Seq",
+        "FileSuffix": "None"
+      },
+      "CH_M_NA_14_Blueprint_Seq_Deactive": {
+        "ID": 6,
+        "Active": false,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "CH_M_NA_14_Blueprint_Seq",
+        "FileSuffix": "None"
+      },
+      "CH_M_NA_17_Blueprint_Seq_Deactive": {
+        "ID": 7,
+        "Active": false,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "CH_M_NA_17_Blueprint_Seq",
+        "FileSuffix": "None"
+      },
+      "CH_M_NA_16_Blueprint_Seq_Deactive": {
+        "ID": 8,
+        "Active": false,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "CH_M_NA_16_Blueprint_Seq",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

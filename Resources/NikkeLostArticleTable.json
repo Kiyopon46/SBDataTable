@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NikkeLostArticleTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBNikkeLostArticleTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Reward": {
+        "ID": 1,
+        "ClearShowTag": "None",
+        "ClearSequenceTag": "None",
+        "ItemSkeletalMeshPath": "None",
+        "ItemAnimAssetPath": "None",
+        "ItemMeshTag": "Reward",
+        "ClearNikkeStageAlias": [],
+        "ClearSequencePath": [],
+        "ClearSequenceUITime": [],
+        "ClearRewardGroupAlias": "None",
+        "Category": "None",
+        "ImageAssetPath": "",
+        "MusicQNRTAssetPath": ""
+      }
+    }
+  }
+]

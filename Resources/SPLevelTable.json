@@ -1,0 +1,1406 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SPLevelTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBSPLevelTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "SPLevel_1": {
+        "ID": 1,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_2": {
+        "ID": 2,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_3": {
+        "ID": 3,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_4": {
+        "ID": 4,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_5": {
+        "ID": 5,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_6": {
+        "ID": 6,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_7": {
+        "ID": 7,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_8": {
+        "ID": 8,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_9": {
+        "ID": 9,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_10": {
+        "ID": 10,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_11": {
+        "ID": 11,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_12": {
+        "ID": 12,
+        "RequiredSPExp": 400,
+        "FileSuffix": "None"
+      },
+      "SPLevel_13": {
+        "ID": 13,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_14": {
+        "ID": 14,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_15": {
+        "ID": 15,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_16": {
+        "ID": 16,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_17": {
+        "ID": 17,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_18": {
+        "ID": 18,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_19": {
+        "ID": 19,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_20": {
+        "ID": 20,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_21": {
+        "ID": 21,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_22": {
+        "ID": 22,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_23": {
+        "ID": 23,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_24": {
+        "ID": 24,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_25": {
+        "ID": 25,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_26": {
+        "ID": 26,
+        "RequiredSPExp": 500,
+        "FileSuffix": "None"
+      },
+      "SPLevel_27": {
+        "ID": 27,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_28": {
+        "ID": 28,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_29": {
+        "ID": 29,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_30": {
+        "ID": 30,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_31": {
+        "ID": 31,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_32": {
+        "ID": 32,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_33": {
+        "ID": 33,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_34": {
+        "ID": 34,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_35": {
+        "ID": 35,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_36": {
+        "ID": 36,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_37": {
+        "ID": 37,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_38": {
+        "ID": 38,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_39": {
+        "ID": 39,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_40": {
+        "ID": 40,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_41": {
+        "ID": 41,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_42": {
+        "ID": 42,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_43": {
+        "ID": 43,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_44": {
+        "ID": 44,
+        "RequiredSPExp": 600,
+        "FileSuffix": "None"
+      },
+      "SPLevel_45": {
+        "ID": 45,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_46": {
+        "ID": 46,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_47": {
+        "ID": 47,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_48": {
+        "ID": 48,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_49": {
+        "ID": 49,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_50": {
+        "ID": 50,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_51": {
+        "ID": 51,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_52": {
+        "ID": 52,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_53": {
+        "ID": 53,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_54": {
+        "ID": 54,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_55": {
+        "ID": 55,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_56": {
+        "ID": 56,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_57": {
+        "ID": 57,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_58": {
+        "ID": 58,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_59": {
+        "ID": 59,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_60": {
+        "ID": 60,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_61": {
+        "ID": 61,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_62": {
+        "ID": 62,
+        "RequiredSPExp": 700,
+        "FileSuffix": "None"
+      },
+      "SPLevel_63": {
+        "ID": 63,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_64": {
+        "ID": 64,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_65": {
+        "ID": 65,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_66": {
+        "ID": 66,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_67": {
+        "ID": 67,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_68": {
+        "ID": 68,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_69": {
+        "ID": 69,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_70": {
+        "ID": 70,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_71": {
+        "ID": 71,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_72": {
+        "ID": 72,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_73": {
+        "ID": 73,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_74": {
+        "ID": 74,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_75": {
+        "ID": 75,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_76": {
+        "ID": 76,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_77": {
+        "ID": 77,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_78": {
+        "ID": 78,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_79": {
+        "ID": 79,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_80": {
+        "ID": 80,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_81": {
+        "ID": 81,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_82": {
+        "ID": 82,
+        "RequiredSPExp": 800,
+        "FileSuffix": "None"
+      },
+      "SPLevel_83": {
+        "ID": 83,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_84": {
+        "ID": 84,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_85": {
+        "ID": 85,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_86": {
+        "ID": 86,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_87": {
+        "ID": 87,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_88": {
+        "ID": 88,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_89": {
+        "ID": 89,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_90": {
+        "ID": 90,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_91": {
+        "ID": 91,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_92": {
+        "ID": 92,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_93": {
+        "ID": 93,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_94": {
+        "ID": 94,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_95": {
+        "ID": 95,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_96": {
+        "ID": 96,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_97": {
+        "ID": 97,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_98": {
+        "ID": 98,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_99": {
+        "ID": 99,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_100": {
+        "ID": 100,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_101": {
+        "ID": 101,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_102": {
+        "ID": 102,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_103": {
+        "ID": 103,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_104": {
+        "ID": 104,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_105": {
+        "ID": 105,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_106": {
+        "ID": 106,
+        "RequiredSPExp": 900,
+        "FileSuffix": "None"
+      },
+      "SPLevel_107": {
+        "ID": 107,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_108": {
+        "ID": 108,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_109": {
+        "ID": 109,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_110": {
+        "ID": 110,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_111": {
+        "ID": 111,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_112": {
+        "ID": 112,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_113": {
+        "ID": 113,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_114": {
+        "ID": 114,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_115": {
+        "ID": 115,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_116": {
+        "ID": 116,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_117": {
+        "ID": 117,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_118": {
+        "ID": 118,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_119": {
+        "ID": 119,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_120": {
+        "ID": 120,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_121": {
+        "ID": 121,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_122": {
+        "ID": 122,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_123": {
+        "ID": 123,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_124": {
+        "ID": 124,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_125": {
+        "ID": 125,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_126": {
+        "ID": 126,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_127": {
+        "ID": 127,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_128": {
+        "ID": 128,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_129": {
+        "ID": 129,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_130": {
+        "ID": 130,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_131": {
+        "ID": 131,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_132": {
+        "ID": 132,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_133": {
+        "ID": 133,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_134": {
+        "ID": 134,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_135": {
+        "ID": 135,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_136": {
+        "ID": 136,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_137": {
+        "ID": 137,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_138": {
+        "ID": 138,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_139": {
+        "ID": 139,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_140": {
+        "ID": 140,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_141": {
+        "ID": 141,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_142": {
+        "ID": 142,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_143": {
+        "ID": 143,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_144": {
+        "ID": 144,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_145": {
+        "ID": 145,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_146": {
+        "ID": 146,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_147": {
+        "ID": 147,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_148": {
+        "ID": 148,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_149": {
+        "ID": 149,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_150": {
+        "ID": 150,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_151": {
+        "ID": 151,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_152": {
+        "ID": 152,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_153": {
+        "ID": 153,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_154": {
+        "ID": 154,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_155": {
+        "ID": 155,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_156": {
+        "ID": 156,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_157": {
+        "ID": 157,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_158": {
+        "ID": 158,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_159": {
+        "ID": 159,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_160": {
+        "ID": 160,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_161": {
+        "ID": 161,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_162": {
+        "ID": 162,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_163": {
+        "ID": 163,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_164": {
+        "ID": 164,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_165": {
+        "ID": 165,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_166": {
+        "ID": 166,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_167": {
+        "ID": 167,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_168": {
+        "ID": 168,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_169": {
+        "ID": 169,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_170": {
+        "ID": 170,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_171": {
+        "ID": 171,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_172": {
+        "ID": 172,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_173": {
+        "ID": 173,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_174": {
+        "ID": 174,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_175": {
+        "ID": 175,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_176": {
+        "ID": 176,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_177": {
+        "ID": 177,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_178": {
+        "ID": 178,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_179": {
+        "ID": 179,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_180": {
+        "ID": 180,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_181": {
+        "ID": 181,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_182": {
+        "ID": 182,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_183": {
+        "ID": 183,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_184": {
+        "ID": 184,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_185": {
+        "ID": 185,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_186": {
+        "ID": 186,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_187": {
+        "ID": 187,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_188": {
+        "ID": 188,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_189": {
+        "ID": 189,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_190": {
+        "ID": 190,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_191": {
+        "ID": 191,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_192": {
+        "ID": 192,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_193": {
+        "ID": 193,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_194": {
+        "ID": 194,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_195": {
+        "ID": 195,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_196": {
+        "ID": 196,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_197": {
+        "ID": 197,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_198": {
+        "ID": 198,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_199": {
+        "ID": 199,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_200": {
+        "ID": 200,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_201": {
+        "ID": 201,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_202": {
+        "ID": 202,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_203": {
+        "ID": 203,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_204": {
+        "ID": 204,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_205": {
+        "ID": 205,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_206": {
+        "ID": 206,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_207": {
+        "ID": 207,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_208": {
+        "ID": 208,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_209": {
+        "ID": 209,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_210": {
+        "ID": 210,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_211": {
+        "ID": 211,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_212": {
+        "ID": 212,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_213": {
+        "ID": 213,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_214": {
+        "ID": 214,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_215": {
+        "ID": 215,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_216": {
+        "ID": 216,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_217": {
+        "ID": 217,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_218": {
+        "ID": 218,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_219": {
+        "ID": 219,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_220": {
+        "ID": 220,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_221": {
+        "ID": 221,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_222": {
+        "ID": 222,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_223": {
+        "ID": 223,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_224": {
+        "ID": 224,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_225": {
+        "ID": 225,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_226": {
+        "ID": 226,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_227": {
+        "ID": 227,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_228": {
+        "ID": 228,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_229": {
+        "ID": 229,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_230": {
+        "ID": 230,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_231": {
+        "ID": 231,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_232": {
+        "ID": 232,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_233": {
+        "ID": 233,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_234": {
+        "ID": 234,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_235": {
+        "ID": 235,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_236": {
+        "ID": 236,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_237": {
+        "ID": 237,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_238": {
+        "ID": 238,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_239": {
+        "ID": 239,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_240": {
+        "ID": 240,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_241": {
+        "ID": 241,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_242": {
+        "ID": 242,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_243": {
+        "ID": 243,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_244": {
+        "ID": 244,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_245": {
+        "ID": 245,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_246": {
+        "ID": 246,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_247": {
+        "ID": 247,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_248": {
+        "ID": 248,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_249": {
+        "ID": 249,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_250": {
+        "ID": 250,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_251": {
+        "ID": 251,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_252": {
+        "ID": 252,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_253": {
+        "ID": 253,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_254": {
+        "ID": 254,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_255": {
+        "ID": 255,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_256": {
+        "ID": 256,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_257": {
+        "ID": 257,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_258": {
+        "ID": 258,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_259": {
+        "ID": 259,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_260": {
+        "ID": 260,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_261": {
+        "ID": 261,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_262": {
+        "ID": 262,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_263": {
+        "ID": 263,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_264": {
+        "ID": 264,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_265": {
+        "ID": 265,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_266": {
+        "ID": 266,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_267": {
+        "ID": 267,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_268": {
+        "ID": 268,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_269": {
+        "ID": 269,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_270": {
+        "ID": 270,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_271": {
+        "ID": 271,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_272": {
+        "ID": 272,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_273": {
+        "ID": 273,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_274": {
+        "ID": 274,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_275": {
+        "ID": 275,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_276": {
+        "ID": 276,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_277": {
+        "ID": 277,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      },
+      "SPLevel_278": {
+        "ID": 278,
+        "RequiredSPExp": 1000,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,1787 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventZoneWarpTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventZoneWarpTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "DED20_E_ZoneWarp_003": {
+        "ID": 47,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DrownedEidosDistrict",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "DED20_Warp_MemorialTower",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ZoneWarp_002": {
+        "ID": 43,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DEDA",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_DEDAtelier",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "LV_Test_LastLegacy_01_E_ZoneWarp_001": {
+        "ID": 4,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Level_Test_Nest",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_Nest",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "LV_Test_Tetrapod_01_E_ZoneWarp_003": {
+        "ID": 44,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_WLBTetrapod",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "LV_Test_Tetrapod_01_E_ZoneWarp_002": {
+        "ID": 6,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DrownedEidosDistrict",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "DED10_Camp_00",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "ME_06_E_ZoneWarp_001": {
+        "ID": 7,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ZoneWarp_004": {
+        "ID": 10,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "SpaceElevator",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "SE_08_TeleportPoint",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ZoneWarp_003": {
+        "ID": 9,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "SpaceElevator",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "SE_07_02_TeleportPoint",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ZoneWarp_001": {
+        "ID": 8,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "SpaceElevator",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "SE_07_02_TeleportPoint",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ZoneWarp_001": {
+        "ID": 12,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "SpaceElevator",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "SE_10_TeleportPoint",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ZoneWarp_002": {
+        "ID": 13,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "SpaceElevator",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "SE_10_TeleportPoint",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SE_10_E_ZoneWarp_002": {
+        "ID": 38,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandA",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_SEtoWLA",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_60_E_ZoneWarp_001": {
+        "ID": 16,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "LV_Test_Tetrapod",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_Tetrapod",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ZoneWarp_002": {
+        "ID": 53,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 1.5,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ZoneWarp_001": {
+        "ID": 18,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "MatrixEleven",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_ME01Start",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 1.5,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_12_E_ZoneWarp_002": {
+        "ID": 30,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": -23550.0,
+          "Y": -31650.0,
+          "Z": -19968.037
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_12_E_ZoneWarp_001": {
+        "ID": 29,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_XionToWLB",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_60_E_ZoneWarp_001": {
+        "ID": 31,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "None",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_Tunnel_WLB06",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ZoneWarp_001": {
+        "ID": 2,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ZoneWarp_003": {
+        "ID": 66,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10_02_SV",
+        "TargetSpawnPoint": "Xion_10_E_CharS_168",
+        "TargetLocation": {
+          "X": -5838.268,
+          "Y": -3499.0693,
+          "Z": -282.8208
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": -68.973526,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": true,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_024": {
+        "ID": 73,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10",
+        "TargetSpawnPoint": "Xion_Camp_10",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_023": {
+        "ID": 69,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_ChamberOrcalFront",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ZoneWarp_001": {
+        "ID": 3,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "SpaceElevator",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "SE01_Camp_00",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "LV_Test_Tetrapod_01_E_ZoneWarp_001": {
+        "ID": 5,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Xion_Camp_10",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ZoneWarp_003": {
+        "ID": 37,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "None",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_InsideLift",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ZoneWarp_002": {
+        "ID": 28,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "None",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Temp_TeleportPoint_6to5",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ZoneWarp_001": {
+        "ID": 27,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "None",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Temp_TeleportPoint_5to6",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ZoneWarp_002": {
+        "ID": 76,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "WLB30_NierEndWLB",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SD_10_E_ZoneWarp_001": {
+        "ID": 40,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DrownedEidosDistrict",
+        "TargetZoneCamp": "DED10_Camp_00",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "LV_Test_Puzzle_01_E_ZoneWarp_001": {
+        "ID": 51,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "LV_Test_Puzzle_01",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "LV_Test_Puzzle_01_EventActor",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ZoneWarp_003": {
+        "ID": 77,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandA",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "WLA_40_E_CharS_146",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_22_E_ZoneWarp_001": {
+        "ID": 54,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_ChamberOrcalFront",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneWarp_006": {
+        "ID": 46,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_InsideLiftUpstairs",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_24_E_ZoneWarp_001": {
+        "ID": 58,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Xion_Camp_10_Phase5",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneWarp_005": {
+        "ID": 45,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_InsideLiftUpstairs",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneWarp_004": {
+        "ID": 42,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_InsideLiftUpstairs",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneWarp_003": {
+        "ID": 41,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_InsideLiftUpstairs",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneWarp_002": {
+        "ID": 39,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_HyperDriveFront",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ZoneWarp_001": {
+        "ID": 17,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_WLBtoXion",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 1.5,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_022": {
+        "ID": 63,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Xion_Camp_10_Adam",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_020": {
+        "ID": 56,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Xion_Camp_10",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_019": {
+        "ID": 48,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Xion_Camp_10",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ZoneWarp_002": {
+        "ID": 1,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DrownedEidosDistrict",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "DED50_Warp_Underground",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "SE_10_E_ZoneWarp_001": {
+        "ID": 14,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "None",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "GorgonToTheaterWasteLand",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ZoneWarp_002": {
+        "ID": 67,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10_02_SV",
+        "TargetSpawnPoint": "Xion_10_E_CharS_167",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": true,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ZoneWarp_001": {
+        "ID": 52,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_WLBMatrix",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 1.5,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_018": {
+        "ID": 32,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_ChamberOrcalFront",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ZoneWarp_001": {
+        "ID": 59,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandA",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_ATLtoWLA",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZoneWarp_001": {
+        "ID": 36,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandA",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_ATLtoWLA",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "AYL_06_E_ZoneWarp_001": {
+        "ID": 60,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_016": {
+        "ID": 26,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_Xion_MultiPlay",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_015": {
+        "ID": 25,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_WLBTetrapod",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ZoneWarp_001": {
+        "ID": 61,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_WLBtoAYL",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ZoneWarp_003": {
+        "ID": 62,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "AbyssLab",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "AYL01_Camp_01_SV",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ZoneWarp_002": {
+        "ID": 57,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "None",
+        "TargetZoneCamp": "Xion_Camp_10",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 2.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_014": {
+        "ID": 24,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_BurningXionToRavenBattle",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Quest_WALN10_001_E_ZoneWarp__026_001": {
+        "ID": 64,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "Xion_Camp_10",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 1.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_ZoneWarp_005": {
+        "ID": 72,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Epilogue",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_NesttoEpilogue",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_ZoneWarp_004": {
+        "ID": 68,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Ending",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_NestBossRoomtoEnding_P",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ZoneWarp_001": {
+        "ID": 50,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_XionTetrapodInside",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ZoneWarp_002": {
+        "ID": 35,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Nest",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_WLAtoNest",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_ZoneWarp_003": {
+        "ID": 65,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Nest",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "Nest_ElderRoom",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_ZoneWarp_002": {
+        "ID": 34,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Nest",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_NestBossRoomtoNestWLA",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ZoneWarp_001": {
+        "ID": 15,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_WLAtoXion",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 1.5,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_012": {
+        "ID": 23,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandA",
+        "TargetZoneCamp": "WLA10_Camp_04_SV",
+        "TargetSpawnPoint": "TeleportPoint_NestEnterance",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ZoneWarp_004": {
+        "ID": 70,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_InsideLift_GoingDown",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ZoneWarp_005": {
+        "ID": 71,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "Xion",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_InsideLift_GoingUp",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_ZoneWarp_001": {
+        "ID": 11,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandA",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_NesttoWLA",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_40_E_ZoneWarp_001": {
+        "ID": 55,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "MatrixEleven",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_ME01Start",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_011": {
+        "ID": 22,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DEDA",
+        "TargetZoneCamp": "DEDA_Camp_00",
+        "TargetSpawnPoint": "TeleportPoint_DEDEidos9",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": true,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_010": {
+        "ID": 21,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "SpaceElevator",
+        "TargetZoneCamp": "SE01_Camp_00",
+        "TargetSpawnPoint": "None",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ZoneWarp_004": {
+        "ID": 74,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DrownedEidosDistrict",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_Monorail_N",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ZoneWarp_005": {
+        "ID": 75,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "DrownedEidosDistrict",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_Monorail_R",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_009": {
+        "ID": 20,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandB",
+        "TargetZoneCamp": "WLB20_Camp_01_SV",
+        "TargetSpawnPoint": "ME01_Camp_00",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": true,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": true,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZoneWarp_001": {
+        "ID": 19,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "WasteLandA",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_XionToWLA",
+        "TargetLocation": {
+          "X": 14879.522,
+          "Y": -18157.926,
+          "Z": 3179.7744
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 99.76053,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 1.0,
+        "FadeOutTime": 1.5,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ZoneWarp_001": {
+        "ID": 49,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "None",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "TeleportPoint_Tunnel_WLB06",
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ZoneWarp_001": {
+        "ID": 33,
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "TargetWorld": "AltesLab",
+        "TargetZoneCamp": "None",
+        "TargetSpawnPoint": "ATL_TP_Point_1",
+        "TargetLocation": {
+          "X": 1145.5166,
+          "Y": -2807.7998,
+          "Z": 138.00484
+        },
+        "TargetRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseRecoveryItems": false,
+        "WarpDelayTime": 0.0,
+        "FadeOutTime": 0.0,
+        "bUseCampCustomTargetPoint": false,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BossChallengeTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBBossChallengeTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "BC_DED_Boss_Opener": {
+        "ID": 100001,
+        "StageGroup": "BC_DED_Boss_Opener",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_DED_Boss_Opener",
+        "SpawnPointAlias": "DED_Boss_Opener",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Opener"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_DED_Opener",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_DED_Opener",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_DED_Opener",
+        "BossStringKey": "Char_M_Opener_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_F02",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_02.BOSS_CL_02'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_39.Icon_NA_39'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_DED_M_Opener_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_DED_Boss_GrubShooter": {
+        "ID": 100002,
+        "StageGroup": "BC_DED_Boss_GrubShooter",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_DED_Boss_GrubShooter",
+        "SpawnPointAlias": "DED_Boss_GrubShooter",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_GrubShooterElite"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_DED_GrabShooter",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_DED_GrabShooter",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_DED_GrabShooter",
+        "BossStringKey": "Char_M_GrubShooterElite_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_F02",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_03.BOSS_CL_03'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_07.Icon_NA_07'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_DED_M_GrubShooterElite_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_DED_Boss_Gorilla": {
+        "ID": 100003,
+        "StageGroup": "BC_DED_Boss_Gorilla",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_DED_Boss_Gorilla",
+        "SpawnPointAlias": "DED_Boss_Gorilla",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_GorillaB"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_DED_Gorilla",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_DED_Gorilla",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_DED_Gorilla",
+        "BossStringKey": "Char_M_GorillaB_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_F02",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_04.BOSS_CL_04'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_05.Icon_NA_05'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_DED_M_GorillaB_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_WLA_Boss_HedgeBoarBrute": {
+        "ID": 100004,
+        "StageGroup": "BC_WLA_Boss_HedgeBoarBrute",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_WLA_Boss_HedgeBoarBrute",
+        "SpawnPointAlias": "WLA_Boss_HedgeBoarBrute",
+        "UnlockAchievementArray": [
+          "Ach_BossChal_Unlock_WLA_HedgeBoarBrute"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_WLA_HedgeBoarBrute",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_WLA_HedgeBoarBrute",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_WLA_HedgeBoarBrute",
+        "BossStringKey": "Char_M_HedgeBoarBrute_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E03",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_07.BOSS_CL_07'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_43.Icon_NA_43'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_WLA_M_HedgeBoarBrute_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_WLA_Boss_GorillaBrokenHead": {
+        "ID": 100005,
+        "StageGroup": "BC_WLA_Boss_GorillaBrokenHead",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_WLA_Boss_GorillaBrokenHead",
+        "SpawnPointAlias": "WLA_Boss_GorillaBrokenHead",
+        "UnlockAchievementArray": [
+          "Ach_BossChal_Unlock_WLA_GorillaBBrokenHead"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_WLA_GorillaBrokenHead",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_WLA_GorillaBrokenHead",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_WLA_GorillaBrokenHead",
+        "BossStringKey": "Char_M_GorillaB_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E03",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_05.BOSS_CL_05'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_05_WLA.Icon_NA_05_WLA'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_WLA_M_GorillaBBrokenHead_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_ME_Boss_Sawshark": {
+        "ID": 100006,
+        "StageGroup": "BC_ME_Boss_Sawshark",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_ME_Boss_Sawshark",
+        "SpawnPointAlias": "ME_Boss_Sawshark",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Sawshark"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_ME_Sawshark",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_ME_Sawshark",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_ME_Sawshark",
+        "BossStringKey": "Char_M_Sawshark_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_Matrix11",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_10.BOSS_CL_10'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/Icon/Icon_NA_13.Icon_NA_13'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_UME_M_Sawshark_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_ME_Boss_SkullJuggernaut": {
+        "ID": 100007,
+        "StageGroup": "BC_ME_Boss_SkullJuggernaut",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_ME_Boss_SkullJuggernaut",
+        "SpawnPointAlias": "ME_Boss_SkullJuggernaut",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_SkullJuggernaut"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_ME_SkullJuggernaut",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_ME_SkullJuggernaut",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_ME_SkullJuggernaut",
+        "BossStringKey": "Char_M_SkullJuggernaut_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_Matrix11",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_11.BOSS_CL_11'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_15.Icon_NA_15'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_UME_M_SkullJuggernaut_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_ME_Boss_Tachy": {
+        "ID": 100008,
+        "StageGroup": "BC_ME_Boss_Tachy",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_ME_Boss_Tachy",
+        "SpawnPointAlias": "ME_Boss_Tachy",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Tachy"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_ME_Tachy",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_ME_Tachy",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_ME_Tachy",
+        "BossStringKey": "Char_M_Tachy_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_Matrix11",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_12.BOSS_CL_12'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_21.Icon_NA_21'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_UME_M_Tachy_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_WLB_Boss_SawsharkWasteland": {
+        "ID": 100009,
+        "StageGroup": "BC_WLB_Boss_SawsharkWasteland",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_WLB_Boss_SawsharkWasteland",
+        "SpawnPointAlias": "WLB_Boss_SawsharkWasteland",
+        "UnlockAchievementArray": [
+          "Ach_BossChal_Unlock_WLB_SawsharkWasteland"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_WLB_SawsharkWasteland",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_WLB_SawsharkWasteland",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_WLB_SawsharkWasteland",
+        "BossStringKey": "Char_M_Sawshark_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E05",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_13.BOSS_CL_13'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_13_WLB.Icon_NA_13_WLB'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_WLB_M_SawsharkWasteland_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_WLB_Boss_OpenerWasteland": {
+        "ID": 100010,
+        "StageGroup": "BC_WLB_Boss_OpenerWasteland",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_WLB_Boss_OpenerWasteland",
+        "SpawnPointAlias": "WLB_Boss_OpenerWasteland",
+        "UnlockAchievementArray": [
+          "Ach_BossChal_Unlock_WLB_OpenerWasteland"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_WLB_OpenerWasteland",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_WLB_OpenerWasteland",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_WLB_OpenerWasteland",
+        "BossStringKey": "Char_M_Opener_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E05",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_14.BOSS_CL_14'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_39_WLB.Icon_NA_39_WLB'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_WLB_M_OpenerWasteland_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_WLB_Boss_Behemoth": {
+        "ID": 100011,
+        "StageGroup": "BC_WLB_Boss_Behemoth",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_WLB_Boss_Behemoth",
+        "SpawnPointAlias": "WLB_Boss_Behemoth",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Behemoth"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_WLB_Behemoth",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_WLB_Behemoth",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_WLB_Behemoth",
+        "BossStringKey": "Char_M_Behemoth_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E05",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_15.BOSS_CL_15'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/Icon/Icon_NA_46_Var01.Icon_NA_46_Var01'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_WLB_M_Behemoth_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_DEDA_Boss_DoubleBoss": {
+        "ID": 100012,
+        "StageGroup": "BC_DEDA_Boss_DoubleBoss",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_DEDA_Boss_DoubleBoss",
+        "SpawnPointAlias": "DEDA_Boss_DoubleBoss",
+        "UnlockAchievementArray": [
+          "Ach_BossChal_Unlock_DEDA_DoubleBoss"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [
+          "DEDA_Boss_DoubleBoss_E_CharS_001",
+          "DEDA_Boss_DoubleBoss_E_CharS_002"
+        ],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_DEDA_DoubleBoss",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_DEDA_DoubleBoss",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_DEDA_DoubleBoss",
+        "BossStringKey": "Char_M_GrubShooterElite_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_Eidos9",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_03_DualBoss.BOSS_CL_03_DualBoss'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_07_DualBoss.Icon_NA_07_DualBoss'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_DEDA_M_GrubDashWithBoss_01",
+          "CHAL_DEDA_M_GrubShooterElite_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_SE_Boss_WeaponMaster": {
+        "ID": 100013,
+        "StageGroup": "BC_SE_Boss_WeaponMaster",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_SE_Boss_WeaponMaster",
+        "SpawnPointAlias": "SE_Boss_WeaponMaster",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_WeaponMasterA"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_SE_WeaponMaster",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_SE_WeaponMaster",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_SE_WeaponMaster",
+        "BossStringKey": "Char_M_WeaponMasterA_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_B07",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_16.BOSS_CL_16'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_31.Icon_NA_31'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_SE_M_Crawler_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_SE_Boss_Marionette": {
+        "ID": 100014,
+        "StageGroup": "BC_SE_Boss_Marionette",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_SE_Boss_Marionette",
+        "SpawnPointAlias": "SE_Boss_Marionette",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Marionette"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_SE_Marionette",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_SE_Marionette",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_SE_Marionette",
+        "BossStringKey": "Char_M_Marionette_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_B07",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_20.BOSS_CL_20'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_26.Icon_NA_26'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_SE_M_Marionette_01",
+          "SE_M_DollHead_02"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_SE_Boss_Crawler": {
+        "ID": 100015,
+        "StageGroup": "BC_SE_Boss_Crawler",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_SE_Boss_Crawler",
+        "SpawnPointAlias": "SE_Boss_Crawler",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Crawler"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_SE_Crawler",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_SE_Crawler",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_SE_Crawler",
+        "BossStringKey": "Char_M_Crawler_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_B07",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_21.BOSS_CL_21'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_22.Icon_NA_22'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_SE_M_WeaponMasterA_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_Xion_Boss_RavenBeast": {
+        "ID": 100016,
+        "StageGroup": "BC_Xion_Boss_RavenBeast",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_Xion_Boss_RavenBeast",
+        "SpawnPointAlias": "Xion_Boss_RavenBeast",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_RavenBeast"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_Xion_RavenBeast",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_Xion_RavenBeast",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_Xion_RavenBeast",
+        "BossStringKey": "Char_M_RavenBeast_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E04",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_22.BOSS_CL_22'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_42.Icon_NA_42'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_XION_M_RavenBeast_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_WLA_Boss_Raven": {
+        "ID": 100017,
+        "StageGroup": "BC_WLA_Boss_Raven",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_WLA_Boss_Raven",
+        "SpawnPointAlias": "WLA_Boss_Raven",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Raven"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_WLA_Raven",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_WLA_Raven",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_WLA_Raven",
+        "BossStringKey": "Char_M_Raven_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E03",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_23.BOSS_CL_23'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/NPC/icon/Icon_NPC_Raven.Icon_NPC_Raven'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_NST_M_Raven_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_Nest_Boss_ExoSuit": {
+        "ID": 100018,
+        "StageGroup": "BC_Nest_Boss_ExoSuit",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_Nest_Boss_ExoSuit",
+        "SpawnPointAlias": "Nest_Boss",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_Providence"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_Nest_ExoSuit",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_Nest_ExoSuit",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_Nest_ExoSuit",
+        "BossStringKey": "Char_M_Providence_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_C05",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_26.BOSS_CL_26'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_54.Icon_NA_54'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_NST_M_ExoSuit_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_Nest_Boss_Elder": {
+        "ID": 100019,
+        "StageGroup": "BC_Nest_Boss_Elder",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_Nest_Boss_Elder",
+        "SpawnPointAlias": "Nest_Boss",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_ElderPhase2"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_Nest_Elder",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_Nest_Elder",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_Nest_Elder",
+        "BossStringKey": "Char_M_ElderPhase2_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_C05",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_25.BOSS_CL_25'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Native/icon/Icon_NA_56.Icon_NA_56'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_NST_M_ElderPhase2_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_Xion_Boss_Mann": {
+        "ID": 100020,
+        "StageGroup": "BC_Xion_Boss_Mann",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_Xion_Boss_Mann",
+        "SpawnPointAlias": "Xion_Boss_Mann",
+        "UnlockAchievementArray": [
+          "Ach_Album_Unlock_MotherSphere_1"
+        ],
+        "UnlockEntitlementArray": [],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_Nest_Elder",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_Nest_Elder",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_Nest_Elder",
+        "BossStringKey": "Char_C_Mann_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_E04",
+        "ThumbnailImagePath": "Texture2D'/Game/Art/UI/Texture/Album/Boss/BOSS_CL_Mann.BOSS_CL_Mann'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/Art/UI/Texture/Album/NPC/icon/Icon_NPC_Mann.Icon_NPC_Mann'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_XION_M_Mann_01"
+        ],
+        "FileSuffix": "None"
+      },
+      "BC_Nikke_Boss_Scarlet": {
+        "ID": 100021,
+        "StageGroup": "BC_Nikke_Boss_Scarlet",
+        "StagePriority": 1,
+        "ZoneAlias": "Zone_NK_Boss_Scarlet",
+        "SpawnPointAlias": "NK_Boss_Scarlet",
+        "UnlockAchievementArray": [
+          "Ach_Nikke_GoodBye_Complete"
+        ],
+        "UnlockEntitlementArray": [
+          "STELLARBLADEDLC2"
+        ],
+        "EnemyEventSpawnList": [],
+        "MaximumPresetAlias": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAlias": "Preset_Eve_Max_NGP",
+        "MinimumPresetAlias": "Preset_Eve_Min_Xion_RavenBeast",
+        "MaximumPresetAliasStoryMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasStoryMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasStoryMode": "Preset_Eve_Min_Xion_RavenBeast",
+        "MaximumPresetAliasHardMode": "Preset_Eve_Max",
+        "MaximumNewGamePlusPresetAliasHardMode": "Preset_Eve_Max_NGP",
+        "MinimumPresetAliasHardMode": "Preset_Eve_Min_Xion_RavenBeast",
+        "BossStringKey": "Char_M_Scarlet_AlbumName",
+        "RegionStringKey": "UI_RegionAlias_ScarletBossChallenge",
+        "ThumbnailImagePath": "Texture2D'/Game/DLC_2/Art/UI/texture/Album/Boss/BOSS_CL_Scarlet.BOSS_CL_Scarlet'",
+        "ThumbnailIconImagePath": "Texture2D'/Game/DLC_2/Art/UI/Texture/Album/NPC/icon/Icon_NPC_Scarlet.Icon_NPC_Scarlet'",
+        "ResourceCacheCharacterAliases": [
+          "CHAL_M_Scarlet_01"
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

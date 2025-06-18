@@ -1,0 +1,359 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ShowParamTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBShowParamTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Can_001_Material": {
+        "ID": 1,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 1,
+        "FileSuffix": "None"
+      },
+      "Can_002_Material": {
+        "ID": 2,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 2,
+        "FileSuffix": "None"
+      },
+      "Can_003_Material": {
+        "ID": 3,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 3,
+        "FileSuffix": "None"
+      },
+      "Can_004_Material": {
+        "ID": 4,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 4,
+        "FileSuffix": "None"
+      },
+      "Can_005_Material": {
+        "ID": 5,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 5,
+        "FileSuffix": "None"
+      },
+      "Can_006_Material": {
+        "ID": 6,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 6,
+        "FileSuffix": "None"
+      },
+      "Can_007_Material": {
+        "ID": 7,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 7,
+        "FileSuffix": "None"
+      },
+      "Can_008_Material": {
+        "ID": 8,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 8,
+        "FileSuffix": "None"
+      },
+      "Can_009_Material": {
+        "ID": 9,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 9,
+        "FileSuffix": "None"
+      },
+      "Can_010_Material": {
+        "ID": 10,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 10,
+        "FileSuffix": "None"
+      },
+      "Can_011_Material": {
+        "ID": 11,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 11,
+        "FileSuffix": "None"
+      },
+      "Can_012_Material": {
+        "ID": 12,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 12,
+        "FileSuffix": "None"
+      },
+      "Can_013_Material": {
+        "ID": 13,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 13,
+        "FileSuffix": "None"
+      },
+      "Can_014_Material": {
+        "ID": 14,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 14,
+        "FileSuffix": "None"
+      },
+      "Can_015_Material": {
+        "ID": 15,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 15,
+        "FileSuffix": "None"
+      },
+      "Can_016_Material": {
+        "ID": 16,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 16,
+        "FileSuffix": "None"
+      },
+      "Can_017_Material": {
+        "ID": 17,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 17,
+        "FileSuffix": "None"
+      },
+      "Can_018_Material": {
+        "ID": 18,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 18,
+        "FileSuffix": "None"
+      },
+      "Can_019_Material": {
+        "ID": 19,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 19,
+        "FileSuffix": "None"
+      },
+      "Can_020_Material": {
+        "ID": 20,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 20,
+        "FileSuffix": "None"
+      },
+      "Can_021_Material": {
+        "ID": 21,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 21,
+        "FileSuffix": "None"
+      },
+      "Can_022_Material": {
+        "ID": 22,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 22,
+        "FileSuffix": "None"
+      },
+      "Can_023_Material": {
+        "ID": 23,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 23,
+        "FileSuffix": "None"
+      },
+      "Can_024_Material": {
+        "ID": 24,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 24,
+        "FileSuffix": "None"
+      },
+      "Can_025_Material": {
+        "ID": 25,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 25,
+        "FileSuffix": "None"
+      },
+      "Can_026_Material": {
+        "ID": 26,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 26,
+        "FileSuffix": "None"
+      },
+      "Can_027_Material": {
+        "ID": 27,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 27,
+        "FileSuffix": "None"
+      },
+      "Can_028_Material": {
+        "ID": 28,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 28,
+        "FileSuffix": "None"
+      },
+      "Can_029_Material": {
+        "ID": 29,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 29,
+        "FileSuffix": "None"
+      },
+      "Can_030_Material": {
+        "ID": 30,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 30,
+        "FileSuffix": "None"
+      },
+      "Can_031_Material": {
+        "ID": 31,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 31,
+        "FileSuffix": "None"
+      },
+      "Can_032_Material": {
+        "ID": 32,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 32,
+        "FileSuffix": "None"
+      },
+      "Can_033_Material": {
+        "ID": 33,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 33,
+        "FileSuffix": "None"
+      },
+      "Can_034_Material": {
+        "ID": 34,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 34,
+        "FileSuffix": "None"
+      },
+      "Can_035_Material": {
+        "ID": 35,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 35,
+        "FileSuffix": "None"
+      },
+      "Can_036_Material": {
+        "ID": 36,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 36,
+        "FileSuffix": "None"
+      },
+      "Can_037_Material": {
+        "ID": 37,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 37,
+        "FileSuffix": "None"
+      },
+      "Can_038_Material": {
+        "ID": 38,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 38,
+        "FileSuffix": "None"
+      },
+      "Can_039_Material": {
+        "ID": 39,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 39,
+        "FileSuffix": "None"
+      },
+      "Can_040_Material": {
+        "ID": 40,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 40,
+        "FileSuffix": "None"
+      },
+      "Can_041_Material": {
+        "ID": 41,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 41,
+        "FileSuffix": "None"
+      },
+      "Can_042_Material": {
+        "ID": 42,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 42,
+        "FileSuffix": "None"
+      },
+      "Can_043_Material": {
+        "ID": 43,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 43,
+        "FileSuffix": "None"
+      },
+      "Can_044_Material": {
+        "ID": 44,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 44,
+        "FileSuffix": "None"
+      },
+      "Can_045_Material": {
+        "ID": 45,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 45,
+        "FileSuffix": "None"
+      },
+      "Can_046_Material": {
+        "ID": 46,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 46,
+        "FileSuffix": "None"
+      },
+      "Can_047_Material": {
+        "ID": 47,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 47,
+        "FileSuffix": "None"
+      },
+      "Can_048_Material": {
+        "ID": 48,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 48,
+        "FileSuffix": "None"
+      },
+      "Can_049_Material": {
+        "ID": 49,
+        "UseCreateStaticMaterial": true,
+        "CreateStaticMaterialElementIndex": 0,
+        "CreateStaticMaterialInstanceIndex": 49,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

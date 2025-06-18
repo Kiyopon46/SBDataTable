@@ -1,0 +1,498 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhotoModeImageTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBPhotoModeImageTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Logo_StellarBlade1": {
+        "ID": 1001,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_StellarBlade1",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_StellarBlade1.Logo_StellarBlade1'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_StellarBlade2": {
+        "ID": 1002,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_StellarBlade2",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_StellarBlade2.Logo_StellarBlade2'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_StellarBlade3": {
+        "ID": 1003,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_StellarBlade3",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_StellarBlade3.Logo_StellarBlade3'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_StellarBlade4": {
+        "ID": 1004,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_StellarBlade4",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_StellarBlade4.Logo_StellarBlade4'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Tetrastar": {
+        "ID": 1005,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Tetrastar",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Tetrastar.Logo_Tetrastar'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Eidos": {
+        "ID": 1006,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Eidos",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Eidos.Logo_Eidos'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Orca": {
+        "ID": 1007,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Orca",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Orca.Logo_Orca'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_XFLA": {
+        "ID": 1008,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_XFLA",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_XFLA.Logo_XFLA'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_SisterJunkyard": {
+        "ID": 1009,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_SisterJunkyard",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_SisterJunkyard.Logo_SisterJunkyard'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_SpotterEnergy": {
+        "ID": 1010,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_SpotterEnergy",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_SpotterEnergy.Logo_SpotterEnergy'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_LylesGeneralStore": {
+        "ID": 1011,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Lyle'sGeneralStore",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Lyle_sGeneralStore.Logo_Lyle_sGeneralStore'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_HairSalon": {
+        "ID": 1012,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_HairSalon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_HairSalon.Logo_HairSalon'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Fisherman": {
+        "ID": 1013,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Fisherman",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Fisherman.Logo_Fisherman'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Barrys": {
+        "ID": 1014,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Barrys",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Barrys.Logo_Barrys'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_AlwaysOpen": {
+        "ID": 1015,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_AlwaysOpen",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_AlwaysOpen.Logo_AlwaysOpen'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Ark": {
+        "ID": 1016,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Ark",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Ark.Logo_Ark'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Xion": {
+        "ID": 1017,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Xion",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Xion.Logo_Xion'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker1": {
+        "ID": 1018,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker1",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker1.Logo_Sticker1'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker2": {
+        "ID": 1019,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker2",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker2.Logo_Sticker2'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker3": {
+        "ID": 1020,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker3",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker3.Logo_Sticker3'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker4": {
+        "ID": 1021,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker4",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker4.Logo_Sticker4'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker5": {
+        "ID": 1022,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker5",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker5.Logo_Sticker5'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker6": {
+        "ID": 1023,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker6",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker6.Logo_Sticker6'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker7": {
+        "ID": 1024,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker7",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker7.Logo_Sticker7'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Sticker8": {
+        "ID": 1025,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Sticker8",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Sticker/Logo_Sticker8.Logo_Sticker8'",
+        "EnableConditionGroup": "None"
+      },
+      "Logo_Dororong": {
+        "ID": 1026,
+        "UIOperateArray": [
+          "SelectLogoStyle1",
+          "SelectLogoStyle2",
+          "SelectLogoStyle3",
+          "SelectLogoStyle4",
+          "SelectLogoStyle5"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Logo_Dororong",
+        "ImagePath": "Texture2D'/Game/DLC_2/Art/UI/texture/PhotoMode/Sticker/Logo_Dororong.Logo_Dororong'",
+        "EnableConditionGroup": "CG_Nikke_Dororong_PhotomodeSticker"
+      },
+      "Border_Frame_2_1": {
+        "ID": 2001,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_2_1",
+        "ImagePath": "",
+        "EnableConditionGroup": "None"
+      },
+      "Border_MGM65": {
+        "ID": 2002,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_MGM65",
+        "ImagePath": "",
+        "EnableConditionGroup": "None"
+      },
+      "Border_4_3": {
+        "ID": 2003,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_4_3",
+        "ImagePath": "",
+        "EnableConditionGroup": "None"
+      },
+      "Border_Square": {
+        "ID": 2004,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_Square",
+        "ImagePath": "",
+        "EnableConditionGroup": "None"
+      },
+      "Border_9_16": {
+        "ID": 2005,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_9_16",
+        "ImagePath": "",
+        "EnableConditionGroup": "None"
+      },
+      "Border_RoundEdge": {
+        "ID": 2006,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_RoundEdge",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_RoundEdge.Frame_RoundEdge'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_Film": {
+        "ID": 2007,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_Film",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_Film.Frame_Film'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_HeartPattern": {
+        "ID": 2008,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_HeartPattern",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_HeartPattern.Frame_HeartPattern'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_HeartPattern2": {
+        "ID": 2009,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_HeartPattern2",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_HeartPattern_Red.Frame_HeartPattern_Red'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_HeartPattern3": {
+        "ID": 2010,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_HeartPattern3",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_HeartPattern_Yellow.Frame_HeartPattern_Yellow'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_LeafPattern": {
+        "ID": 2011,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_LeafPattern",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_LeafPattern.Frame_LeafPattern'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_StarPattern": {
+        "ID": 2012,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_StarPattern",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_StarPattern.Frame_StarPattern'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_FlowerPattern": {
+        "ID": 2013,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_FlowerPattern",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_FlowerPattern.Frame_FlowerPattern'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_XmasPattern": {
+        "ID": 2014,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_XmasPattern",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_XmasPattern.Frame_XmasPattern'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_GoldenFrame": {
+        "ID": 2015,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_GoldenFrame",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_GoldenFrame.Frame_GoldenFrame'",
+        "EnableConditionGroup": "None"
+      },
+      "Border_InstantFilm": {
+        "ID": 2016,
+        "UIOperateArray": [
+          "SelectBorderIndex"
+        ],
+        "OptionStringKey": "UI_PhotoMode_Frame_InstantFilm",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/PhotoMode/Frame/Frame_InstantFilm.Frame_InstantFilm'",
+        "EnableConditionGroup": "None"
+      }
+    }
+  }
+]

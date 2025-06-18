@@ -1,0 +1,530 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TrainingRoomSettingTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBTrainningRoomSettingTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Common_SkillStop": {
+        "ID": 1,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "Common_SkillStop_DisableInfiniteEffect": {
+        "ID": 2,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "Common_SkillNormal": {
+        "ID": 3,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillNormal",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "Common_SkillNormal_DisableInfiniteEffect": {
+        "ID": 4,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillNormal",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "Common_SkillAll": {
+        "ID": 5,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillAll",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "Common_SkillAll_DisableInfiniteEffect": {
+        "ID": 6,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillAll",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "BetaChain": {
+        "ID": 7,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit",
+          "TR_Player_BetaMax"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "AirDropAttack": {
+        "ID": 8,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "AirDropAttack",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_AirDropAttack",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn_AirDropAttack",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn_AirDropAttack",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "AirDropAttack_DisableInfiniteEffect": {
+        "ID": 9,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "AirDropAttack",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_AirDropAttack",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn_AirDropAttack",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn_AirDropAttack",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "BackStab": {
+        "ID": 10,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn_BackStab",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn_BackStab",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "DashAttack": {
+        "ID": 11,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "AirDropAttack",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_AirDropAttack",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn_DashAttack",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn_DashAttack",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003",
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor",
+          "ESBSpawnRotationType_SpawnPointRot"
+        ],
+        "FileSuffix": "None"
+      },
+      "Blink": {
+        "ID": 12,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillSpecial",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_002"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "Repulse": {
+        "ID": 13,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillSpecial",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_001"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "BlinkAndRepulse": {
+        "ID": 14,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": false,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillSpecial",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "AirBreakFall": {
+        "ID": 15,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "AirBreakFall",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_AirBreakFall",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "Rush": {
+        "ID": 16,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "None",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn_Rush",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn_Rush",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "TachyMode_SkillStop": {
+        "ID": 17,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "P_Eve_Tachy_Start1_1",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "TachyMode_SkillNormal": {
+        "ID": 18,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "P_Eve_Tachy_Start1_1",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillNormal",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      },
+      "TachyMode_Rush": {
+        "ID": 19,
+        "Zone": "TrainingRoom",
+        "RegionActorName": "TrainningRoom_Common",
+        "InitRegionActorEvent": "Default",
+        "bInitApplyPlayerInfiniteEffect": true,
+        "PlayerStartPoint": "StartPlayer_Common",
+        "PlayerStartEffects": [
+          "TR_Player_HPMax",
+          "TR_NoDamage",
+          "TR_Player_EquipDefaultNanoSuit"
+        ],
+        "PlayerStartSkill": "P_Eve_Tachy_Start1_1",
+        "EnemyStartEffects": [
+          "TR_ForceLockOn"
+        ],
+        "EnemyNpcAIType": "ESBTrainningRoomNpcAIType::TrainningRoomNpcAI_SkillStop",
+        "EnemyNpcSpawnPointPreFix": "EnemySpawn_Rush",
+        "EnemyNpcReSpawnPointPreFix": "EnemyReSpawn_Rush",
+        "EnemySpawnList": [
+          "TrainingRoom_E_CharS_003"
+        ],
+        "EnemySpawnRotationTypeList": [
+          "ESBSpawnRotationType_ToEventor"
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

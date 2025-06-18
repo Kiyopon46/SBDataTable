@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NewGamePlusAlreadySetupTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBNewGamePlusAlreadySetupTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Env": {
+        "ID": 1,
+        "ObjectType": "ESBNGPlusAlreadySetupType::ESBNGPlusAlreadySetupType_Env",
+        "DataAlias": "None",
+        "StateName": "On",
+        "Enable": "ESBObjectState::ESBObject_Enable",
+        "FileSuffix": "None"
+      },
+      "Trigger": {
+        "ID": 2,
+        "ObjectType": "ESBNGPlusAlreadySetupType::ESBNGPlusAlreadySetupType_Trigger",
+        "DataAlias": "None",
+        "StateName": "None",
+        "Enable": "ESBObjectState::ESBObject_Disable",
+        "FileSuffix": "None"
+      },
+      "DED10_ZTrigger_093": {
+        "ID": 3,
+        "ObjectType": "ESBNGPlusAlreadySetupType::ESBNGPlusAlreadySetupType_Trigger",
+        "DataAlias": "DED10_ZTrigger_093",
+        "StateName": "None",
+        "Enable": "ESBObjectState::ESBObject_Disable",
+        "FileSuffix": "None"
+      },
+      "DED10_ZTrigger_094": {
+        "ID": 4,
+        "ObjectType": "ESBNGPlusAlreadySetupType::ESBNGPlusAlreadySetupType_Trigger",
+        "DataAlias": "DED10_ZTrigger_094",
+        "StateName": "None",
+        "Enable": "ESBObjectState::ESBObject_Disable",
+        "FileSuffix": "None"
+      },
+      "DED10_ZTrigger_095": {
+        "ID": 5,
+        "ObjectType": "ESBNGPlusAlreadySetupType::ESBNGPlusAlreadySetupType_Trigger",
+        "DataAlias": "DED10_ZTrigger_095",
+        "StateName": "None",
+        "Enable": "ESBObjectState::ESBObject_Disable",
+        "FileSuffix": "None"
+      },
+      "DED10_EnvS_187": {
+        "ID": 6,
+        "ObjectType": "ESBNGPlusAlreadySetupType::ESBNGPlusAlreadySetupType_Env",
+        "DataAlias": "DED10_EnvS_187",
+        "StateName": "On",
+        "Enable": "ESBObjectState::ESBObject_Disable",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

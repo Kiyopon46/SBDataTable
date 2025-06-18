@@ -1,0 +1,1045 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SequenceActorTagTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBSequenceActorTagTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "TextActorKey"
+      ]
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam",
+        "FileSuffix": "None"
+      },
+      "2": {
+        "ID": 2,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Insert",
+        "FileSuffix": "None"
+      },
+      "3": {
+        "ID": 3,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Atelier",
+        "FileSuffix": "None"
+      },
+      "4": {
+        "ID": 4,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Atelier_Outside",
+        "FileSuffix": "None"
+      },
+      "5": {
+        "ID": 5,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "AdamHumanEpic1_1",
+        "FileSuffix": "None"
+      },
+      "6": {
+        "ID": 6,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "AdamHumanEpic1_2",
+        "FileSuffix": "None"
+      },
+      "7": {
+        "ID": 7,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Guide01",
+        "FileSuffix": "None"
+      },
+      "8": {
+        "ID": 8,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_PODFirstLanding",
+        "FileSuffix": "None"
+      },
+      "9": {
+        "ID": 9,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "AdamHumanEpic_Tutorial",
+        "FileSuffix": "None"
+      },
+      "10": {
+        "ID": 10,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_TetrapodInside",
+        "FileSuffix": "None"
+      },
+      "11": {
+        "ID": 11,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Corridor",
+        "FileSuffix": "None"
+      },
+      "12": {
+        "ID": 12,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "AdamHumanGuideOutside",
+        "FileSuffix": "None"
+      },
+      "13": {
+        "ID": 13,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Chamber",
+        "FileSuffix": "None"
+      },
+      "14": {
+        "ID": 14,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Trailer",
+        "FileSuffix": "None"
+      },
+      "15": {
+        "ID": 15,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Chamber_Quest_Epic_05_M02_T01",
+        "FileSuffix": "None"
+      },
+      "16": {
+        "ID": 16,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_HyperDrive",
+        "FileSuffix": "None"
+      },
+      "17": {
+        "ID": 17,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_Tetrapod",
+        "FileSuffix": "None"
+      },
+      "18": {
+        "ID": 18,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "N_Adam_NotTetrapod",
+        "FileSuffix": "None"
+      },
+      "19": {
+        "ID": 19,
+        "TextActorKey": "Seq_Actor_Anna",
+        "ActorTag": "N_Anna",
+        "FileSuffix": "None"
+      },
+      "20": {
+        "ID": 20,
+        "TextActorKey": "Seq_Actor_Anton",
+        "ActorTag": "N_Anton",
+        "FileSuffix": "None"
+      },
+      "21": {
+        "ID": 21,
+        "TextActorKey": "Seq_Actor_Ariah",
+        "ActorTag": "N_Ariah",
+        "FileSuffix": "None"
+      },
+      "22": {
+        "ID": 22,
+        "TextActorKey": "Seq_Actor_Arin",
+        "ActorTag": "NPC_Arin",
+        "FileSuffix": "None"
+      },
+      "23": {
+        "ID": 23,
+        "TextActorKey": "Seq_Actor_Arin",
+        "ActorTag": "N_Arin_Xion",
+        "FileSuffix": "None"
+      },
+      "24": {
+        "ID": 24,
+        "TextActorKey": "Seq_Actor_Arin",
+        "ActorTag": "N_Arin_Xion_Phase5",
+        "FileSuffix": "None"
+      },
+      "25": {
+        "ID": 25,
+        "TextActorKey": "Seq_Actor_Arisa",
+        "ActorTag": "CH_NPC_Maid_01_Blueprint_Seq",
+        "FileSuffix": "None"
+      },
+      "26": {
+        "ID": 26,
+        "TextActorKey": "Seq_Actor_Arisa",
+        "ActorTag": "CH_NPC_Maid_01_Blueprint_Seq_1stFloor",
+        "FileSuffix": "None"
+      },
+      "27": {
+        "ID": 27,
+        "TextActorKey": "Seq_Actor_Arisa",
+        "ActorTag": "CH_NPC_Maid_01_Blueprint_Seq_2ndFloor",
+        "FileSuffix": "None"
+      },
+      "28": {
+        "ID": 28,
+        "TextActorKey": "Seq_Actor_Arisa",
+        "ActorTag": "CH_NPC_Maid_01_Blueprint_Seq_3rdFloor",
+        "FileSuffix": "None"
+      },
+      "29": {
+        "ID": 29,
+        "TextActorKey": "Seq_Actor_Baran",
+        "ActorTag": "N_Baran",
+        "FileSuffix": "None"
+      },
+      "30": {
+        "ID": 30,
+        "TextActorKey": "Seq_Actor_Barry",
+        "ActorTag": "N_Barry",
+        "FileSuffix": "None"
+      },
+      "31": {
+        "ID": 31,
+        "TextActorKey": "Seq_Actor_Basil",
+        "ActorTag": "N_Basil_P4",
+        "FileSuffix": "None"
+      },
+      "32": {
+        "ID": 32,
+        "TextActorKey": "Seq_Actor_Basil",
+        "ActorTag": "N_Basil_P1",
+        "FileSuffix": "None"
+      },
+      "33": {
+        "ID": 33,
+        "TextActorKey": "Seq_Actor_Beatrice",
+        "ActorTag": "N_Beatrice",
+        "FileSuffix": "None"
+      },
+      "34": {
+        "ID": 34,
+        "TextActorKey": "Seq_Actor_Ben",
+        "ActorTag": "N_Ben",
+        "FileSuffix": "None"
+      },
+      "35": {
+        "ID": 35,
+        "TextActorKey": "Seq_Actor_Bo",
+        "ActorTag": "N_Bo",
+        "FileSuffix": "None"
+      },
+      "36": {
+        "ID": 36,
+        "TextActorKey": "Seq_Actor_Carlos",
+        "ActorTag": "N_Carlos",
+        "FileSuffix": "None"
+      },
+      "37": {
+        "ID": 37,
+        "TextActorKey": "Seq_Actor_Catalina",
+        "ActorTag": "N_Catalina",
+        "FileSuffix": "None"
+      },
+      "38": {
+        "ID": 38,
+        "TextActorKey": "Seq_Actor_Catalina",
+        "ActorTag": "BeforeGoodByeXion_CitizenFemale_1",
+        "FileSuffix": "None"
+      },
+      "39": {
+        "ID": 39,
+        "TextActorKey": "Seq_Actor_Cedric",
+        "ActorTag": "N_Cedric",
+        "FileSuffix": "None"
+      },
+      "40": {
+        "ID": 40,
+        "TextActorKey": "Seq_Actor_Cho",
+        "ActorTag": "N_Cho",
+        "FileSuffix": "None"
+      },
+      "41": {
+        "ID": 41,
+        "TextActorKey": "Seq_Actor_Clyde",
+        "ActorTag": "N_Clyde",
+        "FileSuffix": "None"
+      },
+      "42": {
+        "ID": 42,
+        "TextActorKey": "Seq_Actor_Cyrus",
+        "ActorTag": "N_Cyrus",
+        "FileSuffix": "None"
+      },
+      "43": {
+        "ID": 43,
+        "TextActorKey": "Seq_Actor_Cyrus",
+        "ActorTag": "N_Cyrus_SQ34",
+        "FileSuffix": "None"
+      },
+      "44": {
+        "ID": 44,
+        "TextActorKey": "Seq_Actor_D1G-g2r",
+        "ActorTag": "N_Digger",
+        "FileSuffix": "None"
+      },
+      "45": {
+        "ID": 45,
+        "TextActorKey": "Seq_Actor_D1G-g2r",
+        "ActorTag": "N_Digger_Backpack",
+        "FileSuffix": "None"
+      },
+      "46": {
+        "ID": 46,
+        "TextActorKey": "Seq_Actor_Dan",
+        "ActorTag": "N_Dan",
+        "FileSuffix": "None"
+      },
+      "47": {
+        "ID": 47,
+        "TextActorKey": "Seq_Actor_Do",
+        "ActorTag": "N_DO",
+        "FileSuffix": "None"
+      },
+      "48": {
+        "ID": 48,
+        "TextActorKey": "Seq_Actor_Enya",
+        "ActorTag": "N_Enya1",
+        "FileSuffix": "None"
+      },
+      "49": {
+        "ID": 49,
+        "TextActorKey": "Seq_Actor_Enya",
+        "ActorTag": "N_Enya2",
+        "FileSuffix": "None"
+      },
+      "50": {
+        "ID": 50,
+        "TextActorKey": "Seq_Actor_Enya",
+        "ActorTag": "N_Enya2_Sub005",
+        "FileSuffix": "None"
+      },
+      "51": {
+        "ID": 51,
+        "TextActorKey": "Seq_Actor_Enya",
+        "ActorTag": "N_Enya3",
+        "FileSuffix": "None"
+      },
+      "52": {
+        "ID": 52,
+        "TextActorKey": "Seq_Actor_Enya",
+        "ActorTag": "N_Enya3_P4Agit",
+        "FileSuffix": "None"
+      },
+      "53": {
+        "ID": 53,
+        "TextActorKey": "Seq_Actor_Enya",
+        "ActorTag": "Enya3",
+        "FileSuffix": "None"
+      },
+      "54": {
+        "ID": 54,
+        "TextActorKey": "Seq_Actor_Enya",
+        "ActorTag": "N_Enya3_P4AgitBar",
+        "FileSuffix": "None"
+      },
+      "55": {
+        "ID": 55,
+        "TextActorKey": "Seq_Actor_Erinn",
+        "ActorTag": "N_Erinn",
+        "FileSuffix": "None"
+      },
+      "56": {
+        "ID": 56,
+        "TextActorKey": "Seq_Actor_EVE",
+        "ActorTag": "Player",
+        "FileSuffix": "None"
+      },
+      "57": {
+        "ID": 57,
+        "TextActorKey": "Seq_Actor_Finn",
+        "ActorTag": "N_Finn",
+        "FileSuffix": "None"
+      },
+      "58": {
+        "ID": 58,
+        "TextActorKey": "Seq_Actor_Francis",
+        "ActorTag": "N_Francis",
+        "FileSuffix": "None"
+      },
+      "59": {
+        "ID": 59,
+        "TextActorKey": "Seq_Actor_Gerard",
+        "ActorTag": "N_Gerard",
+        "FileSuffix": "None"
+      },
+      "60": {
+        "ID": 60,
+        "TextActorKey": "Seq_Actor_Girl",
+        "ActorTag": "N_Girl",
+        "FileSuffix": "None"
+      },
+      "61": {
+        "ID": 61,
+        "TextActorKey": "Seq_Actor_Girl",
+        "ActorTag": "N_Girl2",
+        "FileSuffix": "None"
+      },
+      "62": {
+        "ID": 62,
+        "TextActorKey": "Seq_Actor_Griffin",
+        "ActorTag": "N_Griffin",
+        "FileSuffix": "None"
+      },
+      "63": {
+        "ID": 63,
+        "TextActorKey": "Seq_Actor_Hasan",
+        "ActorTag": "N_Hasan",
+        "FileSuffix": "None"
+      },
+      "64": {
+        "ID": 64,
+        "TextActorKey": "Seq_Actor_Hazel",
+        "ActorTag": "N_Hazel",
+        "FileSuffix": "None"
+      },
+      "65": {
+        "ID": 65,
+        "TextActorKey": "Seq_Actor_Ho",
+        "ActorTag": "N_Ho",
+        "FileSuffix": "None"
+      },
+      "66": {
+        "ID": 66,
+        "TextActorKey": "Seq_Actor_Hugh",
+        "ActorTag": "N_XionGuard02",
+        "FileSuffix": "None"
+      },
+      "67": {
+        "ID": 67,
+        "TextActorKey": "Seq_Actor_Inn",
+        "ActorTag": "N_Inn01",
+        "FileSuffix": "None"
+      },
+      "68": {
+        "ID": 68,
+        "TextActorKey": "Seq_Actor_Inn",
+        "ActorTag": "N_Inn03",
+        "FileSuffix": "None"
+      },
+      "69": {
+        "ID": 69,
+        "TextActorKey": "Seq_Actor_Inn",
+        "ActorTag": "N_Inn02",
+        "FileSuffix": "None"
+      },
+      "70": {
+        "ID": 70,
+        "TextActorKey": "Seq_Actor_Ivy",
+        "ActorTag": "N_Ivy",
+        "FileSuffix": "None"
+      },
+      "71": {
+        "ID": 71,
+        "TextActorKey": "Seq_Actor_Jack",
+        "ActorTag": "N_Jack_P1",
+        "FileSuffix": "None"
+      },
+      "72": {
+        "ID": 72,
+        "TextActorKey": "Seq_Actor_Jack",
+        "ActorTag": "N_Jack_P3",
+        "FileSuffix": "None"
+      },
+      "73": {
+        "ID": 73,
+        "TextActorKey": "Seq_Actor_Jett",
+        "ActorTag": "N_Jett",
+        "FileSuffix": "None"
+      },
+      "74": {
+        "ID": 74,
+        "TextActorKey": "Seq_Actor_Joe",
+        "ActorTag": "N_Joe",
+        "FileSuffix": "None"
+      },
+      "75": {
+        "ID": 75,
+        "TextActorKey": "Seq_Actor_Jonny",
+        "ActorTag": "NPC_Jonny",
+        "FileSuffix": "None"
+      },
+      "76": {
+        "ID": 76,
+        "TextActorKey": "Seq_Actor_Ju",
+        "ActorTag": "N_XionGuard01",
+        "FileSuffix": "None"
+      },
+      "77": {
+        "ID": 77,
+        "TextActorKey": "Seq_Actor_June",
+        "ActorTag": "N_June",
+        "FileSuffix": "None"
+      },
+      "78": {
+        "ID": 78,
+        "TextActorKey": "Seq_Actor_Kasim",
+        "ActorTag": "N_Kasim",
+        "FileSuffix": "None"
+      },
+      "79": {
+        "ID": 79,
+        "TextActorKey": "Seq_Actor_Kasim",
+        "ActorTag": "N_Kasim_Indoor",
+        "FileSuffix": "None"
+      },
+      "80": {
+        "ID": 80,
+        "TextActorKey": "Seq_Actor_Kasim",
+        "ActorTag": "N_Kasim2",
+        "FileSuffix": "None"
+      },
+      "81": {
+        "ID": 81,
+        "TextActorKey": "Seq_Actor_Kasim",
+        "ActorTag": "N_Kasim_Outdoor",
+        "FileSuffix": "None"
+      },
+      "82": {
+        "ID": 82,
+        "TextActorKey": "Seq_Actor_Kaya",
+        "ActorTag": "N_Kaya",
+        "FileSuffix": "None"
+      },
+      "83": {
+        "ID": 83,
+        "TextActorKey": "Seq_Actor_Kaya",
+        "ActorTag": "N_Kaya2",
+        "FileSuffix": "None"
+      },
+      "84": {
+        "ID": 84,
+        "TextActorKey": "Seq_Actor_Kiana",
+        "ActorTag": "N_Kiana",
+        "FileSuffix": "None"
+      },
+      "85": {
+        "ID": 85,
+        "TextActorKey": "Seq_Actor_Ko",
+        "ActorTag": "N_Ko",
+        "FileSuffix": "None"
+      },
+      "86": {
+        "ID": 86,
+        "TextActorKey": "Seq_Actor_Kora",
+        "ActorTag": "N_Kora",
+        "FileSuffix": "None"
+      },
+      "87": {
+        "ID": 87,
+        "TextActorKey": "Seq_Actor_Kora",
+        "ActorTag": "N_Kora_P1",
+        "FileSuffix": "None"
+      },
+      "88": {
+        "ID": 88,
+        "TextActorKey": "Seq_Actor_Kora",
+        "ActorTag": "BeforeGoodByeXion_CitizenFemale_2",
+        "FileSuffix": "None"
+      },
+      "89": {
+        "ID": 89,
+        "TextActorKey": "Seq_Actor_Ku",
+        "ActorTag": "N_Ku",
+        "FileSuffix": "None"
+      },
+      "90": {
+        "ID": 90,
+        "TextActorKey": "Seq_Actor_Liam",
+        "ActorTag": "N_Liam_01",
+        "FileSuffix": "None"
+      },
+      "91": {
+        "ID": 91,
+        "TextActorKey": "Seq_Actor_Liam",
+        "ActorTag": "N_Liam_SQ039",
+        "FileSuffix": "None"
+      },
+      "92": {
+        "ID": 92,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily",
+        "FileSuffix": "None"
+      },
+      "93": {
+        "ID": 93,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_Atelier",
+        "FileSuffix": "None"
+      },
+      "94": {
+        "ID": 94,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_Atelier_Outside",
+        "FileSuffix": "None"
+      },
+      "95": {
+        "ID": 95,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_Atelier_SingleUse",
+        "FileSuffix": "None"
+      },
+      "96": {
+        "ID": 96,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "LilyEpic1_1",
+        "FileSuffix": "None"
+      },
+      "97": {
+        "ID": 97,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "LilyEpic1_2",
+        "FileSuffix": "None"
+      },
+      "98": {
+        "ID": 98,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_Guide01",
+        "FileSuffix": "None"
+      },
+      "99": {
+        "ID": 99,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_PODFirstLanding",
+        "FileSuffix": "None"
+      },
+      "100": {
+        "ID": 100,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "LilyEpic_Tutorial",
+        "FileSuffix": "None"
+      },
+      "101": {
+        "ID": 101,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "LilyEpic1_3",
+        "FileSuffix": "None"
+      },
+      "102": {
+        "ID": 102,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_TetrapodInside",
+        "FileSuffix": "None"
+      },
+      "103": {
+        "ID": 103,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_Corridor",
+        "FileSuffix": "None"
+      },
+      "104": {
+        "ID": 104,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "LilyGuideOutside",
+        "FileSuffix": "None"
+      },
+      "105": {
+        "ID": 105,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_Chamber",
+        "FileSuffix": "None"
+      },
+      "106": {
+        "ID": 106,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_Chamber_Quest_Epic_05_M02_T01",
+        "FileSuffix": "None"
+      },
+      "107": {
+        "ID": 107,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_HyperDrive",
+        "FileSuffix": "None"
+      },
+      "108": {
+        "ID": 108,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Exosuit",
+        "FileSuffix": "None"
+      },
+      "109": {
+        "ID": 109,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "Exosuit_Lily",
+        "FileSuffix": "None"
+      },
+      "110": {
+        "ID": 110,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_P5",
+        "FileSuffix": "None"
+      },
+      "111": {
+        "ID": 111,
+        "TextActorKey": "Seq_Actor_Lily",
+        "ActorTag": "N_Lily_ATL",
+        "FileSuffix": "None"
+      },
+      "112": {
+        "ID": 112,
+        "TextActorKey": "Seq_Actor_Lo",
+        "ActorTag": "N_Lo",
+        "FileSuffix": "None"
+      },
+      "113": {
+        "ID": 113,
+        "TextActorKey": "Seq_Actor_Luther",
+        "ActorTag": "N_Luther",
+        "FileSuffix": "None"
+      },
+      "114": {
+        "ID": 114,
+        "TextActorKey": "Seq_Actor_Lyle",
+        "ActorTag": "N_Lyle",
+        "FileSuffix": "None"
+      },
+      "115": {
+        "ID": 115,
+        "TextActorKey": "Seq_Actor_Lyle",
+        "ActorTag": "N_Lyle_Phase5",
+        "FileSuffix": "None"
+      },
+      "116": {
+        "ID": 116,
+        "TextActorKey": "Seq_Actor_Mann",
+        "ActorTag": "N_Mann",
+        "FileSuffix": "None"
+      },
+      "117": {
+        "ID": 117,
+        "TextActorKey": "Seq_Actor_Marco",
+        "ActorTag": "N_Marco_P4",
+        "FileSuffix": "None"
+      },
+      "118": {
+        "ID": 118,
+        "TextActorKey": "Seq_Actor_Marco",
+        "ActorTag": "N_Marco_P1",
+        "FileSuffix": "None"
+      },
+      "119": {
+        "ID": 119,
+        "TextActorKey": "Seq_Actor_Mason",
+        "ActorTag": "N_Mason",
+        "FileSuffix": "None"
+      },
+      "120": {
+        "ID": 120,
+        "TextActorKey": "Seq_Actor_Maya",
+        "ActorTag": "N_Maya",
+        "FileSuffix": "None"
+      },
+      "121": {
+        "ID": 121,
+        "TextActorKey": "Seq_Actor_Min",
+        "ActorTag": "N_Min",
+        "FileSuffix": "None"
+      },
+      "122": {
+        "ID": 122,
+        "TextActorKey": "Seq_Actor_Mo",
+        "ActorTag": "N_Mo",
+        "FileSuffix": "None"
+      },
+      "123": {
+        "ID": 123,
+        "TextActorKey": "Seq_Actor_MotherSphere",
+        "ActorTag": "N_MotherSphere",
+        "FileSuffix": "None"
+      },
+      "124": {
+        "ID": 124,
+        "TextActorKey": "Seq_Actor_MotherSphere",
+        "ActorTag": "N_Motherspier",
+        "FileSuffix": "None"
+      },
+      "125": {
+        "ID": 125,
+        "TextActorKey": "Seq_Actor_Mu",
+        "ActorTag": "N_MU",
+        "FileSuffix": "None"
+      },
+      "126": {
+        "ID": 126,
+        "TextActorKey": "Seq_Actor_Mu",
+        "ActorTag": "N_Mu02",
+        "FileSuffix": "None"
+      },
+      "127": {
+        "ID": 127,
+        "TextActorKey": "Seq_Actor_Nina",
+        "ActorTag": "N_Nina",
+        "FileSuffix": "None"
+      },
+      "128": {
+        "ID": 128,
+        "TextActorKey": "Seq_Actor_Nu",
+        "ActorTag": "N_NU",
+        "FileSuffix": "None"
+      },
+      "129": {
+        "ID": 129,
+        "TextActorKey": "Seq_Actor_Olivia",
+        "ActorTag": "N_Olivia",
+        "FileSuffix": "None"
+      },
+      "130": {
+        "ID": 130,
+        "TextActorKey": "Seq_Actor_Omar",
+        "ActorTag": "N_Omar",
+        "FileSuffix": "None"
+      },
+      "131": {
+        "ID": 131,
+        "TextActorKey": "Seq_Actor_Orcal",
+        "ActorTag": "N_Orcal",
+        "FileSuffix": "None"
+      },
+      "132": {
+        "ID": 132,
+        "TextActorKey": "Seq_Actor_Orcal",
+        "ActorTag": "N_Orcal_Trailer",
+        "FileSuffix": "None"
+      },
+      "133": {
+        "ID": 133,
+        "TextActorKey": "Seq_Actor_Orcal",
+        "ActorTag": "N_OrcalNA",
+        "FileSuffix": "None"
+      },
+      "134": {
+        "ID": 134,
+        "TextActorKey": "Seq_Actor_Otto",
+        "ActorTag": "N_Otto",
+        "FileSuffix": "None"
+      },
+      "135": {
+        "ID": 135,
+        "TextActorKey": "Seq_Actor_Pierre",
+        "ActorTag": "N_Pierre",
+        "FileSuffix": "None"
+      },
+      "136": {
+        "ID": 136,
+        "TextActorKey": "Seq_Actor_Po",
+        "ActorTag": "N_Po",
+        "FileSuffix": "None"
+      },
+      "137": {
+        "ID": 137,
+        "TextActorKey": "Seq_Actor_Quiel",
+        "ActorTag": "M_RoyalGuardFemale",
+        "FileSuffix": "None"
+      },
+      "138": {
+        "ID": 138,
+        "TextActorKey": "Seq_Actor_Ra",
+        "ActorTag": "N_Ra",
+        "FileSuffix": "None"
+      },
+      "139": {
+        "ID": 139,
+        "TextActorKey": "Seq_Actor_Rael",
+        "ActorTag": "N_Rael",
+        "FileSuffix": "None"
+      },
+      "140": {
+        "ID": 140,
+        "TextActorKey": "Seq_Actor_Raul",
+        "ActorTag": "N_Raul_P1",
+        "FileSuffix": "None"
+      },
+      "141": {
+        "ID": 141,
+        "TextActorKey": "Seq_Actor_Raul",
+        "ActorTag": "N_Raul_P2",
+        "FileSuffix": "None"
+      },
+      "142": {
+        "ID": 142,
+        "TextActorKey": "Seq_Actor_Raven",
+        "ActorTag": "Raven",
+        "FileSuffix": "None"
+      },
+      "143": {
+        "ID": 143,
+        "TextActorKey": "Seq_Actor_Raven",
+        "ActorTag": "N_Raven",
+        "FileSuffix": "None"
+      },
+      "144": {
+        "ID": 144,
+        "TextActorKey": "Seq_Actor_Ren",
+        "ActorTag": "Xion_10_E_CharS_060",
+        "FileSuffix": "None"
+      },
+      "145": {
+        "ID": 145,
+        "TextActorKey": "Seq_Actor_Roxane",
+        "ActorTag": "N_Roxane",
+        "FileSuffix": "None"
+      },
+      "146": {
+        "ID": 146,
+        "TextActorKey": "Seq_Actor_Roxane",
+        "ActorTag": "N_Roxane2",
+        "FileSuffix": "None"
+      },
+      "147": {
+        "ID": 147,
+        "TextActorKey": "Seq_Actor_Ruby",
+        "ActorTag": "N_Ruby",
+        "FileSuffix": "None"
+      },
+      "148": {
+        "ID": 148,
+        "TextActorKey": "Seq_Actor_Sadie",
+        "ActorTag": "N_Sadie",
+        "FileSuffix": "None"
+      },
+      "149": {
+        "ID": 149,
+        "TextActorKey": "Seq_Actor_San",
+        "ActorTag": "N_SAN",
+        "FileSuffix": "None"
+      },
+      "150": {
+        "ID": 150,
+        "TextActorKey": "Seq_Actor_Scavenger",
+        "ActorTag": "N_Scavenger_SQ26_04",
+        "FileSuffix": "None"
+      },
+      "151": {
+        "ID": 151,
+        "TextActorKey": "Seq_Actor_Scavenger",
+        "ActorTag": "N_Scavenger_SQ26_01",
+        "FileSuffix": "None"
+      },
+      "152": {
+        "ID": 152,
+        "TextActorKey": "Seq_Actor_Scavenger",
+        "ActorTag": "N_Scavenger_SQ26_02",
+        "FileSuffix": "None"
+      },
+      "153": {
+        "ID": 153,
+        "TextActorKey": "Seq_Actor_Scavenger",
+        "ActorTag": "N_Scavenger_SQ26_03",
+        "FileSuffix": "None"
+      },
+      "154": {
+        "ID": 154,
+        "TextActorKey": "Seq_Actor_Shael",
+        "ActorTag": "N_Shael",
+        "FileSuffix": "None"
+      },
+      "155": {
+        "ID": 155,
+        "TextActorKey": "Seq_Actor_Son",
+        "ActorTag": "N_Son",
+        "FileSuffix": "None"
+      },
+      "156": {
+        "ID": 156,
+        "TextActorKey": "Seq_Actor_SP0-tt2r",
+        "ActorTag": "N_Spotter",
+        "FileSuffix": "None"
+      },
+      "157": {
+        "ID": 157,
+        "TextActorKey": "Seq_Actor_SP0-tt2r",
+        "ActorTag": "N_Spotter_P5",
+        "FileSuffix": "None"
+      },
+      "158": {
+        "ID": 158,
+        "TextActorKey": "Seq_Actor_Steve",
+        "ActorTag": "N_Steve_P1",
+        "FileSuffix": "None"
+      },
+      "159": {
+        "ID": 159,
+        "TextActorKey": "Seq_Actor_Steve",
+        "ActorTag": "N_Steve_P4",
+        "FileSuffix": "None"
+      },
+      "160": {
+        "ID": 160,
+        "TextActorKey": "Seq_Actor_Su",
+        "ActorTag": "N_Su",
+        "FileSuffix": "None"
+      },
+      "161": {
+        "ID": 161,
+        "TextActorKey": "Seq_Actor_Su",
+        "ActorTag": "N_Su_P5Entrance",
+        "FileSuffix": "None"
+      },
+      "162": {
+        "ID": 162,
+        "TextActorKey": "Seq_Actor_Su",
+        "ActorTag": "N_Su_P4Agit",
+        "FileSuffix": "None"
+      },
+      "163": {
+        "ID": 163,
+        "TextActorKey": "Seq_Actor_Su",
+        "ActorTag": "N_Su_bar",
+        "FileSuffix": "None"
+      },
+      "164": {
+        "ID": 164,
+        "TextActorKey": "Seq_Actor_Su",
+        "ActorTag": "N_Su_Sub006_M7",
+        "FileSuffix": "None"
+      },
+      "165": {
+        "ID": 165,
+        "TextActorKey": "Seq_Actor_Su",
+        "ActorTag": "N_Su_bar07",
+        "FileSuffix": "None"
+      },
+      "166": {
+        "ID": 166,
+        "TextActorKey": "Seq_Actor_Su",
+        "ActorTag": "N_Su",
+        "FileSuffix": "None"
+      },
+      "167": {
+        "ID": 167,
+        "TextActorKey": "Seq_Actor_TACHY",
+        "ActorTag": "N_Tachy",
+        "FileSuffix": "None"
+      },
+      "168": {
+        "ID": 168,
+        "TextActorKey": "Seq_Actor_Toni",
+        "ActorTag": "N_Toni",
+        "FileSuffix": "None"
+      },
+      "169": {
+        "ID": 169,
+        "TextActorKey": "Seq_Actor_Zoey",
+        "ActorTag": "N_Zoey",
+        "FileSuffix": "None"
+      },
+      "170": {
+        "ID": 170,
+        "TextActorKey": "Seq_Actor_Adam",
+        "ActorTag": "AdamHumanEpic1_3",
+        "FileSuffix": "None"
+      },
+      "171": {
+        "ID": 171,
+        "TextActorKey": "Seq_Actor_Scarlet",
+        "ActorTag": "N_Scarlet",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

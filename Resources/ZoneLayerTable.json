@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ZoneLayerTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBZoneLayerTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Layer1": {
+        "ID": 1,
+        "LayerName": "None",
+        "ZoneList": [
+          "Zone_LV_Test_Divide01"
+        ],
+        "FileSuffix": "None"
+      },
+      "Layer2": {
+        "ID": 2,
+        "LayerName": "None",
+        "ZoneList": [
+          "Zone_LV_Test_Divide02"
+        ],
+        "FileSuffix": "None"
+      },
+      "Layer3": {
+        "ID": 3,
+        "LayerName": "None",
+        "ZoneList": [
+          "Zone_LV_Test_Divide03"
+        ],
+        "FileSuffix": "None"
+      },
+      "Layer_DED": {
+        "ID": 1100,
+        "LayerName": "F02",
+        "ZoneList": [
+          "Zone_DED10",
+          "Zone_DED20",
+          "Zone_DED30",
+          "Zone_DED40",
+          "Zone_DED50",
+          "Zone_DED51"
+        ],
+        "FileSuffix": "None"
+      },
+      "Layer_ME": {
+        "ID": 1200,
+        "LayerName": "Matrix_XI",
+        "ZoneList": [
+          "Zone_ME_01",
+          "Zone_ME_02",
+          "Zone_ME_03",
+          "Zone_ME_04",
+          "Zone_ME_05",
+          "Zone_ME_06"
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SpawnGroupRuleTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBSpawnGroupRuleTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "ZoneAlias",
+        "SpawnGroupRuleAlias"
+      ]
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point1",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_076",
+          "WLAN_10_E_CharS_085"
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point2",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_077",
+          "WLAN_10_E_CharS_086"
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point3",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_078",
+          "WLAN_10_E_CharS_087"
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point4",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_079",
+          "WLAN_10_E_CharS_088"
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point5",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_080",
+          "WLAN_10_E_CharS_089"
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point6",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_081",
+          "WLAN_10_E_CharS_090"
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point7",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_082",
+          "WLAN_10_E_CharS_091"
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point8",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_083",
+          "WLAN_10_E_CharS_092"
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcBossGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point9",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_084",
+          "WLAN_10_E_CharS_093"
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point1",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_085"
+        ]
+      },
+      "11": {
+        "ID": 11,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point2",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_086"
+        ]
+      },
+      "12": {
+        "ID": 12,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point3",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_087"
+        ]
+      },
+      "13": {
+        "ID": 13,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point4",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_088"
+        ]
+      },
+      "14": {
+        "ID": 14,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point5",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_089"
+        ]
+      },
+      "15": {
+        "ID": 15,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point6",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_090"
+        ]
+      },
+      "16": {
+        "ID": 16,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point7",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_091"
+        ]
+      },
+      "17": {
+        "ID": 17,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point8",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_092"
+        ]
+      },
+      "18": {
+        "ID": 18,
+        "Desc": "",
+        "ZoneAlias": "Zone_WLAN_10",
+        "SpawnGroupRuleAlias": "WasteLand_Night_Group",
+        "SubGroup": "NpcOnlyGroup",
+        "SubGroupSelectItemCnt": 4,
+        "DuplicationPreventKey": "Point9",
+        "EventSpawnArray": [
+          "WLAN_10_E_CharS_093"
+        ]
+      },
+      "19": {
+        "ID": 19,
+        "Desc": "",
+        "ZoneAlias": "Zone_SysTest_Nikke01",
+        "SpawnGroupRuleAlias": "DororongTestGroup",
+        "SubGroup": "DororongTestSubGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point1",
+        "EventSpawnArray": [
+          "SysTest_Nikke01_E_CharS_001"
+        ]
+      },
+      "20": {
+        "ID": 20,
+        "Desc": "",
+        "ZoneAlias": "Zone_SysTest_Nikke01",
+        "SpawnGroupRuleAlias": "DororongTestGroup",
+        "SubGroup": "DororongTestSubGroup",
+        "SubGroupSelectItemCnt": 1,
+        "DuplicationPreventKey": "Point2",
+        "EventSpawnArray": [
+          "SysTest_Nikke01_E_CharS_002"
+        ]
+      }
+    }
+  }
+]

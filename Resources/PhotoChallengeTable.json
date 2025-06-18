@@ -1,0 +1,346 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhotoChallengeTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBPhotoChallengeTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "MemoryOfXion": {
+        "ID": 29001,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_220",
+        "CheckDistance": 5000.0,
+        "CheckAngle": 120.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_029_M01_T01_1",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly1": {
+        "ID": 30001,
+        "TargetZoneEnvActorAlias": "WLA_10_EnvS_217",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_1",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly2": {
+        "ID": 30002,
+        "TargetZoneEnvActorAlias": "WLA_10_EnvS_218",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_2",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly3": {
+        "ID": 30003,
+        "TargetZoneEnvActorAlias": "WLA_10_EnvS_219",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_3",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly4": {
+        "ID": 30004,
+        "TargetZoneEnvActorAlias": "WLA_40_EnvS_189",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_4",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly5": {
+        "ID": 30005,
+        "TargetZoneEnvActorAlias": "WLA_40_EnvS_190",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_5",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly6": {
+        "ID": 30006,
+        "TargetZoneEnvActorAlias": "WLA_40_EnvS_191",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_6",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly7": {
+        "ID": 30007,
+        "TargetZoneEnvActorAlias": "WLA_30_EnvS_123",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_7",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly8": {
+        "ID": 30008,
+        "TargetZoneEnvActorAlias": "WLA_40_EnvS_187",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_8",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly9": {
+        "ID": 30009,
+        "TargetZoneEnvActorAlias": "WLA_40_EnvS_188",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_9",
+        "ExceptActorAlias": "None"
+      },
+      "Butterfly10": {
+        "ID": 30010,
+        "TargetZoneEnvActorAlias": "WLA_30_EnvS_122",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_030_M01_T01_10",
+        "ExceptActorAlias": "None"
+      },
+      "Fish1": {
+        "ID": 31001,
+        "TargetZoneEnvActorAlias": "WLB_10_EnvS_164",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_1",
+        "ExceptActorAlias": "None"
+      },
+      "Fish2": {
+        "ID": 31002,
+        "TargetZoneEnvActorAlias": "WLB_10_EnvS_165",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_2",
+        "ExceptActorAlias": "None"
+      },
+      "Fish3": {
+        "ID": 31003,
+        "TargetZoneEnvActorAlias": "WLB_10_EnvS_166",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_3",
+        "ExceptActorAlias": "None"
+      },
+      "Fish4": {
+        "ID": 31004,
+        "TargetZoneEnvActorAlias": "WLB_30_EnvS_082",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_4",
+        "ExceptActorAlias": "None"
+      },
+      "Fish5": {
+        "ID": 31005,
+        "TargetZoneEnvActorAlias": "WLB_30_EnvS_083",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_5",
+        "ExceptActorAlias": "None"
+      },
+      "Fish6": {
+        "ID": 31006,
+        "TargetZoneEnvActorAlias": "WLB_20_EnvS_196",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_6",
+        "ExceptActorAlias": "None"
+      },
+      "Fish7": {
+        "ID": 31007,
+        "TargetZoneEnvActorAlias": "WLB_20_EnvS_197",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_7",
+        "ExceptActorAlias": "None"
+      },
+      "Fish8": {
+        "ID": 31008,
+        "TargetZoneEnvActorAlias": "WLB_50_EnvS_244",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_8",
+        "ExceptActorAlias": "None"
+      },
+      "Fish9": {
+        "ID": 31009,
+        "TargetZoneEnvActorAlias": "WLB_50_EnvS_245",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_9",
+        "ExceptActorAlias": "None"
+      },
+      "Fish10": {
+        "ID": 31010,
+        "TargetZoneEnvActorAlias": "WLB_50_EnvS_246",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_031_M01_T01_10",
+        "ExceptActorAlias": "None"
+      },
+      "Cat1": {
+        "ID": 32001,
+        "TargetZoneEnvActorAlias": "Xion_12_EnvS_004",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_1",
+        "ExceptActorAlias": "None"
+      },
+      "Cat2": {
+        "ID": 32002,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_222",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 70.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_2",
+        "ExceptActorAlias": "None"
+      },
+      "Cat3": {
+        "ID": 32003,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_223",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_3",
+        "ExceptActorAlias": "None"
+      },
+      "Cat4": {
+        "ID": 32004,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_224",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_4",
+        "ExceptActorAlias": "None"
+      },
+      "Cat5": {
+        "ID": 32005,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_225",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_5",
+        "ExceptActorAlias": "None"
+      },
+      "Cat6": {
+        "ID": 32006,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_226",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_6",
+        "ExceptActorAlias": "None"
+      },
+      "Cat7": {
+        "ID": 32007,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_227",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_7",
+        "ExceptActorAlias": "None"
+      },
+      "Cat8": {
+        "ID": 32008,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_228",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_8",
+        "ExceptActorAlias": "None"
+      },
+      "Cat9": {
+        "ID": 32009,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_229",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_9",
+        "ExceptActorAlias": "None"
+      },
+      "Cat10": {
+        "ID": 32010,
+        "TargetZoneEnvActorAlias": "Xion_10_EnvS_230",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 45.0,
+        "CheckBoxRatioX": 0.8,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "Quest_Request_032_M01_T01_10",
+        "ExceptActorAlias": "None"
+      },
+      "Test_SysTestD_1": {
+        "ID": 99001,
+        "TargetZoneEnvActorAlias": "SysTestD_01_EnvS_003",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 70.0,
+        "CheckBoxRatioX": 0.5,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "TQ_SysTestD_PhotoChallenge_M01_T01_1",
+        "ExceptActorAlias": "Cylinder_TestForTrace"
+      },
+      "Test_SysTestD_2": {
+        "ID": 99002,
+        "TargetZoneEnvActorAlias": "SysTestD_01_EnvS_004",
+        "CheckDistance": 2000.0,
+        "CheckAngle": 70.0,
+        "CheckBoxRatioX": 0.5,
+        "CheckBoxRatioY": 0.75,
+        "LinkedQuestTaskAlias": "TQ_SysTestD_PhotoChallenge_M01_T01_2",
+        "ExceptActorAlias": "Cylinder_TestForTrace"
+      }
+    }
+  }
+]

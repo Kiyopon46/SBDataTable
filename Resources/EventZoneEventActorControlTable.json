@@ -1,0 +1,366 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventZoneEventActorControlTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventZoneEventActorControlTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "ATL_03_E_ZEAC_016": {
+        "ID": 22,
+        "ZoneEventActorName": "ATL03_Barrel_B_Weakness03",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_015": {
+        "ID": 21,
+        "ZoneEventActorName": "ATL03_Barrel_B_Weakness02",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_014": {
+        "ID": 20,
+        "ZoneEventActorName": "ATL03_Barrel_B_Weakness01",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ZEAC_001": {
+        "ID": 4,
+        "ZoneEventActorName": "BP_LaserBreakCapsule10",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ZEAC_001": {
+        "ID": 5,
+        "ZoneEventActorName": "BP_LaserBreakCapsule10_2",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 3.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ZEAC_002": {
+        "ID": 6,
+        "ZoneEventActorName": "WLB20_Destruction_Barrel_016",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ZEAC_003": {
+        "ID": 9,
+        "ZoneEventActorName": "BP_BombBox86_8",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 0.5,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ZEAC_002": {
+        "ID": 8,
+        "ZoneEventActorName": "BP_BombBox91",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 0.5,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ZEAC_001": {
+        "ID": 7,
+        "ZoneEventActorName": "BP_BombBox96",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 0.5,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_013": {
+        "ID": 19,
+        "ZoneEventActorName": "ATL03_Barrel_Weakness03",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_012": {
+        "ID": 18,
+        "ZoneEventActorName": "ATL03_Barrel_Weakness02",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_011": {
+        "ID": 17,
+        "ZoneEventActorName": "ATL03_Barrel_Weakness01",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_010": {
+        "ID": 16,
+        "ZoneEventActorName": "BP_Barrel_01_Child4",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 6.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_009": {
+        "ID": 15,
+        "ZoneEventActorName": "BP_Barrel_01_Child3",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 4.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_008": {
+        "ID": 14,
+        "ZoneEventActorName": "BP_Barrel_01_Child5",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 2.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_007": {
+        "ID": 13,
+        "ZoneEventActorName": "BP_Barrel_01_Child7",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 5.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_006": {
+        "ID": 12,
+        "ZoneEventActorName": "BP_Barrel_01_Child6",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 4.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_005": {
+        "ID": 11,
+        "ZoneEventActorName": "BP_Barrel_01_Child9",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 3.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_004": {
+        "ID": 10,
+        "ZoneEventActorName": "BP_Barrel_01_Child8",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 2.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_003": {
+        "ID": 3,
+        "ZoneEventActorName": "BP_Barrel_01_Child11",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 6.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_002": {
+        "ID": 2,
+        "ZoneEventActorName": "BP_Barrel_01_Child10",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 4.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ZEAC_001": {
+        "ID": 1,
+        "ZoneEventActorName": "BP_Barrel_01_Child12",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 2.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LYC02GO_E_ZEAC_002": {
+        "ID": 23,
+        "ZoneEventActorName": "BP_Destruction_ControlMachine_SQ21_TestOnly_1",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ZEAC_003": {
+        "ID": 26,
+        "ZoneEventActorName": "BP_Barrel_01_Child42",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ZEAC_002": {
+        "ID": 25,
+        "ZoneEventActorName": "BP_Barrel_01_Child41",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ZEAC_001": {
+        "ID": 24,
+        "ZoneEventActorName": "BP_Barrel_01_Child40",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Puzzle_01_E_ZEAC_001": {
+        "ID": 27,
+        "ZoneEventActorName": "BP_Destruction_ControlMachine_SQ21_TestOnly_1",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZEAC_002": {
+        "ID": 32,
+        "ZoneEventActorName": "BP_Destruction_ControlMachine_SQ21_2",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ZEAC_003": {
+        "ID": 31,
+        "ZoneEventActorName": "BP_ATL_WeakPoint3",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ZEAC_002": {
+        "ID": 30,
+        "ZoneEventActorName": "BP_ATL_WeakPoint2",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ZEAC_001": {
+        "ID": 29,
+        "ZoneEventActorName": "BP_ATL_WeakPoint_2",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZEAC_001": {
+        "ID": 28,
+        "ZoneEventActorName": "BP_Destruction_ControlMachine_SQ21",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZEAC_003": {
+        "ID": 33,
+        "ZoneEventActorName": "BP_Destruction_ControlMachine_SQ21_3",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ZEAC_004": {
+        "ID": 34,
+        "ZoneEventActorName": "BP_Destruction_ControlMachine_SQ21_4",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DisableDestruction",
+        "DestructionTime": 0.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_KYH_01_E_ZEAC_001": {
+        "ID": 35,
+        "ZoneEventActorName": "BP_Barrel_01_Child_3",
+        "ZoneEventActorControlType": "ESBEventZoneEventActorControlType::ESBEventZoneEventActorControlType_DestructionTimer",
+        "DestructionTime": 1.0,
+        "bDisableDestruction": false,
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

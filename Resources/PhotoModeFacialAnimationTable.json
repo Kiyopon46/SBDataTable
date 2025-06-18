@@ -1,0 +1,608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhotoModeFacialAnimationTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBPhotoModeFacialAnimationTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "PT_Netural_EVE": {
+        "ID": 1001001,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Netural_EVE.PT_Netural_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Smile_EVE": {
+        "ID": 1001002,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Smile_EVE.PT_Smile_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Happy_EVE": {
+        "ID": 1001003,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Happy_EVE.PT_Happy_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Laugh_EVE": {
+        "ID": 1001004,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Laugh_EVE.PT_Laugh_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sulk_EVE": {
+        "ID": 1001005,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Sulk_EVE.PT_Sulk_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Kiss_EVE": {
+        "ID": 1001006,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Kiss_EVE.PT_Kiss_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Gloomy_EVE": {
+        "ID": 1001007,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Gloomy_EVE.PT_Gloomy_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sad_EVE": {
+        "ID": 1001008,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Sad_EVE.PT_Sad_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sob_EVE": {
+        "ID": 1001009,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Sob_EVE.PT_Sob_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Surprised_EVE": {
+        "ID": 1001010,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Surprised_EVE.PT_Surprised_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Oops_EVE": {
+        "ID": 1001011,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Oops_EVE.PT_Oops_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Tease_ya_EVE": {
+        "ID": 1001012,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Tease-ya_EVE.PT_Tease-ya_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Wink_EVE": {
+        "ID": 1001013,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Wink_EVE.PT_Wink_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Daydream_EVE": {
+        "ID": 1001014,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Daydream_EVE.PT_Daydream_EVE'",
+        "EyesPosition": "Anim",
+        "FileSuffix": "None"
+      },
+      "PT_Contempt_EVE": {
+        "ID": 1001015,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Contempt_EVE.PT_Contempt_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Zzz_EVE": {
+        "ID": 1001016,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Zzz_EVE.PT_Zzz_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Angry_EVE": {
+        "ID": 1001017,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Angry_EVE.PT_Angry_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Serious_EVE": {
+        "ID": 1001018,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Serious_EVE.PT_Serious_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Puffed_EVE": {
+        "ID": 1001019,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Puffed_EVE.PT_Puffed_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sigh_EVE": {
+        "ID": 1001020,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_Sigh_EVE.PT_Sigh_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_LookDown_EVE": {
+        "ID": 1001021,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Photo/PT_LookDown_EVE.PT_LookDown_EVE'",
+        "EyesPosition": "Anim",
+        "FileSuffix": "None"
+      },
+      "SF_Netural_EVE": {
+        "ID": 1001101,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Netural_EVE.SF_Netural_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Smile_EVE": {
+        "ID": 1001102,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Smile_EVE.SF_Smile_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Happy_EVE": {
+        "ID": 1001103,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Happy_EVE.SF_Happy_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Laugh_EVE": {
+        "ID": 1001104,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Laugh_EVE.SF_Laugh_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Sulk_EVE": {
+        "ID": 1001105,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Sulk_EVE.SF_Sulk_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Kiss_EVE": {
+        "ID": 1001106,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Kiss_EVE.SF_Kiss_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Gloomy_EVE": {
+        "ID": 1001107,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Gloomy_EVE.SF_Gloomy_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Sad_EVE": {
+        "ID": 1001108,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Sad_EVE.SF_Sad_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Sob_EVE": {
+        "ID": 1001109,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Sob_EVE.SF_Sob_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Surprised_EVE": {
+        "ID": 1001110,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Surprised_EVE.SF_Surprised_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Oops_EVE": {
+        "ID": 1001111,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Oops_EVE.SF_Oops_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Tease_ya_EVE": {
+        "ID": 1001112,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Tease-ya_EVE.SF_Tease-ya_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Wink_EVE": {
+        "ID": 1001113,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Wink_EVE.SF_Wink_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Daydream_EVE": {
+        "ID": 1001114,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Daydream_EVE.SF_Daydream_EVE'",
+        "EyesPosition": "Anim",
+        "FileSuffix": "None"
+      },
+      "SF_Contempt_EVE": {
+        "ID": 1001115,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Contempt_EVE.SF_Contempt_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Zzz_EVE": {
+        "ID": 1001116,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Zzz_EVE.SF_Zzz_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Angry_EVE": {
+        "ID": 1001117,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Angry_EVE.SF_Angry_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Serious_EVE": {
+        "ID": 1001118,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Serious_EVE.SF_Serious_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Puffed_EVE": {
+        "ID": 1001119,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Puffed_EVE.SF_Puffed_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_Sigh_EVE": {
+        "ID": 1001120,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_Sigh_EVE.SF_Sigh_EVE'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "SF_LookDown_EVE": {
+        "ID": 1001121,
+        "PhotoModeTag": "PhotoModeSubjectTag_EVE",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/PC/CH_P_EVE_01/Animation/Facial/Selfie/SF_LookDown_EVE.SF_LookDown_EVE'",
+        "EyesPosition": "Anim",
+        "FileSuffix": "None"
+      },
+      "PT_Neutral_Lilly": {
+        "ID": 1002001,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Neutral_Lilly.PT_Neutral_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Smile_Lilly": {
+        "ID": 1002002,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Smile_Lilly.PT_Smile_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Happy_Lilly": {
+        "ID": 1002003,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Happy_Lilly.PT_Happy_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Laugh_Lilly": {
+        "ID": 1002004,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Laugh_Lilly.PT_Laugh_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sulk_Lilly": {
+        "ID": 1002005,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Sulk_Lilly.PT_Sulk_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Kiss_Lilly": {
+        "ID": 1002006,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Kiss_Lilly.PT_Kiss_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Gloomy_Lilly": {
+        "ID": 1002007,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Gloomy_Lilly.PT_Gloomy_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sad_Lilly": {
+        "ID": 1002008,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Sad_Lilly.PT_Sad_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sob_Lilly_Lilly": {
+        "ID": 1002009,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Sob_Lilly_Lilly.PT_Sob_Lilly_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Surprised_Lilly": {
+        "ID": 1002010,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Surprised_Lilly.PT_Surprised_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Oops_Lilly": {
+        "ID": 1002011,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Oops_Lilly.PT_Oops_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Tease_ya_Lily": {
+        "ID": 1002012,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Tease-ya_Lilly.PT_Tease-ya_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Wink_Lilly": {
+        "ID": 1002013,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Wink_Lilly.PT_Wink_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Daydream_Lilly": {
+        "ID": 1002014,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Daydream_Lilly.PT_Daydream_Lilly'",
+        "EyesPosition": "Anim",
+        "FileSuffix": "None"
+      },
+      "PT_Contempt_Lilly": {
+        "ID": 1002015,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Contempt_Lilly.PT_Contempt_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Zzz_Lilly": {
+        "ID": 1002016,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Zzz_Lilly.PT_Zzz_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Angry_Lilly": {
+        "ID": 1002017,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Angry_Lilly.PT_Angry_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Serious_Lilly": {
+        "ID": 1002018,
+        "PhotoModeTag": "PhotoModeSubjectTag_Lily",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_01/Animation/Facial/Photo/PT_Serious_Lilly.PT_Serious_Lilly'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Netural_Adam": {
+        "ID": 1003001,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Netural_Adam.PT_Netural_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Smile_Adam": {
+        "ID": 1003002,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Smile_Adam.PT_Smile_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Happy_Adam": {
+        "ID": 1003003,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Happy_Adam.PT_Happy_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Laugh_Adam": {
+        "ID": 1003004,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Laugh_Adam.PT_Laugh_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Gloomy_Adam": {
+        "ID": 1003005,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Gloomy_Adam.PT_Gloomy_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sad_Adam": {
+        "ID": 1003006,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Sad_Adam.PT_Sad_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Sob_Adam": {
+        "ID": 1003007,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Sob_Adam.PT_Sob_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Surprised_Adam": {
+        "ID": 1003008,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Surprised_Adam.PT_Surprised_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Wink_Adam": {
+        "ID": 1003009,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Wink_Adam.PT_Wink_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Daydream_Adam": {
+        "ID": 1003010,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Daydream_Adam.PT_Daydream_Adam'",
+        "EyesPosition": "Anim",
+        "FileSuffix": "None"
+      },
+      "PT_Contempt_Adam": {
+        "ID": 1003011,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Contempt_Adam.PT_Contempt_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Zzz_Adam": {
+        "ID": 1003012,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Zzz_Adam.PT_Zzz_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Angry_Adam": {
+        "ID": 1003013,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Angry_Adam.PT_Angry_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      },
+      "PT_Serious_Adam": {
+        "ID": 1003014,
+        "PhotoModeTag": "PhotoModeSubjectTag_Adam",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "AssetPath": "AnimSequence'/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Facial/Photo/PT_Serious_Adam.PT_Serious_Adam'",
+        "EyesPosition": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

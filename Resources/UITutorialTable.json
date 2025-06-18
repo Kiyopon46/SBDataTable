@@ -1,0 +1,280 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "UITutorialTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBUITutorialTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Test_Start": {
+        "ID": 99001,
+        "TitleStringKey": "UI_DigitalDeluxe",
+        "DescStringKey": "UI_Manual_01a1",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_FaceButton_Bottom"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "Test_MiddleBlockNav",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_GameMenu",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_NewSkill",
+        "StartConditionGroup": "UITutorial_Start_Test",
+        "CompleteWidgetEventName": "None",
+        "CompleteAchievementAlias": "None"
+      },
+      "Test_MiddleBlockNav": {
+        "ID": 99002,
+        "TitleStringKey": "UI_DigitalDeluxe",
+        "DescStringKey": "UI_Manual_01a1",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_RightTrigger"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "Test_MiddleBlockEvent",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "PressRight",
+        "CompleteAchievementAlias": "None"
+      },
+      "Test_MiddleBlockEvent": {
+        "ID": 99003,
+        "TitleStringKey": "UI_DigitalDeluxe",
+        "DescStringKey": "UI_Manual_01a1",
+        "bBlockNavigation": false,
+        "EnableInputAliases": [
+          "UI_DPad_Left",
+          "UI_DPad_Right",
+          "UI_DPad_Up",
+          "UI_Dpad_Down"
+        ],
+        "BlockingWidgetEventNameList": [
+          "PressLeft",
+          "PressRight"
+        ],
+        "NextTutorialAlias": "Test_Middle",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "JustEvade1",
+        "CompleteAchievementAlias": "None"
+      },
+      "Test_Middle": {
+        "ID": 99004,
+        "TitleStringKey": "UI_DigitalDeluxe",
+        "DescStringKey": "UI_Manual_01a1",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_FaceButton_Bottom"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "Test_Final",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "None",
+        "CompleteAchievementAlias": "None"
+      },
+      "Test_Final": {
+        "ID": 99005,
+        "TitleStringKey": "UI_DigitalDeluxe",
+        "DescStringKey": "UI_Manual_01a1",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_FaceButton_Bottom"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "None",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "JustEvade1",
+        "CompleteAchievementAlias": "UITutorial_Complete_Test"
+      },
+      "UT_SkillUnlock_JustEvade_0": {
+        "ID": 100101,
+        "TitleStringKey": "Guide_SkillUI_SkillMenu_Title",
+        "DescStringKey": "Guide_SkillUI_SkillMenu_Desc",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_FaceButton_Bottom"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "UT_SkillUnlock_JustEvade_1",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_GameMenu",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_NewSkill",
+        "StartConditionGroup": "CG_UT_SkillUnlock_JustEvade",
+        "CompleteWidgetEventName": "None",
+        "CompleteAchievementAlias": "None"
+      },
+      "UT_SkillUnlock_JustEvade_1": {
+        "ID": 100102,
+        "TitleStringKey": "Guide_SkillUI_ChangeTree_Title",
+        "DescStringKey": "Guide_SkillUI_ChangeTree_Desc_PC",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_RightTrigger"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "UT_SkillUnlock_JustEvade_2",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "PressRight",
+        "CompleteAchievementAlias": "None"
+      },
+      "UT_SkillUnlock_JustEvade_2": {
+        "ID": 100103,
+        "TitleStringKey": "Guide_SkillUI_SkillSelect_Title",
+        "DescStringKey": "Guide_SkillUI_SkillSelect_Desc_1_PC",
+        "bBlockNavigation": false,
+        "EnableInputAliases": [
+          "UI_DPad_Left",
+          "UI_DPad_Right",
+          "UI_DPad_Up",
+          "UI_Dpad_Down"
+        ],
+        "BlockingWidgetEventNameList": [
+          "PressLeft",
+          "PressRight"
+        ],
+        "NextTutorialAlias": "UT_SkillUnlock_JustEvade_3",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "JustEvade1",
+        "CompleteAchievementAlias": "None"
+      },
+      "UT_SkillUnlock_JustEvade_3": {
+        "ID": 100104,
+        "TitleStringKey": "Guide_SkillUI_SP_Title",
+        "DescStringKey": "Guide_SkillUI_SP_Desc",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_FaceButton_Bottom"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "UT_SkillUnlock_JustEvade_4",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "None",
+        "CompleteAchievementAlias": "None"
+      },
+      "UT_SkillUnlock_JustEvade_4": {
+        "ID": 100105,
+        "TitleStringKey": "Guide_SkillUI_SkillUnlock_Title",
+        "DescStringKey": "Guide_SkillUI_SkillUnlock_Desc_1_PC",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_FaceButton_Bottom"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "None",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "JustEvade1",
+        "CompleteAchievementAlias": "Ach_UT_SkillUnlock_JustEvade_Complete"
+      },
+      "UT_SkillUnlock_Blink_0": {
+        "ID": 100201,
+        "TitleStringKey": "Guide_SkillUI_ChangeTree_Title",
+        "DescStringKey": "Guide_SkillUI_ChangeTree_Desc_PC",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_RightTrigger"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "UT_SkillUnlock_Blink_1",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_GameMenu",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_NewSkill",
+        "StartConditionGroup": "CG_UT_SkillUnlock_Blink",
+        "CompleteWidgetEventName": "PressRight",
+        "CompleteAchievementAlias": "None"
+      },
+      "UT_SkillUnlock_Blink_1": {
+        "ID": 100202,
+        "TitleStringKey": "Guide_SkillUI_SkillSelect_Title",
+        "DescStringKey": "Guide_SkillUI_SkillSelect_Desc_2_PC",
+        "bBlockNavigation": false,
+        "EnableInputAliases": [
+          "UI_DPad_Left",
+          "UI_DPad_Right",
+          "UI_DPad_Up",
+          "UI_Dpad_Down"
+        ],
+        "BlockingWidgetEventNameList": [
+          "PressLeft",
+          "PressRight"
+        ],
+        "NextTutorialAlias": "UT_SkillUnlock_Blink_2",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "FlashBehindAttack1",
+        "CompleteAchievementAlias": "None"
+      },
+      "UT_SkillUnlock_Blink_2": {
+        "ID": 100203,
+        "TitleStringKey": "Guide_SkillUI_SkillUnlock_Title",
+        "DescStringKey": "Guide_SkillUI_SkillUnlock_Desc_2_PC",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_FaceButton_Bottom"
+        ],
+        "BlockingWidgetEventNameList": [],
+        "NextTutorialAlias": "UT_SkillUnlock_Training_0",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "FlashBehindAttack1",
+        "CompleteAchievementAlias": "None"
+      },
+      "UT_SkillUnlock_Training_0": {
+        "ID": 100301,
+        "TitleStringKey": "Guide_SkillUI_Training_Title",
+        "DescStringKey": "Guide_SkillUI_Training_Desc_1_PC",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_F_Square"
+        ],
+        "BlockingWidgetEventNameList": [
+          "PressLeft",
+          "PressRight"
+        ],
+        "NextTutorialAlias": "None",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "None",
+        "CompleteWidgetEventName": "RequestTrainingRoom",
+        "CompleteAchievementAlias": "Ach_UT_SkillUnlock_Blink_Complete"
+      },
+      "UT_SkillUnlock_Repulse_0": {
+        "ID": 100401,
+        "TitleStringKey": "Guide_SkillUI_Training_Title",
+        "DescStringKey": "Guide_SkillUI_Training_Desc_1_PC",
+        "bBlockNavigation": true,
+        "EnableInputAliases": [
+          "UI_F_Square"
+        ],
+        "BlockingWidgetEventNameList": [
+          "PressLeft",
+          "PressRight"
+        ],
+        "NextTutorialAlias": "None",
+        "OpenUILogicType": "ESBUILogicType::ESBUILogicType_NONE",
+        "OpenUIType": "ESBUIGameMenuType::ESBUIGameMenuType_Default",
+        "StartConditionGroup": "CG_UT_SkillUnlock_Repulse",
+        "CompleteWidgetEventName": "RequestTrainingRoom",
+        "CompleteAchievementAlias": "Ach_UT_SkillUnlock_Repulse_Complete"
+      }
+    }
+  }
+]

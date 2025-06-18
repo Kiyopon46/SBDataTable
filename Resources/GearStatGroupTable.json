@@ -1,0 +1,523 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GearStatGroupTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBGearStatGroupTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "Group"
+      ]
+    },
+    "Rows": {
+      "Base_Effect_CriticalPercentage": {
+        "ID": 10001,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveFixedDamage": {
+        "ID": 10002,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MaxShield": {
+        "ID": 10003,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_BetaGaugeAdditiveRate": {
+        "ID": 10004,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ShieldIgnorePercentage": {
+        "ID": 10005,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ShieldAttackPowerRate": {
+        "ID": 10006,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_RangeAttackDamageReductionRate": {
+        "ID": 10007,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_RangeAttackDamageAdditiveRate": {
+        "ID": 10008,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MeleeAttackDamageReductionRate": {
+        "ID": 10009,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_HighHpDamageAdditiveRate": {
+        "ID": 10010,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_CriticalValueRate": {
+        "ID": 10011,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_LowHpDamageAdditiveRate": {
+        "ID": 10012,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveSkillDamageGroup5": {
+        "ID": 10013,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveSkillDamageGroup6": {
+        "ID": 10014,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveGiveAndReciveDamageRate": {
+        "ID": 10015,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_KillEnemyAdditiveDamageRate": {
+        "ID": 10016,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_KillEnemyHealHP": {
+        "ID": 10017,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MeleeRangeDamageReductionRate": {
+        "ID": 10018,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ComboAttackAdditiveDamage": {
+        "ID": 10019,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_BetaCrystalAdditiveRate": {
+        "ID": 10020,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_BurstGaugeAdditiveRate": {
+        "ID": 10021,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_GainBetaGaugeValueOnDamaged": {
+        "ID": 10022,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_SPExpAdditiveRate": {
+        "ID": 10023,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AttackSpeed": {
+        "ID": 10024,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MaxBurstGauge": {
+        "ID": 10025,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_GainBurstGaugeValueOnDamaged": {
+        "ID": 10026,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ShieldZero": {
+        "ID": 10027,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldZero",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_CriticalPercentage_MK2": {
+        "ID": 10028,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveFixedDamage_MK2": {
+        "ID": 10029,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MaxShield_MK2": {
+        "ID": 10030,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_BetaGaugeAdditiveRate_MK2": {
+        "ID": 10031,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ShieldIgnorePercentage_MK2": {
+        "ID": 10032,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ShieldAttackPowerRate_MK2": {
+        "ID": 10033,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_RangeAttackDamageReductionRate_MK2": {
+        "ID": 10034,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_RangeAttackDamageAdditiveRate_MK2": {
+        "ID": 10035,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MeleeAttackDamageReductionRate_MK2": {
+        "ID": 10036,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_HighHpDamageAdditiveRate_MK2": {
+        "ID": 10037,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_CriticalValueRate_MK2": {
+        "ID": 10038,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_LowHpDamageAdditiveRate_MK2": {
+        "ID": 10039,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveSkillDamageGroup5_MK2": {
+        "ID": 10040,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveSkillDamageGroup6_MK2": {
+        "ID": 10041,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AdditiveGiveAndReciveDamageRate_MK2": {
+        "ID": 10042,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_KillEnemyAdditiveDamageRate_MK2": {
+        "ID": 10043,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_KillEnemyHealHP_MK2": {
+        "ID": 10044,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MeleeRangeDamageReductionRate_MK2": {
+        "ID": 10045,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ComboAttackAdditiveDamage_MK2": {
+        "ID": 10046,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_BetaCrystalAdditiveRate_MK2": {
+        "ID": 10047,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_BurstGaugeAdditiveRate_MK2": {
+        "ID": 10048,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_GainBetaGaugeValueOnDamaged_MK2": {
+        "ID": 10049,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_SPExpAdditiveRate_MK2": {
+        "ID": 10050,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_AttackSpeed_MK2": {
+        "ID": 10051,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_MaxBurstGauge_MK2": {
+        "ID": 10052,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_GainBurstGaugeValueOnDamaged_MK2": {
+        "ID": 10053,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_TachyFusionEarring": {
+        "ID": 10054,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "TachyFusionEarring",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ScarletNanoSuit": {
+        "ID": 10055,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ScarletNanoSuit",
+        "FileSuffix": "None"
+      },
+      "Base_Effect_ScarletHair": {
+        "ID": 10056,
+        "Group": "None",
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ScarletHair",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

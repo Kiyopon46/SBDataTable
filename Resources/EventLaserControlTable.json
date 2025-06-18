@@ -1,0 +1,979 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventLaserControlTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventLaserControlTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "FA_02_E_LaserC_001": {
+        "ID": 1,
+        "LaserUniqueName": "laserFA0201",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_02_E_LaserC_002": {
+        "ID": 2,
+        "LaserUniqueName": "laserFA0202",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_02_E_LaserC_003": {
+        "ID": 3,
+        "LaserUniqueName": "laserFA0203",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_02_E_LaserC_004": {
+        "ID": 4,
+        "LaserUniqueName": "FA0202",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_001": {
+        "ID": 5,
+        "LaserUniqueName": "FA030101",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_002": {
+        "ID": 6,
+        "LaserUniqueName": "FA030102",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_003": {
+        "ID": 7,
+        "LaserUniqueName": "FA030103",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_004": {
+        "ID": 8,
+        "LaserUniqueName": "FA030101",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_005": {
+        "ID": 9,
+        "LaserUniqueName": "FA030102",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_006": {
+        "ID": 10,
+        "LaserUniqueName": "FA030103",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_008": {
+        "ID": 11,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_009": {
+        "ID": 12,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_010": {
+        "ID": 13,
+        "LaserUniqueName": "FA030201",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_011": {
+        "ID": 14,
+        "LaserUniqueName": "FA030202",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_012": {
+        "ID": 15,
+        "LaserUniqueName": "FA030203",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_013": {
+        "ID": 16,
+        "LaserUniqueName": "FA030204",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_014": {
+        "ID": 17,
+        "LaserUniqueName": "FA030205",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_015": {
+        "ID": 18,
+        "LaserUniqueName": "FA030206",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_016": {
+        "ID": 19,
+        "LaserUniqueName": "FA030301",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_017": {
+        "ID": 20,
+        "LaserUniqueName": "FA030302",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_018": {
+        "ID": 21,
+        "LaserUniqueName": "FA030303",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_019": {
+        "ID": 22,
+        "LaserUniqueName": "FA030301",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_020": {
+        "ID": 23,
+        "LaserUniqueName": "FA030302",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_021": {
+        "ID": 24,
+        "LaserUniqueName": "FA030303",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_022": {
+        "ID": 25,
+        "LaserUniqueName": "FA030201",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_023": {
+        "ID": 26,
+        "LaserUniqueName": "FA030202",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_024": {
+        "ID": 27,
+        "LaserUniqueName": "FA030203",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_025": {
+        "ID": 28,
+        "LaserUniqueName": "FA030204",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_026": {
+        "ID": 29,
+        "LaserUniqueName": "FA030205",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "FA_03_E_LaserC_027": {
+        "ID": 30,
+        "LaserUniqueName": "FA030206",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_001": {
+        "ID": 31,
+        "LaserUniqueName": "abc",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_002": {
+        "ID": 32,
+        "LaserUniqueName": "on",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_003": {
+        "ID": 33,
+        "LaserUniqueName": "off",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_004": {
+        "ID": 34,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_None",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_005": {
+        "ID": 35,
+        "LaserUniqueName": "auto",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_006": {
+        "ID": 36,
+        "LaserUniqueName": "auto",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_007": {
+        "ID": 37,
+        "LaserUniqueName": "laserA",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_008": {
+        "ID": 38,
+        "LaserUniqueName": "laserB",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_009": {
+        "ID": 39,
+        "LaserUniqueName": "laserC",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_010": {
+        "ID": 40,
+        "LaserUniqueName": "laserD",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_LaserC_011": {
+        "ID": 41,
+        "LaserUniqueName": "Fa0301",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_E_LaserC_001": {
+        "ID": 42,
+        "LaserUniqueName": "TempLaser01",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_E_LaserC_002": {
+        "ID": 43,
+        "LaserUniqueName": "TempLaser01",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_E_LaserC_003": {
+        "ID": 44,
+        "LaserUniqueName": "TempLaser02",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_E_LaserC_004": {
+        "ID": 45,
+        "LaserUniqueName": "TempLaser02",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_E_LaserC_005": {
+        "ID": 46,
+        "LaserUniqueName": "TempLaser03",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_E_LaserC_006": {
+        "ID": 47,
+        "LaserUniqueName": "TempLaser03",
+        "LaserGroupName": "None",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_001": {
+        "ID": 48,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaser",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_002": {
+        "ID": 49,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaser",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_003": {
+        "ID": 50,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaser",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_004": {
+        "ID": 51,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaser_Damage",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_005": {
+        "ID": 52,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaser_Damage",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_006": {
+        "ID": 53,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaserGroup2",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_007": {
+        "ID": 54,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaserGroup3",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_008": {
+        "ID": 55,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaserGroup2",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_06_E_LaserC_009": {
+        "ID": 56,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "SE_06_01_TrapLaserGroup3",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_LaserC_006": {
+        "ID": 104,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "WLB50Laser0301",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_LaserC_005": {
+        "ID": 103,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "WLB50Laser0301",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_LaserC_004": {
+        "ID": 101,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "WLBLaser0101",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_LaserC_007": {
+        "ID": 106,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "NGlaser01",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_LaserC_001": {
+        "ID": 75,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0101",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_LaserC_006": {
+        "ID": 105,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "NGlaser01",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_033": {
+        "ID": 88,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0302",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_032": {
+        "ID": 87,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0302",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_017": {
+        "ID": 86,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0308",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_012": {
+        "ID": 85,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL030103",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_011": {
+        "ID": 84,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL030103",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_010": {
+        "ID": 74,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL030102",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_009": {
+        "ID": 73,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL030102",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_008": {
+        "ID": 72,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0304",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_007": {
+        "ID": 71,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0304",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_006": {
+        "ID": 70,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0303",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_005": {
+        "ID": 69,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0303",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_002": {
+        "ID": 68,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0301",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_LaserC_001": {
+        "ID": 67,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL0301",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_LaserC_005": {
+        "ID": 100,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "LaserATL03",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_LaserC_006": {
+        "ID": 83,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0103",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_LaserC_005": {
+        "ID": 82,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0103",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_LaserC_004": {
+        "ID": 81,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0102",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_LaserC_003": {
+        "ID": 80,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0102",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_LaserC_002": {
+        "ID": 79,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0101",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_LaserC_001": {
+        "ID": 78,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0101",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_008": {
+        "ID": 90,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_D",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_007": {
+        "ID": 89,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_C",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_010": {
+        "ID": 98,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0204",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_009": {
+        "ID": 97,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0204",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_006": {
+        "ID": 96,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0203",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_005": {
+        "ID": 95,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0203",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_004": {
+        "ID": 94,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0202",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_003": {
+        "ID": 93,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0202",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_002": {
+        "ID": 92,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0201",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_LaserC_001": {
+        "ID": 91,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "AYL0201",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_006": {
+        "ID": 65,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_B",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_005": {
+        "ID": 64,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_D",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_004": {
+        "ID": 63,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_C",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_003": {
+        "ID": 62,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_B",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_002": {
+        "ID": 61,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_A",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_LaserC_001": {
+        "ID": 60,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "Laser_Type01_AYL_04_Sector7_A",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_LaserC_004": {
+        "ID": 99,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "LaserATL03",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_LaserC_003": {
+        "ID": 77,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL020101",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_LaserC_003": {
+        "ID": 59,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "WLBLaser0101",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_KYH_01_E_LaserC_002": {
+        "ID": 107,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "KYH_TEST_Train_01",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_LaserC_002": {
+        "ID": 58,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "WLBLaser0101",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_LaserC_001": {
+        "ID": 57,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "WLBLaser0101",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_LaserC_002": {
+        "ID": 76,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "LaserATL03",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_LaserC_001": {
+        "ID": 66,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "ATL020101",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_KYH_01_E_LaserC_001": {
+        "ID": 102,
+        "LaserUniqueName": "None",
+        "LaserGroupName": "LV_TEST_KYH",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

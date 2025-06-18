@@ -1,0 +1,2463 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CheatQuestTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBCheatQuestTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Quest_Sub_001_Acquire": {
+        "ID": 1,
+        "CheatProgressQuestCommandsTable": "EP03_AcquireKaya001",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -8139.9077,
+          "Y": -1828.4756,
+          "Z": -40.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub001_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_002_Acquire": {
+        "ID": 2,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -8139.9077,
+          "Y": -1828.4756,
+          "Z": -40.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub002_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_005_Acquire": {
+        "ID": 3,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5662.699,
+          "Y": -4186.0977,
+          "Z": -305.75397
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub005_Acquire",
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_006_Acquire": {
+        "ID": 4,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5662.699,
+          "Y": -4186.0977,
+          "Z": -305.75397
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub006_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_007_Acquire": {
+        "ID": 5,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12711.866,
+          "Y": 18912.48,
+          "Z": 76.029396
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub007_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_011_Acquire": {
+        "ID": 6,
+        "CheatProgressQuestCommandsTable": "EP03_1stEnterXion",
+        "bMaintainSubQuest": true,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 47269.367,
+          "Y": 18182.463,
+          "Z": -7410.4126
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub011_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_012_Acquire": {
+        "ID": 7,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 47269.367,
+          "Y": 18182.463,
+          "Z": -7410.4126
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub012_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_016_Acquire": {
+        "ID": 8,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 38393.855,
+          "Y": 10346.91,
+          "Z": -20237.06
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_017_Acquire": {
+        "ID": 9,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 9939.834,
+          "Y": -3784.1997,
+          "Z": 1645.2921
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub017_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_018_Acquire": {
+        "ID": 10,
+        "CheatProgressQuestCommandsTable": "EP03_1stEnterXion",
+        "bMaintainSubQuest": true,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 14281.927,
+          "Y": -14363.501,
+          "Z": 3053.374
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub018_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_019_Acquire": {
+        "ID": 11,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": -19681.982,
+          "Y": -39523.824,
+          "Z": -18181.012
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub019_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_020_Acquire": {
+        "ID": 12,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -1580.4517,
+          "Y": -4069.9575,
+          "Z": 558.0963
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_021_Acquire": {
+        "ID": 13,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 34022.57,
+          "Y": -1149.2249,
+          "Z": -34666.277
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub021_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_022_Acquire": {
+        "ID": 14,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "DrownedEidosDistrict",
+        "StartSpawnLocation": {
+          "X": 37229.312,
+          "Y": -17156.268,
+          "Z": 19096.086
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub022_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_023_Acquire": {
+        "ID": 15,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "DrownedEidosDistrict",
+        "StartSpawnLocation": {
+          "X": 32411.412,
+          "Y": -16434.79,
+          "Z": 20266.467
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub023_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_024_Acquire": {
+        "ID": 16,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 10213.073,
+          "Y": -4076.1553,
+          "Z": 1649.8455
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub024_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_025_Acquire": {
+        "ID": 17,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": -14097.382,
+          "Y": 56979.395,
+          "Z": -18704.686
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub025_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_026_Acquire": {
+        "ID": 18,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -3234.0552,
+          "Y": 7307.8706,
+          "Z": 533.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub026_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_027_Acquire": {
+        "ID": 19,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12423.732,
+          "Y": 2314.1677,
+          "Z": 814.01697
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub027_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_028_Acquire": {
+        "ID": 20,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -17675.213,
+          "Y": 17116.883,
+          "Z": 551.6827
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_029_Acquire": {
+        "ID": 21,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12648.969,
+          "Y": 12222.06,
+          "Z": 181.06453
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_030_Acquire": {
+        "ID": 22,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -10227.633,
+          "Y": 8292.554,
+          "Z": -831.23615
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_001_Acquire_Reset": {
+        "ID": 23,
+        "CheatProgressQuestCommandsTable": "EP03_AcquireKaya001",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -8139.9077,
+          "Y": -1828.4756,
+          "Z": -40.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub001_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_002_Acquire_Reset": {
+        "ID": 24,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -8139.9077,
+          "Y": -1828.4756,
+          "Z": -40.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub002_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_005_Acquire_Reset": {
+        "ID": 25,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5662.699,
+          "Y": -4186.0977,
+          "Z": -305.75397
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub005_Acquire",
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_006_Acquire_Reset": {
+        "ID": 26,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5662.699,
+          "Y": -4186.0977,
+          "Z": -305.75397
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub006_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_007_Acquire_Reset": {
+        "ID": 27,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12711.866,
+          "Y": 18912.48,
+          "Z": 76.029396
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub007_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_011_Acquire_Reset": {
+        "ID": 28,
+        "CheatProgressQuestCommandsTable": "EP03_1stEnterXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 47269.367,
+          "Y": 18182.463,
+          "Z": -7410.4126
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub011_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_012_Acquire_Reset": {
+        "ID": 29,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 47269.367,
+          "Y": 18182.463,
+          "Z": -7410.4126
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub012_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_016_Acquire_Reset": {
+        "ID": 30,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 38393.855,
+          "Y": 10346.91,
+          "Z": -20237.06
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_017_Acquire_Reset": {
+        "ID": 31,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 9939.834,
+          "Y": -3784.1997,
+          "Z": 1645.2921
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub017_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_018_Acquire_Reset": {
+        "ID": 32,
+        "CheatProgressQuestCommandsTable": "EP03_1stEnterXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 14281.927,
+          "Y": -14363.501,
+          "Z": 3053.374
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub018_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_019_Acquire_Reset": {
+        "ID": 33,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": -19681.982,
+          "Y": -39523.824,
+          "Z": -18181.012
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub019_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_020_Acquire_Reset": {
+        "ID": 34,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -1580.4517,
+          "Y": -4069.9575,
+          "Z": 558.0963
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_021_Acquire_Reset": {
+        "ID": 35,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 34022.57,
+          "Y": -1149.2249,
+          "Z": -34666.277
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub021_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_022_Acquire_Reset": {
+        "ID": 36,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "DrownedEidosDistrict",
+        "StartSpawnLocation": {
+          "X": 37229.312,
+          "Y": -17156.268,
+          "Z": 19096.086
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub022_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_023_Acquire_Reset": {
+        "ID": 37,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "DrownedEidosDistrict",
+        "StartSpawnLocation": {
+          "X": 32411.412,
+          "Y": -16434.79,
+          "Z": 20266.467
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub023_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_024_Acquire_Reset": {
+        "ID": 38,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 10213.073,
+          "Y": -4076.1553,
+          "Z": 1649.8455
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub024_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_025_Acquire_Reset": {
+        "ID": 39,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": -14097.382,
+          "Y": 56979.395,
+          "Z": -18704.686
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub025_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_026_Acquire_Reset": {
+        "ID": 40,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -3234.0552,
+          "Y": 7307.8706,
+          "Z": 533.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub026_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_027_Acquire_Reset": {
+        "ID": 41,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12423.732,
+          "Y": 2314.1677,
+          "Z": 814.01697
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub027_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_028_Acquire_Reset": {
+        "ID": 42,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -17675.213,
+          "Y": 17116.883,
+          "Z": 551.6827
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_029_Acquire_Reset": {
+        "ID": 43,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12648.969,
+          "Y": 12222.06,
+          "Z": 181.06453
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_030_Acquire_Reset": {
+        "ID": 44,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -10227.633,
+          "Y": 8292.554,
+          "Z": -831.23615
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_001_Acquire": {
+        "ID": 45,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request001_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_002_Acquire": {
+        "ID": 46,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request002_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_003_Acquire": {
+        "ID": 47,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request003_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_004_Acquire": {
+        "ID": 48,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request004_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_005_Acquire": {
+        "ID": 49,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request005_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_006_Acquire": {
+        "ID": 50,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request006_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_007_Acquire": {
+        "ID": 51,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request007_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_008_Acquire": {
+        "ID": 52,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request008_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_009_Acquire": {
+        "ID": 53,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request009_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_010_Acquire": {
+        "ID": 54,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request010_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_012_Acquire": {
+        "ID": 56,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request012_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_013_Acquire": {
+        "ID": 57,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request013_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_014_Acquire": {
+        "ID": 58,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request014_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_015_Acquire": {
+        "ID": 59,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request015_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_016_Acquire": {
+        "ID": 60,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request016_Acquire",
+          "Progress_Quest_Sub024_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_017_Acquire": {
+        "ID": 61,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request017_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_018_Acquire": {
+        "ID": 62,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request018_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_019_Acquire": {
+        "ID": 63,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request019_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_020_Acquire": {
+        "ID": 64,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request020_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_021_Acquire": {
+        "ID": 65,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request021_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_022_Acquire": {
+        "ID": 66,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request022_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_001_Acquire_Reset": {
+        "ID": 67,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request001_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_002_Acquire_Reset": {
+        "ID": 68,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request002_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_003_Acquire_Reset": {
+        "ID": 69,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request003_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_004_Acquire_Reset": {
+        "ID": 70,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request004_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_005_Acquire_Reset": {
+        "ID": 71,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request005_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_006_Acquire_Reset": {
+        "ID": 72,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request006_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_007_Acquire_Reset": {
+        "ID": 73,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request007_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_008_Acquire_Reset": {
+        "ID": 74,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request008_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_009_Acquire_Reset": {
+        "ID": 75,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request009_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_010_Acquire_Reset": {
+        "ID": 76,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request010_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_012_Acquire_Reset": {
+        "ID": 78,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request012_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_013_Acquire_Reset": {
+        "ID": 79,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request013_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_014_Acquire_Reset": {
+        "ID": 80,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request014_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_015_Acquire_Reset": {
+        "ID": 81,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request015_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_016_Acquire_Reset": {
+        "ID": 82,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request016_Acquire",
+          "Progress_Quest_Sub024_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_017_Acquire_Reset": {
+        "ID": 83,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request017_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_018_Acquire_Reset": {
+        "ID": 84,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request018_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_019_Acquire_Reset": {
+        "ID": 85,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request019_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_020_Acquire_Reset": {
+        "ID": 86,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request020_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_021_Acquire_Reset": {
+        "ID": 87,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request021_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_022_Acquire_Reset": {
+        "ID": 88,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request022_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_Hidden_Available": {
+        "ID": 89,
+        "CheatProgressQuestCommandsTable": "EP09_AgitToSE",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12950.0,
+          "Y": 18600.0,
+          "Z": 50.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Epic_Hidden_Available"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Lily_Xion": {
+        "ID": 90,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12945.311,
+          "Y": 19047.64,
+          "Z": 77.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub029_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Lily_DED": {
+        "ID": 91,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "DrownedEidosDistrict",
+        "StartSpawnLocation": {
+          "X": 44642.76,
+          "Y": -88091.55,
+          "Z": 15031.539
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub029_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Lily_DEDA": {
+        "ID": 92,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "DEDA",
+        "StartSpawnLocation": {
+          "X": -3435.3745,
+          "Y": -55663.637,
+          "Z": 16224.753
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Lily_DEDA"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Lily_WLB": {
+        "ID": 93,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 40982.5,
+          "Y": -19035.709,
+          "Z": -19913.021
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub029_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Lily_ME": {
+        "ID": 94,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 11955.754,
+          "Y": 33634.39,
+          "Z": -19111.309
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub029_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Lily_SE": {
+        "ID": 95,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "SpaceElevator",
+        "StartSpawnLocation": {
+          "X": 14013.764,
+          "Y": -25693.688,
+          "Z": 4861.5317
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub029_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_DiggerEnya": {
+        "ID": 96,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Digger",
+          "Progress_Quest_Test_P5Xion_Enya"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Digger": {
+        "ID": 97,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Digger"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Enya": {
+        "ID": 98,
+        "CheatProgressQuestCommandsTable": "EP11_AfterAdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Enya"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_DiggerEnya_Adios": {
+        "ID": 99,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Digger",
+          "Progress_Quest_Test_P5Xion_Enya"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Digger_Adios": {
+        "ID": 100,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Digger"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Enya_Adios": {
+        "ID": 101,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Enya"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_031_Acquire": {
+        "ID": 102,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -3519.5117,
+          "Y": 1670.8347,
+          "Z": 193.49799
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_032_Acquire": {
+        "ID": 103,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -7808.303,
+          "Y": 6619.5728,
+          "Z": 336.12457
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_033_Acquire": {
+        "ID": 104,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -8929.592,
+          "Y": 7315.9253,
+          "Z": 184.5
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_034_Acquire": {
+        "ID": 105,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5116.423,
+          "Y": -3033.9639,
+          "Z": -66.542465
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_035_Acquire": {
+        "ID": 106,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 10186.291,
+          "Y": -4137.643,
+          "Z": 1656.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub035_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_036_Acquire": {
+        "ID": 107,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": true,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": -28163.422,
+          "Y": 37428.387,
+          "Z": -2480.1929
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_037_Acquire": {
+        "ID": 108,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -4247.195,
+          "Y": 205.30795,
+          "Z": 437.38632
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub037_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_038_Acquire": {
+        "ID": 109,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -4488.4854,
+          "Y": 631.55786,
+          "Z": 48.188927
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub038_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_039_Acquire": {
+        "ID": 110,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5935.1416,
+          "Y": 3880.4094,
+          "Z": 148.61923
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_040_Acquire": {
+        "ID": 111,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12500.781,
+          "Y": 2178.422,
+          "Z": 784.966
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub040_Acquire",
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_041_Acquire": {
+        "ID": 112,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5332.3604,
+          "Y": 7647.7715,
+          "Z": 689.19507
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub041_Acquire",
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_042_Acquire": {
+        "ID": 113,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 743.9246,
+          "Y": 980.1874,
+          "Z": 547.96014
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub042_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_043_Acquire": {
+        "ID": 114,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": true,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -4777.3096,
+          "Y": 3178.504,
+          "Z": 209.49072
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_031_Acquire_Reset": {
+        "ID": 115,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -3519.5117,
+          "Y": 1670.8347,
+          "Z": 193.49799
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_032_Acquire_Reset": {
+        "ID": 116,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -7808.303,
+          "Y": 6619.5728,
+          "Z": 336.12457
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_033_Acquire_Reset": {
+        "ID": 117,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -8929.592,
+          "Y": 7315.9253,
+          "Z": 184.5
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_034_Acquire_Reset": {
+        "ID": 118,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5116.423,
+          "Y": -3033.9639,
+          "Z": -66.542465
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_035_Acquire_Reset": {
+        "ID": 119,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 10186.291,
+          "Y": -4137.643,
+          "Z": 1656.0
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub035_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_036_Acquire_Reset": {
+        "ID": 120,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": -28163.422,
+          "Y": 37428.387,
+          "Z": -2480.1929
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_037_Acquire_Reset": {
+        "ID": 121,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -4247.195,
+          "Y": 205.30795,
+          "Z": 437.38632
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub037_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_038_Acquire_Reset": {
+        "ID": 122,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -4488.4854,
+          "Y": 631.55786,
+          "Z": 48.188927
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub038_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_039_Acquire_Reset": {
+        "ID": 123,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5935.1416,
+          "Y": 3880.4094,
+          "Z": 148.61923
+        },
+        "CheatGroupCommands": [
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_040_Acquire_Reset": {
+        "ID": 124,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -12500.781,
+          "Y": 2178.422,
+          "Z": 784.966
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub040_Acquire",
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_041_Acquire_Reset": {
+        "ID": 125,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5332.3604,
+          "Y": 7647.7715,
+          "Z": 689.19507
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub041_Acquire",
+          "L_CompleteReboot_1",
+          "L_CompleteReboot_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_042_Acquire_Reset": {
+        "ID": 126,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": 743.9246,
+          "Y": 980.1874,
+          "Z": 547.96014
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Sub042_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Sub_043_Acquire_Reset": {
+        "ID": 127,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -4777.3096,
+          "Y": 3178.504,
+          "Z": 209.49072
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Test_Boss_WLB_Behemoth": {
+        "ID": 128,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 84652.02,
+          "Y": -66251.984,
+          "Z": -19677.84
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_Boss_WLB_Behemoth"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_Boss_WLB_Opener": {
+        "ID": 129,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 39010.58,
+          "Y": 32981.71,
+          "Z": -16780.455
+        },
+        "CheatGroupCommands": [
+          "Quest_Sub_337"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_Boss_WLB_Sawshark": {
+        "ID": 130,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": -24915.762,
+          "Y": 30506.129,
+          "Z": -20462.67
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Test_Boss_WLA_Gorilla": {
+        "ID": 131,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 47858.035,
+          "Y": 4060.005,
+          "Z": 93.265564
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_Boss_WLA_Gorilla"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_Boss_WLA_Brute": {
+        "ID": 132,
+        "CheatProgressQuestCommandsTable": "EP05_AgitToMatrix",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 8106.6636,
+          "Y": 42054.418,
+          "Z": -12716.041
+        },
+        "CheatGroupCommands": [
+          "Quest_Sub_269"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_Boss_WLA_GrubShooter": {
+        "ID": 133,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandA",
+        "StartSpawnLocation": {
+          "X": 38784.797,
+          "Y": 31459.684,
+          "Z": -8731.875
+        },
+        "CheatGroupCommands": [],
+        "FileSuffix": "None"
+      },
+      "Test_1stEnterWLB_HiddenQuestAvailable": {
+        "ID": 134,
+        "CheatProgressQuestCommandsTable": "EP08_1stEnterWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 40527.18,
+          "Y": -18906.188,
+          "Z": -19863.295
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Epic_Hidden_Available",
+          "L_TP_Camp_55"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_023_Acquire": {
+        "ID": 135,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request023_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_023_Acquire_Reset": {
+        "ID": 136,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request023_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_024_Acquire": {
+        "ID": 137,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request024_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_024_Acquire_Reset": {
+        "ID": 138,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request024_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_025_Acquire": {
+        "ID": 139,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request025_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_025_Acquire_Reset": {
+        "ID": 140,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request025_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_026_Acquire": {
+        "ID": 141,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request026_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_026_Acquire_Reset": {
+        "ID": 142,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request026_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_027_Acquire": {
+        "ID": 143,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request027_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_027_Acquire_Reset": {
+        "ID": 144,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request027_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_028_Acquire": {
+        "ID": 145,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request028_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_028_Acquire_Reset": {
+        "ID": 146,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request028_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_Clyde_TheaterSelect": {
+        "ID": 147,
+        "CheatProgressQuestCommandsTable": "EP07_AgitToWLB",
+        "bMaintainSubQuest": false,
+        "StartWorld": "WasteLandB",
+        "StartSpawnLocation": {
+          "X": 38564.668,
+          "Y": 9822.534,
+          "Z": -20276.521
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_Clyde_TheaterSelect"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_Enya03_Theater": {
+        "ID": 148,
+        "CheatProgressQuestCommandsTable": "EP09_AgitToSE",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5787.4995,
+          "Y": -4128.517,
+          "Z": -277.6731
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_Enya_TheaterSelect"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_R_E_K_D": {
+        "ID": 149,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Roxane",
+          "Progress_Quest_Test_P5Xion_Enya",
+          "Progress_Quest_Test_P5Xion_Kasim",
+          "Progress_Quest_Test_P5Xion_Digger"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_R_E_K": {
+        "ID": 150,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Roxane",
+          "Progress_Quest_Test_P5Xion_Enya",
+          "Progress_Quest_Test_P5Xion_Kasim"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_R_E": {
+        "ID": 151,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Roxane",
+          "Progress_Quest_Test_P5Xion_Enya"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_R_K": {
+        "ID": 152,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Roxane",
+          "Progress_Quest_Test_P5Xion_Kasim"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_R": {
+        "ID": 153,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Roxane"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_E_K": {
+        "ID": 154,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Enya",
+          "Progress_Quest_Test_P5Xion_Kasim"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_E": {
+        "ID": 155,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Enya"
+        ],
+        "FileSuffix": "None"
+      },
+      "Test_P5Xion_Adios_K": {
+        "ID": 156,
+        "CheatProgressQuestCommandsTable": "EP11_AdiosXion",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -9392.331,
+          "Y": 7632.0312,
+          "Z": 201.42491
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Test_P5Xion_Kaya",
+          "Progress_Quest_Test_P5Xion_Kasim"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_029_Acquire": {
+        "ID": 157,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request029_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_029_Acquire_Reset": {
+        "ID": 158,
+        "CheatProgressQuestCommandsTable": "EP03_AfterRangemode",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request029_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_030_Acquire": {
+        "ID": 159,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request030_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_030_Acquire_Reset": {
+        "ID": 160,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request030_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_031_Acquire": {
+        "ID": 161,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request031_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_031_Acquire_Reset": {
+        "ID": 162,
+        "CheatProgressQuestCommandsTable": "EP08_AbyssLabStart",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request031_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_032_Acquire": {
+        "ID": 163,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request032_Acquire"
+        ],
+        "FileSuffix": "None"
+      },
+      "Quest_Request_032_Acquire_Reset": {
+        "ID": 164,
+        "CheatProgressQuestCommandsTable": "EP04_RoyalGuardQuiel",
+        "bMaintainSubQuest": false,
+        "StartWorld": "Xion",
+        "StartSpawnLocation": {
+          "X": -5418.9717,
+          "Y": 7629.8843,
+          "Z": 717.848
+        },
+        "CheatGroupCommands": [
+          "Progress_Quest_Request032_Acquire"
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

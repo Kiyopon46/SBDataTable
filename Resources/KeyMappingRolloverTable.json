@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "KeyMappingRolloverTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBKeyMappingRolloverTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "counterattack_twokey": {
+        "ID": 1,
+        "FirstKey": "counterattack_twokey_1",
+        "SecondKey": "counterattack_twokey_2",
+        "FileSuffix": "None"
+      },
+      "tachymode_twokey": {
+        "ID": 2,
+        "FirstKey": "tachymode_twokey_1",
+        "SecondKey": "tachymode_twokey_2",
+        "FileSuffix": "None"
+      },
+      "photomode_twokey": {
+        "ID": 3,
+        "FirstKey": "photomode_twokey2",
+        "SecondKey": "photomode_twokey1",
+        "FileSuffix": "None"
+      },
+      "betaskill_1": {
+        "ID": 4,
+        "FirstKey": "betaskill_mode",
+        "SecondKey": "betaskill_1",
+        "FileSuffix": "None"
+      },
+      "betaskill_2": {
+        "ID": 5,
+        "FirstKey": "betaskill_mode",
+        "SecondKey": "betaskill_2",
+        "FileSuffix": "None"
+      },
+      "betaskill_3": {
+        "ID": 6,
+        "FirstKey": "betaskill_mode",
+        "SecondKey": "betaskill_3",
+        "FileSuffix": "None"
+      },
+      "betaskill_4": {
+        "ID": 7,
+        "FirstKey": "betaskill_mode",
+        "SecondKey": "betaskill_4",
+        "FileSuffix": "None"
+      },
+      "burstskill_1": {
+        "ID": 8,
+        "FirstKey": "burstskill_mode",
+        "SecondKey": "burstskill_1",
+        "FileSuffix": "None"
+      },
+      "burstskill_2": {
+        "ID": 9,
+        "FirstKey": "burstskill_mode",
+        "SecondKey": "burstskill_2",
+        "FileSuffix": "None"
+      },
+      "burstskill_3": {
+        "ID": 10,
+        "FirstKey": "burstskill_mode",
+        "SecondKey": "burstskill_3",
+        "FileSuffix": "None"
+      },
+      "burstskill_4": {
+        "ID": 11,
+        "FirstKey": "burstskill_mode",
+        "SecondKey": "burstskill_4",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

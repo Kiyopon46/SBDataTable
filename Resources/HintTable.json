@@ -1,0 +1,891 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "HintTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBHintTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "SYS01_HintA": {
+        "ID": 1,
+        "DelayActivateTimeSec": 3,
+        "LongTimeDelayActivateTimeSec": 10,
+        "HintMessage_StringKey": "Guide_Hint_F02_PasscodeCorpse",
+        "ActivateZoneTriggerAliasArray": [
+          "SYS01_ZTrigger_014"
+        ],
+        "FileSuffix": "None"
+      },
+      "SYS01_HintB": {
+        "ID": 2,
+        "DelayActivateTimeSec": 3,
+        "LongTimeDelayActivateTimeSec": 10,
+        "HintMessage_StringKey": "Guide_Hint_F02_1stFusioncellCar",
+        "ActivateZoneTriggerAliasArray": [
+          "SYS01_ZTrigger_017"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_PasscodeCorpse": {
+        "ID": 1101,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_PasscodeCorpse",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_079"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_ActiveSimpleCamp": {
+        "ID": 1102,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_ActiveSimpleCamp",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_098"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_FollowRegionMark": {
+        "ID": 1103,
+        "DelayActivateTimeSec": 120,
+        "LongTimeDelayActivateTimeSec": 300,
+        "HintMessage_StringKey": "Guide_Hint_F02_FollowRegionMark",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_099"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_1stFusioncellCar": {
+        "ID": 1104,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_1stFusioncellCar",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_080",
+          "DED10_ZTrigger_081"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_MoveBoard": {
+        "ID": 1105,
+        "DelayActivateTimeSec": 180,
+        "LongTimeDelayActivateTimeSec": 330,
+        "HintMessage_StringKey": "Guide_Hint_F02_MoveBoard",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_082"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_ParkinglotFusioncellCar": {
+        "ID": 1106,
+        "DelayActivateTimeSec": 300,
+        "LongTimeDelayActivateTimeSec": 510,
+        "HintMessage_StringKey": "Guide_Hint_F02_ParkinglotFusioncellCar",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_083"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_ParkinglotCountBox": {
+        "ID": 1107,
+        "DelayActivateTimeSec": 300,
+        "LongTimeDelayActivateTimeSec": 510,
+        "HintMessage_StringKey": "Guide_Hint_F02_ParkinglotCountBox",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_083"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_BasementParkinglotEnter": {
+        "ID": 1108,
+        "DelayActivateTimeSec": 300,
+        "LongTimeDelayActivateTimeSec": 510,
+        "HintMessage_StringKey": "Guide_Hint_F02_BasementParkinglotEnter",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_084"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_Active_FusionDrive": {
+        "ID": 1109,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_Active_FusionDrive",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_084"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_MonorailSwitch": {
+        "ID": 1110,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_MonorailSwitch",
+        "ActivateZoneTriggerAliasArray": [
+          "DED20_ZTrigger_088"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_MonorailPuzzle": {
+        "ID": 1111,
+        "DelayActivateTimeSec": 180,
+        "LongTimeDelayActivateTimeSec": 510,
+        "HintMessage_StringKey": "Guide_Hint_F02_MonorailPuzzle",
+        "ActivateZoneTriggerAliasArray": [
+          "DED20_ZTrigger_088"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_ShoppingmallCorpse": {
+        "ID": 1112,
+        "DelayActivateTimeSec": 120,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_ShoppingmallCorpse",
+        "ActivateZoneTriggerAliasArray": [
+          "DED20_ZTrigger_107"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_ClockPuzzle": {
+        "ID": 1113,
+        "DelayActivateTimeSec": 120,
+        "LongTimeDelayActivateTimeSec": 240,
+        "HintMessage_StringKey": "Guide_Hint_F02_ClockPuzzle",
+        "ActivateZoneTriggerAliasArray": [
+          "DED20_ZTrigger_089"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_MemorialTowerPower": {
+        "ID": 1114,
+        "DelayActivateTimeSec": 180,
+        "LongTimeDelayActivateTimeSec": 330,
+        "HintMessage_StringKey": "Guide_Hint_F02_MemorialTowerPower",
+        "ActivateZoneTriggerAliasArray": [
+          "DED20_ZTrigger_090"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_MemorialTowerFusioncell": {
+        "ID": 1115,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_MemorialTowerFusioncell",
+        "ActivateZoneTriggerAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "F02_CraneAccess": {
+        "ID": 1117,
+        "DelayActivateTimeSec": 120,
+        "LongTimeDelayActivateTimeSec": 240,
+        "HintMessage_StringKey": "Guide_Hint_F02_CraneAccess",
+        "ActivateZoneTriggerAliasArray": [
+          "DED20_ZTrigger_092",
+          "DED20_ZTrigger_093"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_WatergateAccess": {
+        "ID": 1118,
+        "DelayActivateTimeSec": 120,
+        "LongTimeDelayActivateTimeSec": 240,
+        "HintMessage_StringKey": "Guide_Hint_F02_WatergateAccess",
+        "ActivateZoneTriggerAliasArray": [
+          "DED30_ZTrigger_027"
+        ],
+        "FileSuffix": "None"
+      },
+      "F02_WatergateKey1": {
+        "ID": 1119,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_WatergateKey1",
+        "ActivateZoneTriggerAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "F02_WatergateSwitch2": {
+        "ID": 1120,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_WatergateSwitch2",
+        "ActivateZoneTriggerAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "F02_WatergateKey2": {
+        "ID": 1121,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_F02_WatergateKey2",
+        "ActivateZoneTriggerAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "F02_Blink": {
+        "ID": 1122,
+        "DelayActivateTimeSec": 1,
+        "LongTimeDelayActivateTimeSec": 1,
+        "HintMessage_StringKey": "Guide_Hint_F02_Blink",
+        "ActivateZoneTriggerAliasArray": [
+          "DED10_ZTrigger_105",
+          "DED10_ZTrigger_106"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_GarbageFusioncell": {
+        "ID": 1201,
+        "DelayActivateTimeSec": 200,
+        "LongTimeDelayActivateTimeSec": 500,
+        "HintMessage_StringKey": "Guide_Hint_ME_GarbageFusioncell",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_01_ZTrigger_035",
+          "ME_01_ZTrigger_038"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_SearchSecurityCode": {
+        "ID": 1202,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 450,
+        "HintMessage_StringKey": "Guide_Hint_ME_SearchSecurityCode",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_01_ZTrigger_035",
+          "ME_01_ZTrigger_038"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_InputSecurityCode": {
+        "ID": 1203,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 450,
+        "HintMessage_StringKey": "Guide_Hint_ME_InputSecurityCode",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_01_ZTrigger_035",
+          "ME_01_ZTrigger_038"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_ActiveLandfillFusionDrive": {
+        "ID": 1204,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 450,
+        "HintMessage_StringKey": "Guide_Hint_ME_ActiveLandfillFusionDrive",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_01_ZTrigger_035",
+          "ME_01_ZTrigger_038"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_TrainQTERope": {
+        "ID": 1205,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 285,
+        "HintMessage_StringKey": "Guide_Hint_ME_TrainQTERope",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_02_ZTrigger_026"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_Washmachine": {
+        "ID": 1206,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ME_Washmachine",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_03_ZTrigger_028"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_CollectFusioncell": {
+        "ID": 1207,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_ME_CollectFusioncell",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_04_ZTrigger_045"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_SearchControlSystem": {
+        "ID": 1208,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_ME_SearchControlSystem",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_04_ZTrigger_044"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_SearchFusionCell": {
+        "ID": 1209,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_ME_SearchFusionCell",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_04_ZTrigger_046"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_ActiveFusionDrive": {
+        "ID": 1210,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_ME_ActiveFusionDrive",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_04_ZTrigger_046"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_RestartLift": {
+        "ID": 1211,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_ME_RestartLift",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_05_ZTrigger_020"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_PasscodeCorpse": {
+        "ID": 1212,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ME_PasscodeCorpse",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_05_ZTrigger_021"
+        ],
+        "FileSuffix": "None"
+      },
+      "ME_GrinderJump": {
+        "ID": 1213,
+        "DelayActivateTimeSec": 10,
+        "LongTimeDelayActivateTimeSec": 75,
+        "HintMessage_StringKey": "Guide_Hint_ME_GrinderJump",
+        "ActivateZoneTriggerAliasArray": [
+          "ME_06_ZTrigger_033"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_WaterGateLedge": {
+        "ID": 1301,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 285,
+        "HintMessage_StringKey": "Guide_Hint_B07_WaterGateLedge",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_01_ZTrigger_030"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_OpenTunnelGate": {
+        "ID": 1302,
+        "DelayActivateTimeSec": 300,
+        "LongTimeDelayActivateTimeSec": 510,
+        "HintMessage_StringKey": "Guide_Hint_B07_OpenTunnelGate",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_02_ZTrigger_003"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_ActiveHyperTubeController": {
+        "ID": 1303,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_B07_ActiveHyperTubeController",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_02_ZTrigger_004"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_RangeModeContainer": {
+        "ID": 1304,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_B07_RangeModeContainer",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_05_ZTrigger_048"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_AvoidLaserAttack": {
+        "ID": 1305,
+        "DelayActivateTimeSec": 10,
+        "LongTimeDelayActivateTimeSec": 75,
+        "HintMessage_StringKey": "Guide_Hint_B07_AvoidLaserAttack",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_05_ZTrigger_049"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_ExitConveyor": {
+        "ID": 1306,
+        "DelayActivateTimeSec": 300,
+        "LongTimeDelayActivateTimeSec": 510,
+        "HintMessage_StringKey": "Guide_Hint_B07_ExitConveyor",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_05_ZTrigger_050"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_AvoidTurretAttack": {
+        "ID": 1307,
+        "DelayActivateTimeSec": 180,
+        "LongTimeDelayActivateTimeSec": 330,
+        "HintMessage_StringKey": "Guide_Hint_B07_AvoidTurretAttack",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_05_ZTrigger_051"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_GatePasscodeCorpse": {
+        "ID": 1308,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 285,
+        "HintMessage_StringKey": "Guide_Hint_B07_GatePasscodeCorpse",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_06_ZTrigger_032"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_GatePowerPuzzle": {
+        "ID": 1309,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_B07_GatePowerPuzzle",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_06_ZTrigger_033"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_After2ndWeaponMasterBattle": {
+        "ID": 1310,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_B07_After2ndWeaponMasterBattle",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_06_ZTrigger_034"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_CargoLiftAccess": {
+        "ID": 1311,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 285,
+        "HintMessage_StringKey": "Guide_Hint_B07_CargoLiftAccess",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_07_ZTrigger_076"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_PlatformBot": {
+        "ID": 1312,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_B07_PlatformBot",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_07_ZTrigger_077"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_ResetAI": {
+        "ID": 1313,
+        "DelayActivateTimeSec": 150,
+        "LongTimeDelayActivateTimeSec": 285,
+        "HintMessage_StringKey": "Guide_Hint_B07_ResetAI",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_08_ZTrigger_035"
+        ],
+        "FileSuffix": "None"
+      },
+      "B07_CentralCoreSwitch": {
+        "ID": 1314,
+        "DelayActivateTimeSec": 120,
+        "LongTimeDelayActivateTimeSec": 240,
+        "HintMessage_StringKey": "Guide_Hint_B07_CentralCoreSwitch",
+        "ActivateZoneTriggerAliasArray": [
+          "SE_09_ZTrigger_006"
+        ],
+        "FileSuffix": "None"
+      },
+      "E03_Sub006_M4": {
+        "ID": 1401,
+        "DelayActivateTimeSec": 120,
+        "LongTimeDelayActivateTimeSec": 216,
+        "HintMessage_StringKey": "Guide_Hint_Sub006_M4",
+        "ActivateZoneTriggerAliasArray": [
+          "WLA_10_ZTrigger_059"
+        ],
+        "FileSuffix": "None"
+      },
+      "E03_Sub006_M5": {
+        "ID": 1402,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 162,
+        "HintMessage_StringKey": "Guide_Hint_Sub006_M5",
+        "ActivateZoneTriggerAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "E03_Quiel_Battle": {
+        "ID": 1403,
+        "DelayActivateTimeSec": 240,
+        "LongTimeDelayActivateTimeSec": 432,
+        "HintMessage_StringKey": "Guide_Hint_Quiel_Battle",
+        "ActivateZoneTriggerAliasArray": [
+          "WLA_30_ZTrigger_031"
+        ],
+        "FileSuffix": "None"
+      },
+      "E03_Quest_Sub_018": {
+        "ID": 1404,
+        "DelayActivateTimeSec": 600,
+        "LongTimeDelayActivateTimeSec": 1080,
+        "HintMessage_StringKey": "Guide_Hint_Quest_Sub_018",
+        "ActivateZoneTriggerAliasArray": [
+          "WLA_10_ZTrigger_036",
+          "WLA_10_ZTrigger_037",
+          "WLA_10_ZTrigger_038",
+          "WLA_10_ZTrigger_039",
+          "WLA_10_ZTrigger_040",
+          "WLA_10_ZTrigger_041",
+          "WLA_30_ZTrigger_032",
+          "WLA_30_ZTrigger_033",
+          "WLA_30_ZTrigger_034",
+          "WLA_40_ZTrigger_025",
+          "WLA_40_ZTrigger_026",
+          "WLA_50_ZTrigger_005"
+        ],
+        "FileSuffix": "None"
+      },
+      "E03_Quest_Request_009": {
+        "ID": 1405,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E03_Quest_Request_009",
+        "ActivateZoneTriggerAliasArray": [
+          "WLA_40_ZTrigger_044"
+        ],
+        "FileSuffix": "None"
+      },
+      "E03_Quest_Sub_033": {
+        "ID": 1406,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E03_Quest_Request_009",
+        "ActivateZoneTriggerAliasArray": [
+          "WLA_40_ZTrigger_048"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_DestroyRock": {
+        "ID": 1501,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_E05_DestroyRock",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_20_ZTrigger_009"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_FindMine": {
+        "ID": 1502,
+        "DelayActivateTimeSec": 180,
+        "LongTimeDelayActivateTimeSec": 330,
+        "HintMessage_StringKey": "Guide_Hint_E05_FindMine",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_20_ZTrigger_010"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_GatePower": {
+        "ID": 1503,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_E05_GatePower",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_50_ZTrigger_004",
+          "WLB_50_ZTrigger_052",
+          "WLB_50_ZTrigger_053",
+          "WLB_50_ZTrigger_054"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_Quest_Sub_019": {
+        "ID": 1504,
+        "DelayActivateTimeSec": 600,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_Quest_Sub_019",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_10_ZTrigger_044",
+          "WLB_10_ZTrigger_045",
+          "WLB_10_ZTrigger_046",
+          "WLB_10_ZTrigger_047",
+          "WLB_10_ZTrigger_048",
+          "WLB_10_ZTrigger_049",
+          "WLB_20_ZTrigger_029",
+          "WLB_20_ZTrigger_030",
+          "WLB_20_ZTrigger_031",
+          "WLB_20_ZTrigger_032",
+          "WLB_30_ZTrigger_021",
+          "WLB_30_ZTrigger_022",
+          "WLB_30_ZTrigger_023",
+          "WLB_50_ZTrigger_046",
+          "WLB_50_ZTrigger_047",
+          "WLB_50_ZTrigger_048",
+          "WLB_10_ZTrigger_050",
+          "WLB_10_ZTrigger_051",
+          "WLB_10_ZTrigger_057"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_DestroyRock01": {
+        "ID": 1505,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_DestroyRock01",
+        "ActivateZoneTriggerAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "E05_CarandBarrel": {
+        "ID": 1506,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_CarandBarrel",
+        "ActivateZoneTriggerAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "E05_SeesawGimmick": {
+        "ID": 1507,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_SeesawGimmick",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_50_ZTrigger_041"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_Grab01": {
+        "ID": 1508,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_Grab01",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_50_ZTrigger_042"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_Grab02": {
+        "ID": 1509,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_Grab02",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_50_ZTrigger_043"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_Grab03": {
+        "ID": 1510,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_Grab03",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_50_ZTrigger_044"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_Quest_Request_013_ExplosionBarrel": {
+        "ID": 1512,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_Quest_Request_013_ExplosionBarrel",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_20_ZTrigger_027"
+        ],
+        "FileSuffix": "None"
+      },
+      "E05_DestroyRock02": {
+        "ID": 1513,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E05_DestroyRock",
+        "ActivateZoneTriggerAliasArray": [
+          "WLB_30_ZTrigger_024"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_ResearchHall": {
+        "ID": 2101,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ATL_ResearchHall",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_01_ZTrigger_031"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_TimeDoor": {
+        "ID": 2102,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ATL_TimeDoor",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_01_ZTrigger_032"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_PanelControl": {
+        "ID": 2103,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_ATL_Panel Control",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_01_ZTrigger_037"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_Scaffolding": {
+        "ID": 2104,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ATL_Scaffolding",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_01_ZTrigger_033"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_laserEnable": {
+        "ID": 2105,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ATL_laserEnable",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_02_ZTrigger_012"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_CapsuleDestruction": {
+        "ID": 2106,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ATL_CapsuleDestruction",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_02_ZTrigger_013"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_FindSecurityCode": {
+        "ID": 2107,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_ATL_FindSecurityCode",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_03_ZTrigger_032"
+        ],
+        "FileSuffix": "None"
+      },
+      "ATL_RoadBlockDead": {
+        "ID": 2108,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_ATL_RoadBlockDead",
+        "ActivateZoneTriggerAliasArray": [
+          "ATL_03_ZTrigger_027"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_EscapeGrinder": {
+        "ID": 2201,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_AYL_EscapeGrinder",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_01_ZTrigger_027"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_EscapeGrinder2": {
+        "ID": 2202,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_AYL_EscapeGrinder2",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_01_ZTrigger_028"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_ClosedDoor": {
+        "ID": 2203,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 330,
+        "HintMessage_StringKey": "Guide_Hint_AYL_ClosedDoor",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_02_ZTrigger_009"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_ClusterRoom": {
+        "ID": 2204,
+        "DelayActivateTimeSec": 180,
+        "LongTimeDelayActivateTimeSec": 330,
+        "HintMessage_StringKey": "Guide_Hint_AYL_ClusterRoom",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_03_ZTrigger_004"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_EscapeLaser": {
+        "ID": 2205,
+        "DelayActivateTimeSec": 180,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_AYL_EscapeLaser",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_04_ZTrigger_013"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_ResearchHall01": {
+        "ID": 2206,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_AYL_ResearchHall01",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_05_ZTrigger_020"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_ResearchHall02": {
+        "ID": 2207,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_AYL_ResearchHall02",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_05_ZTrigger_022"
+        ],
+        "FileSuffix": "None"
+      },
+      "AYL_ResearchHall03": {
+        "ID": 2208,
+        "DelayActivateTimeSec": 90,
+        "LongTimeDelayActivateTimeSec": 195,
+        "HintMessage_StringKey": "Guide_Hint_AYL_ResearchHall03",
+        "ActivateZoneTriggerAliasArray": [
+          "AYL_05_ZTrigger_024"
+        ],
+        "FileSuffix": "None"
+      },
+      "Xion_Sub021_M8": {
+        "ID": 2301,
+        "DelayActivateTimeSec": 60,
+        "LongTimeDelayActivateTimeSec": 150,
+        "HintMessage_StringKey": "Guide_Hint_E04_Quest_Sub_021_LockedDoor",
+        "ActivateZoneTriggerAliasArray": [
+          "Xion_10_ZTrigger_098"
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

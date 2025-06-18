@@ -1,0 +1,1936 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemSkillEquipableTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBItemSkillEquipableTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "ItemSkillEquipableAlias",
+        "Level"
+      ]
+    },
+    "Rows": {
+      "IBS_Recovery_1": {
+        "ItemSkillEquipableAlias": "IBS_Recovery",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Recovery_2": {
+        "ItemSkillEquipableAlias": "IBS_Recovery",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01",
+          "P_EVE_PT_Recovery_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          60,
+          30,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Recovery_3": {
+        "ItemSkillEquipableAlias": "IBS_Recovery",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01",
+          "P_EVE_PT_Recovery_02",
+          "P_EVE_PT_Recovery_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          90,
+          45,
+          15,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Recovery_4": {
+        "ItemSkillEquipableAlias": "IBS_Recovery",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01",
+          "P_EVE_PT_Recovery_02",
+          "P_EVE_PT_Recovery_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_1": {
+        "ItemSkillEquipableAlias": "IBS_Grenade",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_2": {
+        "ItemSkillEquipableAlias": "IBS_Grenade",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01",
+          "P_EVE_PT_Grenade_02_Public"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          60,
+          30,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_3": {
+        "ItemSkillEquipableAlias": "IBS_Grenade",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01",
+          "P_EVE_PT_Grenade_02_Public",
+          "P_EVE_PT_Grenade_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          90,
+          45,
+          15,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_4": {
+        "ItemSkillEquipableAlias": "IBS_Grenade",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01",
+          "P_EVE_PT_Grenade_02_Public",
+          "P_EVE_PT_Grenade_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_1": {
+        "ItemSkillEquipableAlias": "IBS_Stab",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_2": {
+        "ItemSkillEquipableAlias": "IBS_Stab",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01",
+          "P_Eve_PT_Stab_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          60,
+          30,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_3": {
+        "ItemSkillEquipableAlias": "IBS_Stab",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01",
+          "P_Eve_PT_Stab_02",
+          "P_Eve_PT_Stab_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          90,
+          45,
+          15,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_4": {
+        "ItemSkillEquipableAlias": "IBS_Stab",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01",
+          "P_Eve_PT_Stab_02",
+          "P_Eve_PT_Stab_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_1": {
+        "ItemSkillEquipableAlias": "IBS_Down",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_2": {
+        "ItemSkillEquipableAlias": "IBS_Down",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01",
+          "P_EVE_PT_Down_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          80,
+          40,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_3": {
+        "ItemSkillEquipableAlias": "IBS_Down",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01",
+          "P_EVE_PT_Down_02",
+          "P_EVE_PT_Down_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          120,
+          60,
+          20,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_4": {
+        "ItemSkillEquipableAlias": "IBS_Down",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01",
+          "P_EVE_PT_Down_02",
+          "P_EVE_PT_Down_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_1": {
+        "ItemSkillEquipableAlias": "IBS_shoot",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_2": {
+        "ItemSkillEquipableAlias": "IBS_shoot",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01",
+          "P_Eve_PT_shoot_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          80,
+          40,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_3": {
+        "ItemSkillEquipableAlias": "IBS_shoot",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01",
+          "P_Eve_PT_shoot_02",
+          "P_Eve_PT_shoot_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          120,
+          60,
+          20,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_4": {
+        "ItemSkillEquipableAlias": "IBS_shoot",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01",
+          "P_Eve_PT_shoot_02",
+          "P_Eve_PT_shoot_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_1": {
+        "ItemSkillEquipableAlias": "IBS_Crowd",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_2": {
+        "ItemSkillEquipableAlias": "IBS_Crowd",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01",
+          "P_Eve_PT_Crowd_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          80,
+          40,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_3": {
+        "ItemSkillEquipableAlias": "IBS_Crowd",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01",
+          "P_Eve_PT_Crowd_02",
+          "P_Eve_PT_Crowd_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          120,
+          60,
+          20,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_4": {
+        "ItemSkillEquipableAlias": "IBS_Crowd",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01",
+          "P_Eve_PT_Crowd_02",
+          "P_Eve_PT_Crowd_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_1": {
+        "ItemSkillEquipableAlias": "IBS_Combo",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_2": {
+        "ItemSkillEquipableAlias": "IBS_Combo",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01",
+          "P_Eve_PT_Combo_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_3": {
+        "ItemSkillEquipableAlias": "IBS_Combo",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01",
+          "P_Eve_PT_Combo_02",
+          "P_Eve_PT_Combo_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_4": {
+        "ItemSkillEquipableAlias": "IBS_Combo",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01",
+          "P_Eve_PT_Combo_02",
+          "P_Eve_PT_Combo_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_1": {
+        "ItemSkillEquipableAlias": "IBS_Skill",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_2": {
+        "ItemSkillEquipableAlias": "IBS_Skill",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01",
+          "P_Eve_PT_Skill_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_3": {
+        "ItemSkillEquipableAlias": "IBS_Skill",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01",
+          "P_Eve_PT_Skill_02",
+          "P_Eve_PT_Skill_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_4": {
+        "ItemSkillEquipableAlias": "IBS_Skill",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01",
+          "P_Eve_PT_Skill_02",
+          "P_Eve_PT_Skill_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_1": {
+        "ItemSkillEquipableAlias": "IBS_Survive",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_2": {
+        "ItemSkillEquipableAlias": "IBS_Survive",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01",
+          "P_Eve_PT_Survive_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_3": {
+        "ItemSkillEquipableAlias": "IBS_Survive",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01",
+          "P_Eve_PT_Survive_02",
+          "P_Eve_PT_Survive_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_4": {
+        "ItemSkillEquipableAlias": "IBS_Survive",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01",
+          "P_Eve_PT_Survive_02",
+          "P_Eve_PT_Survive_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_1": {
+        "ItemSkillEquipableAlias": "IBS_Guard",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_2": {
+        "ItemSkillEquipableAlias": "IBS_Guard",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01",
+          "P_Eve_PT_Guard_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_3": {
+        "ItemSkillEquipableAlias": "IBS_Guard",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01",
+          "P_Eve_PT_Guard_02",
+          "P_Eve_PT_Guard_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_4": {
+        "ItemSkillEquipableAlias": "IBS_Guard",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01",
+          "P_Eve_PT_Guard_02",
+          "P_Eve_PT_Guard_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_1": {
+        "ItemSkillEquipableAlias": "IBS_Tachy",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_2": {
+        "ItemSkillEquipableAlias": "IBS_Tachy",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01",
+          "P_EVE_PT_Tachy_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_3": {
+        "ItemSkillEquipableAlias": "IBS_Tachy",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01",
+          "P_EVE_PT_Tachy_02",
+          "P_EVE_PT_Tachy_03",
+          "P_EVE_PT_Tachy_03_Public"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_4": {
+        "ItemSkillEquipableAlias": "IBS_Tachy",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01",
+          "P_EVE_PT_Tachy_02",
+          "P_EVE_PT_Tachy_03",
+          "P_EVE_PT_Tachy_03_Public"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_1": {
+        "ItemSkillEquipableAlias": "IBS_Burst",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_2": {
+        "ItemSkillEquipableAlias": "IBS_Burst",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01",
+          "P_EVE_PT_Burst_02"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_3": {
+        "ItemSkillEquipableAlias": "IBS_Burst",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01",
+          "P_EVE_PT_Burst_02",
+          "P_EVE_PT_Burst_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_4": {
+        "ItemSkillEquipableAlias": "IBS_Burst",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01",
+          "P_EVE_PT_Burst_02",
+          "P_EVE_PT_Burst_03"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Recovery_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Recovery_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Recovery_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Recovery_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01_MK2",
+          "P_EVE_PT_Recovery_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          60,
+          30,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Recovery_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Recovery_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01_MK2",
+          "P_EVE_PT_Recovery_02_MK2",
+          "P_EVE_PT_Recovery_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          90,
+          45,
+          15,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Recovery_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Recovery_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Recovery_01_MK2",
+          "P_EVE_PT_Recovery_02_MK2",
+          "P_EVE_PT_Recovery_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Grenade_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Grenade_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01_MK2",
+          "P_EVE_PT_Grenade_02_Public"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          60,
+          30,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Grenade_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01_MK2",
+          "P_EVE_PT_Grenade_02_Public",
+          "P_EVE_PT_Grenade_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          90,
+          45,
+          15,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Grenade_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Grenade_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Grenade_01_MK2",
+          "P_EVE_PT_Grenade_02_Public",
+          "P_EVE_PT_Grenade_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Stab_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Stab_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01_MK2",
+          "P_Eve_PT_Stab_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          60,
+          30,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Stab_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01_MK2",
+          "P_Eve_PT_Stab_02_MK2",
+          "P_Eve_PT_Stab_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          90,
+          45,
+          15,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Stab_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Stab_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Stab_01_MK2",
+          "P_Eve_PT_Stab_02_MK2",
+          "P_Eve_PT_Stab_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [
+          "P_Eve_Cloaking_Dispel"
+        ],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Down_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Down_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01_MK2",
+          "P_EVE_PT_Down_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          80,
+          40,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Down_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01_MK2",
+          "P_EVE_PT_Down_02_MK2",
+          "P_EVE_PT_Down_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          120,
+          60,
+          20,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Down_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Down_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Down_01_MK2",
+          "P_EVE_PT_Down_02_MK2",
+          "P_EVE_PT_Down_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_shoot_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_shoot_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01_MK2",
+          "P_Eve_PT_shoot_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          80,
+          40,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_shoot_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01_MK2",
+          "P_Eve_PT_shoot_02_MK2",
+          "P_Eve_PT_shoot_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          120,
+          60,
+          20,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_shoot_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_shoot_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_shoot_01_MK2",
+          "P_Eve_PT_shoot_02_MK2",
+          "P_Eve_PT_shoot_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Crowd_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Crowd_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01_MK2",
+          "P_Eve_PT_Crowd_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          80,
+          40,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Crowd_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01_MK2",
+          "P_Eve_PT_Crowd_02_MK2",
+          "P_Eve_PT_Crowd_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          120,
+          60,
+          20,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Crowd_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Crowd_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Crowd_01_MK2",
+          "P_Eve_PT_Crowd_02_MK2",
+          "P_Eve_PT_Crowd_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Combo_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Combo_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01_MK2",
+          "P_Eve_PT_Combo_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Combo_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01_MK2",
+          "P_Eve_PT_Combo_02_MK2",
+          "P_Eve_PT_Combo_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Combo_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Combo_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Combo_01_MK2",
+          "P_Eve_PT_Combo_02_MK2",
+          "P_Eve_PT_Combo_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Skill_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Skill_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01_MK2",
+          "P_Eve_PT_Skill_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Skill_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01_MK2",
+          "P_Eve_PT_Skill_02_MK2",
+          "P_Eve_PT_Skill_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Skill_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Skill_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Skill_01_MK2",
+          "P_Eve_PT_Skill_02_MK2",
+          "P_Eve_PT_Skill_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Survive_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Survive_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01_MK2",
+          "P_Eve_PT_Survive_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Survive_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01_MK2",
+          "P_Eve_PT_Survive_02_MK2",
+          "P_Eve_PT_Survive_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Survive_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Survive_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Survive_01_MK2",
+          "P_Eve_PT_Survive_02_MK2",
+          "P_Eve_PT_Survive_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Guard_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Guard_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01_MK2",
+          "P_Eve_PT_Guard_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Guard_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01_MK2",
+          "P_Eve_PT_Guard_02_MK2",
+          "P_Eve_PT_Guard_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Guard_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Guard_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_Eve_PT_Guard_01_MK2",
+          "P_Eve_PT_Guard_02_MK2",
+          "P_Eve_PT_Guard_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Tachy_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Tachy_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01_MK2",
+          "P_EVE_PT_Tachy_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Tachy_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01_MK2",
+          "P_EVE_PT_Tachy_02_MK2",
+          "P_EVE_PT_Tachy_03_MK2",
+          "P_EVE_PT_Tachy_03_Public"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Tachy_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Tachy_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Tachy_01_MK2",
+          "P_EVE_PT_Tachy_02_MK2",
+          "P_EVE_PT_Tachy_03_MK2",
+          "P_EVE_PT_Tachy_03_Public"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_MK2_1": {
+        "ItemSkillEquipableAlias": "IBS_Burst_MK2",
+        "Level": 1,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_MK2_2": {
+        "ItemSkillEquipableAlias": "IBS_Burst_MK2",
+        "Level": 2,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01_MK2",
+          "P_EVE_PT_Burst_02_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          100,
+          50,
+          500
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_MK2_3": {
+        "ItemSkillEquipableAlias": "IBS_Burst_MK2",
+        "Level": 3,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01_MK2",
+          "P_EVE_PT_Burst_02_MK2",
+          "P_EVE_PT_Burst_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [
+          "LowDensityWafer",
+          "HighDensityWafer",
+          "2DQuantumWafer",
+          "BetaCrystal"
+        ],
+        "RequiredItemAmountArray": [
+          150,
+          75,
+          25,
+          1000
+        ],
+        "FileSuffix": "None"
+      },
+      "IBS_Burst_MK2_4": {
+        "ItemSkillEquipableAlias": "IBS_Burst_MK2",
+        "Level": 4,
+        "AcquisitionSkillAliasArray": [
+          "P_Eve_Sword_SuitNormal_EquipAttacker",
+          "P_EVE_PT_Burst_01_MK2",
+          "P_EVE_PT_Burst_02_MK2",
+          "P_EVE_PT_Burst_03_MK2"
+        ],
+        "SkillCommandAlias": "None",
+        "EquipEffectAliasArray": [],
+        "UnequipEffectAliasArray": [],
+        "RequiredItemAliasArray": [],
+        "RequiredItemAmountArray": [],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PhotoModeMovementTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBPhotoModeMovementTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "PM_FreeCamera_FB": {
+        "ID": 1000001,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_FB",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": true,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 0.7,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_LR": {
+        "ID": 1000002,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_LR",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": true,
+        "FOVScaleMin": 0.6,
+        "FOVScaleMax": 0.8,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Up": {
+        "ID": 1000003,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Up",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": true,
+        "FOVScaleMin": 0.6,
+        "FOVScaleMax": 0.9,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Down": {
+        "ID": 1000004,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Down",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": true,
+        "FOVScaleMin": 0.6,
+        "FOVScaleMax": 0.9,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Turn": {
+        "ID": 1000005,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Turn",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": true,
+        "FOVScaleMin": 0.3,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Look": {
+        "ID": 1000006,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Look",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": true,
+        "FOVScaleMin": 0.3,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_MouseX": {
+        "ID": 1000007,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_MouseX",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_MouseY": {
+        "ID": 1000008,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_MouseY",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_FreeCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_SelfieCamera_FB": {
+        "ID": 1000009,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Selfie_Arm_UD",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_SelfieCamera_Character_LR": {
+        "ID": 1000010,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Selfie_Char_LR",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_SelfieCamera_MouseX_Camera": {
+        "ID": 1000011,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Selfie_Cam_LR",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_SelfieCamera_MouseY_Camera": {
+        "ID": 1000012,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Selfie_Cam_UD",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_SelfieCamera_MouseX_CharacterHead": {
+        "ID": 1000013,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Selfie_CharHead_LR",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_SelfieCamera_MouseY_CharacterHead": {
+        "ID": 1000014,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Selfie_CharHead_UD",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_SelfieCamera",
+        "Acceleration": -1.0,
+        "Deceleration": -1.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Light_F": {
+        "ID": 1000015,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Light_F",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_None",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Light_B": {
+        "ID": 1000016,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Light_B",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_None",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Light_LR": {
+        "ID": 1000017,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Light_LR",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_None",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Light_Up": {
+        "ID": 1000018,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Light_Up",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_None",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      },
+      "PM_FreeCamera_Light_Down": {
+        "ID": 1000019,
+        "InputDirection": "ESBPhotoModeInputDirection::ESBPhotoModeInputDirection_Light_Down",
+        "CameraType": "ESBPhotoModeCameraType::ESBPhotoModeCameraType_None",
+        "Acceleration": 5.0,
+        "Deceleration": 30.0,
+        "bAffectedByFOV": false,
+        "FOVScaleMin": 1.0,
+        "FOVScaleMax": 1.0,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventActorBattleStateTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBZoneEventActorBattleStateTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Player_On": {
+        "ID": 1,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToPlayer",
+        "TargetTagName": "None",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "Player_Off": {
+        "ID": 2,
+        "BattleState": false,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "Player",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "DED_Area01_HydraAttack02_On": {
+        "ID": 3,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "GrassAmbushHydra01",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "DED_Area01_ClriketWave_Clriket_On": {
+        "ID": 4,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "DED_Area01_ClriketWave_Clriket",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "CH_M_NA_40_Type_B_Blueprint_Seq_On": {
+        "ID": 5,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "CH_M_NA_40_Type_B_Blueprint_Seq",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "DED_Area01_HydraAttack01_On": {
+        "ID": 6,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "WindowBreakHydra",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "DED_Area01_LedgeBuilding_Clriket_On": {
+        "ID": 7,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "NPCSpawn_DED01_ClriketAttack01",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "WLB10_Shael_On": {
+        "ID": 8,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Shael",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "WLA30_Quiel_On": {
+        "ID": 9,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "M_RoyalGuardFemale",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "SD10_Tachy_On": {
+        "ID": 10,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Tachy",
+        "UseForceFoldWeaponValue": true,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "SD10_SD_10_E_CharS_049_On": {
+        "ID": 11,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "SD_10_E_CharS_049",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "SD10_SD_10_E_CharS_052_On": {
+        "ID": 12,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "SD_10_E_CharS_052",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "SD10_SD_10_E_CharS_053_On": {
+        "ID": 13,
+        "BattleState": true,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "SD_10_E_CharS_053",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      },
+      "SD10_Tachy_Off": {
+        "ID": 14,
+        "BattleState": false,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Tachy",
+        "UseForceFoldWeaponValue": false,
+        "FoldWeaponValue": false,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

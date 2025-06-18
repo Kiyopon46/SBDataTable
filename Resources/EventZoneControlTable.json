@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventZoneControlTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBZoneEventZoneControlTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "DED20_E_ZoneC_001": {
+        "ID": 1,
+        "ZoneAlias": "None",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "1": {
+        "ID": 2,
+        "ZoneAlias": "1",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "2": {
+        "ID": 3,
+        "ZoneAlias": "2",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Deactive",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_ChangeLevel_01_E_ZoneC_001": {
+        "ID": 4,
+        "ZoneAlias": "LV_Test_ChangeLevel_02",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_ChangeLevel_01_E_ZoneC_002": {
+        "ID": 5,
+        "ZoneAlias": "LV_Test_ChangeLevel_01",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Deactive",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_ChangeLevel_01_E_ZoneC_003": {
+        "ID": 6,
+        "ZoneAlias": "LV_Test_ChangeLevel_01",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_ChangeLevel_01_E_ZoneC_004": {
+        "ID": 7,
+        "ZoneAlias": "LV_Test_ChangeLevel_02",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Deactive",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_ZoneC_001": {
+        "ID": 8,
+        "ZoneAlias": "None",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_ZoneC_002": {
+        "ID": 9,
+        "ZoneAlias": "None",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_ZoneC_003": {
+        "ID": 10,
+        "ZoneAlias": "None",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_KJH_01_E_ZoneC_001": {
+        "ID": 11,
+        "ZoneAlias": "None",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneC_004": {
+        "ID": 15,
+        "ZoneAlias": "Zone_Xion_24",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneC_003": {
+        "ID": 14,
+        "ZoneAlias": "Zone_Xion_24",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Deactive",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ZoneC_002": {
+        "ID": 18,
+        "ZoneAlias": "Zone_Xion_11",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ZoneC_001": {
+        "ID": 17,
+        "ZoneAlias": "Zone_Xion_11",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Deactive",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneC_002": {
+        "ID": 13,
+        "ZoneAlias": "Zone_Xion_22",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Active",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ZoneC_001": {
+        "ID": 12,
+        "ZoneAlias": "Zone_Xion_22",
+        "ControlType": "ESBZoneEventZoneControlTarget::ZoneEvent_ZoneControl_Deactive",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

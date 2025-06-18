@@ -1,0 +1,925 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DropRateAdjustTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBDropRateAdjustTableTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "0": {
+        "ID": 1,
+        "RarityCommon": 100,
+        "RarityUncommon": 100,
+        "RarityRare": 100,
+        "RarityEpic": 100,
+        "RarityLegendary": 100,
+        "FileSuffix": "None"
+      },
+      "1": {
+        "ID": 2,
+        "RarityCommon": 100,
+        "RarityUncommon": 100,
+        "RarityRare": 100,
+        "RarityEpic": 100,
+        "RarityLegendary": 100,
+        "FileSuffix": "None"
+      },
+      "2": {
+        "ID": 3,
+        "RarityCommon": 100,
+        "RarityUncommon": 101,
+        "RarityRare": 102,
+        "RarityEpic": 103,
+        "RarityLegendary": 104,
+        "FileSuffix": "None"
+      },
+      "3": {
+        "ID": 4,
+        "RarityCommon": 100,
+        "RarityUncommon": 102,
+        "RarityRare": 104,
+        "RarityEpic": 106,
+        "RarityLegendary": 108,
+        "FileSuffix": "None"
+      },
+      "4": {
+        "ID": 5,
+        "RarityCommon": 100,
+        "RarityUncommon": 103,
+        "RarityRare": 106,
+        "RarityEpic": 109,
+        "RarityLegendary": 112,
+        "FileSuffix": "None"
+      },
+      "5": {
+        "ID": 6,
+        "RarityCommon": 100,
+        "RarityUncommon": 104,
+        "RarityRare": 108,
+        "RarityEpic": 112,
+        "RarityLegendary": 116,
+        "FileSuffix": "None"
+      },
+      "6": {
+        "ID": 7,
+        "RarityCommon": 100,
+        "RarityUncommon": 105,
+        "RarityRare": 110,
+        "RarityEpic": 115,
+        "RarityLegendary": 120,
+        "FileSuffix": "None"
+      },
+      "7": {
+        "ID": 8,
+        "RarityCommon": 100,
+        "RarityUncommon": 106,
+        "RarityRare": 112,
+        "RarityEpic": 118,
+        "RarityLegendary": 124,
+        "FileSuffix": "None"
+      },
+      "8": {
+        "ID": 9,
+        "RarityCommon": 100,
+        "RarityUncommon": 107,
+        "RarityRare": 114,
+        "RarityEpic": 121,
+        "RarityLegendary": 128,
+        "FileSuffix": "None"
+      },
+      "9": {
+        "ID": 10,
+        "RarityCommon": 100,
+        "RarityUncommon": 108,
+        "RarityRare": 116,
+        "RarityEpic": 124,
+        "RarityLegendary": 132,
+        "FileSuffix": "None"
+      },
+      "10": {
+        "ID": 11,
+        "RarityCommon": 100,
+        "RarityUncommon": 109,
+        "RarityRare": 118,
+        "RarityEpic": 127,
+        "RarityLegendary": 136,
+        "FileSuffix": "None"
+      },
+      "11": {
+        "ID": 12,
+        "RarityCommon": 100,
+        "RarityUncommon": 110,
+        "RarityRare": 120,
+        "RarityEpic": 130,
+        "RarityLegendary": 140,
+        "FileSuffix": "None"
+      },
+      "12": {
+        "ID": 13,
+        "RarityCommon": 100,
+        "RarityUncommon": 111,
+        "RarityRare": 122,
+        "RarityEpic": 133,
+        "RarityLegendary": 144,
+        "FileSuffix": "None"
+      },
+      "13": {
+        "ID": 14,
+        "RarityCommon": 100,
+        "RarityUncommon": 112,
+        "RarityRare": 124,
+        "RarityEpic": 136,
+        "RarityLegendary": 148,
+        "FileSuffix": "None"
+      },
+      "14": {
+        "ID": 15,
+        "RarityCommon": 100,
+        "RarityUncommon": 113,
+        "RarityRare": 126,
+        "RarityEpic": 139,
+        "RarityLegendary": 152,
+        "FileSuffix": "None"
+      },
+      "15": {
+        "ID": 16,
+        "RarityCommon": 100,
+        "RarityUncommon": 114,
+        "RarityRare": 128,
+        "RarityEpic": 142,
+        "RarityLegendary": 156,
+        "FileSuffix": "None"
+      },
+      "16": {
+        "ID": 17,
+        "RarityCommon": 100,
+        "RarityUncommon": 115,
+        "RarityRare": 130,
+        "RarityEpic": 145,
+        "RarityLegendary": 160,
+        "FileSuffix": "None"
+      },
+      "17": {
+        "ID": 18,
+        "RarityCommon": 100,
+        "RarityUncommon": 116,
+        "RarityRare": 132,
+        "RarityEpic": 148,
+        "RarityLegendary": 164,
+        "FileSuffix": "None"
+      },
+      "18": {
+        "ID": 19,
+        "RarityCommon": 100,
+        "RarityUncommon": 117,
+        "RarityRare": 134,
+        "RarityEpic": 151,
+        "RarityLegendary": 168,
+        "FileSuffix": "None"
+      },
+      "19": {
+        "ID": 20,
+        "RarityCommon": 100,
+        "RarityUncommon": 118,
+        "RarityRare": 136,
+        "RarityEpic": 154,
+        "RarityLegendary": 172,
+        "FileSuffix": "None"
+      },
+      "20": {
+        "ID": 21,
+        "RarityCommon": 100,
+        "RarityUncommon": 119,
+        "RarityRare": 138,
+        "RarityEpic": 157,
+        "RarityLegendary": 176,
+        "FileSuffix": "None"
+      },
+      "21": {
+        "ID": 22,
+        "RarityCommon": 100,
+        "RarityUncommon": 120,
+        "RarityRare": 140,
+        "RarityEpic": 160,
+        "RarityLegendary": 180,
+        "FileSuffix": "None"
+      },
+      "22": {
+        "ID": 23,
+        "RarityCommon": 100,
+        "RarityUncommon": 121,
+        "RarityRare": 142,
+        "RarityEpic": 163,
+        "RarityLegendary": 184,
+        "FileSuffix": "None"
+      },
+      "23": {
+        "ID": 24,
+        "RarityCommon": 100,
+        "RarityUncommon": 122,
+        "RarityRare": 144,
+        "RarityEpic": 166,
+        "RarityLegendary": 188,
+        "FileSuffix": "None"
+      },
+      "24": {
+        "ID": 25,
+        "RarityCommon": 100,
+        "RarityUncommon": 123,
+        "RarityRare": 146,
+        "RarityEpic": 169,
+        "RarityLegendary": 192,
+        "FileSuffix": "None"
+      },
+      "25": {
+        "ID": 26,
+        "RarityCommon": 100,
+        "RarityUncommon": 124,
+        "RarityRare": 148,
+        "RarityEpic": 172,
+        "RarityLegendary": 196,
+        "FileSuffix": "None"
+      },
+      "26": {
+        "ID": 27,
+        "RarityCommon": 100,
+        "RarityUncommon": 125,
+        "RarityRare": 150,
+        "RarityEpic": 175,
+        "RarityLegendary": 200,
+        "FileSuffix": "None"
+      },
+      "27": {
+        "ID": 28,
+        "RarityCommon": 100,
+        "RarityUncommon": 126,
+        "RarityRare": 152,
+        "RarityEpic": 178,
+        "RarityLegendary": 204,
+        "FileSuffix": "None"
+      },
+      "28": {
+        "ID": 29,
+        "RarityCommon": 100,
+        "RarityUncommon": 127,
+        "RarityRare": 154,
+        "RarityEpic": 181,
+        "RarityLegendary": 208,
+        "FileSuffix": "None"
+      },
+      "29": {
+        "ID": 30,
+        "RarityCommon": 100,
+        "RarityUncommon": 128,
+        "RarityRare": 156,
+        "RarityEpic": 184,
+        "RarityLegendary": 212,
+        "FileSuffix": "None"
+      },
+      "30": {
+        "ID": 31,
+        "RarityCommon": 100,
+        "RarityUncommon": 129,
+        "RarityRare": 158,
+        "RarityEpic": 187,
+        "RarityLegendary": 216,
+        "FileSuffix": "None"
+      },
+      "31": {
+        "ID": 32,
+        "RarityCommon": 100,
+        "RarityUncommon": 130,
+        "RarityRare": 160,
+        "RarityEpic": 190,
+        "RarityLegendary": 220,
+        "FileSuffix": "None"
+      },
+      "32": {
+        "ID": 33,
+        "RarityCommon": 100,
+        "RarityUncommon": 131,
+        "RarityRare": 162,
+        "RarityEpic": 193,
+        "RarityLegendary": 224,
+        "FileSuffix": "None"
+      },
+      "33": {
+        "ID": 34,
+        "RarityCommon": 100,
+        "RarityUncommon": 132,
+        "RarityRare": 164,
+        "RarityEpic": 196,
+        "RarityLegendary": 228,
+        "FileSuffix": "None"
+      },
+      "34": {
+        "ID": 35,
+        "RarityCommon": 100,
+        "RarityUncommon": 133,
+        "RarityRare": 166,
+        "RarityEpic": 199,
+        "RarityLegendary": 232,
+        "FileSuffix": "None"
+      },
+      "35": {
+        "ID": 36,
+        "RarityCommon": 100,
+        "RarityUncommon": 134,
+        "RarityRare": 168,
+        "RarityEpic": 202,
+        "RarityLegendary": 236,
+        "FileSuffix": "None"
+      },
+      "36": {
+        "ID": 37,
+        "RarityCommon": 100,
+        "RarityUncommon": 135,
+        "RarityRare": 170,
+        "RarityEpic": 205,
+        "RarityLegendary": 240,
+        "FileSuffix": "None"
+      },
+      "37": {
+        "ID": 38,
+        "RarityCommon": 100,
+        "RarityUncommon": 136,
+        "RarityRare": 172,
+        "RarityEpic": 208,
+        "RarityLegendary": 244,
+        "FileSuffix": "None"
+      },
+      "38": {
+        "ID": 39,
+        "RarityCommon": 100,
+        "RarityUncommon": 137,
+        "RarityRare": 174,
+        "RarityEpic": 211,
+        "RarityLegendary": 248,
+        "FileSuffix": "None"
+      },
+      "39": {
+        "ID": 40,
+        "RarityCommon": 100,
+        "RarityUncommon": 138,
+        "RarityRare": 176,
+        "RarityEpic": 214,
+        "RarityLegendary": 252,
+        "FileSuffix": "None"
+      },
+      "40": {
+        "ID": 41,
+        "RarityCommon": 100,
+        "RarityUncommon": 139,
+        "RarityRare": 178,
+        "RarityEpic": 217,
+        "RarityLegendary": 256,
+        "FileSuffix": "None"
+      },
+      "41": {
+        "ID": 42,
+        "RarityCommon": 100,
+        "RarityUncommon": 140,
+        "RarityRare": 180,
+        "RarityEpic": 220,
+        "RarityLegendary": 260,
+        "FileSuffix": "None"
+      },
+      "42": {
+        "ID": 43,
+        "RarityCommon": 100,
+        "RarityUncommon": 141,
+        "RarityRare": 182,
+        "RarityEpic": 223,
+        "RarityLegendary": 264,
+        "FileSuffix": "None"
+      },
+      "43": {
+        "ID": 44,
+        "RarityCommon": 100,
+        "RarityUncommon": 142,
+        "RarityRare": 184,
+        "RarityEpic": 226,
+        "RarityLegendary": 268,
+        "FileSuffix": "None"
+      },
+      "44": {
+        "ID": 45,
+        "RarityCommon": 100,
+        "RarityUncommon": 143,
+        "RarityRare": 186,
+        "RarityEpic": 229,
+        "RarityLegendary": 272,
+        "FileSuffix": "None"
+      },
+      "45": {
+        "ID": 46,
+        "RarityCommon": 100,
+        "RarityUncommon": 144,
+        "RarityRare": 188,
+        "RarityEpic": 232,
+        "RarityLegendary": 276,
+        "FileSuffix": "None"
+      },
+      "46": {
+        "ID": 47,
+        "RarityCommon": 100,
+        "RarityUncommon": 145,
+        "RarityRare": 190,
+        "RarityEpic": 235,
+        "RarityLegendary": 280,
+        "FileSuffix": "None"
+      },
+      "47": {
+        "ID": 48,
+        "RarityCommon": 100,
+        "RarityUncommon": 146,
+        "RarityRare": 192,
+        "RarityEpic": 238,
+        "RarityLegendary": 284,
+        "FileSuffix": "None"
+      },
+      "48": {
+        "ID": 49,
+        "RarityCommon": 100,
+        "RarityUncommon": 147,
+        "RarityRare": 194,
+        "RarityEpic": 241,
+        "RarityLegendary": 288,
+        "FileSuffix": "None"
+      },
+      "49": {
+        "ID": 50,
+        "RarityCommon": 100,
+        "RarityUncommon": 148,
+        "RarityRare": 196,
+        "RarityEpic": 244,
+        "RarityLegendary": 292,
+        "FileSuffix": "None"
+      },
+      "50": {
+        "ID": 51,
+        "RarityCommon": 100,
+        "RarityUncommon": 149,
+        "RarityRare": 198,
+        "RarityEpic": 247,
+        "RarityLegendary": 296,
+        "FileSuffix": "None"
+      },
+      "51": {
+        "ID": 52,
+        "RarityCommon": 100,
+        "RarityUncommon": 150,
+        "RarityRare": 200,
+        "RarityEpic": 250,
+        "RarityLegendary": 300,
+        "FileSuffix": "None"
+      },
+      "52": {
+        "ID": 53,
+        "RarityCommon": 100,
+        "RarityUncommon": 151,
+        "RarityRare": 202,
+        "RarityEpic": 253,
+        "RarityLegendary": 304,
+        "FileSuffix": "None"
+      },
+      "53": {
+        "ID": 54,
+        "RarityCommon": 100,
+        "RarityUncommon": 152,
+        "RarityRare": 204,
+        "RarityEpic": 256,
+        "RarityLegendary": 308,
+        "FileSuffix": "None"
+      },
+      "54": {
+        "ID": 55,
+        "RarityCommon": 100,
+        "RarityUncommon": 153,
+        "RarityRare": 206,
+        "RarityEpic": 259,
+        "RarityLegendary": 312,
+        "FileSuffix": "None"
+      },
+      "55": {
+        "ID": 56,
+        "RarityCommon": 100,
+        "RarityUncommon": 154,
+        "RarityRare": 208,
+        "RarityEpic": 262,
+        "RarityLegendary": 316,
+        "FileSuffix": "None"
+      },
+      "56": {
+        "ID": 57,
+        "RarityCommon": 100,
+        "RarityUncommon": 155,
+        "RarityRare": 210,
+        "RarityEpic": 265,
+        "RarityLegendary": 320,
+        "FileSuffix": "None"
+      },
+      "57": {
+        "ID": 58,
+        "RarityCommon": 100,
+        "RarityUncommon": 156,
+        "RarityRare": 212,
+        "RarityEpic": 268,
+        "RarityLegendary": 324,
+        "FileSuffix": "None"
+      },
+      "58": {
+        "ID": 59,
+        "RarityCommon": 100,
+        "RarityUncommon": 157,
+        "RarityRare": 214,
+        "RarityEpic": 271,
+        "RarityLegendary": 328,
+        "FileSuffix": "None"
+      },
+      "59": {
+        "ID": 60,
+        "RarityCommon": 100,
+        "RarityUncommon": 158,
+        "RarityRare": 216,
+        "RarityEpic": 274,
+        "RarityLegendary": 332,
+        "FileSuffix": "None"
+      },
+      "60": {
+        "ID": 61,
+        "RarityCommon": 100,
+        "RarityUncommon": 159,
+        "RarityRare": 218,
+        "RarityEpic": 277,
+        "RarityLegendary": 336,
+        "FileSuffix": "None"
+      },
+      "61": {
+        "ID": 62,
+        "RarityCommon": 100,
+        "RarityUncommon": 160,
+        "RarityRare": 220,
+        "RarityEpic": 280,
+        "RarityLegendary": 340,
+        "FileSuffix": "None"
+      },
+      "62": {
+        "ID": 63,
+        "RarityCommon": 100,
+        "RarityUncommon": 161,
+        "RarityRare": 222,
+        "RarityEpic": 283,
+        "RarityLegendary": 344,
+        "FileSuffix": "None"
+      },
+      "63": {
+        "ID": 64,
+        "RarityCommon": 100,
+        "RarityUncommon": 162,
+        "RarityRare": 224,
+        "RarityEpic": 286,
+        "RarityLegendary": 348,
+        "FileSuffix": "None"
+      },
+      "64": {
+        "ID": 65,
+        "RarityCommon": 100,
+        "RarityUncommon": 163,
+        "RarityRare": 226,
+        "RarityEpic": 289,
+        "RarityLegendary": 352,
+        "FileSuffix": "None"
+      },
+      "65": {
+        "ID": 66,
+        "RarityCommon": 100,
+        "RarityUncommon": 164,
+        "RarityRare": 228,
+        "RarityEpic": 292,
+        "RarityLegendary": 356,
+        "FileSuffix": "None"
+      },
+      "66": {
+        "ID": 67,
+        "RarityCommon": 100,
+        "RarityUncommon": 165,
+        "RarityRare": 230,
+        "RarityEpic": 295,
+        "RarityLegendary": 360,
+        "FileSuffix": "None"
+      },
+      "67": {
+        "ID": 68,
+        "RarityCommon": 100,
+        "RarityUncommon": 166,
+        "RarityRare": 232,
+        "RarityEpic": 298,
+        "RarityLegendary": 364,
+        "FileSuffix": "None"
+      },
+      "68": {
+        "ID": 69,
+        "RarityCommon": 100,
+        "RarityUncommon": 167,
+        "RarityRare": 234,
+        "RarityEpic": 301,
+        "RarityLegendary": 368,
+        "FileSuffix": "None"
+      },
+      "69": {
+        "ID": 70,
+        "RarityCommon": 100,
+        "RarityUncommon": 168,
+        "RarityRare": 236,
+        "RarityEpic": 304,
+        "RarityLegendary": 372,
+        "FileSuffix": "None"
+      },
+      "70": {
+        "ID": 71,
+        "RarityCommon": 100,
+        "RarityUncommon": 169,
+        "RarityRare": 238,
+        "RarityEpic": 307,
+        "RarityLegendary": 376,
+        "FileSuffix": "None"
+      },
+      "71": {
+        "ID": 72,
+        "RarityCommon": 100,
+        "RarityUncommon": 170,
+        "RarityRare": 240,
+        "RarityEpic": 310,
+        "RarityLegendary": 380,
+        "FileSuffix": "None"
+      },
+      "72": {
+        "ID": 73,
+        "RarityCommon": 100,
+        "RarityUncommon": 171,
+        "RarityRare": 242,
+        "RarityEpic": 313,
+        "RarityLegendary": 384,
+        "FileSuffix": "None"
+      },
+      "73": {
+        "ID": 74,
+        "RarityCommon": 100,
+        "RarityUncommon": 172,
+        "RarityRare": 244,
+        "RarityEpic": 316,
+        "RarityLegendary": 388,
+        "FileSuffix": "None"
+      },
+      "74": {
+        "ID": 75,
+        "RarityCommon": 100,
+        "RarityUncommon": 173,
+        "RarityRare": 246,
+        "RarityEpic": 319,
+        "RarityLegendary": 392,
+        "FileSuffix": "None"
+      },
+      "75": {
+        "ID": 76,
+        "RarityCommon": 100,
+        "RarityUncommon": 174,
+        "RarityRare": 248,
+        "RarityEpic": 322,
+        "RarityLegendary": 396,
+        "FileSuffix": "None"
+      },
+      "76": {
+        "ID": 77,
+        "RarityCommon": 100,
+        "RarityUncommon": 175,
+        "RarityRare": 250,
+        "RarityEpic": 325,
+        "RarityLegendary": 400,
+        "FileSuffix": "None"
+      },
+      "77": {
+        "ID": 78,
+        "RarityCommon": 100,
+        "RarityUncommon": 176,
+        "RarityRare": 252,
+        "RarityEpic": 328,
+        "RarityLegendary": 404,
+        "FileSuffix": "None"
+      },
+      "78": {
+        "ID": 79,
+        "RarityCommon": 100,
+        "RarityUncommon": 177,
+        "RarityRare": 254,
+        "RarityEpic": 331,
+        "RarityLegendary": 408,
+        "FileSuffix": "None"
+      },
+      "79": {
+        "ID": 80,
+        "RarityCommon": 100,
+        "RarityUncommon": 178,
+        "RarityRare": 256,
+        "RarityEpic": 334,
+        "RarityLegendary": 412,
+        "FileSuffix": "None"
+      },
+      "80": {
+        "ID": 81,
+        "RarityCommon": 100,
+        "RarityUncommon": 179,
+        "RarityRare": 258,
+        "RarityEpic": 337,
+        "RarityLegendary": 416,
+        "FileSuffix": "None"
+      },
+      "81": {
+        "ID": 82,
+        "RarityCommon": 100,
+        "RarityUncommon": 180,
+        "RarityRare": 260,
+        "RarityEpic": 340,
+        "RarityLegendary": 420,
+        "FileSuffix": "None"
+      },
+      "82": {
+        "ID": 83,
+        "RarityCommon": 100,
+        "RarityUncommon": 181,
+        "RarityRare": 262,
+        "RarityEpic": 343,
+        "RarityLegendary": 424,
+        "FileSuffix": "None"
+      },
+      "83": {
+        "ID": 84,
+        "RarityCommon": 100,
+        "RarityUncommon": 182,
+        "RarityRare": 264,
+        "RarityEpic": 346,
+        "RarityLegendary": 428,
+        "FileSuffix": "None"
+      },
+      "84": {
+        "ID": 85,
+        "RarityCommon": 100,
+        "RarityUncommon": 183,
+        "RarityRare": 266,
+        "RarityEpic": 349,
+        "RarityLegendary": 432,
+        "FileSuffix": "None"
+      },
+      "85": {
+        "ID": 86,
+        "RarityCommon": 100,
+        "RarityUncommon": 184,
+        "RarityRare": 268,
+        "RarityEpic": 352,
+        "RarityLegendary": 436,
+        "FileSuffix": "None"
+      },
+      "86": {
+        "ID": 87,
+        "RarityCommon": 100,
+        "RarityUncommon": 185,
+        "RarityRare": 270,
+        "RarityEpic": 355,
+        "RarityLegendary": 440,
+        "FileSuffix": "None"
+      },
+      "87": {
+        "ID": 88,
+        "RarityCommon": 100,
+        "RarityUncommon": 186,
+        "RarityRare": 272,
+        "RarityEpic": 358,
+        "RarityLegendary": 444,
+        "FileSuffix": "None"
+      },
+      "88": {
+        "ID": 89,
+        "RarityCommon": 100,
+        "RarityUncommon": 187,
+        "RarityRare": 274,
+        "RarityEpic": 361,
+        "RarityLegendary": 448,
+        "FileSuffix": "None"
+      },
+      "89": {
+        "ID": 90,
+        "RarityCommon": 100,
+        "RarityUncommon": 188,
+        "RarityRare": 276,
+        "RarityEpic": 364,
+        "RarityLegendary": 452,
+        "FileSuffix": "None"
+      },
+      "90": {
+        "ID": 91,
+        "RarityCommon": 100,
+        "RarityUncommon": 189,
+        "RarityRare": 278,
+        "RarityEpic": 367,
+        "RarityLegendary": 456,
+        "FileSuffix": "None"
+      },
+      "91": {
+        "ID": 92,
+        "RarityCommon": 100,
+        "RarityUncommon": 190,
+        "RarityRare": 280,
+        "RarityEpic": 370,
+        "RarityLegendary": 460,
+        "FileSuffix": "None"
+      },
+      "92": {
+        "ID": 93,
+        "RarityCommon": 100,
+        "RarityUncommon": 191,
+        "RarityRare": 282,
+        "RarityEpic": 373,
+        "RarityLegendary": 464,
+        "FileSuffix": "None"
+      },
+      "93": {
+        "ID": 94,
+        "RarityCommon": 100,
+        "RarityUncommon": 192,
+        "RarityRare": 284,
+        "RarityEpic": 376,
+        "RarityLegendary": 468,
+        "FileSuffix": "None"
+      },
+      "94": {
+        "ID": 95,
+        "RarityCommon": 100,
+        "RarityUncommon": 193,
+        "RarityRare": 286,
+        "RarityEpic": 379,
+        "RarityLegendary": 472,
+        "FileSuffix": "None"
+      },
+      "95": {
+        "ID": 96,
+        "RarityCommon": 100,
+        "RarityUncommon": 194,
+        "RarityRare": 288,
+        "RarityEpic": 382,
+        "RarityLegendary": 476,
+        "FileSuffix": "None"
+      },
+      "96": {
+        "ID": 97,
+        "RarityCommon": 100,
+        "RarityUncommon": 195,
+        "RarityRare": 290,
+        "RarityEpic": 385,
+        "RarityLegendary": 480,
+        "FileSuffix": "None"
+      },
+      "97": {
+        "ID": 98,
+        "RarityCommon": 100,
+        "RarityUncommon": 196,
+        "RarityRare": 292,
+        "RarityEpic": 388,
+        "RarityLegendary": 484,
+        "FileSuffix": "None"
+      },
+      "98": {
+        "ID": 99,
+        "RarityCommon": 100,
+        "RarityUncommon": 197,
+        "RarityRare": 294,
+        "RarityEpic": 391,
+        "RarityLegendary": 488,
+        "FileSuffix": "None"
+      },
+      "99": {
+        "ID": 100,
+        "RarityCommon": 100,
+        "RarityUncommon": 198,
+        "RarityRare": 296,
+        "RarityEpic": 394,
+        "RarityLegendary": 492,
+        "FileSuffix": "None"
+      },
+      "100": {
+        "ID": 101,
+        "RarityCommon": 100,
+        "RarityUncommon": 199,
+        "RarityRare": 298,
+        "RarityEpic": 397,
+        "RarityLegendary": 496,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,714 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PassiveSkillFunctionTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBPassiveSkillFunctionTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "P_Eve_Passive_StackBulletNormalUp1": {
+        "ID": 10010003,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_Passive_StackBulletNormalUp1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Passive_StackBulletNormalUp2": {
+        "ID": 10010004,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_Passive_StackBulletNormalUp2"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Passive_StackBulletMissileUp1": {
+        "ID": 10010005,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_Passive_StackBulletMissileUp1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Passive_StackBulletMissileUp2": {
+        "ID": 10010006,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_Passive_StackBulletMissileUp2"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Passive_StackBulletRailgunUp1": {
+        "ID": 10010007,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_Passive_StackBulletRailgunUp1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_SkillTree_DoubleJump1": {
+        "ID": 10010008,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_SkillTree_DoubleJump1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_SkillTree_ReversalUpgrade1": {
+        "ID": 10010009,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_SkillTree_ReversalUpgrade1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_SkillTree_BetaChain": {
+        "ID": 10010010,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_SkillTree_BetaChain"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_SkillTree_TachyModeAdditiveTime1": {
+        "ID": 10010011,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_SkillTree_TachyGaugeReduceConsumeRate"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Combo_01": {
+        "ID": 80000100,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Combo1_Combo",
+          "P_Protector_Combo1_BetaCombo",
+          "P_Protector_Combo1_BurstCombo"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Combo_02": {
+        "ID": 80000101,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Combo2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Combo_03": {
+        "ID": 80000102,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Combo3_ForStatViewer"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Shoot_01": {
+        "ID": 80000103,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Shoot1"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Shoot_02": {
+        "ID": 80000104,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Shoot2_1",
+          "P_Protector_Shoot2_2",
+          "P_Protector_Shoot2_3",
+          "P_Protector_Shoot2_4",
+          "P_Protector_Shoot2_5",
+          "P_Protector_Shoot2_6"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Shoot_03": {
+        "ID": 80000105,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Skill_01": {
+        "ID": 80000106,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Skill1"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Skill_02": {
+        "ID": 80000107,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Skill2_Beta",
+          "P_Protector_Skill2_BetaCombo"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Skill_03": {
+        "ID": 80000108,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Crowd_01": {
+        "ID": 80000109,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Crowd1",
+          "P_Protector_Crowd1_ForStatViewer"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Crowd_02": {
+        "ID": 80000110,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Crowd_03": {
+        "ID": 80000111,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Stab_01": {
+        "ID": 80000112,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Stab1"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Stab_02": {
+        "ID": 80000113,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Stab_03": {
+        "ID": 80000114,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Survive_01": {
+        "ID": 80000115,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Survive1_1",
+          "P_Protector_Survive1_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Survive_02": {
+        "ID": 80000116,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Survive2_1",
+          "P_Protector_Survive2_2",
+          "P_Protector_Survive2_3"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Survive_03": {
+        "ID": 80000117,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Guard_01": {
+        "ID": 80000118,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Guard_02": {
+        "ID": 80000119,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Guard_03": {
+        "ID": 80000120,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Recovery_01": {
+        "ID": 80000121,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Recovery1_Effect"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Recovery_02": {
+        "ID": 80000122,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Recovery2_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Recovery_03": {
+        "ID": 80000123,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Recovery3_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Down_01": {
+        "ID": 80000124,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Down1"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Down_02": {
+        "ID": 80000125,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Down_03": {
+        "ID": 80000126,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Down3"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Tachy_01": {
+        "ID": 80000127,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Tachy1"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Tachy_02": {
+        "ID": 80000128,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Tachy2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Tachy_03": {
+        "ID": 80000129,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Tachy3_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Burst_01": {
+        "ID": 80000130,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Burst1"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Burst_02": {
+        "ID": 80000131,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Burst2_Burst",
+          "P_Protector_Burst2_BurstCombo"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Burst_03": {
+        "ID": 80000132,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Grenade_01": {
+        "ID": 80000133,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Grenade1",
+          "P_Protector_Grenade1_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Grenade_02": {
+        "ID": 80000134,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Grenade2",
+          "P_Protector_Grenade2_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Grenade_03": {
+        "ID": 80000135,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Grenade3",
+          "P_Protector_Grenade3_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Combo_01_MK2": {
+        "ID": 80000155,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Combo1_MK2_Combo",
+          "P_Protector_Combo1_MK2_BetaCombo",
+          "P_Protector_Combo1_MK2_BurstCombo"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Combo_02_MK2": {
+        "ID": 80000156,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Combo2_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Combo_03_MK2": {
+        "ID": 80000157,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Combo3_MK2_ForStatViewer"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Shoot_01_MK2": {
+        "ID": 80000158,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Shoot1_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Shoot_02_MK2": {
+        "ID": 80000159,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Shoot2_MK2_1",
+          "P_Protector_Shoot2_MK2_2",
+          "P_Protector_Shoot2_MK2_3",
+          "P_Protector_Shoot2_MK2_4",
+          "P_Protector_Shoot2_MK2_5",
+          "P_Protector_Shoot2_MK2_6"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Shoot_03_MK2": {
+        "ID": 80000160,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Skill_01_MK2": {
+        "ID": 80000161,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Skill1_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Skill_02_MK2": {
+        "ID": 80000162,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Skill2_MK2_Beta",
+          "P_Protector_Skill2_MK2_BetaCombo"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Skill_03_MK2": {
+        "ID": 80000163,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Crowd_01_MK2": {
+        "ID": 80000164,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Crowd1_MK2",
+          "P_Protector_Crowd1_MK2_ForStatViewer"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Crowd_02_MK2": {
+        "ID": 80000165,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Crowd_03_MK2": {
+        "ID": 80000166,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Stab_01_MK2": {
+        "ID": 80000167,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Stab1_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Stab_02_MK2": {
+        "ID": 80000168,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Stab_03_MK2": {
+        "ID": 80000169,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Survive_01_MK2": {
+        "ID": 80000170,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Survive1_MK2_1",
+          "P_Protector_Survive1_MK2_2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Survive_02_MK2": {
+        "ID": 80000171,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Survive2_MK2_1",
+          "P_Protector_Survive2_MK2_2",
+          "P_Protector_Survive2_MK2_3"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Survive_03_MK2": {
+        "ID": 80000172,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Guard_01_MK2": {
+        "ID": 80000173,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Guard_02_MK2": {
+        "ID": 80000174,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Guard_03_MK2": {
+        "ID": 80000175,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Recovery_01_MK2": {
+        "ID": 80000176,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Recovery1_MK2_Effect"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Recovery_02_MK2": {
+        "ID": 80000177,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Recovery2_MK2_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Recovery_03_MK2": {
+        "ID": 80000178,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Recovery3_MK2_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Down_01_MK2": {
+        "ID": 80000179,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Down1_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Down_02_MK2": {
+        "ID": 80000180,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Down_03_MK2": {
+        "ID": 80000181,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Down3_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Tachy_01_MK2": {
+        "ID": 80000182,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Tachy1_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Tachy_02_MK2": {
+        "ID": 80000183,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Tachy2_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Tachy_03_MK2": {
+        "ID": 80000184,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Tachy3_MK2_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Burst_01_MK2": {
+        "ID": 80000185,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Burst1_MK2"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Burst_02_MK2": {
+        "ID": 80000186,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Burst2_MK2_Burst",
+          "P_Protector_Burst2_MK2_BurstCombo"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Burst_03_MK2": {
+        "ID": 80000187,
+        "PassiveSkillEffectAliasArray": [],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Grenade_01_MK2": {
+        "ID": 80000188,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Grenade1_MK2",
+          "P_Protector_Grenade1_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Grenade_02_MK2": {
+        "ID": 80000189,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Grenade2_MK2",
+          "P_Protector_Grenade2_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Grenade_03_MK2": {
+        "ID": 80000190,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Grenade3_MK2",
+          "P_Protector_Grenade3_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Grenade_02_Public": {
+        "ID": 80000191,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Grenade2_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "PT_Passive_Tachy_03_Public": {
+        "ID": 80000192,
+        "PassiveSkillEffectAliasArray": [
+          "P_Protector_Tachy3_MK12_Public_Condition"
+        ],
+        "FileSuffix": "None"
+      },
+      "Eve_ModeOpen_Burst": {
+        "ID": 80000136,
+        "PassiveSkillEffectAliasArray": [
+          "Eve_ModeOpen_Burst_Eff"
+        ],
+        "FileSuffix": "None"
+      },
+      "Eve_ModeOpen_TPS": {
+        "ID": 80000137,
+        "PassiveSkillEffectAliasArray": [
+          "Eve_ModeOpen_TPS_Eff"
+        ],
+        "FileSuffix": "None"
+      },
+      "Eve_ModeOpen_Tachy": {
+        "ID": 80000138,
+        "PassiveSkillEffectAliasArray": [
+          "Eve_ModeOpen_Tachy_Eff"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Gun_ScatterSlug": {
+        "ID": 80000139,
+        "PassiveSkillEffectAliasArray": [
+          "T_Eve_Gun_ScatterSlug"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Gun_ExplosiveSlug": {
+        "ID": 80000140,
+        "PassiveSkillEffectAliasArray": [
+          "T_Eve_Gun_ExplosiveSlug"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Gun_ShockSlug": {
+        "ID": 80000141,
+        "PassiveSkillEffectAliasArray": [
+          "T_Eve_Gun_ShockSlug"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_StackComsumable1": {
+        "ID": 80000142,
+        "PassiveSkillEffectAliasArray": [
+          "P_EVE_StackConsumable1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_StackComsumable2": {
+        "ID": 80000143,
+        "PassiveSkillEffectAliasArray": [
+          "P_EVE_StackConsumable2"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_StackComsumable3": {
+        "ID": 80000144,
+        "PassiveSkillEffectAliasArray": [
+          "P_EVE_StackConsumable3"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_StackComsumable4": {
+        "ID": 80000145,
+        "PassiveSkillEffectAliasArray": [
+          "P_EVE_StackConsumable4"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_StackComsumable5": {
+        "ID": 80000146,
+        "PassiveSkillEffectAliasArray": [
+          "P_EVE_StackConsumable5"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_StackComsumable6": {
+        "ID": 80000147,
+        "PassiveSkillEffectAliasArray": [
+          "P_EVE_StackConsumable6"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_StackComsumable7": {
+        "ID": 80000148,
+        "PassiveSkillEffectAliasArray": [
+          "P_EVE_StackConsumable7"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_CanDetect": {
+        "ID": 80000149,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_DetectCan"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_FishingUpgrade1": {
+        "ID": 80000150,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_FishingUpgrade1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_FishingUpgrade2": {
+        "ID": 80000151,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_FishingUpgrade2"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_FishingUpgrade3": {
+        "ID": 80000152,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_FishingUpgrade3"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_FishingUpgrade4": {
+        "ID": 80000153,
+        "PassiveSkillEffectAliasArray": [
+          "P_Eve_FishingUpgrade4"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_NewGame_SPExpAdd": {
+        "ID": 80000154,
+        "PassiveSkillEffectAliasArray": [
+          "NewGame_SPExpAdd"
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

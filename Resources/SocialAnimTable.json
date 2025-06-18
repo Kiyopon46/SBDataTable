@@ -1,0 +1,2191 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SocialAnimTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBSocialAnimTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "Group",
+        "Motion"
+      ]
+    },
+    "Rows": {
+      "Adam_Affirm": {
+        "ID": 1,
+        "Group": "Adam",
+        "Motion": "N_Adam_Talk_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Social/Social_New/N_Adam_Talk_Affirm.N_Adam_Talk_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Adam_Affirm2": {
+        "ID": 2,
+        "Group": "Adam",
+        "Motion": "N_Adam_Stand_Affirm2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Social/N_Adam_Stand_Affirm2.N_Adam_Stand_Affirm2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Adam_Denial": {
+        "ID": 3,
+        "Group": "Adam",
+        "Motion": "N_Adam_Talk_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Social/Social_New/N_Adam_Talk_Denial.N_Adam_Talk_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Adam_LookAround": {
+        "ID": 4,
+        "Group": "Adam",
+        "Motion": "N_Adam_Stand_LookAround",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Social/N_Adam_Stand_LookAround.N_Adam_Stand_LookAround",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Adam_Worry": {
+        "ID": 5,
+        "Group": "Adam",
+        "Motion": "N_Adam_Stand_Worry",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Adam_01/Animation/Social/N_Adam_Stand_Worry.N_Adam_Stand_Worry",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Lily_Affirm": {
+        "ID": 6,
+        "Group": "Lily",
+        "Motion": "N_Lily_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_01/Animation/N_Lily_Stand_Affirm.N_Lily_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Lily_Denial": {
+        "ID": 7,
+        "Group": "Lily",
+        "Motion": "N_Lily_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_01/Animation/N_Lily_Stand_Denial.N_Lily_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Lily_Thank": {
+        "ID": 8,
+        "Group": "Lily",
+        "Motion": "N_Lily_Stand_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_01/Animation/N_Lily_Stand_Thank.N_Lily_Stand_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Lily_Shy": {
+        "ID": 9,
+        "Group": "Lily",
+        "Motion": "N_Lily_Stand_Shy",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_01/Animation/N_Lily_Stand_Shy.N_Lily_Stand_Shy",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Lily_Awkward": {
+        "ID": 10,
+        "Group": "Lily",
+        "Motion": "N_Lily_Stand_Awkward",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_01/Animation/N_Lily_Stand_Awkward.N_Lily_Stand_Awkward",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Lily_Give": {
+        "ID": 11,
+        "Group": "Lily",
+        "Motion": "N_Lily_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_01/Animation/N_Lily_Stand_Give.N_Lily_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Mann_Affirm": {
+        "ID": 12,
+        "Group": "Mann",
+        "Motion": "N_Mann_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Mann_01/Animation/N_Mann_Affirm.N_Mann_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Mann_Denial": {
+        "ID": 13,
+        "Group": "Mann",
+        "Motion": "N_Mann_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Mann_01/Animation/N_Mann_Denial.N_Mann_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Mann_Sigh": {
+        "ID": 14,
+        "Group": "Mann",
+        "Motion": "N_Mann_Sigh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Mann_01/Animation/N_Mann_Sigh.N_Mann_Sigh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Mann_Think2": {
+        "ID": 15,
+        "Group": "Mann",
+        "Motion": "N_Mann_Think2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Mann_01/Animation/N_Mann_Think2.N_Mann_Think2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Mann_Tilt": {
+        "ID": 16,
+        "Group": "Mann",
+        "Motion": "N_Mann_Tilt",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Mann_01/Animation/N_Mann_Tilt.N_Mann_Tilt",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Mann_Salute": {
+        "ID": 17,
+        "Group": "Mann",
+        "Motion": "N_Mann_Salute",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Mann_01/Animation/N_Mann_Salute.N_Mann_Salute",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Digger_Affirm": {
+        "ID": 18,
+        "Group": "Digger",
+        "Motion": "N_Digger_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_05/Animation/N_Digger_Stand_Affirm.N_Digger_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Digger_Denial": {
+        "ID": 19,
+        "Group": "Digger",
+        "Motion": "N_Digger_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_05/Animation/N_Digger_Stand_Denial.N_Digger_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Digger_Surprise": {
+        "ID": 20,
+        "Group": "Digger",
+        "Motion": "N_D1G-g2r_Surprise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_05/Animation/Social/N_D1G-g2r_Surprise.N_D1G-g2r_Surprise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Rael_Affirm": {
+        "ID": 21,
+        "Group": "Rael",
+        "Motion": "N_Rael_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Rael/Animation/Social/N_Rael_Stand_Affirm.N_Rael_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Rael_Denial": {
+        "ID": 22,
+        "Group": "Rael",
+        "Motion": "N_Rael_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Rael/Animation/Social/N_Rael_Stand_Denial.N_Rael_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Roxane_Affirm": {
+        "ID": 23,
+        "Group": "Roxane",
+        "Motion": "N_Roxane_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Roxane/Animation/N_Roxane_Stand_Affirm.N_Roxane_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Roxane_Denial": {
+        "ID": 24,
+        "Group": "Roxane",
+        "Motion": "N_Roxane_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Roxane/Animation/N_Roxane_Stand_Denial.N_Roxane_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Roxane_Affirm_2": {
+        "ID": 25,
+        "Group": "Roxane",
+        "Motion": "N_Roxane_Stand_Affirm_2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Roxane/Animation/N_Roxane_Stand_Affirm_2.N_Roxane_Stand_Affirm_2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Roxane_Giggle": {
+        "ID": 26,
+        "Group": "Roxane",
+        "Motion": "N_Roxane_Stand_Giggle",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Roxane/Animation/N_Roxane_Stand_Giggle.N_Roxane_Stand_Giggle",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Roxane_Clap": {
+        "ID": 27,
+        "Group": "Roxane",
+        "Motion": "N_Roxane_Stand_Clap",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Roxane/Animation/N_Roxane_Stand_Clap.N_Roxane_Stand_Clap",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Affirm": {
+        "ID": 28,
+        "Group": "Barry",
+        "Motion": "N_Barry_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Stand_Affirm.N_Barry_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Denial": {
+        "ID": 29,
+        "Group": "Barry",
+        "Motion": "N_Barry_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Stand_Denial.N_Barry_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Give": {
+        "ID": 30,
+        "Group": "Barry",
+        "Motion": "N_Barry_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Stand_Give.N_Barry_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Sigh": {
+        "ID": 31,
+        "Group": "Barry",
+        "Motion": "N_Barry_Stand_Sigh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Stand_Sigh.N_Barry_Stand_Sigh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Awkward": {
+        "ID": 32,
+        "Group": "Barry",
+        "Motion": "N_Barry_Stand_Awkward",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Stand_Awkward.N_Barry_Stand_Awkward",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Laugh": {
+        "ID": 33,
+        "Group": "Barry",
+        "Motion": "N_Barry_Stand_Laugh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Stand_Laugh.N_Barry_Stand_Laugh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Thank": {
+        "ID": 34,
+        "Group": "Barry",
+        "Motion": "N_Barry_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Thank.N_Barry_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Barry_Giggle": {
+        "ID": 35,
+        "Group": "Barry",
+        "Motion": "N_Barry_Stand_Giggle",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Barry/Animation/N_Barry_Stand_Giggle.N_Barry_Stand_Giggle",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Su_Affirm": {
+        "ID": 36,
+        "Group": "Su",
+        "Motion": "N_Su_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_SU/Animation/N_Su_Stand_Affirm.N_Su_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Su_Denial": {
+        "ID": 37,
+        "Group": "Su",
+        "Motion": "N_Su_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_SU/Animation/N_Su_Stand_Denial.N_Su_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Su_Frustrate": {
+        "ID": 38,
+        "Group": "Su",
+        "Motion": "N_Su_Stand_FrustrateS",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_SU/Animation/N_Su_Stand_FrustrateS.N_Su_Stand_FrustrateS",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Su_Sigh": {
+        "ID": 39,
+        "Group": "Su",
+        "Motion": "N_Su_Stand_Sigh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_SU/Animation/N_Su_Stand_Sigh.N_Su_Stand_Sigh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Su_Awkward": {
+        "ID": 40,
+        "Group": "Su",
+        "Motion": "N_Su_Stand_Awkward",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_SU/Animation/N_Su_Stand_Awkward.N_Su_Stand_Awkward",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Su_Give": {
+        "ID": 41,
+        "Group": "Su",
+        "Motion": "N_Su_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_SU/Animation/N_Su_Stand_Give.N_Su_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Su_Salute": {
+        "ID": 42,
+        "Group": "Su",
+        "Motion": "N_Su_Stand_Salute",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_SU/Animation/N_Su_Stand_Salute.N_Su_Stand_Salute",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya2_Affirm": {
+        "ID": 43,
+        "Group": "Enya2",
+        "Motion": "N_Enya2_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya2_Stand_Affirm.N_Enya2_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya2_Denial": {
+        "ID": 44,
+        "Group": "Enya2",
+        "Motion": "N_Enya2_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya2_Stand_Denial.N_Enya2_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya2_Sigh": {
+        "ID": 45,
+        "Group": "Enya2",
+        "Motion": "N_Enya2_Sigh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya2_Sigh.N_Enya2_Sigh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya2_Thank": {
+        "ID": 46,
+        "Group": "Enya2",
+        "Motion": "N_Enya2_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya2_Thank.N_Enya2_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya2_Surprise": {
+        "ID": 47,
+        "Group": "Enya2",
+        "Motion": "N_Enya2_Surprise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya2_Surprise.N_Enya2_Surprise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya2_Awkward": {
+        "ID": 48,
+        "Group": "Enya2",
+        "Motion": "N_Enya2_Awkward",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya2_Awkward.N_Enya2_Awkward",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya2_Think": {
+        "ID": 49,
+        "Group": "Enya2",
+        "Motion": "N_Enya2_Think",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya2_Think.N_Enya2_Think",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya3_Affirm": {
+        "ID": 50,
+        "Group": "Enya3",
+        "Motion": "N_Enya3_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya3_Stand_Affirm.N_Enya3_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya3_Denial": {
+        "ID": 51,
+        "Group": "Enya3",
+        "Motion": "N_Enya3_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya3_Stand_Denial.N_Enya3_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya3_Laugh": {
+        "ID": 52,
+        "Group": "Enya3",
+        "Motion": "N_Enya3_Laugh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya3_Laugh.N_Enya3_Laugh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya3_Thank": {
+        "ID": 53,
+        "Group": "Enya3",
+        "Motion": "N_Enya3_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya3_Thank.N_Enya3_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya3_Surprise": {
+        "ID": 54,
+        "Group": "Enya3",
+        "Motion": "N_Enya3_Surprise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya3_Surprise.N_Enya3_Surprise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Enya3_Think": {
+        "ID": 55,
+        "Group": "Enya3",
+        "Motion": "N_Enya3_Think",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Enya/Animation/N_Enya3_Think.N_Enya3_Think",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Affirm": {
+        "ID": 56,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Affirm.N_Kasim_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Denial": {
+        "ID": 57,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Denial.N_Kasim_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Think": {
+        "ID": 58,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Think",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Think.N_Kasim_Think",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Apologize": {
+        "ID": 59,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Apologize",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Apologize.N_Kasim_Apologize",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Proud": {
+        "ID": 60,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Proud",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Proud.N_Kasim_Proud",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Give": {
+        "ID": 61,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Give.N_Kasim_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Frustrate": {
+        "ID": 62,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Frustrate",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Frustrate.N_Kasim_Frustrate",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Clap": {
+        "ID": 63,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Clap",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Clap.N_Kasim_Clap",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Laugh": {
+        "ID": 64,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Laugh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Laugh.N_Kasim_Laugh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Sigh": {
+        "ID": 65,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Sigh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Sigh.N_Kasim_Sigh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kasim_Thank": {
+        "ID": 66,
+        "Group": "Kasim",
+        "Motion": "N_Kasim_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFatMan_A/Animation/N_Kasim_Thank.N_Kasim_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Affirm": {
+        "ID": 67,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Affirm.N_Kaya_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Denial": {
+        "ID": 68,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Denial.N_Kaya_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Frustrate": {
+        "ID": 69,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Frustrate",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Frustrate.N_Kaya_Frustrate",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Laugh": {
+        "ID": 70,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Laugh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Laugh.N_Kaya_Laugh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Sigh": {
+        "ID": 71,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Sigh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Sigh.N_Kaya_Sigh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Think_1": {
+        "ID": 72,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Think",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Think.N_Kaya_Think",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Think_2": {
+        "ID": 73,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Think_01",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Think_01.N_Kaya_Think_01",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Give": {
+        "ID": 74,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Give.N_Kaya_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Wavehand": {
+        "ID": 75,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Wavehand",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Wavehand.N_Kaya_Wavehand",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Kaya_Thank": {
+        "ID": 76,
+        "Group": "Kaya",
+        "Motion": "N_Kaya_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Kaya/Animation/Social/N_Kaya_Thank.N_Kaya_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Clyde_Affirm": {
+        "ID": 77,
+        "Group": "Clyde",
+        "Motion": "N_Clyde_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_02/Animation/N_Clyde_Affirm.N_Clyde_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Clyde_Denial": {
+        "ID": 78,
+        "Group": "Clyde",
+        "Motion": "N_Clyde_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_02/Animation/N_Clyde_Denial.N_Clyde_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Clyde_Laugh": {
+        "ID": 79,
+        "Group": "Clyde",
+        "Motion": "N_Clyde_Laugh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_02/Animation/N_Clyde_Laugh.N_Clyde_Laugh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Clyde_Laugh2": {
+        "ID": 80,
+        "Group": "Clyde",
+        "Motion": "N_Clyde_Laugh2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_02/Animation/N_Clyde_Laugh2.N_Clyde_Laugh2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Clyde_Give": {
+        "ID": 81,
+        "Group": "Clyde",
+        "Motion": "N_Clyde_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_02/Animation/N_Clyde_Give.N_Clyde_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Clyde_Think2": {
+        "ID": 82,
+        "Group": "Clyde",
+        "Motion": "N_Clyde_Think2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_02/Animation/N_Clyde_Think2.N_Clyde_Think2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Clyde_Shrug": {
+        "ID": 83,
+        "Group": "Clyde",
+        "Motion": "N_Clyde_Shrug",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_02/Animation/N_Clyde_Shrug.N_Clyde_Shrug",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Affirm": {
+        "ID": 84,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Affirm.N_Citizen_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Denial": {
+        "ID": 85,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Denial.N_Citizen_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Afraid": {
+        "ID": 86,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Afraid",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Afraid.N_Citizen_Stand_Afraid",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Praise": {
+        "ID": 87,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Praise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Praise.N_Citizen_Stand_Praise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Praise_2": {
+        "ID": 88,
+        "Group": "Citizen_M",
+        "Motion": "N_Scavenger_Stand_Praise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Praise.N_Scavenger_Stand_Praise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Clap": {
+        "ID": 89,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Clap",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Clap.N_Citizen_Stand_Clap",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Sigh": {
+        "ID": 90,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Sigh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Sigh.N_Citizen_Stand_Sigh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Tilt": {
+        "ID": 91,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Tilt",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Tilt.N_Citizen_Stand_Tilt",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Fist": {
+        "ID": 92,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Fist",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Fist.N_Citizen_Stand_Fist",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Anguish": {
+        "ID": 93,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Anguish",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Anguish.N_Citizen_Stand_Anguish",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Praise2": {
+        "ID": 94,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Praise2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Praise.N_Citizen_Stand_Praise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_M_Give": {
+        "ID": 95,
+        "Group": "Citizen_M",
+        "Motion": "N_Citizen_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Citizen_Stand_Give.N_Citizen_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Affirm": {
+        "ID": 96,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Affirm.N_Citizen_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Denial": {
+        "ID": 97,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Denial.N_Citizen_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Afraid": {
+        "ID": 98,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Afraid",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Afraid.N_Citizen_Stand_Afraid",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Praise": {
+        "ID": 99,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Praise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Praise.N_Citizen_Stand_Praise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Ask": {
+        "ID": 100,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Ask",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Ask.N_Citizen_Stand_Ask",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Refuse": {
+        "ID": 101,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Refuse",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Refuse.N_Citizen_Stand_Refuse",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Giggle": {
+        "ID": 102,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Giggle",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Giggle.N_Citizen_Stand_Giggle",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Annoy": {
+        "ID": 103,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Annoy",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Annoy.N_Citizen_Stand_Annoy",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Laugh": {
+        "ID": 104,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Laugh",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_laugh.N_Citizen_Stand_laugh",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Embarass": {
+        "ID": 105,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Embarass",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Embarass.N_Citizen_Stand_Embarass",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Praise2": {
+        "ID": 106,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Praise2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Praise2.N_Citizen_Stand_Praise2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_Give": {
+        "ID": 107,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_Stand_Give.N_Citizen_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_June_GetOff": {
+        "ID": 108,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_June_GetOff",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_June_GetOff.N_Citizen_June_GetOff",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Citizen_F2_June_Never": {
+        "ID": 109,
+        "Group": "Citizen_F2",
+        "Motion": "N_Citizen_June_Never",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenFemale/Animation/N_Citizen_June_Never.N_Citizen_June_Never",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Affirm": {
+        "ID": 110,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Affirm.N_Scavenger_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Denial": {
+        "ID": 111,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Denial.N_Scavenger_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_GetOff": {
+        "ID": 112,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_GetOff",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_GetOff.N_Scavenger_Stand_GetOff",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Praise": {
+        "ID": 113,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Praise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Praise.N_Scavenger_Stand_Praise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Sad": {
+        "ID": 114,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Sad",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Sad.N_Scavenger_Stand_Sad",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Embarass": {
+        "ID": 115,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Embarass",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Embarass.N_Scavenger_Stand_Embarass",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Annoy": {
+        "ID": 116,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Annoy",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Annoy.N_Scavenger_Stand_Annoy",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Serious": {
+        "ID": 117,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Serious",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Serious.N_Scavenger_Stand_Serious",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Clap": {
+        "ID": 118,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Clap",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Clap.N_Scavenger_Stand_Clap",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Thank": {
+        "ID": 119,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Thank.N_Scavenger_Stand_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Call": {
+        "ID": 120,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Call",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Call.N_Scavenger_Stand_Call",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Please": {
+        "ID": 121,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Please",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Please.N_Scavenger_Stand_Please",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Anxious": {
+        "ID": 122,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Anxious",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Anxious.N_Scavenger_Stand_Anxious",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Disgrace": {
+        "ID": 123,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Disgrace",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Disgrace.N_Scavenger_Stand_Disgrace",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Give": {
+        "ID": 124,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Give.N_Scavenger_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_M_Agony": {
+        "ID": 125,
+        "Group": "Scavenger_M",
+        "Motion": "N_Scavenger_Stand_Agony",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_CitizenMale_A/Animation/N_Scavenger_Stand_Agony.N_Scavenger_Stand_Agony",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_Affirm": {
+        "ID": 126,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_Affirm.N_Scavenger_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_Denial": {
+        "ID": 127,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_Denial.N_Scavenger_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_GetOff": {
+        "ID": 128,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_GetOff",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_GetOff.N_Scavenger_Stand_GetOff",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_Praise": {
+        "ID": 129,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_Praise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_Praise.N_Scavenger_Stand_Praise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_Awkward": {
+        "ID": 130,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_Awkward",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_Awkward.N_Scavenger_Stand_Awkward",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_Clap": {
+        "ID": 131,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_Clap",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_Clap.N_Scavenger_Stand_Clap",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_WaveHand": {
+        "ID": 132,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_WaveHand",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_WaveHand.N_Scavenger_Stand_WaveHand",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_Give": {
+        "ID": 133,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_Give.N_Scavenger_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Scavenger_F_Thank": {
+        "ID": 134,
+        "Group": "Scavenger_F",
+        "Motion": "N_Scavenger_Stand_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_ScavengerFemale_A/Animation/N_Scavenger_Stand_Thank.N_Scavenger_Stand_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_Affirm": {
+        "ID": 135,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_Affirm.N_XionGuard_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_Denial": {
+        "ID": 136,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_Denial.N_XionGuard_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_Praise": {
+        "ID": 137,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_Praise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_Praise.N_XionGuard_Stand_Praise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_Give": {
+        "ID": 138,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_Give.N_XionGuard_Stand_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_Dissapoint": {
+        "ID": 139,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_Dissapoint",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_Disappoint.N_XionGuard_Stand_Disappoint",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_Surprise": {
+        "ID": 140,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_Surprise",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_Surprise.N_XionGuard_Stand_Surprise",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_Block": {
+        "ID": 141,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_Block",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_Block.N_XionGuard_Stand_Block",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "XionGuard_InjuredCough": {
+        "ID": 142,
+        "Group": "XionGuard",
+        "Motion": "N_XionGuard_Stand_InjuredCough",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionGuard/Animation/N_XionGuard_Stand_InjuredCough.N_XionGuard_Stand_InjuredCough",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Engineer_Affirm": {
+        "ID": 143,
+        "Group": "Engineer",
+        "Motion": "N_Engineer_Stand_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_EngineerMale/Animation/N_Engineer_Stand_Affirm.N_Engineer_Stand_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Engineer_Denial": {
+        "ID": 144,
+        "Group": "Engineer",
+        "Motion": "N_Engineer_Stand_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_EngineerMale/Animation/N_Engineer_Stand_Denial.N_Engineer_Stand_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Engineer_Discontent": {
+        "ID": 145,
+        "Group": "Engineer",
+        "Motion": "N_Engineer_Stand_Discontent",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_EngineerMale/Animation/N_Engineer_Stand_Discontent.N_Engineer_Stand_Discontent",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Engineer_Irritate": {
+        "ID": 146,
+        "Group": "Engineer",
+        "Motion": "N_Engineer_Stand_Irritate",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_EngineerMale/Animation/N_Engineer_Stand_Irritate.N_Engineer_Stand_Irritate",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Engineer_Thank": {
+        "ID": 147,
+        "Group": "Engineer",
+        "Motion": "N_Engineer_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_EngineerMale/Animation/N_Engineer_Thank.N_Engineer_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Engineer_FrightenedToDefaultIdle": {
+        "ID": 148,
+        "Group": "Engineer",
+        "Motion": "N_Engineer_FrightenedToDefaultIdle",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_EngineerMale/Animation/N_Engineer_FrightenedToDefaultIdle.N_Engineer_FrightenedToDefaultIdle",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Girl_Idle": {
+        "ID": 149,
+        "Group": "Girl",
+        "Motion": "N_Girl_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Girl_Give.N_Girl_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Girl_Pleasure_1": {
+        "ID": 150,
+        "Group": "Girl",
+        "Motion": "N_Girl_Pleasure_1",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Girl_Pleasure_1.N_Girl_Pleasure_1",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Girl_Pleasure_2": {
+        "ID": 151,
+        "Group": "Girl",
+        "Motion": "N_Girl_Pleasure_2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Girl_Pleasure_2.N_Girl_Pleasure_2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Arin_Embarass": {
+        "ID": 152,
+        "Group": "Arin",
+        "Motion": "N_Arin_Embarass",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Arin_Embarass.N_Arin_Embarass",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Arin_Angry": {
+        "ID": 153,
+        "Group": "Arin",
+        "Motion": "N_Arin_Angry",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Arin_Angry.N_Arin_Angry",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Arin_Thank": {
+        "ID": 154,
+        "Group": "Arin",
+        "Motion": "N_Arin_Thank",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Arin_Thank.N_Arin_Thank",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Arin_Affirm": {
+        "ID": 155,
+        "Group": "Arin",
+        "Motion": "N_Arin_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Arin_Affirm.N_Arin_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Arin_Denial": {
+        "ID": 156,
+        "Group": "Arin",
+        "Motion": "N_Arin_Denial",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Arin_Denial.N_Arin_Denial",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "Arin_ScaredToDefaultIdle": {
+        "ID": 157,
+        "Group": "Arin",
+        "Motion": "N_Arin_ScaredToDefaultIdle",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_Child_01/Animation/N_Arin_ScaredToDefaultIdle.N_Arin_ScaredToDefaultIdle",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Orcal_Give": {
+        "ID": 158,
+        "Group": "Orcal",
+        "Motion": "N_Orcal_Give",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionElder/Animation/Social/N_Orcal_Give.N_Orcal_Give",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Orcal_Serious": {
+        "ID": 159,
+        "Group": "Orcal",
+        "Motion": "N_Orcal_Serious",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionElder/Animation/Social/N_Orcal_Serious.N_Orcal_Serious",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Orcal_Cough1": {
+        "ID": 160,
+        "Group": "Orcal",
+        "Motion": "N_Orcal_Cough1",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionElder/Animation/Social/N_Orcal_Cough1.N_Orcal_Cough1",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Orcal_Cough2": {
+        "ID": 161,
+        "Group": "Orcal",
+        "Motion": "N_Orcal_Cough2",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/Art/Character/NPC/CH_NPC_XionElder/Animation/Social/N_Orcal_Cough2.N_Orcal_Cough2",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Scarlet_Affirm": {
+        "ID": 162,
+        "Group": "Scarlet",
+        "Motion": "N_Scarlet_Affirm",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/DLC_2/Art/Character/Monster/CH_M_NA_961/Animation/N_Scarlet_Affirm.N_Scarlet_Affirm",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Scarlet_Find": {
+        "ID": 163,
+        "Group": "Scarlet",
+        "Motion": "N_Scarlet_Find",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/DLC_2/Art/Character/Monster/CH_M_NA_961/Animation/N_Scarlet_Find.N_Scarlet_Find",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Scarlet_GuideToBolt": {
+        "ID": 164,
+        "Group": "Scarlet",
+        "Motion": "N_Scarlet_GuideToBolt",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/DLC_2/Art/Character/Monster/CH_M_NA_961/Animation/N_Scarlet_GuideToBolt.N_Scarlet_GuideToBolt",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Scarlet_Humming": {
+        "ID": 165,
+        "Group": "Scarlet",
+        "Motion": "N_Scarlet_Humming",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/DLC_2/Art/Character/Monster/CH_M_NA_961/Animation/N_Scarlet_Humming.N_Scarlet_Humming",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Scarlet_LookAround": {
+        "ID": 166,
+        "Group": "Scarlet",
+        "Motion": "N_Scarlet_LookAround",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/DLC_2/Art/Character/Monster/CH_M_NA_961/Animation/N_Scarlet_LookAround.N_Scarlet_LookAround",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      },
+      "N_Scarlet_TouchHat": {
+        "ID": 167,
+        "Group": "Scarlet",
+        "Motion": "N_Scarlet_TouchHat",
+        "Stance": "ESBMetaAIBehaviorStance::Default",
+        "BlendIn": 0.5,
+        "BlendOut": 0.5,
+        "AssetPath": {
+          "AssetPathName": "/Game/DLC_2/Art/Character/Monster/CH_M_NA_961/Animation/N_Scarlet_TouchHat.N_Scarlet_TouchHat",
+          "SubPathString": ""
+        },
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

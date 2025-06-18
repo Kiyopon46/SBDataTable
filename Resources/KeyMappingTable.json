@@ -1,0 +1,2900 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "KeyMappingTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBKeyMappingTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "MappingGroup"
+      ]
+    },
+    "Rows": {
+      "move": {
+        "ID": 8,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::UnmappableAll",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_MoveAxis",
+        "SlotDesc": "UI_KeyBind_MoveAxis_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Interaction"
+        ],
+        "ViewerPriority": 101,
+        "FileSuffix": "None"
+      },
+      "move_forward": {
+        "ID": 9,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "MoveForward"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_MoveButton_Forward",
+        "SlotDesc": "UI_KeyBind_MoveButton_Forward_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "move_back": {
+        "ID": 10,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "MoveForward"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Negative",
+        "SlotName": "UI_KeyBind_MoveButton_Back",
+        "SlotDesc": "UI_KeyBind_MoveButton_Back_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "move_left": {
+        "ID": 11,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "MoveRight"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Negative",
+        "SlotName": "UI_KeyBind_MoveButton_Left",
+        "SlotDesc": "UI_KeyBind_MoveButton_Left_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "move_right": {
+        "ID": 12,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "MoveRight"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_MoveButton_Right",
+        "SlotDesc": "UI_KeyBind_MoveButton_Right_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "jump": {
+        "ID": 13,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Jump",
+          "UI_QTE_Jump"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Jump",
+        "SlotDesc": "UI_KeyBind_Jump_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 102,
+        "FileSuffix": "None"
+      },
+      "sprint": {
+        "ID": 14,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "evade",
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [
+          "Sprint"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Sprint",
+        "SlotDesc": "UI_KeyBind_Sprint_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 104,
+        "FileSuffix": "None"
+      },
+      "toggle_sprint": {
+        "ID": 15,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "sprint",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [
+          "ToggleSprint"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_ToggleSprint",
+        "SlotDesc": "UI_KeyBind_ToggleSprint_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 105,
+        "FileSuffix": "None"
+      },
+      "walk": {
+        "ID": 16,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "sprint",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [
+          "Walk"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Walk",
+        "SlotDesc": "UI_KeyBind_Walk_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 106,
+        "FileSuffix": "None"
+      },
+      "camera": {
+        "ID": 17,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::UnmappableAll",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_CameraAxis",
+        "SlotDesc": "UI_KeyBind_CameraAxis_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Interaction",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 107,
+        "FileSuffix": "None"
+      },
+      "camera_up": {
+        "ID": 18,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "LookUpRate"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Negative",
+        "SlotName": "UI_KeyBind_CameraBtn_LookUpRate_Up",
+        "SlotDesc": "UI_KeyBind_CameraBtn_LookUpRate_Up_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "camera_down": {
+        "ID": 19,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "LookUpRate"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_CameraBtn_LookUpRate_Down",
+        "SlotDesc": "UI_KeyBind_CameraBtn_LookUpRate_Down_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "camera_left": {
+        "ID": 20,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "TurnRate"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Negative",
+        "SlotName": "UI_KeyBind_CameraBtn_TurnRate_Left",
+        "SlotDesc": "UI_KeyBind_CameraBtn_TurnRate_Left_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "camera_right": {
+        "ID": 21,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "swim_down",
+          "swim_up",
+          "swim_dash",
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [],
+        "AxisNames": [
+          "TurnRate"
+        ],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_CameraBtn_TurnRate_Rigt",
+        "SlotDesc": "UI_KeyBind_CameraBtn_TurnRate_Rigt_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "lock_on": {
+        "ID": 22,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "tachymode_twokey_1",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [
+          "ToggleLockOn"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_LockOn",
+        "SlotDesc": "UI_KeyBind_LockOn_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 108,
+        "FileSuffix": "None"
+      },
+      "lock_on_move_axis": {
+        "ID": 23,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::UnmappableAll",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_LockOnMove_Axis",
+        "SlotDesc": "UI_KeyBind_LockOnMove_Axis_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 109,
+        "FileSuffix": "None"
+      },
+      "lock_on_move_previous": {
+        "ID": 24,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "tachymode_twokey_1",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [
+          "LockOnPrevious"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_LockOnMove_Previous",
+        "SlotDesc": "UI_KeyBind_LockOnMove_Previous _Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 110,
+        "FileSuffix": "None"
+      },
+      "lock_on_move_next": {
+        "ID": 25,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "tachymode_twokey_1",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey",
+          "burstskill_view"
+        ],
+        "ActionNames": [
+          "LockOnNext"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_LockOnMove_Next",
+        "SlotDesc": "UI_KeyBind_LockOnMove_Next_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 111,
+        "FileSuffix": "None"
+      },
+      "attack_light": {
+        "ID": 26,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "AttackLight",
+          "UI_QTE_AttackLight"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_LightAttack",
+        "SlotDesc": "UI_KeyBind_LightAttack_Desc",
+        "MoviePath": "Movies/Skillpreview_Lightattackcombo1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 112,
+        "FileSuffix": "None"
+      },
+      "attack_strong": {
+        "ID": 27,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "AttackStrong",
+          "UI_QTE_AttackStrong"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_StrongAttack",
+        "SlotDesc": "UI_KeyBind_StrongAttack_Desc",
+        "MoviePath": "Movies/Skillpreview_Strongattackadditionalcombo1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 113,
+        "FileSuffix": "None"
+      },
+      "evade": {
+        "ID": 28,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "counterattack_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Evade",
+          "UI_QTE_Evade"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_EvadeOnly",
+        "SlotDesc": "UI_KeyBind_EvadeOnly_Desc",
+        "MoviePath": "Movies/SkillPreview_JustEvade1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode"
+        ],
+        "ViewerPriority": 103,
+        "FileSuffix": "None"
+      },
+      "guard": {
+        "ID": 29,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2",
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard"
+        ],
+        "ActionNames": [
+          "Guard",
+          "UI_QTE_Guard"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Guard",
+        "SlotDesc": "UI_KeyBind_Guard_Desc",
+        "MoviePath": "Movies/Manual_Combat_Guard_2.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 114,
+        "FileSuffix": "None"
+      },
+      "counterattack_twokey_1": {
+        "ID": 30,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "guard",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2",
+          "photomode_twokey1",
+          "photomode_twokey2",
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey"
+        ],
+        "ActionNames": [
+          "SpecialCommand1"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Continuation",
+        "SlotDesc": "UI_KeyBind_Continuation_Desc",
+        "MoviePath": "Movies/Skillpreview_Justevadelightattack1combo1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 903,
+        "FileSuffix": "None"
+      },
+      "counterattack_twokey_2": {
+        "ID": 31,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "betaskill_mode",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2",
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard",
+          "tachymode_keyboard",
+          "photomode_onekey"
+        ],
+        "ActionNames": [
+          "SpecialCommand2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Continuation",
+        "SlotDesc": "UI_KeyBind_Continuation_Desc",
+        "MoviePath": "Movies/Skillpreview_Justevadestrongattack1combo1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 904,
+        "FileSuffix": "None"
+      },
+      "interaction": {
+        "ID": 32,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "Special_Interaction",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "jump"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission"
+        ],
+        "ActionNames": [
+          "Interaction_Key",
+          "Item_Interaction",
+          "UI_QTE_Interaction_Key"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Interaction",
+        "SlotDesc": "UI_KeyBind_Interaction_Desc",
+        "MoviePath": "Movies/KeyMapping_interaction.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Interaction"
+        ],
+        "ViewerPriority": 201,
+        "FileSuffix": "None"
+      },
+      "grab_pivot_change": {
+        "ID": 33,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "Special_GrabPivotChange",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "interaction_cancel"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission"
+        ],
+        "ActionNames": [
+          "ZoneEnv_GrabPivotChange"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_GrabPivotChange",
+        "SlotDesc": "UI_KeyBind_GrabPivotChange_Desc",
+        "MoviePath": "Movies/KeyMapping_grab_pivot_change.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Interaction"
+        ],
+        "ViewerPriority": 501,
+        "FileSuffix": "None"
+      },
+      "interaction_cancel": {
+        "ID": 34,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "Special_InteractionCancel",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "grab_pivot_change",
+          "fishing_swing",
+          "fishing_reel",
+          "fishing_attack",
+          "fishing_liftup",
+          "toggle_sprint",
+          "jump"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "ZoneEnv_GrabCancel",
+          "Fishing_Cancel",
+          "EventMoveCancel",
+          "FishingModeCancel"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_InteractionCancel",
+        "SlotDesc": "UI_KeyBind_InteractionCancel_Desc",
+        "MoviePath": "Movies/KeyMapping_interaction_cancel.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Interaction",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 502,
+        "FileSuffix": "None"
+      },
+      "potion": {
+        "ID": 35,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Item_UseHeal"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_PotionUse",
+        "SlotDesc": "UI_KeyBind_PotionUse_Desc",
+        "MoviePath": "Movies/Manual_Item_Potion.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 125,
+        "FileSuffix": "None"
+      },
+      "item": {
+        "ID": 36,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Item_UseUtil"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_ItemUse",
+        "SlotDesc": "UI_KeyBind_ItemUse_Desc",
+        "MoviePath": "Movies/Guide_Grenade_1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 126,
+        "FileSuffix": "None"
+      },
+      "option": {
+        "ID": 37,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "UI_GameMenu"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Option",
+        "SlotDesc": "UI_KeyBind_Option_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 130,
+        "FileSuffix": "None"
+      },
+      "menu_map": {
+        "ID": 38,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "UI_GameMenuMap"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Map",
+        "SlotDesc": "UI_KeyBind_Map_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 131,
+        "FileSuffix": "None"
+      },
+      "menu_skill": {
+        "ID": 39,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "UI_GameMenuSkill"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_SkillMenu",
+        "SlotDesc": "UI_KeyBind_SkillMenu_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 132,
+        "FileSuffix": "None"
+      },
+      "menu_inventory": {
+        "ID": 40,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "UI_GameMenuInventory"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_InventoryMenu",
+        "SlotDesc": "UI_KeyBind_InventoryMenu_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 133,
+        "FileSuffix": "None"
+      },
+      "menu_mission": {
+        "ID": 41,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "UI_GameMenuMission"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Mission",
+        "SlotDesc": "UI_KeyBind_Mission_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 134,
+        "FileSuffix": "None"
+      },
+      "hint": {
+        "ID": 42,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "Special_Hint",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "potion",
+          "item"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission"
+        ],
+        "ActionNames": [
+          "UI_ShowHint"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Hint",
+        "SlotDesc": "UI_KeyBind_Hint_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Interaction",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 129,
+        "FileSuffix": "None"
+      },
+      "photomode_onekey": {
+        "ID": 43,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "None"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "PhotomodeOneKey"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_PhotoMode",
+        "SlotDesc": "UI_KeyBind_PhotoMode_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "photomode_twokey1": {
+        "ID": 44,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "burstskill_mode",
+          "tachymode_twokey_1"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "PhotomodeTwoKey1"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_PhotoMode",
+        "SlotDesc": "UI_KeyBind_PhotoMode_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Interaction",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 905,
+        "FileSuffix": "None"
+      },
+      "photomode_twokey2": {
+        "ID": 45,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Free",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "burstskill_mode",
+          "tachymode_twokey_1"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "PhotomodeTwoKey2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_PhotoMode",
+        "SlotDesc": "UI_KeyBind_PhotoMode_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Interaction",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 906,
+        "FileSuffix": "None"
+      },
+      "scan": {
+        "ID": 46,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "interaction",
+          "grab_pivot_change",
+          "interaction_cancel"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission"
+        ],
+        "ActionNames": [
+          "Scan"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Scan",
+        "SlotDesc": "UI_KeyBind_Scan_Desc",
+        "MoviePath": "Movies/Guide_ScanEventMoveObject_1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode",
+          "ESBUIKeyMappingViewerCategoryType::Swim",
+          "ESBUIKeyMappingViewerCategoryType::Interaction",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 128,
+        "FileSuffix": "None"
+      },
+      "betaskill_mode": {
+        "ID": 47,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "guard",
+          "counterattack_twokey_2",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2",
+          "photomode_twokey1",
+          "photomode_twokey2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BetaSkillPreCommand",
+          "BetaSkillView"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkillMode",
+        "SlotDesc": "UI_KeyBind_BetaSkillMode_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 115,
+        "FileSuffix": "None"
+      },
+      "betaskill_1": {
+        "ID": 48,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BetaSkill1"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill1",
+        "SlotDesc": "UI_KeyBind_BetaSkill1_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_Triplet1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 116,
+        "FileSuffix": "None"
+      },
+      "betaskill_2": {
+        "ID": 49,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BetaSkill2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill2",
+        "SlotDesc": "UI_KeyBind_BetaSkill2_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_Blaze1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 117,
+        "FileSuffix": "None"
+      },
+      "betaskill_3": {
+        "ID": 50,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BetaSkill3"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill3",
+        "SlotDesc": "UI_KeyBind_BetaSkill4_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_ShieldBreak1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 118,
+        "FileSuffix": "None"
+      },
+      "betaskill_4": {
+        "ID": 51,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "burstskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BetaSkill4"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill4",
+        "SlotDesc": "UI_KeyBind_BetaSkill3_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_SwordAura1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 119,
+        "FileSuffix": "None"
+      },
+      "betaskill_1_keyboard": {
+        "ID": 52,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BetaSkill1"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill1",
+        "SlotDesc": "UI_KeyBind_BetaSkill1_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_Triplet1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "betaskill_2_keyboard": {
+        "ID": 53,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BetaSkill2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill2",
+        "SlotDesc": "UI_KeyBind_BetaSkill2_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_Blaze1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "betaskill_3_keyboard": {
+        "ID": 54,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BetaSkill3"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill3",
+        "SlotDesc": "UI_KeyBind_BetaSkill4_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_ShieldBreak1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "betaskill_4_keyboard": {
+        "ID": 55,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BetaSkill4"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BetaSkill4",
+        "SlotDesc": "UI_KeyBind_BetaSkill3_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_SwordAura1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "burstskill_mode": {
+        "ID": 56,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "guard",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "tachymode_twokey_2",
+          "photomode_twokey1",
+          "photomode_twokey2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BurstSkillPreCommand",
+          "BurstSkillView"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkillReady",
+        "SlotDesc": "UI_KeyBind_BurstSkillReady_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 120,
+        "FileSuffix": "None"
+      },
+      "burstskill_1": {
+        "ID": 57,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BurstSkill1"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill1",
+        "SlotDesc": "UI_KeyBind_BurstSkill1_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_BurstSpinAttack1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 121,
+        "FileSuffix": "None"
+      },
+      "burstskill_2": {
+        "ID": 58,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BurstSkill2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill2",
+        "SlotDesc": "UI_KeyBind_BurstSkill2_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_BurstFinishAttack1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 122,
+        "FileSuffix": "None"
+      },
+      "burstskill_3": {
+        "ID": 59,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BurstSkill3"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill3",
+        "SlotDesc": "UI_KeyBind_BurstSkill4_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_MeleeAttackBuff1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 123,
+        "FileSuffix": "None"
+      },
+      "burstskill_4": {
+        "ID": 60,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "attack_light",
+          "attack_strong",
+          "evade",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "tachymode_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "BurstSkill4"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill4",
+        "SlotDesc": "UI_KeyBind_BurstSkill3_Desc_GamePad",
+        "MoviePath": "Movies/SkillPreview_MassiveAttack1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 124,
+        "FileSuffix": "None"
+      },
+      "burstskill_view": {
+        "ID": 61,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "guard",
+          "counterattack_twokey_1",
+          "counterattack_twokey_2",
+          "betaskill_1_keyboard",
+          "betaskill_2_keyboard",
+          "betaskill_3_keyboard",
+          "betaskill_4_keyboard",
+          "burstskill_1_keyboard",
+          "burstskill_2_keyboard",
+          "burstskill_3_keyboard",
+          "burstskill_4_keyboard"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "potion",
+          "item",
+          "tachymode_keyboard",
+          "photomode_onekey"
+        ],
+        "ActionNames": [
+          "BurstSkillView"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkillView",
+        "SlotDesc": "UI_KeyBind_BurstSkillView_Desc",
+        "MoviePath": "Movies/KeyMapping_burstskill_view.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "burstskill_1_keyboard": {
+        "ID": 62,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BurstSkill1"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill1",
+        "SlotDesc": "UI_KeyBind_BurstSkill1_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_BurstSpinAttack1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "burstskill_2_keyboard": {
+        "ID": 63,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BurstSkill2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill2",
+        "SlotDesc": "UI_KeyBind_BurstSkill2_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_BurstFinishAttack1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "burstskill_3_keyboard": {
+        "ID": 64,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BurstSkill3"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill3",
+        "SlotDesc": "UI_KeyBind_BurstSkill4_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_MeleeAttackBuff1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "burstskill_4_keyboard": {
+        "ID": 65,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "burstskill_view"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "BurstSkill4"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_BurstSkill4",
+        "SlotDesc": "UI_KeyBind_BurstSkill3_Desc_Keyboard",
+        "MoviePath": "Movies/SkillPreview_MassiveAttack1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "tachymode_twokey_1": {
+        "ID": 66,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "attack_light",
+          "attack_strong",
+          "guard",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "photomode_twokey1",
+          "photomode_twokey2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "TachyModeTwoKey1"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_TachyMode_Hide",
+        "SlotDesc": "UI_KeyBind_TachyMode_Hide_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 901,
+        "FileSuffix": "None"
+      },
+      "tachymode_twokey_2": {
+        "ID": 67,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "sprint",
+          "toggle_sprint",
+          "walk",
+          "lock_on",
+          "lock_on_move_axis",
+          "lock_on_move_previous",
+          "lock_on_move_next",
+          "attack_light",
+          "attack_strong",
+          "jump",
+          "tps_mode",
+          "guard",
+          "counterattack_twokey_1",
+          "betaskill_mode",
+          "burstskill_mode",
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [],
+        "ActionNames": [
+          "TachyModeTwoKey2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_TachyMode_Hide",
+        "SlotDesc": "UI_KeyBind_TachyMode_Hide_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main"
+        ],
+        "ViewerPriority": 902,
+        "FileSuffix": "None"
+      },
+      "tachymode_keyboard": {
+        "ID": 68,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "None"
+        ],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "TachyModeTwoKey2"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_TachyMode_Hide",
+        "SlotDesc": "UI_KeyBind_TachyMode_Hide_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [],
+        "ViewerPriority": 0,
+        "FileSuffix": "None"
+      },
+      "tps_mode": {
+        "ID": 69,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "GeneralGroup",
+        "DuplicateDenyArray": [],
+        "DuplicateAllowArray": [
+          "counterattack_twokey_2",
+          "betaskill_1",
+          "betaskill_2",
+          "betaskill_3",
+          "betaskill_4",
+          "burstskill_1",
+          "burstskill_2",
+          "burstskill_3",
+          "burstskill_4",
+          "tachymode_twokey_2"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "TPSMode"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_TPSMode",
+        "SlotDesc": "UI_KeyBind_TPSMode_Desc",
+        "MoviePath": "Movies/Guide_RangeAttack_1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Main",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode"
+        ],
+        "ViewerPriority": 127,
+        "FileSuffix": "None"
+      },
+      "tps_fire": {
+        "ID": 70,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "TPSGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "scan",
+          "evade",
+          "tps_mode"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "TPSFire"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_TPS_Fire",
+        "SlotDesc": "UI_KeyBind_TPS_Fire_Desc",
+        "MoviePath": "Movies/Guide_RangeAttack_1.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode"
+        ],
+        "ViewerPriority": 301,
+        "FileSuffix": "None"
+      },
+      "tps_bulletchange": {
+        "ID": 71,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "TPSGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "scan",
+          "evade",
+          "tps_mode"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Item_UseBullet"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_TPS_BulletChange",
+        "SlotDesc": "UI_KeyBind_TPS_BulletChange_Desc",
+        "MoviePath": "Movies/Guide_RangeAttack_3.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::TPSMode"
+        ],
+        "ViewerPriority": 302,
+        "FileSuffix": "None"
+      },
+      "swim_down": {
+        "ID": 72,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "SwimGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "swim_dash"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "SwimDown"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Swim_Down",
+        "SlotDesc": "UI_KeyBind_Swim_Down_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Swim"
+        ],
+        "ViewerPriority": 401,
+        "FileSuffix": "None"
+      },
+      "swim_up": {
+        "ID": 73,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "SwimGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "swim_dash"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "SwimUp"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Swim_Up",
+        "SlotDesc": "UI_KeyBind_Swim_Up_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Swim"
+        ],
+        "ViewerPriority": 402,
+        "FileSuffix": "None"
+      },
+      "swim_dash": {
+        "ID": 74,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Essential",
+        "MappingGroup": "SwimGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "swim_down",
+          "swim_up",
+          "jump"
+        ],
+        "DuplicateAllowArray": [],
+        "bAllowCombinationKey": true,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "SwimDash"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Swim_Dash_Evade",
+        "SlotDesc": "UI_KeyBind_Swim_Dash_Evade_Desc",
+        "MoviePath": "",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Swim"
+        ],
+        "ViewerPriority": 403,
+        "FileSuffix": "None"
+      },
+      "fishing_swing": {
+        "ID": 75,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "FishingGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "interaction_cancel"
+        ],
+        "DuplicateAllowArray": [
+          "fishing_reel",
+          "fishing_attack",
+          "fishing_liftup"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Fishing_Casting"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Fishing_Swing",
+        "SlotDesc": "UI_KeyBind_Fishing_Swing_Desc",
+        "MoviePath": "Movies/Guide_Fishing_2.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 601,
+        "FileSuffix": "None"
+      },
+      "fishing_reel": {
+        "ID": 76,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "FishingGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "interaction_cancel"
+        ],
+        "DuplicateAllowArray": [
+          "fishing_swing",
+          "fishing_attack",
+          "fishing_liftup"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Fishing_Reel"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Fishing_Reel",
+        "SlotDesc": "UI_KeyBind_Fishing_Reel_Desc",
+        "MoviePath": "Movies/Guide_Fishing_3.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 602,
+        "FileSuffix": "None"
+      },
+      "fishing_attack": {
+        "ID": 77,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "FishingGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "interaction_cancel"
+        ],
+        "DuplicateAllowArray": [
+          "fishing_swing",
+          "fishing_reel",
+          "fishing_liftup"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Fishing_Attack"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Fishing_Attack",
+        "SlotDesc": "UI_KeyBind_Fishing_Attack_Desc",
+        "MoviePath": "Movies/Guide_Fishing_3.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 603,
+        "FileSuffix": "None"
+      },
+      "fishing_liftup": {
+        "ID": 78,
+        "RecommendationStrength": "ESBKeyMappingStrengthType::Recommend",
+        "MappingGroup": "FishingGroup",
+        "DuplicateDenyArray": [
+          "option",
+          "menu_map",
+          "menu_skill",
+          "menu_inventory",
+          "menu_mission",
+          "move",
+          "move_forward",
+          "move_back",
+          "move_left",
+          "move_right",
+          "camera",
+          "camera_up",
+          "camera_down",
+          "camera_left",
+          "camera_right",
+          "interaction_cancel"
+        ],
+        "DuplicateAllowArray": [
+          "fishing_swing",
+          "fishing_reel",
+          "fishing_attack"
+        ],
+        "bAllowCombinationKey": false,
+        "DuplicateCombinationKeyAllowArray": [
+          "None"
+        ],
+        "ActionNames": [
+          "Fishing_LiftUp"
+        ],
+        "AxisNames": [],
+        "AxisScaleType": "ESBKeyMappingAxisScaleType::Positive",
+        "SlotName": "UI_KeyBind_Fishing_LiftUp",
+        "SlotDesc": "UI_KeyBind_Fishing_LiftUp_Desc",
+        "MoviePath": "Movies/Guide_Fishing_4.bk2",
+        "ImagePath": "",
+        "ViewerCategoryTypes": [
+          "ESBUIKeyMappingViewerCategoryType::All",
+          "ESBUIKeyMappingViewerCategoryType::Fishing"
+        ],
+        "ViewerPriority": 604,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

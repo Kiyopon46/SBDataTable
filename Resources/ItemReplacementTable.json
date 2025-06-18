@@ -1,0 +1,2816 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemReplacementTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBItemReplacementTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "DesignPattern_BS_04": {
+        "ID": 1,
+        "ReplacementItemAlias": "DesignPattern_BS_04_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_07": {
+        "ID": 2,
+        "ReplacementItemAlias": "DesignPattern_BS_07_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_09_2": {
+        "ID": 3,
+        "ReplacementItemAlias": "DesignPattern_BS_09_2_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_13": {
+        "ID": 4,
+        "ReplacementItemAlias": "DesignPattern_BS_13_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_16": {
+        "ID": 5,
+        "ReplacementItemAlias": "DesignPattern_BS_16_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_31": {
+        "ID": 6,
+        "ReplacementItemAlias": "DesignPattern_BS_31_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_34": {
+        "ID": 7,
+        "ReplacementItemAlias": "DesignPattern_BS_34_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_37": {
+        "ID": 8,
+        "ReplacementItemAlias": "DesignPattern_BS_37_Var3",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_38": {
+        "ID": 9,
+        "ReplacementItemAlias": "DesignPattern_BS_38_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_40": {
+        "ID": 10,
+        "ReplacementItemAlias": "DesignPattern_BS_40_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_41": {
+        "ID": 11,
+        "ReplacementItemAlias": "DesignPattern_BS_41_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_42": {
+        "ID": 12,
+        "ReplacementItemAlias": "DesignPattern_BS_42_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_44": {
+        "ID": 13,
+        "ReplacementItemAlias": "DesignPattern_BS_44_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_45": {
+        "ID": 14,
+        "ReplacementItemAlias": "DesignPattern_BS_45_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_47": {
+        "ID": 15,
+        "ReplacementItemAlias": "DesignPattern_BS_47_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_Black_Leather_bikini": {
+        "ID": 16,
+        "ReplacementItemAlias": "DesignPattern_BS_Black_Leather_bikini_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_Sailor_Jean": {
+        "ID": 17,
+        "ReplacementItemAlias": "DesignPattern_BS_Sailor_Jean_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_White_Jean": {
+        "ID": 18,
+        "ReplacementItemAlias": "DesignPattern_BS_White_Jean_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_Yellow_Suit_Jacket": {
+        "ID": 19,
+        "ReplacementItemAlias": "DesignPattern_BS_Yellow_Suit_Jacket_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_20": {
+        "ID": 20,
+        "ReplacementItemAlias": "BS_20_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_22": {
+        "ID": 21,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_37_Var2": {
+        "ID": 22,
+        "ReplacementItemAlias": "BS_33_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_001": {
+        "ID": 23,
+        "ReplacementItemAlias": "Earring_001_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_002": {
+        "ID": 24,
+        "ReplacementItemAlias": "Earring_002_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_003": {
+        "ID": 25,
+        "ReplacementItemAlias": "Earring_003_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_008": {
+        "ID": 26,
+        "ReplacementItemAlias": "Earring_008_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DroneSeal_002": {
+        "ID": 27,
+        "ReplacementItemAlias": "DroneSeal_002_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DroneSeal_004": {
+        "ID": 28,
+        "ReplacementItemAlias": "DroneSeal_004_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "AdamCostume_003": {
+        "ID": 29,
+        "ReplacementItemAlias": "AdamCostume_003_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "AdamCostume_004": {
+        "ID": 30,
+        "ReplacementItemAlias": "AdamCostume_004_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "LilyCostume_003": {
+        "ID": 31,
+        "ReplacementItemAlias": "LilyCostume_003_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "LilyCostume_004": {
+        "ID": 32,
+        "ReplacementItemAlias": "LilyCostume_004_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "FaceAccessory_002": {
+        "ID": 33,
+        "ReplacementItemAlias": "FaceAccessory_002_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_04_Var2": {
+        "ID": 1001,
+        "ReplacementItemAlias": "DesignPattern_BS_21_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_07_Var2": {
+        "ID": 1002,
+        "ReplacementItemAlias": "DesignPattern_BS_SilverKunoichi",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_09_2_Var2": {
+        "ID": 1003,
+        "ReplacementItemAlias": "DesignPattern_BS_05",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_13_Var2": {
+        "ID": 1004,
+        "ReplacementItemAlias": "DesignPattern_BS_SilverKunoichi_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_16_Var2": {
+        "ID": 1005,
+        "ReplacementItemAlias": "DesignPattern_BS_50",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_31_Var2": {
+        "ID": 1006,
+        "ReplacementItemAlias": "DesignPattern_BS_Blue_Suit",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_34_Var2": {
+        "ID": 1007,
+        "ReplacementItemAlias": "DesignPattern_BS_43_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_37_Var3": {
+        "ID": 1008,
+        "ReplacementItemAlias": "DesignPattern_BS_43",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_38_Var2": {
+        "ID": 1009,
+        "ReplacementItemAlias": "DesignPattern_BS_14",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_40_Var2": {
+        "ID": 1010,
+        "ReplacementItemAlias": "DesignPattern_BS_40_Var3",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_41_Var2": {
+        "ID": 1011,
+        "ReplacementItemAlias": "DesignPattern_BS_15_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_42_Var2": {
+        "ID": 1012,
+        "ReplacementItemAlias": "DesignPattern_BS_55_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_44_Var2": {
+        "ID": 1013,
+        "ReplacementItemAlias": "DesignPattern_BS_21",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_45_Var2": {
+        "ID": 1014,
+        "ReplacementItemAlias": "DesignPattern_BS_53_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_47_Var2": {
+        "ID": 1015,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_Black_Leather_bikini_Var2": {
+        "ID": 1016,
+        "ReplacementItemAlias": "DesignPattern_BS_54",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_Sailor_Jean_Var2": {
+        "ID": 1017,
+        "ReplacementItemAlias": "DesignPattern_BS_50_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_White_Jean_Var2": {
+        "ID": 1018,
+        "ReplacementItemAlias": "DesignPattern_BS_14_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_Yellow_Suit_Jacket_Var2": {
+        "ID": 1019,
+        "ReplacementItemAlias": "DesignPattern_BS_05_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_102_1": {
+        "ID": 1020,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_24_Var2": {
+        "ID": 1021,
+        "ReplacementItemAlias": "DesignPattern_BS_24",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_20_Var2": {
+        "ID": 1022,
+        "ReplacementItemAlias": "BS_26_Var2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_001_Var2": {
+        "ID": 1023,
+        "ReplacementItemAlias": "Earring_012",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_002_Var2": {
+        "ID": 1024,
+        "ReplacementItemAlias": "Earring_013",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_003_Var2": {
+        "ID": 1025,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_008_Var2": {
+        "ID": 1026,
+        "ReplacementItemAlias": "Earring_014",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DroneSeal_002_Var2": {
+        "ID": 1027,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DroneSeal_004_Var2": {
+        "ID": 1028,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "AdamCostume_003_Var2": {
+        "ID": 1029,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "AdamCostume_004_Var2": {
+        "ID": 1030,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "LilyCostume_003_Var2": {
+        "ID": 1031,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "LilyCostume_004_Var2": {
+        "ID": 1032,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "FaceAccessory_002_Var2": {
+        "ID": 1033,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_33_Var2": {
+        "ID": 1034,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_21_Var2": {
+        "ID": 2000,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_SilverKunoichi": {
+        "ID": 2001,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_05": {
+        "ID": 2002,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_SilverKunoichi_Var2": {
+        "ID": 2003,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_50": {
+        "ID": 2004,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_Blue_Suit": {
+        "ID": 2005,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_43_Var2": {
+        "ID": 2006,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_43": {
+        "ID": 2007,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_14": {
+        "ID": 2008,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_40_Var3": {
+        "ID": 2009,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_15_Var2": {
+        "ID": 2010,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_55_Var2": {
+        "ID": 2011,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_21": {
+        "ID": 2012,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_53_Var2": {
+        "ID": 2013,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_54": {
+        "ID": 2014,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_50_Var2": {
+        "ID": 2015,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_14_Var2": {
+        "ID": 2016,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_05_Var2": {
+        "ID": 2017,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DesignPattern_BS_24": {
+        "ID": 2018,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_26_Var2": {
+        "ID": 2019,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_012": {
+        "ID": 2020,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_013": {
+        "ID": 2021,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_014": {
+        "ID": 2022,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveFixedDamage_Common": {
+        "ID": 10000,
+        "ReplacementItemAlias": "Gear_AdditiveFixedDamage_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveFixedDamage_Uncommon": {
+        "ID": 10001,
+        "ReplacementItemAlias": "Gear_AdditiveFixedDamage_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveFixedDamage_Rare": {
+        "ID": 10002,
+        "ReplacementItemAlias": "Gear_AdditiveFixedDamage_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": true,
+        "FileSuffix": "None"
+      },
+      "Gear_AttackSpeed_Common": {
+        "ID": 10003,
+        "ReplacementItemAlias": "Gear_AttackSpeed_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AttackSpeed_Uncommon": {
+        "ID": 10004,
+        "ReplacementItemAlias": "Gear_AttackSpeed_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AttackSpeed_Rare": {
+        "ID": 10005,
+        "ReplacementItemAlias": "Gear_AttackSpeed_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": true,
+        "FileSuffix": "None"
+      },
+      "Gear_ComboAttackAdditiveDamage_Common": {
+        "ID": 10006,
+        "ReplacementItemAlias": "Gear_ComboAttackAdditiveDamage_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ComboAttackAdditiveDamage_Uncommon": {
+        "ID": 10007,
+        "ReplacementItemAlias": "Gear_ComboAttackAdditiveDamage_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ComboAttackAdditiveDamage_Rare": {
+        "ID": 10008,
+        "ReplacementItemAlias": "Gear_ComboAttackAdditiveDamage_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": true,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldAttackPowerRate_Common": {
+        "ID": 10009,
+        "ReplacementItemAlias": "Gear_ShieldAttackPowerRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldAttackPowerRate_Uncommon": {
+        "ID": 10010,
+        "ReplacementItemAlias": "Gear_ShieldAttackPowerRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldAttackPowerRate_Rare": {
+        "ID": 10011,
+        "ReplacementItemAlias": "Gear_ShieldAttackPowerRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldIgnorePercentage_Common": {
+        "ID": 10012,
+        "ReplacementItemAlias": "Gear_ShieldIgnorePercentage_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldIgnorePercentage_Uncommon": {
+        "ID": 10013,
+        "ReplacementItemAlias": "Gear_ShieldIgnorePercentage_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldIgnorePercentage_Rare": {
+        "ID": 10014,
+        "ReplacementItemAlias": "Gear_ShieldIgnorePercentage_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalPercentage_Common": {
+        "ID": 10015,
+        "ReplacementItemAlias": "Gear_CriticalPercentage_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalPercentage_Uncommon": {
+        "ID": 10016,
+        "ReplacementItemAlias": "Gear_CriticalPercentage_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalPercentage_Rare": {
+        "ID": 10017,
+        "ReplacementItemAlias": "Gear_CriticalPercentage_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalValueRate_Common": {
+        "ID": 10018,
+        "ReplacementItemAlias": "Gear_CriticalValueRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalValueRate_Uncommon": {
+        "ID": 10019,
+        "ReplacementItemAlias": "Gear_CriticalValueRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalValueRate_Rare": {
+        "ID": 10020,
+        "ReplacementItemAlias": "Gear_CriticalValueRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaGaugeAdditiveRate_Common": {
+        "ID": 10021,
+        "ReplacementItemAlias": "Gear_BetaGaugeAdditiveRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaGaugeAdditiveRate_Uncommon": {
+        "ID": 10022,
+        "ReplacementItemAlias": "Gear_BetaGaugeAdditiveRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaGaugeAdditiveRate_Rare": {
+        "ID": 10023,
+        "ReplacementItemAlias": "Gear_BetaGaugeAdditiveRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBetaGaugeValueOnDamaged_Common": {
+        "ID": 10024,
+        "ReplacementItemAlias": "Gear_GainBetaGaugeValueOnDamaged_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBetaGaugeValueOnDamaged_Uncommon": {
+        "ID": 10025,
+        "ReplacementItemAlias": "Gear_GainBetaGaugeValueOnDamaged_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBetaGaugeValueOnDamaged_Rare": {
+        "ID": 10026,
+        "ReplacementItemAlias": "Gear_GainBetaGaugeValueOnDamaged_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBetaSkillDamage_Common": {
+        "ID": 10027,
+        "ReplacementItemAlias": "Gear_AdditiveBetaSkillDamage_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBetaSkillDamage_Uncommon": {
+        "ID": 10028,
+        "ReplacementItemAlias": "Gear_AdditiveBetaSkillDamage_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBetaSkillDamage_Rare": {
+        "ID": 10029,
+        "ReplacementItemAlias": "Gear_AdditiveBetaSkillDamage_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBustSkillDamage_Common": {
+        "ID": 10030,
+        "ReplacementItemAlias": "Gear_AdditiveBustSkillDamage_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBustSkillDamage_Uncommon": {
+        "ID": 10031,
+        "ReplacementItemAlias": "Gear_AdditiveBustSkillDamage_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBustSkillDamage_Rare": {
+        "ID": 10032,
+        "ReplacementItemAlias": "Gear_AdditiveBustSkillDamage_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BurstGaugeAdditiveRate_Common": {
+        "ID": 10033,
+        "ReplacementItemAlias": "Gear_BurstGaugeAdditiveRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BurstGaugeAdditiveRate_Uncommon": {
+        "ID": 10034,
+        "ReplacementItemAlias": "Gear_BurstGaugeAdditiveRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BurstGaugeAdditiveRate_Rare": {
+        "ID": 10035,
+        "ReplacementItemAlias": "Gear_BurstGaugeAdditiveRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBurstGaugeValueOnDamaged_Common": {
+        "ID": 10036,
+        "ReplacementItemAlias": "Gear_GainBurstGaugeValueOnDamaged_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBurstGaugeValueOnDamaged_Uncommon": {
+        "ID": 10037,
+        "ReplacementItemAlias": "Gear_GainBurstGaugeValueOnDamaged_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBurstGaugeValueOnDamaged_Rare": {
+        "ID": 10038,
+        "ReplacementItemAlias": "Gear_GainBurstGaugeValueOnDamaged_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxBurstGauge_Common": {
+        "ID": 10039,
+        "ReplacementItemAlias": "Gear_MaxBurstGauge_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxBurstGauge_Uncommon": {
+        "ID": 10040,
+        "ReplacementItemAlias": "Gear_MaxBurstGauge_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxBurstGauge_Rare": {
+        "ID": 10041,
+        "ReplacementItemAlias": "Gear_MaxBurstGauge_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageAdditiveRate_Common": {
+        "ID": 10042,
+        "ReplacementItemAlias": "Gear_RangeAttackDamageAdditiveRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageAdditiveRate_Uncommon": {
+        "ID": 10043,
+        "ReplacementItemAlias": "Gear_RangeAttackDamageAdditiveRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageAdditiveRate_Rare": {
+        "ID": 10044,
+        "ReplacementItemAlias": "Gear_RangeAttackDamageAdditiveRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeRangeDamageReductionRate_Common": {
+        "ID": 10045,
+        "ReplacementItemAlias": "Gear_MeleeRangeDamageReductionRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeRangeDamageReductionRate_Uncommon": {
+        "ID": 10046,
+        "ReplacementItemAlias": "Gear_MeleeRangeDamageReductionRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeRangeDamageReductionRate_Rare": {
+        "ID": 10047,
+        "ReplacementItemAlias": "Gear_MeleeRangeDamageReductionRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeAttackDamageReductionRate_Common": {
+        "ID": 10048,
+        "ReplacementItemAlias": "Gear_MeleeAttackDamageReductionRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeAttackDamageReductionRate_Uncommon": {
+        "ID": 10049,
+        "ReplacementItemAlias": "Gear_MeleeAttackDamageReductionRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeAttackDamageReductionRate_Rare": {
+        "ID": 10050,
+        "ReplacementItemAlias": "Gear_MeleeAttackDamageReductionRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageReductionRate_Common": {
+        "ID": 10051,
+        "ReplacementItemAlias": "Gear_RangeAttackDamageReductionRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageReductionRate_Uncommon": {
+        "ID": 10052,
+        "ReplacementItemAlias": "Gear_RangeAttackDamageReductionRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageReductionRate_Rare": {
+        "ID": 10053,
+        "ReplacementItemAlias": "Gear_RangeAttackDamageReductionRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": true,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxShield_Common": {
+        "ID": 10054,
+        "ReplacementItemAlias": "Gear_MaxShield_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxShield_Uncommon": {
+        "ID": 10055,
+        "ReplacementItemAlias": "Gear_MaxShield_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxShield_Rare": {
+        "ID": 10056,
+        "ReplacementItemAlias": "Gear_MaxShield_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_HighHpDamageAdditiveRate_Common": {
+        "ID": 10057,
+        "ReplacementItemAlias": "Gear_HighHpDamageAdditiveRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_HighHpDamageAdditiveRate_Uncommon": {
+        "ID": 10058,
+        "ReplacementItemAlias": "Gear_HighHpDamageAdditiveRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_HighHpDamageAdditiveRate_Rare": {
+        "ID": 10059,
+        "ReplacementItemAlias": "Gear_HighHpDamageAdditiveRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_LowHpDamageAdditiveRate_Common": {
+        "ID": 10060,
+        "ReplacementItemAlias": "Gear_LowHpDamageAdditiveRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_LowHpDamageAdditiveRate_Uncommon": {
+        "ID": 10061,
+        "ReplacementItemAlias": "Gear_LowHpDamageAdditiveRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_LowHpDamageAdditiveRate_Rare": {
+        "ID": 10062,
+        "ReplacementItemAlias": "Gear_LowHpDamageAdditiveRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveGiveAndReciveDamageRate_Common": {
+        "ID": 10063,
+        "ReplacementItemAlias": "Gear_AdditiveGiveAndReciveDamageRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveGiveAndReciveDamageRate_Uncommon": {
+        "ID": 10064,
+        "ReplacementItemAlias": "Gear_AdditiveGiveAndReciveDamageRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveGiveAndReciveDamageRate_Rare": {
+        "ID": 10065,
+        "ReplacementItemAlias": "Gear_AdditiveGiveAndReciveDamageRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyAdditiveDamageRate_Common": {
+        "ID": 10066,
+        "ReplacementItemAlias": "Gear_KillEnemyAdditiveDamageRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyAdditiveDamageRate_Uncommon": {
+        "ID": 10067,
+        "ReplacementItemAlias": "Gear_KillEnemyAdditiveDamageRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyAdditiveDamageRate_Rare": {
+        "ID": 10068,
+        "ReplacementItemAlias": "Gear_KillEnemyAdditiveDamageRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyHealHP_Common": {
+        "ID": 10069,
+        "ReplacementItemAlias": "Gear_KillEnemyHealHP_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyHealHP_Uncommon": {
+        "ID": 10070,
+        "ReplacementItemAlias": "Gear_KillEnemyHealHP_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyHealHP_Rare": {
+        "ID": 10071,
+        "ReplacementItemAlias": "Gear_KillEnemyHealHP_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaCrystalAdditiveRate_Common": {
+        "ID": 10072,
+        "ReplacementItemAlias": "Gear_BetaCrystalAdditiveRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaCrystalAdditiveRate_Uncommon": {
+        "ID": 10073,
+        "ReplacementItemAlias": "Gear_BetaCrystalAdditiveRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaCrystalAdditiveRate_Rare": {
+        "ID": 10074,
+        "ReplacementItemAlias": "Gear_BetaCrystalAdditiveRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_SPExpAdditiveRate_Common": {
+        "ID": 10075,
+        "ReplacementItemAlias": "Gear_SPExpAdditiveRate_Common_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_SPExpAdditiveRate_Uncommon": {
+        "ID": 10076,
+        "ReplacementItemAlias": "Gear_SPExpAdditiveRate_Uncommon_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_SPExpAdditiveRate_Rare": {
+        "ID": 10077,
+        "ReplacementItemAlias": "Gear_SPExpAdditiveRate_Rare_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveFixedDamage_Common_MK2": {
+        "ID": 11000,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveFixedDamage_Uncommon_MK2": {
+        "ID": 11001,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveFixedDamage_Rare_MK2": {
+        "ID": 11002,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AttackSpeed_Common_MK2": {
+        "ID": 11003,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AttackSpeed_Uncommon_MK2": {
+        "ID": 11004,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AttackSpeed_Rare_MK2": {
+        "ID": 11005,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ComboAttackAdditiveDamage_Common_MK2": {
+        "ID": 11006,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ComboAttackAdditiveDamage_Uncommon_MK2": {
+        "ID": 11007,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ComboAttackAdditiveDamage_Rare_MK2": {
+        "ID": 11008,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldAttackPowerRate_Common_MK2": {
+        "ID": 11009,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldAttackPowerRate_Uncommon_MK2": {
+        "ID": 11010,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldAttackPowerRate_Rare_MK2": {
+        "ID": 11011,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldIgnorePercentage_Common_MK2": {
+        "ID": 11012,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldIgnorePercentage_Uncommon_MK2": {
+        "ID": 11013,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_ShieldIgnorePercentage_Rare_MK2": {
+        "ID": 11014,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalPercentage_Common_MK2": {
+        "ID": 11015,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalPercentage_Uncommon_MK2": {
+        "ID": 11016,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalPercentage_Rare_MK2": {
+        "ID": 11017,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalValueRate_Common_MK2": {
+        "ID": 11018,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalValueRate_Uncommon_MK2": {
+        "ID": 11019,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_CriticalValueRate_Rare_MK2": {
+        "ID": 11020,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaGaugeAdditiveRate_Common_MK2": {
+        "ID": 11021,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaGaugeAdditiveRate_Uncommon_MK2": {
+        "ID": 11022,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaGaugeAdditiveRate_Rare_MK2": {
+        "ID": 11023,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBetaGaugeValueOnDamaged_Common_MK2": {
+        "ID": 11024,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBetaGaugeValueOnDamaged_Uncommon_MK2": {
+        "ID": 11025,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBetaGaugeValueOnDamaged_Rare_MK2": {
+        "ID": 11026,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBetaSkillDamage_Common_MK2": {
+        "ID": 11027,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBetaSkillDamage_Uncommon_MK2": {
+        "ID": 11028,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBetaSkillDamage_Rare_MK2": {
+        "ID": 11029,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBustSkillDamage_Common_MK2": {
+        "ID": 11030,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBustSkillDamage_Uncommon_MK2": {
+        "ID": 11031,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveBustSkillDamage_Rare_MK2": {
+        "ID": 11032,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BurstGaugeAdditiveRate_Common_MK2": {
+        "ID": 11033,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BurstGaugeAdditiveRate_Uncommon_MK2": {
+        "ID": 11034,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BurstGaugeAdditiveRate_Rare_MK2": {
+        "ID": 11035,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBurstGaugeValueOnDamaged_Common_MK2": {
+        "ID": 11036,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBurstGaugeValueOnDamaged_Uncommon_MK2": {
+        "ID": 11037,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_GainBurstGaugeValueOnDamaged_Rare_MK2": {
+        "ID": 11038,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxBurstGauge_Common_MK2": {
+        "ID": 11039,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxBurstGauge_Uncommon_MK2": {
+        "ID": 11040,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxBurstGauge_Rare_MK2": {
+        "ID": 11041,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageAdditiveRate_Common_MK2": {
+        "ID": 11042,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 11043,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageAdditiveRate_Rare_MK2": {
+        "ID": 11044,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeRangeDamageReductionRate_Common_MK2": {
+        "ID": 11045,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeRangeDamageReductionRate_Uncommon_MK2": {
+        "ID": 11046,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeRangeDamageReductionRate_Rare_MK2": {
+        "ID": 11047,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeAttackDamageReductionRate_Common_MK2": {
+        "ID": 11048,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeAttackDamageReductionRate_Uncommon_MK2": {
+        "ID": 11049,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MeleeAttackDamageReductionRate_Rare_MK2": {
+        "ID": 11050,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageReductionRate_Common_MK2": {
+        "ID": 11051,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageReductionRate_Uncommon_MK2": {
+        "ID": 11052,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_RangeAttackDamageReductionRate_Rare_MK2": {
+        "ID": 11053,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxShield_Common_MK2": {
+        "ID": 11054,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxShield_Uncommon_MK2": {
+        "ID": 11055,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_MaxShield_Rare_MK2": {
+        "ID": 11056,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_HighHpDamageAdditiveRate_Common_MK2": {
+        "ID": 11057,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_HighHpDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 11058,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_HighHpDamageAdditiveRate_Rare_MK2": {
+        "ID": 11059,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_LowHpDamageAdditiveRate_Common_MK2": {
+        "ID": 11060,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_LowHpDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 11061,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_LowHpDamageAdditiveRate_Rare_MK2": {
+        "ID": 11062,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveGiveAndReciveDamageRate_Common_MK2": {
+        "ID": 11063,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveGiveAndReciveDamageRate_Uncommon_MK2": {
+        "ID": 11064,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_AdditiveGiveAndReciveDamageRate_Rare_MK2": {
+        "ID": 11065,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyAdditiveDamageRate_Common_MK2": {
+        "ID": 11066,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyAdditiveDamageRate_Uncommon_MK2": {
+        "ID": 11067,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyAdditiveDamageRate_Rare_MK2": {
+        "ID": 11068,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyHealHP_Common_MK2": {
+        "ID": 11069,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyHealHP_Uncommon_MK2": {
+        "ID": 11070,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_KillEnemyHealHP_Rare_MK2": {
+        "ID": 11071,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaCrystalAdditiveRate_Common_MK2": {
+        "ID": 11072,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaCrystalAdditiveRate_Uncommon_MK2": {
+        "ID": 11073,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_BetaCrystalAdditiveRate_Rare_MK2": {
+        "ID": 11074,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_SPExpAdditiveRate_Common_MK2": {
+        "ID": 11075,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_SPExpAdditiveRate_Uncommon_MK2": {
+        "ID": 11076,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Gear_SPExpAdditiveRate_Rare_MK2": {
+        "ID": 11077,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Combo": {
+        "ID": 20000,
+        "ReplacementItemAlias": "PT_Combo_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Skill": {
+        "ID": 20001,
+        "ReplacementItemAlias": "PT_Skill_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Burst": {
+        "ID": 20002,
+        "ReplacementItemAlias": "PT_Burst_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Tachy": {
+        "ID": 20003,
+        "ReplacementItemAlias": "PT_Tachy_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Survive": {
+        "ID": 20004,
+        "ReplacementItemAlias": "PT_Survive_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Guard": {
+        "ID": 20005,
+        "ReplacementItemAlias": "PT_Guard_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Crowd": {
+        "ID": 20006,
+        "ReplacementItemAlias": "PT_Crowd_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Shoot": {
+        "ID": 20007,
+        "ReplacementItemAlias": "PT_Shoot_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Down": {
+        "ID": 20008,
+        "ReplacementItemAlias": "PT_Down_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Grenade": {
+        "ID": 20009,
+        "ReplacementItemAlias": "PT_Grenade_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Stab": {
+        "ID": 20010,
+        "ReplacementItemAlias": "PT_Stab_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Recovery": {
+        "ID": 20011,
+        "ReplacementItemAlias": "PT_Recovery_MK2",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Combo_MK2": {
+        "ID": 21000,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Skill_MK2": {
+        "ID": 21001,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Burst_MK2": {
+        "ID": 21002,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Tachy_MK2": {
+        "ID": 21003,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Survive_MK2": {
+        "ID": 21004,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Guard_MK2": {
+        "ID": 21005,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Crowd_MK2": {
+        "ID": 21006,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Shoot_MK2": {
+        "ID": 21007,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Down_MK2": {
+        "ID": 21008,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Grenade_MK2": {
+        "ID": 21009,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Stab_MK2": {
+        "ID": 21010,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "PT_Recovery_MK2": {
+        "ID": 21011,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 4,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "FaceAccessory_003": {
+        "ID": 21012,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_005": {
+        "ID": 21013,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 2,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Hair_Christmas_01": {
+        "ID": 21014,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin_Christmas",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_Christmas_01": {
+        "ID": 21015,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin_Christmas",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "Earring_Christmas_02": {
+        "ID": 21016,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin_Christmas",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "FaceAccessory_Christmas_01": {
+        "ID": 21017,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin_Christmas",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "AdamCostume_Christmas_01": {
+        "ID": 21018,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin_Christmas",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_Christmas_01": {
+        "ID": 21019,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin_Christmas",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "DroneSeal_Christmas_01": {
+        "ID": 21020,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin_Christmas",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      },
+      "BS_22_Var2_E": {
+        "ID": 21021,
+        "ReplacementItemAlias": "ETC_Item_VendingMachineCoin",
+        "ReplacementItemAmount": 1,
+        "UseRewardDirectOverride": false,
+        "RewardDirectValue": false,
+        "UseRewardMustAcquisitionOverride": false,
+        "RewardMustAcquisition": false,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

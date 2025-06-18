@@ -1,0 +1,680 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventEffectVolumeControlTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventEffectVolumeControlTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "DED20_E_EffVolC_001": {
+        "ID": 1,
+        "EffectVolume": "DED20_EffVol_007",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_EffVolC_002": {
+        "ID": 2,
+        "EffectVolume": "DED20_EffVol_008",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_EffVolC_003": {
+        "ID": 3,
+        "EffectVolume": "DED20_EffVol_007",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_EffVolC_004": {
+        "ID": 4,
+        "EffectVolume": "DED20_EffVol_008",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_EffVolC_005": {
+        "ID": 5,
+        "EffectVolume": "DED20_EffVol_014",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_EffVolC_006": {
+        "ID": 6,
+        "EffectVolume": "DED20_EffVol_015",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_EffVolC_007": {
+        "ID": 7,
+        "EffectVolume": "DED20_EffVol_014",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_EffVolC_008": {
+        "ID": 8,
+        "EffectVolume": "DED20_EffVol_015",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED30_E_EffVolC_001": {
+        "ID": 9,
+        "EffectVolume": "DED30_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_EffVolC_001": {
+        "ID": 10,
+        "EffectVolume": "JYS_testmap_E_EffVolC_004",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_Test_MultiPlayBoss_E_EffVolC_001": {
+        "ID": 11,
+        "EffectVolume": "LV_Test_MultiPlayBoss_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_Test_MultiPlayBoss_E_EffVolC_002": {
+        "ID": 12,
+        "EffectVolume": "LV_Test_MultiPlayBoss_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_011": {
+        "ID": 78,
+        "EffectVolume": "ME_02_EffVol_011",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_010": {
+        "ID": 77,
+        "EffectVolume": "ME_02_EffVol_011",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_009": {
+        "ID": 19,
+        "EffectVolume": "ME_02_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_007": {
+        "ID": 18,
+        "EffectVolume": "ME_02_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_005": {
+        "ID": 17,
+        "EffectVolume": "ME_02_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_004": {
+        "ID": 16,
+        "EffectVolume": "ME_02_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_003": {
+        "ID": 15,
+        "EffectVolume": "ME_02_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_04_E_EffVolC_001": {
+        "ID": 20,
+        "EffectVolume": "ME_04_EffVol_002",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_04_E_EffVolC_002": {
+        "ID": 21,
+        "EffectVolume": "ME_04_EffVol_002",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_EffVolC_005": {
+        "ID": 75,
+        "EffectVolume": "SE_07_EffVol_009",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_EffVolC_004": {
+        "ID": 74,
+        "EffectVolume": "SE_07_EffVol_009",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_EffVolC_003": {
+        "ID": 24,
+        "EffectVolume": "SE_07_EffVol_008",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_017": {
+        "ID": 64,
+        "EffectVolume": "SD_10_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_016": {
+        "ID": 40,
+        "EffectVolume": "SD_10_EffVol_008",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_015": {
+        "ID": 39,
+        "EffectVolume": "SD_10_EffVol_039",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_014": {
+        "ID": 38,
+        "EffectVolume": "SD_10_EffVol_038",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_013": {
+        "ID": 37,
+        "EffectVolume": "SD_10_EffVol_037",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_012": {
+        "ID": 36,
+        "EffectVolume": "SD_10_EffVol_036",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_011": {
+        "ID": 35,
+        "EffectVolume": "SD_10_EffVol_007",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_010": {
+        "ID": 34,
+        "EffectVolume": "SD_10_EffVol_007",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_009": {
+        "ID": 33,
+        "EffectVolume": "SD_10_EffVol_006",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_008": {
+        "ID": 32,
+        "EffectVolume": "SD_10_EffVol_006",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_007": {
+        "ID": 31,
+        "EffectVolume": "SD_10_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_006": {
+        "ID": 30,
+        "EffectVolume": "SD_10_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_005": {
+        "ID": 29,
+        "EffectVolume": "SD_10_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_004": {
+        "ID": 28,
+        "EffectVolume": "SD_10_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_003": {
+        "ID": 27,
+        "EffectVolume": "SD_10_EffVol_003",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_KYH_01_E_EffVolC_001": {
+        "ID": 42,
+        "EffectVolume": "Test_KYH_01_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_008": {
+        "ID": 49,
+        "EffectVolume": "AYL_05_EffVol_006",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_007": {
+        "ID": 48,
+        "EffectVolume": "AYL_05_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_006": {
+        "ID": 47,
+        "EffectVolume": "AYL_05_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_005": {
+        "ID": 46,
+        "EffectVolume": "AYL_05_EffVol_003",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_004": {
+        "ID": 45,
+        "EffectVolume": "AYL_05_EffVol_006",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_003": {
+        "ID": 44,
+        "EffectVolume": "AYL_05_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_002": {
+        "ID": 43,
+        "EffectVolume": "AYL_05_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_001": {
+        "ID": 41,
+        "EffectVolume": "AYL_05_EffVol_003",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_EffVolC_003": {
+        "ID": 52,
+        "EffectVolume": "AYL_01_EffVol_009",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_EffVolC_002": {
+        "ID": 51,
+        "EffectVolume": "AYL_01_EffVol_003",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_EffVolC_001": {
+        "ID": 50,
+        "EffectVolume": "AYL_01_EffVol_002",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_04_E_EffVolC_001": {
+        "ID": 53,
+        "EffectVolume": "SE_04_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_009": {
+        "ID": 54,
+        "EffectVolume": "AYL_05_EffVol_009",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_010": {
+        "ID": 55,
+        "EffectVolume": "AYL_05_EffVol_009",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_011": {
+        "ID": 56,
+        "EffectVolume": "AYL_05_EffVol_010",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_012": {
+        "ID": 57,
+        "EffectVolume": "AYL_05_EffVol_010",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_013": {
+        "ID": 58,
+        "EffectVolume": "AYL_05_EffVol_011",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_014": {
+        "ID": 59,
+        "EffectVolume": "AYL_05_EffVol_011",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_015": {
+        "ID": 60,
+        "EffectVolume": "AYL_05_EffVol_012",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_016": {
+        "ID": 61,
+        "EffectVolume": "AYL_05_EffVol_012",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_017": {
+        "ID": 62,
+        "EffectVolume": "AYL_05_EffVol_013",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_EffVolC_018": {
+        "ID": 63,
+        "EffectVolume": "AYL_05_EffVol_013",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_EffVolC_002": {
+        "ID": 26,
+        "EffectVolume": "SD_10_EffVol_003",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_EffVolC_006": {
+        "ID": 76,
+        "EffectVolume": "Xion_10_EffVol_014",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_EffVolC_001": {
+        "ID": 25,
+        "EffectVolume": "WLB_50_EffVol_002",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED40_E_EffVolC_002": {
+        "ID": 70,
+        "EffectVolume": "DED40_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED40_E_EffVolC_001": {
+        "ID": 69,
+        "EffectVolume": "DED40_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_EffVolC_001": {
+        "ID": 66,
+        "EffectVolume": "WLA_10_EffVol_019",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_05_E_EffVolC_001": {
+        "ID": 67,
+        "EffectVolume": "ME_05_EffVol_012",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_EffVolC_005": {
+        "ID": 73,
+        "EffectVolume": "Xion_10_EffVol_017",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_EffVolC_004": {
+        "ID": 72,
+        "EffectVolume": "Xion_10_EffVol_016",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_EffVolC_003": {
+        "ID": 71,
+        "EffectVolume": "Xion_10_EffVol_017",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_EffVolC_002": {
+        "ID": 68,
+        "EffectVolume": "Xion_10_EffVol_016",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_EffVolC_002": {
+        "ID": 23,
+        "EffectVolume": "SE_07_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_EffVolC_001": {
+        "ID": 22,
+        "EffectVolume": "SE_07_EffVol_005",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_EffVolC_001": {
+        "ID": 65,
+        "EffectVolume": "Xion_10_EffVol_014",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_002": {
+        "ID": 14,
+        "EffectVolume": "ME_02_EffVol_004",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_001": {
+        "ID": 13,
+        "EffectVolume": "ME_02_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Enable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_EffVolC_012": {
+        "ID": 79,
+        "EffectVolume": "ME_02_EffVol_012",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_EffVolC_001": {
+        "ID": 80,
+        "EffectVolume": "ATL_03_EffVol_002",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_LGH_01_EffVol_003": {
+        "ID": 83,
+        "EffectVolume": "Test_LGH_01_E_EffVolC_003",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_LGH_01_E_EffVolC_002": {
+        "ID": 82,
+        "EffectVolume": "Test_LGH_01_EffVol_002",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_LGH_01_E_EffVolC_001": {
+        "ID": 81,
+        "EffectVolume": "Test_LGH_01_EffVol_001",
+        "Activate": "ESBObjectState::ESBObject_Disable",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

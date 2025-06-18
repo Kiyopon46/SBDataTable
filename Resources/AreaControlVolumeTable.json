@@ -1,0 +1,857 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AreaControlVolumeTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBAreaControlVolumeTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "GorilaTest_AreaCVol_001": {
+        "ID": 6053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED10_AreaCVol_004": {
+        "ID": 1110053004,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "DED10_AreaCVol_003": {
+        "ID": 1110053003,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "DED10_AreaCVol_002": {
+        "ID": 1110053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED20_AreaCVol_004": {
+        "ID": 1120053004,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "DED20_AreaCVol_003": {
+        "ID": 1120053003,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "DED30_AreaCVol_001": {
+        "ID": 1130053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED30_AreaCVol_003": {
+        "ID": 1130053003,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "FA_03_AreaCVol_001": {
+        "ID": 58053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [
+          "Monster"
+        ],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "CGH_data_AreaCVol_001": {
+        "ID": 25053001,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_AreaCVol_001": {
+        "ID": 26053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_AreaCVol_001": {
+        "ID": 66053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_AreaCVol_002": {
+        "ID": 66053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [
+          "LV_TempTestMap_E_CharS_015"
+        ],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Map_AreaCVol_003": {
+        "ID": 42053003,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [
+          "PC"
+        ],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "ME_05_AreaCVol_001": {
+        "ID": 1205053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "SE_04_AreaCVol_001": {
+        "ID": 1304053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "SE_06_AreaCVol_001": {
+        "ID": 1306053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "SE_08_AreaCVol_002": {
+        "ID": 1308053002,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "SE_08_AreaCVol_001": {
+        "ID": 1308053001,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "SE_10_AreaCVol_001": {
+        "ID": 1310053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "SYS01_AreaCVol_001": {
+        "ID": 3101053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLB_20_AreaCVol_001": {
+        "ID": 1520053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "Xion_21_AreaCVol_002": {
+        "ID": 1621053002,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_AreaCVol_002": {
+        "ID": 1550053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [
+          "Monster"
+        ],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "LV_RavenBoss_Test_AreaCVol_002": {
+        "ID": 755053002,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_AreaCVol_003": {
+        "ID": 1510053003,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLA_30_AreaCVol_001": {
+        "ID": 1430053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "Xion_21_AreaCVol_001": {
+        "ID": 1621053001,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "SD_10_AreaCVol_001": {
+        "ID": 1710053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "ME_03_AreaCVol_003": {
+        "ID": 1203053003,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED20_AreaCVol_001": {
+        "ID": 1120053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "ATL_03_AreaCVol_002": {
+        "ID": 1903053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [
+          "Monster"
+        ],
+        "AdmissionPossibleCharacterTagArray": [
+          "Monster",
+          "Maelstrom"
+        ],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "Test_KYH_01_AreaCVol_001": {
+        "ID": 100053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED10_AreaCVol_001": {
+        "ID": 1110053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [
+          "Monster"
+        ],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "LV_RavenBoss_Test_AreaCVol_001": {
+        "ID": 755053001,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "AYL_06_AreaCVol_001": {
+        "ID": 2206053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [
+          "Monster"
+        ],
+        "AdmissionPossibleCharacterTagArray": [
+          "Monster",
+          "Maelstrom"
+        ],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLB_30_AreaCVol_001": {
+        "ID": 1530053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLB_10_AreaCVol_001": {
+        "ID": 1510053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED40_AreaCVol_002": {
+        "ID": 2140053002,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_AreaCVol_004": {
+        "ID": 1410053004,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLA_10_AreaCVol_003": {
+        "ID": 1410053003,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED40_AreaCVol_001": {
+        "ID": 2140053001,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_AreaCVol_003": {
+        "ID": 1440053003,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_AreaCVol_002": {
+        "ID": 1440053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "Nest_10_AreaCVol_003": {
+        "ID": 1810053003,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [
+          "Monster"
+        ],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "Nest_10_AreaCVol_002": {
+        "ID": 1810053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLB_50_AreaCVol_001": {
+        "ID": 1550053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "Nest_10_AreaCVol_001": {
+        "ID": 1810053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_AreaCVol_002": {
+        "ID": 1410053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "MEDemo_01_AreaCVol_001": {
+        "ID": 2701053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLA_40_AreaCVol_001": {
+        "ID": 1440053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "Nest_10_AreaCVol_004": {
+        "ID": 1810053004,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "ME_06_AreaCVol_001": {
+        "ID": 1206053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "ME_Boss_Sawshark_AreaCVol_002": {
+        "ID": 1291053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "ME_Boss_Sawshark_AreaCVol_001": {
+        "ID": 1291053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "DED_Boss_Opener_AreaCVol_002": {
+        "ID": 1191053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED_Boss_Opener_AreaCVol_001": {
+        "ID": 1191053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "Xion_Boss_RavenBeast_AreaCVol_003": {
+        "ID": 1691053003,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "Xion_Boss_RavenBeast_AreaCVol_002": {
+        "ID": 1691053002,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "Xion_Boss_RavenBeast_AreaCVol_001": {
+        "ID": 1691053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "Nest_Boss_Elder_AreaCVol_001": {
+        "ID": 1891053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "SE_Boss_Crawler_AreaCVol_001": {
+        "ID": 1391053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "Nest_Boss_ExoSuit_AreaCVol_001": {
+        "ID": 1892053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "ME_Boss_SkullJuggernaut_AreaCVol_001": {
+        "ID": 1292053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "ME_Boss_SkullJuggernaut_AreaCVol_002": {
+        "ID": 1292053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "ME_Boss_Tachy_AreaCVol_001": {
+        "ID": 1293053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "ME_Boss_Tachy_AreaCVol_002": {
+        "ID": 1293053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "SE_Boss_WeaponMaster_AreaCVol_001": {
+        "ID": 1393053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "SE_Boss_WeaponMaster_AreaCVol_002": {
+        "ID": 1393053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLA_Boss_GorillaBrokenHead_AreaCVol_001": {
+        "ID": 1491053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "DED_Boss_Gorilla_AreaCVol_001": {
+        "ID": 1193053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "DED_Boss_GrubShooter_AreaCVol_001": {
+        "ID": 1192053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DED_Boss_GrubShooter_AreaCVol_002": {
+        "ID": 1192053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "WLA_Boss_HedgeBoarBrute_AreaCVol_002": {
+        "ID": 1492053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "DEDA_Boss_DoubleBoss_AreaCVol_002": {
+        "ID": 2191053002,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "DEDA_Boss_DoubleBoss_AreaCVol_001": {
+        "ID": 2191053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "WLB_Boss_OpenerWasteland_AreaCVol_002": {
+        "ID": 1592053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "WLB_Boss_OpenerWasteland_AreaCVol_001": {
+        "ID": 1592053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLB_Boss_SawsharkWasteland_AreaCVol_001": {
+        "ID": 1591053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLB_Boss_SawsharkWasteland_AreaCVol_002": {
+        "ID": 1591053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "SE_Boss_Marionette_AreaCVol_001": {
+        "ID": 1392053001,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "SE_Boss_Marionette_AreaCVol_002": {
+        "ID": 1392053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "Nest_Boss_ExoSuit_Dead_AreaCVol_001": {
+        "ID": 1893053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "WLB_Boss_Behemoth_AreaCVol_002": {
+        "ID": 1593053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLB_Boss_Behemoth_AreaCVol_001": {
+        "ID": 1593053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLA_Boss_HedgeBoarBrute_AreaCVol_001": {
+        "ID": 1492053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "WLA_Boss_Raven_AreaCVol_002": {
+        "ID": 1493053002,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_ResetZone",
+        "FileSuffix": "None"
+      },
+      "WLA_Boss_Raven_AreaCVol_001": {
+        "ID": 1493053001,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "Xion_Boss_Mann_AreaCVol_002": {
+        "ID": 1692053002,
+        "InitActivate": "ESBObjectState::ESBObject_Enable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_Save",
+        "FileSuffix": "None"
+      },
+      "Xion_Boss_Mann_AreaCVol_001": {
+        "ID": 1692053001,
+        "InitActivate": "ESBObjectState::ESBObject_None",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": true,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      },
+      "NK_Boss_Scarlet_AreaCVol_001": {
+        "ID": 3191053001,
+        "InitActivate": "ESBObjectState::ESBObject_Disable",
+        "AdmissionPossibleTribeArray": [],
+        "AdmissionPossibleCharacterTagArray": [],
+        "bRemoveNotKeepSBCharacter": false,
+        "SaveType": "ESBZoneObjectSaveType::ESBZoneObjSaveType_None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

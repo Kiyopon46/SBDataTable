@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillPriorityTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBSkillPriorityTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "P_Eve_Sword_Normal_Evade": {
+        "ID": 1101000,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Normal_Evade2_1",
+          "P_Eve_Sword_Normal_Evade1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Lockon_Evade": {
+        "ID": 1101001,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Lockon_Evade2_1",
+          "P_Eve_Sword_Lockon_Evade1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Normal_Guard": {
+        "ID": 1101002,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Normal_Guard2_1",
+          "P_Eve_Sword_Normal_Guard1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Normal_DashAttack1_1": {
+        "ID": 1101003,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Normal_DashAttack4_1",
+          "P_Eve_Sword_Normal_DashAttack3_1",
+          "P_Eve_Sword_Normal_DashAttack1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Burst_FinishAttack1_1": {
+        "ID": 1101005,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Burst_FinishAttack3_1",
+          "P_Eve_Sword_Burst_FinishAttack2_1",
+          "P_Eve_Sword_Burst_FinishAttack1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Beta_ChargeSlash1_1": {
+        "ID": 1101006,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Beta_ChargeSlash1Ex",
+          "P_Eve_Sword_Beta_ChargeSlash2_1",
+          "P_Eve_Sword_Beta_ChargeSlash1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Beta_ShieldBreak1_1": {
+        "ID": 1101007,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Beta_ShieldBreak1Ex_1",
+          "P_Eve_Sword_Beta_ShieldBreak2_1",
+          "P_Eve_Sword_Beta_ShieldBreak1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Burst_SpinAttack1_1": {
+        "ID": 1101008,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Burst_SpinAttack2_1",
+          "P_Eve_Sword_Burst_SpinAttack1_1"
+        ],
+        "FileSuffix": "None"
+      },
+      "P_Eve_Sword_Burst_MassiveAttack1_1": {
+        "ID": 1101009,
+        "SkillSlotType": "ESBSkillSlotType::ESBSkillSlotType_None",
+        "SkillAliasArray": [
+          "P_Eve_Sword_Burst_MassiveAttack2_1",
+          "P_Eve_Sword_Burst_MassiveAttack1_1"
+        ],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

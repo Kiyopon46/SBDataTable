@@ -1,0 +1,887 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SoundEquipmentSetTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBSoundEquipmentSetTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "EquipmentAlias"
+      ]
+    },
+    "Rows": {
+      "BS_Default": {
+        "EquipmentAlias": "BS_Default",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Default_Var2": {
+        "EquipmentAlias": "BS_Default_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Green_Suit": {
+        "EquipmentAlias": "BS_Green_Suit",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Blue_Suit_E": {
+        "EquipmentAlias": "BS_Blue_Suit_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Sailor_Jean": {
+        "EquipmentAlias": "BS_Sailor_Jean",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Sailor_Jean_Var2": {
+        "EquipmentAlias": "BS_Sailor_Jean_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Black_Leather_bikini": {
+        "EquipmentAlias": "BS_Black_Leather_bikini",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Black_Leather_bikini_Var2": {
+        "EquipmentAlias": "BS_Black_Leather_bikini_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_White_Jean": {
+        "EquipmentAlias": "BS_White_Jean",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_White_Jean_Var2": {
+        "EquipmentAlias": "BS_White_Jean_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Leather_Jean": {
+        "EquipmentAlias": "BS_Leather_Jean",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Leather_Jean_Var2": {
+        "EquipmentAlias": "BS_Leather_Jean_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Raven": {
+        "EquipmentAlias": "BS_Raven",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Yellow_Suit_Jacket": {
+        "EquipmentAlias": "BS_Yellow_Suit_Jacket",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Yellow_Suit_Jacket_Var2": {
+        "EquipmentAlias": "BS_Yellow_Suit_Jacket_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Yellow_Suit": {
+        "EquipmentAlias": "BS_Yellow_Suit",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Yellow_Suit_Var2": {
+        "EquipmentAlias": "BS_Yellow_Suit_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_102": {
+        "EquipmentAlias": "BS_102",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_99": {
+        "EquipmentAlias": "BS_99",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_01": {
+        "EquipmentAlias": "BS_01",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_01_Var2": {
+        "EquipmentAlias": "BS_01_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_01_Var3": {
+        "EquipmentAlias": "BS_01_Var3",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_02": {
+        "EquipmentAlias": "BS_02",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_02_Var2": {
+        "EquipmentAlias": "BS_02_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_03": {
+        "EquipmentAlias": "BS_03",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_03_Var2": {
+        "EquipmentAlias": "BS_03_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_04": {
+        "EquipmentAlias": "BS_04",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_04_Var2": {
+        "EquipmentAlias": "BS_04_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_05_E": {
+        "EquipmentAlias": "BS_05_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_07": {
+        "EquipmentAlias": "BS_07",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_07_Var2": {
+        "EquipmentAlias": "BS_07_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_08": {
+        "EquipmentAlias": "BS_08",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_08_Var2": {
+        "EquipmentAlias": "BS_08_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_09_2": {
+        "EquipmentAlias": "BS_09_2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_09_2_Var2": {
+        "EquipmentAlias": "BS_09_2_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_10": {
+        "EquipmentAlias": "BS_10",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Boots/FS_PC_Boots.FS_PC_Boots",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_11": {
+        "EquipmentAlias": "BS_11",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Boots/FS_PC_Boots.FS_PC_Boots",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_13": {
+        "EquipmentAlias": "BS_13",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_13_Var2": {
+        "EquipmentAlias": "BS_13_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_14_E": {
+        "EquipmentAlias": "BS_14_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_14_Var2_E": {
+        "EquipmentAlias": "BS_14_Var2_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_15": {
+        "EquipmentAlias": "BS_15",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_16": {
+        "EquipmentAlias": "BS_16",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_16_Var2": {
+        "EquipmentAlias": "BS_16_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_19": {
+        "EquipmentAlias": "BS_19",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_19_Var2": {
+        "EquipmentAlias": "BS_19_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_20": {
+        "EquipmentAlias": "BS_20",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_20_Var2": {
+        "EquipmentAlias": "BS_20_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_22": {
+        "EquipmentAlias": "BS_22",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_22_Var2_E": {
+        "EquipmentAlias": "BS_22_Var2_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_23": {
+        "EquipmentAlias": "BS_23",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_23_Var2": {
+        "EquipmentAlias": "BS_23_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_24_E": {
+        "EquipmentAlias": "BS_24_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_24_Var2": {
+        "EquipmentAlias": "BS_24_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_30": {
+        "EquipmentAlias": "BS_30",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_30_Var2": {
+        "EquipmentAlias": "BS_30_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_31": {
+        "EquipmentAlias": "BS_31",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_31_Var2": {
+        "EquipmentAlias": "BS_31_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_34": {
+        "EquipmentAlias": "BS_34",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_34_Var2": {
+        "EquipmentAlias": "BS_34_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_37": {
+        "EquipmentAlias": "BS_37",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_37_Var2": {
+        "EquipmentAlias": "BS_37_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_37_Var3": {
+        "EquipmentAlias": "BS_37_Var3",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_38": {
+        "EquipmentAlias": "BS_38",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_38_Var2": {
+        "EquipmentAlias": "BS_38_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_40": {
+        "EquipmentAlias": "BS_40",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_40_Var2": {
+        "EquipmentAlias": "BS_40_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_41": {
+        "EquipmentAlias": "BS_41",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_41_Var2": {
+        "EquipmentAlias": "BS_41_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_42": {
+        "EquipmentAlias": "BS_42",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_42_Var2": {
+        "EquipmentAlias": "BS_42_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_44": {
+        "EquipmentAlias": "BS_44",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_44_Var2": {
+        "EquipmentAlias": "BS_44_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_45": {
+        "EquipmentAlias": "BS_45",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_45_Var2": {
+        "EquipmentAlias": "BS_45_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_47": {
+        "EquipmentAlias": "BS_47",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_47_Var2": {
+        "EquipmentAlias": "BS_47_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_48": {
+        "EquipmentAlias": "BS_48",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_48_Var2": {
+        "EquipmentAlias": "BS_48_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Bear": {
+        "EquipmentAlias": "BS_Bear",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Bear/FS_PC_Bear.FS_PC_Bear",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Bear_Var2": {
+        "EquipmentAlias": "BS_Bear_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Bear/FS_PC_Bear.FS_PC_Bear",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_EVE_04": {
+        "EquipmentAlias": "BS_EVE_04",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_EVE_04_Var2": {
+        "EquipmentAlias": "BS_EVE_04_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_32": {
+        "EquipmentAlias": "BS_32",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_50": {
+        "EquipmentAlias": "BS_50",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_52": {
+        "EquipmentAlias": "BS_52",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_56": {
+        "EquipmentAlias": "BS_56",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_57": {
+        "EquipmentAlias": "BS_57",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_44_Var3_E": {
+        "EquipmentAlias": "BS_44_Var3_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_33": {
+        "EquipmentAlias": "BS_33",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_43": {
+        "EquipmentAlias": "BS_43",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_40_Var3": {
+        "EquipmentAlias": "BS_40_Var3",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_53": {
+        "EquipmentAlias": "BS_53",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_54": {
+        "EquipmentAlias": "BS_54",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_55": {
+        "EquipmentAlias": "BS_55",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_SilverKunoichi": {
+        "EquipmentAlias": "BS_SilverKunoichi",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_SilverKunoichi_Var2": {
+        "EquipmentAlias": "BS_SilverKunoichi_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_17": {
+        "EquipmentAlias": "BS_17",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_26": {
+        "EquipmentAlias": "BS_26",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_15_Var2_E": {
+        "EquipmentAlias": "BS_15_Var2_E",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_58": {
+        "EquipmentAlias": "BS_58",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_60": {
+        "EquipmentAlias": "BS_60",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Nier_01": {
+        "EquipmentAlias": "BS_Nier_01",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_ON",
+        "FileSuffix": "None"
+      },
+      "BS_Nier_01_Dmg": {
+        "EquipmentAlias": "BS_Nier_01_Dmg",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_ON",
+        "FileSuffix": "None"
+      },
+      "BS_Nier_02": {
+        "EquipmentAlias": "BS_Nier_02",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_ON",
+        "FileSuffix": "None"
+      },
+      "BS_Nier_03": {
+        "EquipmentAlias": "BS_Nier_03",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_ON",
+        "FileSuffix": "None"
+      },
+      "BS_Nier_04": {
+        "EquipmentAlias": "BS_Nier_04",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_ON",
+        "FileSuffix": "None"
+      },
+      "BS_Christmas_01": {
+        "EquipmentAlias": "BS_Christmas_01",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_43_Var2": {
+        "EquipmentAlias": "BS_43_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_50_Var2": {
+        "EquipmentAlias": "BS_50_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_53_Var2": {
+        "EquipmentAlias": "BS_53_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_21": {
+        "EquipmentAlias": "BS_21",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_21_Var2": {
+        "EquipmentAlias": "BS_21_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "None",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_26_Var2": {
+        "EquipmentAlias": "BS_26_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_33_Var2": {
+        "EquipmentAlias": "BS_33_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_55_Var2": {
+        "EquipmentAlias": "BS_55_Var2",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Nikke_01": {
+        "EquipmentAlias": "BS_Nikke_01",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Nikke_02": {
+        "EquipmentAlias": "BS_Nikke_02",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Nikke_03": {
+        "EquipmentAlias": "BS_Nikke_03",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Nikke_04": {
+        "EquipmentAlias": "BS_Nikke_04",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Nikke_05": {
+        "EquipmentAlias": "BS_Nikke_05",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_Nikke_06": {
+        "EquipmentAlias": "BS_Nikke_06",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_RoyalGuard_01": {
+        "EquipmentAlias": "BS_RoyalGuard_01",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      },
+      "BS_OneMillion_01": {
+        "EquipmentAlias": "BS_OneMillion_01",
+        "CharacterSoundSetOverride": "",
+        "CharacterFootstepSetOverride": "/Game/Art/FX/PS/PhySufaceParticleSet/Footstep/PC/FS_Heel/FS_PC_Heel.FS_PC_Heel",
+        "SoundEventAlias": "NIER_OFF",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventMetaAITable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventMetaAITableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "bIgnoreMissingFields": true
+    },
+    "Rows": {
+      "SYS01_E_METAAI_004": {
+        "ID": 12,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "NPC_Jonny",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_ForceThink",
+        "SpecialBehaviorTag": "PeacefulJonny",
+        "AddTag": "None",
+        "ForceThink": "ESBMetaAIThink::Behavior",
+        "ForceThink_BehaviorAlias": "Work_Fixed",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_METAAI_001": {
+        "ID": 4,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Adventurer",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_ForceThink",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "None",
+        "ForceThink": "ESBMetaAIThink::None",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_METAAI_008": {
+        "ID": 9,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Dororong",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_ForceThink",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "None",
+        "ForceThink": "ESBMetaAIThink::HideAndSeek",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_METAAI_003": {
+        "ID": 11,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "NPC_Jonny",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_AddTag",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "NoFrightened",
+        "ForceThink": "ESBMetaAIThink::None",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_METAAI_007": {
+        "ID": 8,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Enya3_P4AgitBar",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_AddTag",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "Xion_Enya3",
+        "ForceThink": "ESBMetaAIThink::None",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_METAAI_006": {
+        "ID": 7,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Enya2",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_AddTag",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "Enya2_Blocksing",
+        "ForceThink": "ESBMetaAIThink::None",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_METAAI_005": {
+        "ID": 5,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "Enya3",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_AddTag",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "Enya3_BlockSing",
+        "ForceThink": "ESBMetaAIThink::None",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_METAAI_004": {
+        "ID": 3,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "N_Kaya",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_SpecialBehavior",
+        "SpecialBehaviorTag": "Kaya01NotSQ001",
+        "AddTag": "None",
+        "ForceThink": "ESBMetaAIThink::None",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_METAAI_001": {
+        "ID": 10,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "NPC_Jonny",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_ForceThink",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "None",
+        "ForceThink": "ESBMetaAIThink::Behavior",
+        "ForceThink_BehaviorAlias": "Work_Fixed",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_METAAI_002": {
+        "ID": 6,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "Enya3",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_AddTag",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "Enya3_BlockSing",
+        "ForceThink": "ESBMetaAIThink::None",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_METAAI_001": {
+        "ID": 1,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "Kaya",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_SpecialBehavior",
+        "SpecialBehaviorTag": "Kaya_Shop_1",
+        "AddTag": "None",
+        "ForceThink": "ESBMetaAIThink::SpecialBehavior",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_METAAI_002": {
+        "ID": 2,
+        "ToTarget": "ESBZoneEventActorTarget::ZoneEvent_ActorTargetToTag",
+        "TargetTagName": "Xion_Main_NPC_Walk",
+        "EventConditionGroup": "None",
+        "EventCondition": "None",
+        "MetaAIEventType": "ESBMetaAIEventType::ESBMetaAIEventType_ForceThink",
+        "SpecialBehaviorTag": "None",
+        "AddTag": "None",
+        "ForceThink": "ESBMetaAIThink::MoveAround",
+        "ForceThink_BehaviorAlias": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

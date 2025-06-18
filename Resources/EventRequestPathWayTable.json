@@ -1,0 +1,763 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventRequestPathWayTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventRequestPathWayTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "DED10_E_RequestPathway_010": {
+        "ID": 36,
+        "LevelTargetFilter": "DED10_LevelTargetFilter_023",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED01_AntLionBattleWave_Ant08",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_RequestPathway_009": {
+        "ID": 6,
+        "LevelTargetFilter": "DED10_LevelTargetFilter_022",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED01_AntLionBattleWave_Ant04",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_RequestPathway_001": {
+        "ID": 7,
+        "LevelTargetFilter": "DED20_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED20_E_CharS_032_wp01",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_RequestPathway_002": {
+        "ID": 8,
+        "LevelTargetFilter": "DED20_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED20_E_CharS_034_wp01",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED30_E_RequestPathway_001": {
+        "ID": 9,
+        "LevelTargetFilter": "DED30_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED30_E_CharS_017_WP",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_TempTestMap_E_RequestPathway_001": {
+        "ID": 10,
+        "LevelTargetFilter": "LV_TempTestMap_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "LV_TempTestMap_E_CharS_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Map_E_RequestPathway_003": {
+        "ID": 11,
+        "LevelTargetFilter": "LV_Test_Map_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "LV_Test_Map_E_CharS_001_wp04",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Puzzle_move_TumblerDrone": {
+        "ID": 14,
+        "LevelTargetFilter": "LV_Test_Puzzle_01_E_CharS_019_move",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "LV_Test_Puzzle_01_E_CharS_019",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_02_E_RequestPathway_001": {
+        "ID": 15,
+        "LevelTargetFilter": "ME_02_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "ME_02_move_TumblerDrone",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_03_E_RequestPathway_001": {
+        "ID": 16,
+        "LevelTargetFilter": "ME_03_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "ME_03_move_underground",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_RequestPathway_002": {
+        "ID": 18,
+        "LevelTargetFilter": "SE_07_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "SE_07_E_CharS_015",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_RequestPathway_001": {
+        "ID": 17,
+        "LevelTargetFilter": "SE_07_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "SE_07_E_CharS_011",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_08_E_RequestPathway_004": {
+        "ID": 22,
+        "LevelTargetFilter": "SE_08_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "Arisa_2ndFloor_Waypoint_D",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_08_E_RequestPathway_003": {
+        "ID": 21,
+        "LevelTargetFilter": "SE_08_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "Arisa_2ndFloor_Waypoint_C",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_08_E_RequestPathway_002": {
+        "ID": 20,
+        "LevelTargetFilter": "SE_08_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "Arisa_2ndFloor_Waypoint_B",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_08_E_RequestPathway_001": {
+        "ID": 19,
+        "LevelTargetFilter": "SE_08_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "Arisa_1stFloor_Waypoint_A",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_006": {
+        "ID": 53,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_012",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_127",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_005": {
+        "ID": 42,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_011",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_126",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_RequestPathway_009": {
+        "ID": 26,
+        "LevelTargetFilter": "WLA_10_LevelTargetFilter_008",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLA_10_EnvS_107_3rd",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_RequestPathway_008": {
+        "ID": 25,
+        "LevelTargetFilter": "WLA_10_LevelTargetFilter_007",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLA_10_EnvS_107_3rd",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_004": {
+        "ID": 41,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_009",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_066_Event",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_003": {
+        "ID": 29,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_008",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_065_Event",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_RequestPathway_009": {
+        "ID": 35,
+        "LevelTargetFilter": "SD_10_LevelTargetFilter_013",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Stop",
+        "PathWayAlias": "SD_10_GuideAction_010",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_RequestPathway_008": {
+        "ID": 34,
+        "LevelTargetFilter": "SD_10_LevelTargetFilter_013",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Stop",
+        "PathWayAlias": "SD_10_GuideAction_006",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SD_10_E_RequestPathway_007": {
+        "ID": 33,
+        "LevelTargetFilter": "SD_10_LevelTargetFilter_013",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Stop",
+        "PathWayAlias": "SD_10_GuideAction_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_RequestPathway_002": {
+        "ID": 24,
+        "LevelTargetFilter": "WLA_10_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLA_10_E_CharS_015",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_RequestPathway_001": {
+        "ID": 23,
+        "LevelTargetFilter": "WLA_10_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLA_10_E_CharS_015",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_RequestPathway_008": {
+        "ID": 5,
+        "LevelTargetFilter": "DED10_LevelTargetFilter_021",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED01_AntLionBattleWave_Ant07",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_RequestPathway_007": {
+        "ID": 4,
+        "LevelTargetFilter": "DED10_LevelTargetFilter_020",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED10_E_CharS_168_1",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_RequestPathway_006": {
+        "ID": 3,
+        "LevelTargetFilter": "DED10_LevelTargetFilter_018",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED01_AntLionBattleWave_Ant06",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_RequestPathway_005": {
+        "ID": 2,
+        "LevelTargetFilter": "DED10_LevelTargetFilter_017",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED01_AntLionBattleWave_Ant05",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED10_E_RequestPathway_001": {
+        "ID": 1,
+        "LevelTargetFilter": "DED10_LevelTargetFilter_013",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DED10_E_CharS_119",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_03_E_RequestPathway_001": {
+        "ID": 37,
+        "LevelTargetFilter": "AYL_03_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_03_E_CharS_004",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_03_E_RequestPathway_002": {
+        "ID": 38,
+        "LevelTargetFilter": "AYL_03_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_03_E_CharS_005",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_03_E_RequestPathway_003": {
+        "ID": 39,
+        "LevelTargetFilter": "AYL_03_LevelTargetFilter_003",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_03_E_CharS_006",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_03_E_RequestPathway_004": {
+        "ID": 44,
+        "LevelTargetFilter": "AYL_03_LevelTargetFilter_004",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_03_E_CharS_007",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_008": {
+        "ID": 50,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_008",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_016",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_007": {
+        "ID": 49,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_007",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_015",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_006": {
+        "ID": 48,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_006",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_014",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_005": {
+        "ID": 47,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_005",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_013",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_004": {
+        "ID": 46,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_004",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_012",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_003": {
+        "ID": 45,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_003",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_011",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_002": {
+        "ID": 31,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_010",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_RequestPathway_001": {
+        "ID": 30,
+        "LevelTargetFilter": "AYL_04_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_04_E_CharS_009",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_RequestPathway_002": {
+        "ID": 65,
+        "LevelTargetFilter": "AYL_01_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_01_E_CharS_003_A",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_RequestPathway_005": {
+        "ID": 62,
+        "LevelTargetFilter": "AYL_02_LevelTargetFilter_005",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_02_E_CharS_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_RequestPathway_004": {
+        "ID": 61,
+        "LevelTargetFilter": "AYL_02_LevelTargetFilter_004",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_02_E_CharS_014",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_RequestPathway_003": {
+        "ID": 60,
+        "LevelTargetFilter": "AYL_02_LevelTargetFilter_003",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_02_E_CharS_020",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_RequestPathway_001": {
+        "ID": 12,
+        "LevelTargetFilter": "AYL_05_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_05_E_CharS_010",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_002": {
+        "ID": 28,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_007",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_056_Destruction",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_001": {
+        "ID": 27,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_006",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_055_Destruction",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_RequestPathway_002": {
+        "ID": 59,
+        "LevelTargetFilter": "AYL_02_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_02_E_CharS_019",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_KJH_01_E_RequestPathway_001": {
+        "ID": 32,
+        "LevelTargetFilter": "Test_KJH_01_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "Test_KJH_01_E_CharS_006",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_001": {
+        "ID": 40,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_003",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_090",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_002": {
+        "ID": 43,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_088",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_003": {
+        "ID": 79,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_089",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_004": {
+        "ID": 80,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_004",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_087",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_005": {
+        "ID": 81,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_005",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_086",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_006": {
+        "ID": 82,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_006",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_091",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_007": {
+        "ID": 83,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_007",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_092",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_008": {
+        "ID": 84,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_008",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_085",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLAN_10_E_RequestPathway_009": {
+        "ID": 85,
+        "LevelTargetFilter": "WLAN_10_LevelTargetFilter_009",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLAN_10_E_CharS_093",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_06_E_RequestPathway_002": {
+        "ID": 52,
+        "LevelTargetFilter": "ME_06_LevelTargetFilter_004",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "ME_06_E_CharS_005_wp",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "ME_06_E_RequestPathway_001": {
+        "ID": 51,
+        "LevelTargetFilter": "ME_06_LevelTargetFilter_003",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "ME_06_E_CharS_004_wp",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_007": {
+        "ID": 54,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_008",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_065_Event",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_RequestPathway_008": {
+        "ID": 55,
+        "LevelTargetFilter": "WLB_10_LevelTargetFilter_009",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLB_10_E_CharS_066_Event",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_RequestPathway_002": {
+        "ID": 57,
+        "LevelTargetFilter": "WLA_40_LevelTargetFilter_006",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLA_40_E_CharS_136_1",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_RequestPathway_001": {
+        "ID": 56,
+        "LevelTargetFilter": "WLA_40_LevelTargetFilter_006",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLA_40_E_CharS_136",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_RequestPathway_001": {
+        "ID": 58,
+        "LevelTargetFilter": "AYL_02_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_02_E_CharS_018",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_07_E_RequestPathway_003": {
+        "ID": 63,
+        "LevelTargetFilter": "SE_07_LevelTargetFilter_003",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "SE_07_E_CharS_034_Run",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_RequestPathway_002": {
+        "ID": 66,
+        "LevelTargetFilter": "WLA_50_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Stop",
+        "PathWayAlias": "WLA_50_E_CharS_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_RequestPathway_001": {
+        "ID": 13,
+        "LevelTargetFilter": "AYL_01_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "AYL_01_E_CharS_003",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DLC02_10_E_RequestPathway_002": {
+        "ID": 69,
+        "LevelTargetFilter": "DLC02_20_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Stop",
+        "PathWayAlias": "DLC02_20_E_CharS_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DLC02_10_E_RequestPathway_001": {
+        "ID": 68,
+        "LevelTargetFilter": "DLC02_10_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DLC02_10_E_CharS_004",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_RequestPathway_001": {
+        "ID": 64,
+        "LevelTargetFilter": "WLA_50_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "WLA_50_E_CharS_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DLC02_30_E_RequestPathway_001": {
+        "ID": 67,
+        "LevelTargetFilter": "DLC02_30_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DLC02_30_E_CharS_013",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DLC02_40_E_RequestPathway_001": {
+        "ID": 70,
+        "LevelTargetFilter": "DLC02_40_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "DLC02_40_E_CharS_021",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_LGH_01_E_RequestPathway_002": {
+        "ID": 72,
+        "LevelTargetFilter": "Test_LGH_01_LevelTargetFilter_002",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "Test_LGH_01_E_CharS_016",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test_LGH_01_E_RequestPathway_001": {
+        "ID": 71,
+        "LevelTargetFilter": "Test_LGH_01_LevelTargetFilter_001",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "Test_LGH_01_E_CharS_012",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NKGame_03_E_RequestPathway_001": {
+        "ID": 73,
+        "LevelTargetFilter": "NKGame_03_LevelTargetFilter_004",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "NKGame_03_E_CharS_033",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NKGame_03_E_RequestPathway_002": {
+        "ID": 74,
+        "LevelTargetFilter": "NKGame_03_LevelTargetFilter_005",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "NKGame_03_E_CharS_034",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NKGame_03_E_RequestPathway_003": {
+        "ID": 75,
+        "LevelTargetFilter": "NKGame_03_LevelTargetFilter_006",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "NKGame_03_E_CharS_035",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NKGame_03_E_RequestPathway_004": {
+        "ID": 76,
+        "LevelTargetFilter": "NKGame_03_LevelTargetFilter_007",
+        "ActionType": "ESBZoneEventPathWayActionType::ESBZoneEventPathWayAction_Start",
+        "PathWayAlias": "NKGame_03_E_CharS_036",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

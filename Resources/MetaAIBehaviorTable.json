@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MetaAIBehaviorTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBMetaAIBehaviorTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Rest": {
+        "ID": 10000002,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 5.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": -40.0,
+        "Condition_StartTiredness": 800.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 300.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_LEQ",
+        "FileSuffix": "None"
+      },
+      "Rest_Monster": {
+        "ID": 10000003,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 5.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 0.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Talk": {
+        "ID": 10000004,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 300.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": -40.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Work": {
+        "ID": 10000005,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 5.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 2.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Silence": {
+        "ID": 10000006,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 60.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 0.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Guard_Fixed": {
+        "ID": 10000007,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 0.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 0.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Work_Fixed": {
+        "ID": 10000008,
+        "Priority": 1,
+        "FindDistance": 1000.0,
+        "Interval": 0.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 0.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Sing": {
+        "ID": 10000010,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 1.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 0.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "TransformTest": {
+        "ID": 90000001,
+        "Priority": 1,
+        "FindDistance": 1500.0,
+        "Interval": 0.5,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 0.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Injured": {
+        "ID": 10000011,
+        "Priority": 1,
+        "FindDistance": 500.0,
+        "Interval": 0.0,
+        "AcitiveProbability": 100.0,
+        "TirednessPerSecond": 0.0,
+        "Condition_StartTiredness": 0.0,
+        "Condition_StartTiredness_OperationType": "ESBEquation::ESBEQ_GEQ",
+        "Condition_EndTiredness": 0.0,
+        "Condition_EndTiredness_OperationType": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

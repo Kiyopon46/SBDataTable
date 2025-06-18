@@ -1,0 +1,183 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EffectVolumePropertyTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEffectVolumePropTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "TestEffectVolumeSet1": {
+        "ID": 1,
+        "ExecuteDeadCount01": 1,
+        "DeadCountEffectAliasList01": [
+          "Test_BetaGaugeFull"
+        ],
+        "ExecuteDeadCount02": 2,
+        "DeadCountEffectAliasList02": [
+          "NoDamage_Infinite",
+          "Test_PhysicDamageUpMe20"
+        ],
+        "ExecuteDeadCount03": 0,
+        "DeadCountEffectAliasList03": [],
+        "ExecuteDeadCount04": 0,
+        "DeadCountEffectAliasList04": [],
+        "ExecuteDeadCount05": 0,
+        "DeadCountEffectAliasList05": [],
+        "ExecuteDeadCount06": 0,
+        "DeadCountEffectAliasList06": [],
+        "ExecuteDeadCount07": 0,
+        "DeadCountEffectAliasList07": [],
+        "ExecuteDeadCount08": 0,
+        "DeadCountEffectAliasList08": [],
+        "ExecuteDeadCount09": 0,
+        "DeadCountEffectAliasList09": [],
+        "ExecuteDeadCount10": 0,
+        "DeadCountEffectAliasList10": [],
+        "FileSuffix": "None"
+      },
+      "TestEffectVolumeSet2": {
+        "ID": 2,
+        "ExecuteDeadCount01": 1,
+        "DeadCountEffectAliasList01": [
+          "P_Eve_IncreaseJustActionTime"
+        ],
+        "ExecuteDeadCount02": 0,
+        "DeadCountEffectAliasList02": [],
+        "ExecuteDeadCount03": 0,
+        "DeadCountEffectAliasList03": [],
+        "ExecuteDeadCount04": 0,
+        "DeadCountEffectAliasList04": [],
+        "ExecuteDeadCount05": 0,
+        "DeadCountEffectAliasList05": [],
+        "ExecuteDeadCount06": 0,
+        "DeadCountEffectAliasList06": [],
+        "ExecuteDeadCount07": 0,
+        "DeadCountEffectAliasList07": [],
+        "ExecuteDeadCount08": 0,
+        "DeadCountEffectAliasList08": [],
+        "ExecuteDeadCount09": 0,
+        "DeadCountEffectAliasList09": [],
+        "ExecuteDeadCount10": 0,
+        "DeadCountEffectAliasList10": [],
+        "FileSuffix": "None"
+      },
+      "StoryBossEffectVolumeSet": {
+        "ID": 1001,
+        "ExecuteDeadCount01": 3,
+        "DeadCountEffectAliasList01": [
+          "StoryEffect_ReduceMeleeDamage1",
+          "StoryEffect_ReduceRangeDamage1"
+        ],
+        "ExecuteDeadCount02": 5,
+        "DeadCountEffectAliasList02": [
+          "StoryEffect_IncreaseDamage1",
+          "StoryEffect_IncreaseRangeDamage1"
+        ],
+        "ExecuteDeadCount03": 7,
+        "DeadCountEffectAliasList03": [
+          "StoryEffect_ReduceMeleeDamage2",
+          "StoryEffect_ReduceRangeDamage2"
+        ],
+        "ExecuteDeadCount04": 9,
+        "DeadCountEffectAliasList04": [
+          "StoryEffect_IncreaseDamage2",
+          "StoryEffect_IncreaseRangeDamage2"
+        ],
+        "ExecuteDeadCount05": 11,
+        "DeadCountEffectAliasList05": [
+          "StoryEffect_ReduceMeleeDamage3",
+          "StoryEffect_ReduceRangeDamage3"
+        ],
+        "ExecuteDeadCount06": 13,
+        "DeadCountEffectAliasList06": [
+          "StoryEffect_IncreaseDamage3",
+          "StoryEffect_IncreaseRangeDamage3"
+        ],
+        "ExecuteDeadCount07": 0,
+        "DeadCountEffectAliasList07": [],
+        "ExecuteDeadCount08": 0,
+        "DeadCountEffectAliasList08": [],
+        "ExecuteDeadCount09": 0,
+        "DeadCountEffectAliasList09": [],
+        "ExecuteDeadCount10": 0,
+        "DeadCountEffectAliasList10": [],
+        "FileSuffix": "None"
+      },
+      "StoryWaveEffectVolumeSet": {
+        "ID": 2001,
+        "ExecuteDeadCount01": 2,
+        "DeadCountEffectAliasList01": [
+          "StoryEffect_ReduceMeleeDamage1",
+          "StoryEffect_ReduceRangeDamage1"
+        ],
+        "ExecuteDeadCount02": 4,
+        "DeadCountEffectAliasList02": [
+          "StoryEffect_IncreaseDamage1",
+          "StoryEffect_IncreaseRangeDamage1"
+        ],
+        "ExecuteDeadCount03": 6,
+        "DeadCountEffectAliasList03": [
+          "StoryEffect_ReduceMeleeDamage2",
+          "StoryEffect_ReduceRangeDamage2"
+        ],
+        "ExecuteDeadCount04": 8,
+        "DeadCountEffectAliasList04": [
+          "StoryEffect_IncreaseDamage2",
+          "StoryEffect_IncreaseRangeDamage2"
+        ],
+        "ExecuteDeadCount05": 10,
+        "DeadCountEffectAliasList05": [
+          "StoryEffect_ReduceMeleeDamage3",
+          "StoryEffect_ReduceRangeDamage3"
+        ],
+        "ExecuteDeadCount06": 12,
+        "DeadCountEffectAliasList06": [
+          "StoryEffect_IncreaseDamage3",
+          "StoryEffect_IncreaseRangeDamage3"
+        ],
+        "ExecuteDeadCount07": 0,
+        "DeadCountEffectAliasList07": [],
+        "ExecuteDeadCount08": 0,
+        "DeadCountEffectAliasList08": [],
+        "ExecuteDeadCount09": 0,
+        "DeadCountEffectAliasList09": [],
+        "ExecuteDeadCount10": 0,
+        "DeadCountEffectAliasList10": [],
+        "FileSuffix": "None"
+      },
+      "StoryParryEffectVolumeSet": {
+        "ID": 3001,
+        "ExecuteDeadCount01": 3,
+        "DeadCountEffectAliasList01": [
+          "StoryEffect_IncreaseJustTime1"
+        ],
+        "ExecuteDeadCount02": 6,
+        "DeadCountEffectAliasList02": [
+          "StoryEffect_IncreaseJustTime2"
+        ],
+        "ExecuteDeadCount03": 0,
+        "DeadCountEffectAliasList03": [],
+        "ExecuteDeadCount04": 0,
+        "DeadCountEffectAliasList04": [],
+        "ExecuteDeadCount05": 0,
+        "DeadCountEffectAliasList05": [],
+        "ExecuteDeadCount06": 0,
+        "DeadCountEffectAliasList06": [],
+        "ExecuteDeadCount07": 0,
+        "DeadCountEffectAliasList07": [],
+        "ExecuteDeadCount08": 0,
+        "DeadCountEffectAliasList08": [],
+        "ExecuteDeadCount09": 0,
+        "DeadCountEffectAliasList09": [],
+        "ExecuteDeadCount10": 0,
+        "DeadCountEffectAliasList10": [],
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,1836 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ArtBookTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBArtBookTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "ArtBook_EVE_001": {
+        "ID": 1001,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_7th",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_001.ArtBook_EVE_001'"
+      },
+      "ArtBook_EVE_002": {
+        "ID": 1002,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_3rd",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_002.ArtBook_EVE_002'"
+      },
+      "ArtBook_EVE_003": {
+        "ID": 1003,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_3rd",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_003.ArtBook_EVE_003'"
+      },
+      "ArtBook_EVE_004": {
+        "ID": 1004,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_FusionState",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_004.ArtBook_EVE_004'"
+      },
+      "ArtBook_EVE_005": {
+        "ID": 1005,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Legacy",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_005.ArtBook_EVE_005'"
+      },
+      "ArtBook_EVE_006": {
+        "ID": 1006,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_006.ArtBook_EVE_006'"
+      },
+      "ArtBook_EVE_007": {
+        "ID": 1007,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_GearExospine",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_007.ArtBook_EVE_007'"
+      },
+      "ArtBook_EVE_008": {
+        "ID": 1008,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_GearExospine",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_008.ArtBook_EVE_008'"
+      },
+      "ArtBook_EVE_009": {
+        "ID": 1009,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_GearExospine",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_009.ArtBook_EVE_009'"
+      },
+      "ArtBook_EVE_010": {
+        "ID": 1010,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_GearExospine",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_010.ArtBook_EVE_010'"
+      },
+      "ArtBook_EVE_011": {
+        "ID": 1011,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_GearExospine",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_011.ArtBook_EVE_011'"
+      },
+      "ArtBook_EVE_012": {
+        "ID": 1012,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_GearExospine",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_012.ArtBook_EVE_012'"
+      },
+      "ArtBook_EVE_013": {
+        "ID": 1013,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_GearExospine",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_013.ArtBook_EVE_013'"
+      },
+      "ArtBook_EVE_014": {
+        "ID": 1014,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_GearExospine",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_014.ArtBook_EVE_014'"
+      },
+      "ArtBook_EVE_015": {
+        "ID": 1015,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_015.ArtBook_EVE_015'"
+      },
+      "ArtBook_EVE_016": {
+        "ID": 1016,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_016.ArtBook_EVE_016'"
+      },
+      "ArtBook_EVE_017": {
+        "ID": 1017,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_017.ArtBook_EVE_017'"
+      },
+      "ArtBook_EVE_018": {
+        "ID": 1018,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_018.ArtBook_EVE_018'"
+      },
+      "ArtBook_EVE_019": {
+        "ID": 1019,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_019.ArtBook_EVE_019'"
+      },
+      "ArtBook_EVE_020": {
+        "ID": 1020,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_020.ArtBook_EVE_020'"
+      },
+      "ArtBook_EVE_021": {
+        "ID": 1021,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_021.ArtBook_EVE_021'"
+      },
+      "ArtBook_EVE_022": {
+        "ID": 1022,
+        "GroupAlias": "EVE",
+        "TitleStringKey": "UI_ArtBook_EVE_Proto_Bloodedge",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_EVE_022.ArtBook_EVE_022'"
+      },
+      "ArtBook_Machine_001": {
+        "ID": 2001,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Dropship",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_001.ArtBook_Machine_001'"
+      },
+      "ArtBook_Machine_002": {
+        "ID": 2002,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Dropship",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_002.ArtBook_Machine_002'"
+      },
+      "ArtBook_Machine_003": {
+        "ID": 2003,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Dropship",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_003.ArtBook_Machine_003'"
+      },
+      "ArtBook_Machine_004": {
+        "ID": 2004,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Dropship",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_004.ArtBook_Machine_004'"
+      },
+      "ArtBook_Machine_005": {
+        "ID": 2005,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_HoverBike",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_005.ArtBook_Machine_005'"
+      },
+      "ArtBook_Machine_006": {
+        "ID": 2006,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_006.ArtBook_Machine_006'"
+      },
+      "ArtBook_Machine_007": {
+        "ID": 2007,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_007.ArtBook_Machine_007'"
+      },
+      "ArtBook_Machine_008": {
+        "ID": 2008,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_008.ArtBook_Machine_008'"
+      },
+      "ArtBook_Machine_009": {
+        "ID": 2009,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_009.ArtBook_Machine_009'"
+      },
+      "ArtBook_Machine_010": {
+        "ID": 2010,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_010.ArtBook_Machine_010'"
+      },
+      "ArtBook_Machine_011": {
+        "ID": 2011,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_011.ArtBook_Machine_011'"
+      },
+      "ArtBook_Machine_012": {
+        "ID": 2012,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_012.ArtBook_Machine_012'"
+      },
+      "ArtBook_Machine_013": {
+        "ID": 2013,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_013.ArtBook_Machine_013'"
+      },
+      "ArtBook_Machine_014": {
+        "ID": 2014,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Tetrapod_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_014.ArtBook_Machine_014'"
+      },
+      "ArtBook_Machine_015": {
+        "ID": 2015,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_015.ArtBook_Machine_015'"
+      },
+      "ArtBook_Machine_016": {
+        "ID": 2016,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_016.ArtBook_Machine_016'"
+      },
+      "ArtBook_Machine_017": {
+        "ID": 2017,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_017.ArtBook_Machine_017'"
+      },
+      "ArtBook_Machine_018": {
+        "ID": 2018,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_018.ArtBook_Machine_018'"
+      },
+      "ArtBook_Machine_019": {
+        "ID": 2019,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_019.ArtBook_Machine_019'"
+      },
+      "ArtBook_Machine_020": {
+        "ID": 2020,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_020.ArtBook_Machine_020'"
+      },
+      "ArtBook_Machine_021": {
+        "ID": 2021,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_021.ArtBook_Machine_021'"
+      },
+      "ArtBook_Machine_022": {
+        "ID": 2022,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_022.ArtBook_Machine_022'"
+      },
+      "ArtBook_Machine_024": {
+        "ID": 2024,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_5",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_024.ArtBook_Machine_024'"
+      },
+      "ArtBook_Machine_025": {
+        "ID": 2025,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_5",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_025.ArtBook_Machine_025'"
+      },
+      "ArtBook_Machine_026": {
+        "ID": 2026,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_5",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_026.ArtBook_Machine_026'"
+      },
+      "ArtBook_Machine_027": {
+        "ID": 2027,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_6",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_027.ArtBook_Machine_027'"
+      },
+      "ArtBook_Machine_028": {
+        "ID": 2028,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Drone_6",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_028.ArtBook_Machine_028'"
+      },
+      "ArtBook_Machine_029": {
+        "ID": 2029,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Providence_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_029.ArtBook_Machine_029'"
+      },
+      "ArtBook_Machine_030": {
+        "ID": 2030,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Providence_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_030.ArtBook_Machine_030'"
+      },
+      "ArtBook_Machine_031": {
+        "ID": 2031,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Providence_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_031.ArtBook_Machine_031'"
+      },
+      "ArtBook_Machine_032": {
+        "ID": 2032,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Providence_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_032.ArtBook_Machine_032'"
+      },
+      "ArtBook_Machine_033": {
+        "ID": 2033,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Providence_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_033.ArtBook_Machine_033'"
+      },
+      "ArtBook_Machine_034": {
+        "ID": 2034,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Shuttle_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_034.ArtBook_Machine_034'"
+      },
+      "ArtBook_Machine_035": {
+        "ID": 2035,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Shuttle_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_035.ArtBook_Machine_035'"
+      },
+      "ArtBook_Machine_036": {
+        "ID": 2036,
+        "GroupAlias": "Machine",
+        "TitleStringKey": "UI_ArtBook_Machine_Shuttle_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Machine_036.ArtBook_Machine_036'"
+      },
+      "ArtBook_Monster_001": {
+        "ID": 3001,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Brute",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_001.ArtBook_Monster_001'"
+      },
+      "ArtBook_Monster_002": {
+        "ID": 3002,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Brute",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_002.ArtBook_Monster_002'"
+      },
+      "ArtBook_Monster_003": {
+        "ID": 3003,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Abaddon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_003.ArtBook_Monster_003'"
+      },
+      "ArtBook_Monster_004": {
+        "ID": 3004,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Abaddon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_004.ArtBook_Monster_004'"
+      },
+      "ArtBook_Monster_005": {
+        "ID": 3005,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Abaddon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_005.ArtBook_Monster_005'"
+      },
+      "ArtBook_Monster_006": {
+        "ID": 3006,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Corrupter",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_006.ArtBook_Monster_006'"
+      },
+      "ArtBook_Monster_007": {
+        "ID": 3007,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Corrupter",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_007.ArtBook_Monster_007'"
+      },
+      "ArtBook_Monster_008": {
+        "ID": 3008,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Gigas",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_008.ArtBook_Monster_008'"
+      },
+      "ArtBook_Monster_009": {
+        "ID": 3009,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Gigas",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_009.ArtBook_Monster_009'"
+      },
+      "ArtBook_Monster_010": {
+        "ID": 3010,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Gigas",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_010.ArtBook_Monster_010'"
+      },
+      "ArtBook_Monster_011": {
+        "ID": 3011,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Gigas",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_011.ArtBook_Monster_011'"
+      },
+      "ArtBook_Monster_012": {
+        "ID": 3012,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Maelstorm",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_012.ArtBook_Monster_012'"
+      },
+      "ArtBook_Monster_013": {
+        "ID": 3013,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Stalker",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_013.ArtBook_Monster_013'"
+      },
+      "ArtBook_Monster_014": {
+        "ID": 3014,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Stalker",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_014.ArtBook_Monster_014'"
+      },
+      "ArtBook_Monster_015": {
+        "ID": 3015,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Stalker",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_015.ArtBook_Monster_015'"
+      },
+      "ArtBook_Monster_016": {
+        "ID": 3016,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Juggernaut",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_016.ArtBook_Monster_016'"
+      },
+      "ArtBook_Monster_017": {
+        "ID": 3017,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Juggernaut",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_017.ArtBook_Monster_017'"
+      },
+      "ArtBook_Monster_018": {
+        "ID": 3018,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Tachy",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_018.ArtBook_Monster_018'"
+      },
+      "ArtBook_Monster_019": {
+        "ID": 3019,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Tachy",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_019.ArtBook_Monster_019'"
+      },
+      "ArtBook_Monster_020": {
+        "ID": 3020,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Tachy",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_020.ArtBook_Monster_020'"
+      },
+      "ArtBook_Monster_021": {
+        "ID": 3021,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Tachy",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_021.ArtBook_Monster_021'"
+      },
+      "ArtBook_Monster_022": {
+        "ID": 3022,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Tachy",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_022.ArtBook_Monster_022'"
+      },
+      "ArtBook_Monster_023": {
+        "ID": 3023,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Behemoth",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_023.ArtBook_Monster_023'"
+      },
+      "ArtBook_Monster_024": {
+        "ID": 3024,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Belial",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_024.ArtBook_Monster_024'"
+      },
+      "ArtBook_Monster_025": {
+        "ID": 3025,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Belial",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_025.ArtBook_Monster_025'"
+      },
+      "ArtBook_Monster_026": {
+        "ID": 3026,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Belial",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_026.ArtBook_Monster_026'"
+      },
+      "ArtBook_Monster_027": {
+        "ID": 3027,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Karakuri",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_027.ArtBook_Monster_027'"
+      },
+      "ArtBook_Monster_028": {
+        "ID": 3028,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Karakuri",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_028.ArtBook_Monster_028'"
+      },
+      "ArtBook_Monster_029": {
+        "ID": 3029,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Democrawler",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_029.ArtBook_Monster_029'"
+      },
+      "ArtBook_Monster_030": {
+        "ID": 3030,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Demogorgon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_030.ArtBook_Monster_030'"
+      },
+      "ArtBook_Monster_031": {
+        "ID": 3031,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Demogorgon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_031.ArtBook_Monster_031'"
+      },
+      "ArtBook_Monster_032": {
+        "ID": 3032,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Demogorgon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_032.ArtBook_Monster_032'"
+      },
+      "ArtBook_Monster_033": {
+        "ID": 3033,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Unidentified",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_033.ArtBook_Monster_033'"
+      },
+      "ArtBook_Monster_034": {
+        "ID": 3034,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Unidentified",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_034.ArtBook_Monster_034'"
+      },
+      "ArtBook_Monster_035": {
+        "ID": 3035,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Unidentified",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_035.ArtBook_Monster_035'"
+      },
+      "ArtBook_Monster_036": {
+        "ID": 3036,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Unidentified",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_036.ArtBook_Monster_036'"
+      },
+      "ArtBook_Monster_037": {
+        "ID": 3037,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_037.ArtBook_Monster_037'"
+      },
+      "ArtBook_Monster_038": {
+        "ID": 3038,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_038.ArtBook_Monster_038'"
+      },
+      "ArtBook_Monster_039": {
+        "ID": 3039,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_039.ArtBook_Monster_039'"
+      },
+      "ArtBook_Monster_040": {
+        "ID": 3040,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_040.ArtBook_Monster_040'"
+      },
+      "ArtBook_Monster_041": {
+        "ID": 3041,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_041.ArtBook_Monster_041'"
+      },
+      "ArtBook_Monster_042": {
+        "ID": 3042,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_042.ArtBook_Monster_042'"
+      },
+      "ArtBook_Monster_043": {
+        "ID": 3043,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_043.ArtBook_Monster_043'"
+      },
+      "ArtBook_Monster_044": {
+        "ID": 3044,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Elder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_044.ArtBook_Monster_044'"
+      },
+      "ArtBook_Monster_045": {
+        "ID": 3045,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Thornhead",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_045.ArtBook_Monster_045'"
+      },
+      "ArtBook_Monster_046": {
+        "ID": 3046,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Thornhead",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_046.ArtBook_Monster_046'"
+      },
+      "ArtBook_Monster_047": {
+        "ID": 3047,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Beholder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_047.ArtBook_Monster_047'"
+      },
+      "ArtBook_Monster_048": {
+        "ID": 3048,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Beholder",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_048.ArtBook_Monster_048'"
+      },
+      "ArtBook_Monster_049": {
+        "ID": 3049,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Creeper",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_049.ArtBook_Monster_049'"
+      },
+      "ArtBook_Monster_050": {
+        "ID": 3050,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Creeper",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_050.ArtBook_Monster_050'"
+      },
+      "ArtBook_Monster_051": {
+        "ID": 3051,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_CricketSlasher",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_051.ArtBook_Monster_051'"
+      },
+      "ArtBook_Monster_052": {
+        "ID": 3052,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_CricketSlasher",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_052.ArtBook_Monster_052'"
+      },
+      "ArtBook_Monster_053": {
+        "ID": 3053,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Guardian_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_053.ArtBook_Monster_053'"
+      },
+      "ArtBook_Monster_054": {
+        "ID": 3054,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Guardian_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_054.ArtBook_Monster_054'"
+      },
+      "ArtBook_Monster_055": {
+        "ID": 3055,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Guardian_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_055.ArtBook_Monster_055'"
+      },
+      "ArtBook_Monster_056": {
+        "ID": 3056,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Guardian_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_056.ArtBook_Monster_056'"
+      },
+      "ArtBook_Monster_057": {
+        "ID": 3057,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Guardian_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_057.ArtBook_Monster_057'"
+      },
+      "ArtBook_Monster_058": {
+        "ID": 3058,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Hydra_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_058.ArtBook_Monster_058'"
+      },
+      "ArtBook_Monster_059": {
+        "ID": 3059,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Hydra_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_059.ArtBook_Monster_059'"
+      },
+      "ArtBook_Monster_060": {
+        "ID": 3060,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Hydra_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_060.ArtBook_Monster_060'"
+      },
+      "ArtBook_Monster_061": {
+        "ID": 3061,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Barnacle",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_061.ArtBook_Monster_061'"
+      },
+      "ArtBook_Monster_062": {
+        "ID": 3062,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Barnacle",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_062.ArtBook_Monster_062'"
+      },
+      "ArtBook_Monster_063": {
+        "ID": 3063,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Barnacle",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_063.ArtBook_Monster_063'"
+      },
+      "ArtBook_Monster_064": {
+        "ID": 3064,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Barnacle",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_064.ArtBook_Monster_064'"
+      },
+      "ArtBook_Monster_065": {
+        "ID": 3065,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Barnacle",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_065.ArtBook_Monster_065'"
+      },
+      "ArtBook_Monster_066": {
+        "ID": 3066,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Dozer",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_066.ArtBook_Monster_066'"
+      },
+      "ArtBook_Monster_067": {
+        "ID": 3067,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Dozer",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_067.ArtBook_Monster_067'"
+      },
+      "ArtBook_Monster_068": {
+        "ID": 3068,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Hedgeboar",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_068.ArtBook_Monster_068'"
+      },
+      "ArtBook_Monster_069": {
+        "ID": 3069,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Hedgeboar",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_069.ArtBook_Monster_069'"
+      },
+      "ArtBook_Monster_070": {
+        "ID": 3070,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Hedgeboar",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_070.ArtBook_Monster_070'"
+      },
+      "ArtBook_Monster_071": {
+        "ID": 3071,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Mite_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_071.ArtBook_Monster_071'"
+      },
+      "ArtBook_Monster_072": {
+        "ID": 3072,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Mite_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_072.ArtBook_Monster_072'"
+      },
+      "ArtBook_Monster_073": {
+        "ID": 3073,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_073.ArtBook_Monster_073'"
+      },
+      "ArtBook_Monster_074": {
+        "ID": 3074,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_074.ArtBook_Monster_074'"
+      },
+      "ArtBook_Monster_075": {
+        "ID": 3075,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_075.ArtBook_Monster_075'"
+      },
+      "ArtBook_Monster_076": {
+        "ID": 3076,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_076.ArtBook_Monster_076'"
+      },
+      "ArtBook_Monster_077": {
+        "ID": 3077,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_077.ArtBook_Monster_077'"
+      },
+      "ArtBook_Monster_078": {
+        "ID": 3078,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_078.ArtBook_Monster_078'"
+      },
+      "ArtBook_Monster_079": {
+        "ID": 3079,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_GuardTurret",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_079.ArtBook_Monster_079'"
+      },
+      "ArtBook_Monster_080": {
+        "ID": 3080,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Waster",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_080.ArtBook_Monster_080'"
+      },
+      "ArtBook_Monster_081": {
+        "ID": 3081,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Infector",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_081.ArtBook_Monster_081'"
+      },
+      "ArtBook_Monster_082": {
+        "ID": 3082,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Defiler_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_082.ArtBook_Monster_082'"
+      },
+      "ArtBook_Monster_083": {
+        "ID": 3083,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Defiler_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_083.ArtBook_Monster_083'"
+      },
+      "ArtBook_Monster_084": {
+        "ID": 3084,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skulling",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_084.ArtBook_Monster_084'"
+      },
+      "ArtBook_Monster_085": {
+        "ID": 3085,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skulling",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_085.ArtBook_Monster_085'"
+      },
+      "ArtBook_Monster_086": {
+        "ID": 3086,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_086.ArtBook_Monster_086'"
+      },
+      "ArtBook_Monster_087": {
+        "ID": 3087,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_087.ArtBook_Monster_087'"
+      },
+      "ArtBook_Monster_088": {
+        "ID": 3088,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_088.ArtBook_Monster_088'"
+      },
+      "ArtBook_Monster_089": {
+        "ID": 3089,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_089.ArtBook_Monster_089'"
+      },
+      "ArtBook_Monster_090": {
+        "ID": 3090,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_090.ArtBook_Monster_090'"
+      },
+      "ArtBook_Monster_091": {
+        "ID": 3091,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_091.ArtBook_Monster_091'"
+      },
+      "ArtBook_Monster_092": {
+        "ID": 3092,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_092.ArtBook_Monster_092'"
+      },
+      "ArtBook_Monster_093": {
+        "ID": 3093,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Skull_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_093.ArtBook_Monster_093'"
+      },
+      "ArtBook_Monster_094": {
+        "ID": 3094,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Lurker_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_094.ArtBook_Monster_094'"
+      },
+      "ArtBook_Monster_095": {
+        "ID": 3095,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Lurker_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_095.ArtBook_Monster_095'"
+      },
+      "ArtBook_Monster_096": {
+        "ID": 3096,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Lurker_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_096.ArtBook_Monster_096'"
+      },
+      "ArtBook_Monster_097": {
+        "ID": 3097,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Lurker_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_097.ArtBook_Monster_097'"
+      },
+      "ArtBook_Monster_098": {
+        "ID": 3098,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Cocoon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_098.ArtBook_Monster_098'"
+      },
+      "ArtBook_Monster_099": {
+        "ID": 3099,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Cocoon",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_099.ArtBook_Monster_099'"
+      },
+      "ArtBook_Monster_100": {
+        "ID": 3100,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Houndborg",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_100.ArtBook_Monster_100'"
+      },
+      "ArtBook_Monster_101": {
+        "ID": 3101,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Houndborg",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_101.ArtBook_Monster_101'"
+      },
+      "ArtBook_Monster_102": {
+        "ID": 3102,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_102.ArtBook_Monster_102'"
+      },
+      "ArtBook_Monster_103": {
+        "ID": 3103,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_103.ArtBook_Monster_103'"
+      },
+      "ArtBook_Monster_104": {
+        "ID": 3104,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_104.ArtBook_Monster_104'"
+      },
+      "ArtBook_Monster_105": {
+        "ID": 3105,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Droid_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_105.ArtBook_Monster_105'"
+      },
+      "ArtBook_Monster_106": {
+        "ID": 3106,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_AidDrone",
+        "ArtistStringKey": "UI_ArtBook_Artist_KiTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_106.ArtBook_Monster_106'"
+      },
+      "ArtBook_Monster_107": {
+        "ID": 3107,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Sentryborg",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_107.ArtBook_Monster_107'"
+      },
+      "ArtBook_Monster_108": {
+        "ID": 3108,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Sentryborg",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_108.ArtBook_Monster_108'"
+      },
+      "ArtBook_Monster_109": {
+        "ID": 3109,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Lump",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_109.ArtBook_Monster_109'"
+      },
+      "ArtBook_Monster_110": {
+        "ID": 3110,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Lump",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_110.ArtBook_Monster_110'"
+      },
+      "ArtBook_Monster_111": {
+        "ID": 3111,
+        "GroupAlias": "Monster",
+        "TitleStringKey": "UI_ArtBook_Monster_Lump",
+        "ArtistStringKey": "UI_ArtBook_Artist_KeunHwaHur",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Monster_111.ArtBook_Monster_111'"
+      },
+      "ArtBook_NPC_001": {
+        "ID": 4001,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Adam",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_001.ArtBook_NPC_001'"
+      },
+      "ArtBook_NPC_002": {
+        "ID": 4002,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Adam",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_002.ArtBook_NPC_002'"
+      },
+      "ArtBook_NPC_003": {
+        "ID": 4003,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Adam",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_003.ArtBook_NPC_003'"
+      },
+      "ArtBook_NPC_004": {
+        "ID": 4004,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Adam",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_004.ArtBook_NPC_004'"
+      },
+      "ArtBook_NPC_005": {
+        "ID": 4005,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Adam",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_005.ArtBook_NPC_005'"
+      },
+      "ArtBook_NPC_006": {
+        "ID": 4006,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Lily_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_006.ArtBook_NPC_006'"
+      },
+      "ArtBook_NPC_007": {
+        "ID": 4007,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Lily_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_007.ArtBook_NPC_007'"
+      },
+      "ArtBook_NPC_008": {
+        "ID": 4008,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Lily_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_008.ArtBook_NPC_008'"
+      },
+      "ArtBook_NPC_009": {
+        "ID": 4009,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Lily_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_009.ArtBook_NPC_009'"
+      },
+      "ArtBook_NPC_010": {
+        "ID": 4010,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Lily_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_010.ArtBook_NPC_010'"
+      },
+      "ArtBook_NPC_011": {
+        "ID": 4011,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Lily_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_ChangMinLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_011.ArtBook_NPC_011'"
+      },
+      "ArtBook_NPC_012": {
+        "ID": 4012,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Orcal",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_012.ArtBook_NPC_012'"
+      },
+      "ArtBook_NPC_013": {
+        "ID": 4013,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Mann",
+        "ArtistStringKey": "UI_ArtBook_Artist_HeeChulJang",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_013.ArtBook_NPC_013'"
+      },
+      "ArtBook_NPC_014": {
+        "ID": 4014,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Raven",
+        "ArtistStringKey": "UI_ArtBook_Artist_HyungTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_014.ArtBook_NPC_014'"
+      },
+      "ArtBook_NPC_015": {
+        "ID": 4015,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_MotherSphere",
+        "ArtistStringKey": "UI_ArtBook_Artist_KiTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_015.ArtBook_NPC_015'"
+      },
+      "ArtBook_NPC_016": {
+        "ID": 4016,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Kaya",
+        "ArtistStringKey": "UI_ArtBook_Artist_KiTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_016.ArtBook_NPC_016'"
+      },
+      "ArtBook_NPC_017": {
+        "ID": 4017,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Kaya",
+        "ArtistStringKey": "UI_ArtBook_Artist_KiTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_017.ArtBook_NPC_017'"
+      },
+      "ArtBook_NPC_018": {
+        "ID": 4018,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Su",
+        "ArtistStringKey": "UI_ArtBook_Artist_DooHyukKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_018.ArtBook_NPC_018'"
+      },
+      "ArtBook_NPC_019": {
+        "ID": 4019,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Enya",
+        "ArtistStringKey": "UI_ArtBook_Artist_KiTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_019.ArtBook_NPC_019'"
+      },
+      "ArtBook_NPC_020": {
+        "ID": 4020,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_D1G-g2r",
+        "ArtistStringKey": "UI_ArtBook_Artist_DooHyukKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_020.ArtBook_NPC_020'"
+      },
+      "ArtBook_NPC_021": {
+        "ID": 4021,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_SP0-tt2r",
+        "ArtistStringKey": "UI_ArtBook_Artist_DooHyukKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_021.ArtBook_NPC_021'"
+      },
+      "ArtBook_NPC_022": {
+        "ID": 4022,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Roxane",
+        "ArtistStringKey": "UI_ArtBook_Artist_KiTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_022.ArtBook_NPC_022'"
+      },
+      "ArtBook_NPC_023": {
+        "ID": 4023,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Clyde",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_023.ArtBook_NPC_023'"
+      },
+      "ArtBook_NPC_024": {
+        "ID": 4024,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Barry",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_024.ArtBook_NPC_024'"
+      },
+      "ArtBook_NPC_025": {
+        "ID": 4025,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Barry",
+        "ArtistStringKey": "UI_ArtBook_Artist_AmosCheung",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_025.ArtBook_NPC_025'"
+      },
+      "ArtBook_NPC_026": {
+        "ID": 4026,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Rael",
+        "ArtistStringKey": "UI_ArtBook_Artist_DooHyukKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_026.ArtBook_NPC_026'"
+      },
+      "ArtBook_NPC_027": {
+        "ID": 4027,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Rael",
+        "ArtistStringKey": "UI_ArtBook_Artist_DooHyukKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_027.ArtBook_NPC_027'"
+      },
+      "ArtBook_NPC_028": {
+        "ID": 4028,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Mael",
+        "ArtistStringKey": "UI_ArtBook_Artist_DooHyukKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_028.ArtBook_NPC_028'"
+      },
+      "ArtBook_NPC_029": {
+        "ID": 4029,
+        "GroupAlias": "NPC",
+        "TitleStringKey": "UI_ArtBook_NPC_Arisa",
+        "ArtistStringKey": "UI_ArtBook_Artist_KiTaeKim",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_NPC_029.ArtBook_NPC_029'"
+      },
+      "ArtBook_Proto_001": {
+        "ID": 5001,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_Lily",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_001.ArtBook_Proto_001'"
+      },
+      "ArtBook_Proto_002": {
+        "ID": 5002,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_Lily",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_002.ArtBook_Proto_002'"
+      },
+      "ArtBook_Proto_003": {
+        "ID": 5003,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_SupportUnit",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_003.ArtBook_Proto_003'"
+      },
+      "ArtBook_Proto_004": {
+        "ID": 5004,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_SupportUnit",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_004.ArtBook_Proto_004'"
+      },
+      "ArtBook_Proto_005": {
+        "ID": 5005,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_SupportUnit",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_005.ArtBook_Proto_005'"
+      },
+      "ArtBook_Proto_007": {
+        "ID": 5007,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_SupportUnit",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_007.ArtBook_Proto_007'"
+      },
+      "ArtBook_Proto_008": {
+        "ID": 5008,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_SupportUnit",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_008.ArtBook_Proto_008'"
+      },
+      "ArtBook_Proto_009": {
+        "ID": 5009,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_SupportUnit",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_009.ArtBook_Proto_009'"
+      },
+      "ArtBook_Proto_010": {
+        "ID": 5010,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_SupportUnit",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_010.ArtBook_Proto_010'"
+      },
+      "ArtBook_Proto_011": {
+        "ID": 5011,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_FunsionDrive",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_011.ArtBook_Proto_011'"
+      },
+      "ArtBook_Proto_012": {
+        "ID": 5012,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_FunsionDrive",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_012.ArtBook_Proto_012'"
+      },
+      "ArtBook_Proto_013": {
+        "ID": 5013,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_FunsionDrive",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_013.ArtBook_Proto_013'"
+      },
+      "ArtBook_Proto_014": {
+        "ID": 5014,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_Vitcoin",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_014.ArtBook_Proto_014'"
+      },
+      "ArtBook_Proto_015": {
+        "ID": 5015,
+        "GroupAlias": "Proto",
+        "TitleStringKey": "UI_ArtBook_Proto_Vitcoin",
+        "ArtistStringKey": "",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_Proto_015.ArtBook_Proto_015'"
+      },
+      "ArtBook_World_001": {
+        "ID": 6001,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_G03_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_001.ArtBook_World_001'"
+      },
+      "ArtBook_World_002": {
+        "ID": 6002,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_G03_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_002.ArtBook_World_002'"
+      },
+      "ArtBook_World_003": {
+        "ID": 6003,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_F02_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_003.ArtBook_World_003'"
+      },
+      "ArtBook_World_004": {
+        "ID": 6004,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_F02_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_004.ArtBook_World_004'"
+      },
+      "ArtBook_World_005": {
+        "ID": 6005,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E04_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_005.ArtBook_World_005'"
+      },
+      "ArtBook_World_006": {
+        "ID": 6006,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E04_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_006.ArtBook_World_006'"
+      },
+      "ArtBook_World_007": {
+        "ID": 6007,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E04_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_007.ArtBook_World_007'"
+      },
+      "ArtBook_World_008": {
+        "ID": 6008,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E04_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_008.ArtBook_World_008'"
+      },
+      "ArtBook_World_009": {
+        "ID": 6009,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E04_5",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_009.ArtBook_World_009'"
+      },
+      "ArtBook_World_010": {
+        "ID": 6010,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E04_6",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_010.ArtBook_World_010'"
+      },
+      "ArtBook_World_011": {
+        "ID": 6011,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E03_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_011.ArtBook_World_011'"
+      },
+      "ArtBook_World_012": {
+        "ID": 6012,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E03_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_012.ArtBook_World_012'"
+      },
+      "ArtBook_World_013": {
+        "ID": 6013,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E03_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_013.ArtBook_World_013'"
+      },
+      "ArtBook_World_014": {
+        "ID": 6014,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E03_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_014.ArtBook_World_014'"
+      },
+      "ArtBook_World_015": {
+        "ID": 6015,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E05_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_015.ArtBook_World_015'"
+      },
+      "ArtBook_World_016": {
+        "ID": 6016,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E05_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_016.ArtBook_World_016'"
+      },
+      "ArtBook_World_017": {
+        "ID": 6017,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_E05_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_017.ArtBook_World_017'"
+      },
+      "ArtBook_World_018": {
+        "ID": 6018,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_AltesLab_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_018.ArtBook_World_018'"
+      },
+      "ArtBook_World_019": {
+        "ID": 6019,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_AltesLab_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_019.ArtBook_World_019'"
+      },
+      "ArtBook_World_020": {
+        "ID": 6020,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_AltesLab_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_020.ArtBook_World_020'"
+      },
+      "ArtBook_World_021": {
+        "ID": 6021,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_AltesLab_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunHeeLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_021.ArtBook_World_021'"
+      },
+      "ArtBook_World_022": {
+        "ID": 6022,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_AltesLab_5",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_022.ArtBook_World_022'"
+      },
+      "ArtBook_World_023": {
+        "ID": 6023,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_AltesLab_6",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_023.ArtBook_World_023'"
+      },
+      "ArtBook_World_024": {
+        "ID": 6024,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_AltesLab_7",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_024.ArtBook_World_024'"
+      },
+      "ArtBook_World_025": {
+        "ID": 6025,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangTaekWoo",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_025.ArtBook_World_025'"
+      },
+      "ArtBook_World_026": {
+        "ID": 6026,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_026.ArtBook_World_026'"
+      },
+      "ArtBook_World_027": {
+        "ID": 6027,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangTaekWoo",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_027.ArtBook_World_027'"
+      },
+      "ArtBook_World_028": {
+        "ID": 6028,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangYeobPark",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_028.ArtBook_World_028'"
+      },
+      "ArtBook_World_029": {
+        "ID": 6029,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_5",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunHeeLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_029.ArtBook_World_029'"
+      },
+      "ArtBook_World_030": {
+        "ID": 6030,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_6",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunHeeLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_030.ArtBook_World_030'"
+      },
+      "ArtBook_World_031": {
+        "ID": 6031,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_7",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangYeobPark",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_031.ArtBook_World_031'"
+      },
+      "ArtBook_World_032": {
+        "ID": 6032,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_MatrixXI_8",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunHeeLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_032.ArtBook_World_032'"
+      },
+      "ArtBook_World_033": {
+        "ID": 6033,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_F01_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunHeeLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_033.ArtBook_World_033'"
+      },
+      "ArtBook_World_034": {
+        "ID": 6034,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_F01_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunHeeLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_034.ArtBook_World_034'"
+      },
+      "ArtBook_World_035": {
+        "ID": 6035,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_035.ArtBook_World_035'"
+      },
+      "ArtBook_World_036": {
+        "ID": 6036,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_KyoungHwanKwon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_036.ArtBook_World_036'"
+      },
+      "ArtBook_World_037": {
+        "ID": 6037,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_037.ArtBook_World_037'"
+      },
+      "ArtBook_World_038": {
+        "ID": 6038,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_038.ArtBook_World_038'"
+      },
+      "ArtBook_World_039": {
+        "ID": 6039,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_039.ArtBook_World_039'"
+      },
+      "ArtBook_World_040": {
+        "ID": 6040,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_5",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunHeeLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_040.ArtBook_World_040'"
+      },
+      "ArtBook_World_041": {
+        "ID": 6041,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_6",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_041.ArtBook_World_041'"
+      },
+      "ArtBook_World_042": {
+        "ID": 6042,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_6",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangTaekWoo",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_042.ArtBook_World_042'"
+      },
+      "ArtBook_World_043": {
+        "ID": 6043,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_7",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangYeobPark",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_043.ArtBook_World_043'"
+      },
+      "ArtBook_World_044": {
+        "ID": 6044,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_B07_7",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangYeobPark",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_044.ArtBook_World_044'"
+      },
+      "ArtBook_World_045": {
+        "ID": 6045,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_C05_1",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_045.ArtBook_World_045'"
+      },
+      "ArtBook_World_046": {
+        "ID": 6046,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_C05_2",
+        "ArtistStringKey": "UI_ArtBook_Artist_YunChulMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_046.ArtBook_World_046'"
+      },
+      "ArtBook_World_047": {
+        "ID": 6047,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_C05_3",
+        "ArtistStringKey": "UI_ArtBook_Artist_TaeSeongLee",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_047.ArtBook_World_047'"
+      },
+      "ArtBook_World_048": {
+        "ID": 6048,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_C05_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_048.ArtBook_World_048'"
+      },
+      "ArtBook_World_049": {
+        "ID": 6049,
+        "GroupAlias": "World",
+        "TitleStringKey": "UI_ArtBook_World_C05_4",
+        "ArtistStringKey": "UI_ArtBook_Artist_SangHoMoon",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/ArtBook/ArtBook_World_049.ArtBook_World_049'"
+      }
+    }
+  }
+]

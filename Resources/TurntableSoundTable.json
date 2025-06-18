@@ -1,0 +1,250 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TurntableSoundTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBTurntableSoundTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "NotifyAchievement"
+      ]
+    },
+    "Rows": {
+      "Turtable_Music_1": {
+        "ID": 1001,
+        "ConditionGroup": "None",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV1_ON.BGM_CAMP_MV1_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV1_OFF.BGM_CAMP_MV1_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_001",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_0104.Album_0104'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_Camp_MV1_ON_NRT.BGM_Camp_MV1_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_2": {
+        "ID": 1002,
+        "ConditionGroup": "None",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV3_ON.BGM_CAMP_MV3_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV3_OFF.BGM_CAMP_MV3_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_002",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_0104.Album_0104'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV3_ON_NRT.BGM_CAMP_MV3_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_3": {
+        "ID": 1003,
+        "ConditionGroup": "None",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV4_ON.BGM_CAMP_MV4_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV4_OFF.BGM_CAMP_MV4_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_003",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_0104.Album_0104'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV4_ON_NRT.BGM_CAMP_MV4_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_4": {
+        "ID": 1004,
+        "ConditionGroup": "None",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV2_ON.BGM_CAMP_MV2_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV2_OFF.BGM_CAMP_MV2_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_004",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_0104.Album_0104'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_MV2_ON_NRT.BGM_CAMP_MV2_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_5": {
+        "ID": 1005,
+        "ConditionGroup": "CG_SummerEvent_Turntable_Music",
+        "NotifyAchievement": "Enter_ZoneTrigger_SummerEventTrigger",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/E05/BGM_E05_EVENT_Oasis_Camp.BGM_E05_EVENT_Oasis_Camp'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/E05/BGM_E05_EVENT_OASIS_MONO.BGM_E05_EVENT_OASIS_MONO'",
+        "TitleStringKey": "UI_Turntable_Music_005",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_05.Album_05'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_E05_EVENT_Oasis_Camp_NRT.BGM_E05_EVENT_Oasis_Camp_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_6": {
+        "ID": 1006,
+        "ConditionGroup": "CG_SummerEvent_Turntable_Music",
+        "NotifyAchievement": "Enter_ZoneTrigger_SummerEventTrigger",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/E05/BGM_E05_EVENT_OASIS_SUMMER_CAMP.BGM_E05_EVENT_OASIS_SUMMER_CAMP'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/E05/BGM_E05_EVENT_OASIS_SUMMER_MONO.BGM_E05_EVENT_OASIS_SUMMER_MONO'",
+        "TitleStringKey": "UI_Turntable_Music_006",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_06.Album_06'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_E05_EVENT_OASIS_SUMMER_CAMP_NRT.BGM_E05_EVENT_OASIS_SUMMER_CAMP_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_7": {
+        "ID": 1007,
+        "ConditionGroup": "None",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ1_Lullaby_of_Secret_ON.BGM_CAMP_YJ1_Lullaby_of_Secret_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ1_Lullaby_of_Secret_OFF.BGM_CAMP_YJ1_Lullaby_of_Secret_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_007",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_08.Album_08'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ1_Lullaby_of_Secret_ON_NRT.BGM_CAMP_YJ1_Lullaby_of_Secret_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_8": {
+        "ID": 1008,
+        "ConditionGroup": "None",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ2_Just_Fine_ON.BGM_CAMP_YJ2_Just_Fine_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ2_Just_Fine_OFF.BGM_CAMP_YJ2_Just_Fine_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_008",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_09.Album_09'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ2_Just_Fine_ON_NRT.BGM_CAMP_YJ2_Just_Fine_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_9": {
+        "ID": 1009,
+        "ConditionGroup": "None",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ3_Blur_ON.BGM_CAMP_YJ3_Blur_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ3_Blur_OFF.BGM_CAMP_YJ3_Blur_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_009",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_07.Album_07'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_YJ3_Blur_ON_NRT.BGM_CAMP_YJ3_Blur_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nier_2": {
+        "ID": 2002,
+        "ConditionGroup": "CG_NierDLC_Turntable_Music_Default",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/NIER/BGM_NIER_CAMP_ON.BGM_NIER_CAMP_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/NIER/BGM_NIER_CAMP_OFF.BGM_NIER_CAMP_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nier_02",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_1_Nier/Album_08.Album_08'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_NIER_CAMP_ON_NRT.BGM_NIER_CAMP_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nier_1": {
+        "ID": 2001,
+        "ConditionGroup": "CG_NierDLC_Turntable_Music_EmilShop",
+        "NotifyAchievement": "Ach_Nier_GoodBye_Complete",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/NIER/BGM_NIER_EMIL_ON.BGM_NIER_EMIL_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/NIER/BGM_NIER_EMIL_OFF.BGM_NIER_EMIL_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nier_01",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_1_Nier/Album_07.Album_07'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_NIER_EMIL_ON_NRT.BGM_NIER_EMIL_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "turtable_Music_Christmas_1": {
+        "ID": 3001,
+        "ConditionGroup": "CG_ChristmasEvent_Turntable_Music",
+        "NotifyAchievement": "Ach_Album_Unlock_Item_Records_Christmas_01",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_WINTER_02_ON.BGM_CAMP_WINTER_02_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_WINTER_02_OFF.BGM_CAMP_WINTER_02_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Christmas_01",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_9.Album_9'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_WINTER_02_ON_NRT.BGM_CAMP_WINTER_02_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "turtable_Music_Christmas_2": {
+        "ID": 3002,
+        "ConditionGroup": "CG_ChristmasEvent_Turntable_Music",
+        "NotifyAchievement": "Ach_Album_Unlock_Item_Records_Christmas_01",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_WINTER_ON.BGM_CAMP_WINTER_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_WINTER_OFF.BGM_CAMP_WINTER_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Christmas_02",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/Album_10.Album_10'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_WINTER_ON_NRT.BGM_CAMP_WINTER_ON_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_1": {
+        "ID": 4001,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_1",
+        "NotifyAchievement": "ChangeState_Nikke_LP_1",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_01_ON.BGM_CAMP_NIKKE_01_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_01_OFF.BGM_CAMP_NIKKE_01_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_01",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/After_World.After_World'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_01_NRT_CAMP.BGM_CAMP_NIKKE_01_NRT_CAMP'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_2": {
+        "ID": 4002,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_2",
+        "NotifyAchievement": "ChangeState_Nikke_LP_2",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_02_ON.BGM_CAMP_NIKKE_02_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_02_OFF.BGM_CAMP_NIKKE_02_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_02",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/After_World.After_World'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_02_NRT_CAMP.BGM_CAMP_NIKKE_02_NRT_CAMP'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_3": {
+        "ID": 4003,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_3",
+        "NotifyAchievement": "ChangeState_Nikke_LP_3",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_03_ON.BGM_CAMP_NIKKE_03_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_03_OFF.BGM_CAMP_NIKKE_03_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_03",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/album_event_01.album_event_01'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_03_NRT_CAMP.BGM_CAMP_NIKKE_03_NRT_CAMP'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_4": {
+        "ID": 4004,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_4",
+        "NotifyAchievement": "ChangeState_Nikke_LP_4",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_04_ON.BGM_CAMP_NIKKE_04_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_04_OFF.BGM_CAMP_NIKKE_04_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_04",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/album_event_01.album_event_01'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_04_NRT_CAMP.BGM_CAMP_NIKKE_04_NRT_CAMP'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_5": {
+        "ID": 4005,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_5",
+        "NotifyAchievement": "ChangeState_Nikke_LP_5",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_05_ON.BGM_CAMP_NIKKE_05_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_05_OFF.BGM_CAMP_NIKKE_05_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_05",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/album_neverland.album_neverland'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_05_NRT_CAMP.BGM_CAMP_NIKKE_05_NRT_CAMP'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_6": {
+        "ID": 4006,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_6",
+        "NotifyAchievement": "ChangeState_Nikke_LP_6",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_06_ON.BGM_CAMP_NIKKE_06_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_06_OFF.BGM_CAMP_NIKKE_06_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_06",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/album_beautyfullshot.album_beautyfullshot'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_06_NRT_CAMP.BGM_CAMP_NIKKE_06_NRT_CAMP'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_7": {
+        "ID": 4007,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_7",
+        "NotifyAchievement": "ChangeState_Nikke_LP_7",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_07_ON.BGM_CAMP_NIKKE_07_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_07_OFF.BGM_CAMP_NIKKE_07_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_07",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/album_bluewater_01.album_bluewater_01'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_07_NRT_CAMP.BGM_CAMP_NIKKE_07_NRT_CAMP'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Nikke_8": {
+        "ID": 4008,
+        "ConditionGroup": "CG_NikkeDLC_Turntable_Music_LP_8",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_08_ON.BGM_CAMP_NIKKE_08_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_08_OFF.BGM_CAMP_NIKKE_08_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Nikke_08",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/album_event_01.album_event_01'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_08_NRT_CAMP.BGM_CAMP_NIKKE_08_NRT_CAMP'",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,976 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemEquipableTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBItemEquipableTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "CriticalPercentage_Common": {
+        "ID": 103001,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalPercentage",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Uncommon": {
+        "ID": 103002,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalPercentage",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Rare": {
+        "ID": 103003,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalPercentage",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Common": {
+        "ID": 103004,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveFixedDamage",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Uncommon": {
+        "ID": 103005,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveFixedDamage",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Rare": {
+        "ID": 103006,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveFixedDamage",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Common": {
+        "ID": 103007,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxShield",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Uncommon": {
+        "ID": 103008,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxShield",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Rare": {
+        "ID": 103009,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxShield",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Common": {
+        "ID": 103010,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Uncommon": {
+        "ID": 103011,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Rare": {
+        "ID": 103012,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Common": {
+        "ID": 103013,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldIgnorePercentage",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Uncommon": {
+        "ID": 103014,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldIgnorePercentage",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Rare": {
+        "ID": 103015,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldIgnorePercentage",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Common": {
+        "ID": 103016,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldAttackPowerRate",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Uncommon": {
+        "ID": 103017,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldAttackPowerRate",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Rare": {
+        "ID": 103018,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldAttackPowerRate",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Common": {
+        "ID": 103019,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Uncommon": {
+        "ID": 103020,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Rare": {
+        "ID": 103021,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Common": {
+        "ID": 103022,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Uncommon": {
+        "ID": 103023,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Rare": {
+        "ID": 103024,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Common": {
+        "ID": 103025,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Uncommon": {
+        "ID": 103026,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Rare": {
+        "ID": 103027,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeAttackDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Common": {
+        "ID": 103028,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_HighHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Uncommon": {
+        "ID": 103029,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_HighHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Rare": {
+        "ID": 103030,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_HighHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Common": {
+        "ID": 103031,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalValueRate",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Uncommon": {
+        "ID": 103032,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalValueRate",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Rare": {
+        "ID": 103033,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalValueRate",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Common": {
+        "ID": 103034,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_LowHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Uncommon": {
+        "ID": 103035,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_LowHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Rare": {
+        "ID": 103036,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_LowHpDamageAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "AdditiveBetaSkillDamage_Common": {
+        "ID": 103037,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup5",
+        "FileSuffix": "None"
+      },
+      "AdditiveBetaSkillDamage_Uncommon": {
+        "ID": 103038,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup5",
+        "FileSuffix": "None"
+      },
+      "AdditiveBetaSkillDamage_Rare": {
+        "ID": 103039,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup5",
+        "FileSuffix": "None"
+      },
+      "AdditiveBustSkillDamage_Common": {
+        "ID": 103040,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup6",
+        "FileSuffix": "None"
+      },
+      "AdditiveBustSkillDamage_Uncommon": {
+        "ID": 103041,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup6",
+        "FileSuffix": "None"
+      },
+      "AdditiveBustSkillDamage_Rare": {
+        "ID": 103042,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup6",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Common": {
+        "ID": 103043,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveGiveAndReciveDamageRate",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Uncommon": {
+        "ID": 103044,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveGiveAndReciveDamageRate",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Rare": {
+        "ID": 103045,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveGiveAndReciveDamageRate",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Common": {
+        "ID": 103046,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyAdditiveDamageRate",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Uncommon": {
+        "ID": 103047,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyAdditiveDamageRate",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Rare": {
+        "ID": 103048,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyAdditiveDamageRate",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Common": {
+        "ID": 103049,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyHealHP",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Uncommon": {
+        "ID": 103050,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyHealHP",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Rare": {
+        "ID": 103051,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyHealHP",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Common": {
+        "ID": 103052,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeRangeDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Uncommon": {
+        "ID": 103053,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeRangeDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Rare": {
+        "ID": 103054,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeRangeDamageReductionRate",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Common": {
+        "ID": 103055,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ComboAttackAdditiveDamage",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Uncommon": {
+        "ID": 103056,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ComboAttackAdditiveDamage",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Rare": {
+        "ID": 103057,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ComboAttackAdditiveDamage",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Common": {
+        "ID": 103058,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaCrystalAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Uncommon": {
+        "ID": 103059,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaCrystalAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Rare": {
+        "ID": 103060,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaCrystalAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Common": {
+        "ID": 103061,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BurstGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Uncommon": {
+        "ID": 103062,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BurstGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Rare": {
+        "ID": 103063,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BurstGaugeAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Common": {
+        "ID": 103064,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBetaGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Uncommon": {
+        "ID": 103065,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBetaGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Rare": {
+        "ID": 103066,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBetaGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Common": {
+        "ID": 103067,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_SPExpAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Uncommon": {
+        "ID": 103068,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_SPExpAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Rare": {
+        "ID": 103069,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_SPExpAdditiveRate",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Common": {
+        "ID": 103070,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AttackSpeed",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Uncommon": {
+        "ID": 103071,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AttackSpeed",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Rare": {
+        "ID": 103072,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AttackSpeed",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Common": {
+        "ID": 103073,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxBurstGauge",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Uncommon": {
+        "ID": 103074,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxBurstGauge",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Rare": {
+        "ID": 103075,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxBurstGauge",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Common": {
+        "ID": 103076,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBurstGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Uncommon": {
+        "ID": 103077,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBurstGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Rare": {
+        "ID": 103078,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBurstGaugeValueOnDamaged",
+        "FileSuffix": "None"
+      },
+      "SkinSuit_Common": {
+        "ID": 103079,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldZero",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Common_MK2": {
+        "ID": 103080,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalPercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Uncommon_MK2": {
+        "ID": 103081,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalPercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Rare_MK2": {
+        "ID": 103082,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalPercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Common_MK2": {
+        "ID": 103083,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveFixedDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Uncommon_MK2": {
+        "ID": 103084,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveFixedDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Rare_MK2": {
+        "ID": 103085,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveFixedDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Common_MK2": {
+        "ID": 103086,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxShield_MK2",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Uncommon_MK2": {
+        "ID": 103087,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxShield_MK2",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Rare_MK2": {
+        "ID": 103088,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxShield_MK2",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Common_MK2": {
+        "ID": 103089,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Uncommon_MK2": {
+        "ID": 103090,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Rare_MK2": {
+        "ID": 103091,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Common_MK2": {
+        "ID": 103092,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldIgnorePercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Uncommon_MK2": {
+        "ID": 103093,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldIgnorePercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Rare_MK2": {
+        "ID": 103094,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldIgnorePercentage_MK2",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Common_MK2": {
+        "ID": 103095,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldAttackPowerRate_MK2",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Uncommon_MK2": {
+        "ID": 103096,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldAttackPowerRate_MK2",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Rare_MK2": {
+        "ID": 103097,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ShieldAttackPowerRate_MK2",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Common_MK2": {
+        "ID": 103098,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Uncommon_MK2": {
+        "ID": 103099,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Rare_MK2": {
+        "ID": 103100,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Common_MK2": {
+        "ID": 103101,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 103102,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Rare_MK2": {
+        "ID": 103103,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_RangeAttackDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Common_MK2": {
+        "ID": 103104,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Uncommon_MK2": {
+        "ID": 103105,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Rare_MK2": {
+        "ID": 103106,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeAttackDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Common_MK2": {
+        "ID": 103107,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_HighHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 103108,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_HighHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Rare_MK2": {
+        "ID": 103109,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_HighHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Common_MK2": {
+        "ID": 103110,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalValueRate_MK2",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Uncommon_MK2": {
+        "ID": 103111,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalValueRate_MK2",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Rare_MK2": {
+        "ID": 103112,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_CriticalValueRate_MK2",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Common_MK2": {
+        "ID": 103113,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_LowHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 103114,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_LowHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Rare_MK2": {
+        "ID": 103115,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_LowHpDamageAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveBetaSkillDamage_Common_MK2": {
+        "ID": 103116,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup5_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveBetaSkillDamage_Uncommon_MK2": {
+        "ID": 103117,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup5_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveBetaSkillDamage_Rare_MK2": {
+        "ID": 103118,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup5_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveBustSkillDamage_Common_MK2": {
+        "ID": 103119,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup6_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveBustSkillDamage_Uncommon_MK2": {
+        "ID": 103120,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup6_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveBustSkillDamage_Rare_MK2": {
+        "ID": 103121,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveSkillDamageGroup6_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Common_MK2": {
+        "ID": 103122,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveGiveAndReciveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Uncommon_MK2": {
+        "ID": 103123,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveGiveAndReciveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Rare_MK2": {
+        "ID": 103124,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AdditiveGiveAndReciveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Common_MK2": {
+        "ID": 103125,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyAdditiveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Uncommon_MK2": {
+        "ID": 103126,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyAdditiveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Rare_MK2": {
+        "ID": 103127,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyAdditiveDamageRate_MK2",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Common_MK2": {
+        "ID": 103128,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyHealHP_MK2",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Uncommon_MK2": {
+        "ID": 103129,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyHealHP_MK2",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Rare_MK2": {
+        "ID": 103130,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_KillEnemyHealHP_MK2",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Common_MK2": {
+        "ID": 103131,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeRangeDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Uncommon_MK2": {
+        "ID": 103132,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeRangeDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Rare_MK2": {
+        "ID": 103133,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MeleeRangeDamageReductionRate_MK2",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Common_MK2": {
+        "ID": 103134,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ComboAttackAdditiveDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Uncommon_MK2": {
+        "ID": 103135,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ComboAttackAdditiveDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Rare_MK2": {
+        "ID": 103136,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ComboAttackAdditiveDamage_MK2",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Common_MK2": {
+        "ID": 103137,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaCrystalAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Uncommon_MK2": {
+        "ID": 103138,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaCrystalAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Rare_MK2": {
+        "ID": 103139,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BetaCrystalAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Common_MK2": {
+        "ID": 103140,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BurstGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Uncommon_MK2": {
+        "ID": 103141,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BurstGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Rare_MK2": {
+        "ID": 103142,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_BurstGaugeAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Common_MK2": {
+        "ID": 103143,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBetaGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Uncommon_MK2": {
+        "ID": 103144,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBetaGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Rare_MK2": {
+        "ID": 103145,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBetaGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Common_MK2": {
+        "ID": 103146,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_SPExpAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Uncommon_MK2": {
+        "ID": 103147,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_SPExpAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Rare_MK2": {
+        "ID": 103148,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_SPExpAdditiveRate_MK2",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Common_MK2": {
+        "ID": 103149,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AttackSpeed_MK2",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Uncommon_MK2": {
+        "ID": 103150,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AttackSpeed_MK2",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Rare_MK2": {
+        "ID": 103151,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_AttackSpeed_MK2",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Common_MK2": {
+        "ID": 103152,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxBurstGauge_MK2",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Uncommon_MK2": {
+        "ID": 103153,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxBurstGauge_MK2",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Rare_MK2": {
+        "ID": 103154,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_MaxBurstGauge_MK2",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Common_MK2": {
+        "ID": 103155,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBurstGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Uncommon_MK2": {
+        "ID": 103156,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBurstGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Rare_MK2": {
+        "ID": 103157,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_GainBurstGaugeValueOnDamaged_MK2",
+        "FileSuffix": "None"
+      },
+      "TachyFusionEarring_Rare": {
+        "ID": 103158,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_TachyFusionEarring",
+        "FileSuffix": "None"
+      },
+      "ScarletNanoSuit_Rare": {
+        "ID": 103159,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ScarletNanoSuit",
+        "FileSuffix": "None"
+      },
+      "ScarletHair_Rare": {
+        "ID": 103160,
+        "GearType": "ESBGearType::ESBGearType_Common",
+        "BaseStatGroupAlias": "Base_Effect_ScarletHair",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

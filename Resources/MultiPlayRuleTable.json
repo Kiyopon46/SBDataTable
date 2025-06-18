@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MultiPlayRuleTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBMultiPlayRuleTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "GameRuleType"
+      ]
+    },
+    "Rows": {}
+  }
+]

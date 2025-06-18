@@ -1,0 +1,1578 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EquipmentMaterialTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEquipmentMaterialTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "Group",
+        "VariationIndex",
+        "MaterialIndex"
+      ]
+    },
+    "Rows": {
+      "EveHair_Default_Base_Var0_M0": {
+        "ID": 10000,
+        "Group": "EveHair_Default_Base",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New.MI_Hair_New'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/hair_000_var1.hair_000_var1'",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_Base_Var0_M1": {
+        "ID": 10001,
+        "Group": "EveHair_Default_Base",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_LOD0.MI_Hair_New_LOD0'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/hair_000_var1.hair_000_var1'",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_Base_Var1_M0": {
+        "ID": 10002,
+        "Group": "EveHair_Default_Base",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_LOD0_Test_Var1.MI_Hair_New_LOD0_Test_Var1'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/hair_000_var2.hair_000_var2'",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_Base_Var1_M1": {
+        "ID": 10003,
+        "Group": "EveHair_Default_Base",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_Test_Var1.MI_Hair_New_Test_Var1'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/hair_000_var2.hair_000_var2'",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_Base_Var2_M0": {
+        "ID": 10004,
+        "Group": "EveHair_Default_Base",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_LOD0_Test_Var2.MI_Hair_New_LOD0_Test_Var2'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/hair_000_var3.hair_000_var3'",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_Base_Var2_M1": {
+        "ID": 10005,
+        "Group": "EveHair_Default_Base",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_Test_Var2.MI_Hair_New_Test_Var2'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/hair_000_var3.hair_000_var3'",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_PT_Var0_M0": {
+        "ID": 10006,
+        "Group": "EveHair_Default_PT",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_Ponytail_4.MI_Hair_New_Ponytail_4'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_PT_Var1_M0": {
+        "ID": 10007,
+        "Group": "EveHair_Default_PT",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_Ponytail_4_Test_Var1.MI_Hair_New_Ponytail_4_Test_Var1'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EveHair_Default_PT_Var2_M0": {
+        "ID": 10008,
+        "Group": "EveHair_Default_PT",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/HairMaterial/MI_Hair_New_Ponytail_4_Test_Var2.MI_Hair_New_Ponytail_4_Test_Var2'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_LightSword1_V0_M0": {
+        "ID": 900000,
+        "Group": "EM_LightSword1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/DLC_1/Art/Character/Weapon/Sword/CH_W_Sword_01_Co_Ni/Materials/MI_CH_W_Sword_Co_ni.MI_CH_W_Sword_Co_ni'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_LightSword1_V0_M1": {
+        "ID": 900001,
+        "Group": "EM_LightSword1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/DLC_1/Art/Character/Weapon/Sword/CH_W_Sword_01_Co_Ni/Materials/MI_CH_W_Sword_Co_ni.MI_CH_W_Sword_Co_ni'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_LightSword1_V0_M2": {
+        "ID": 900002,
+        "Group": "EM_LightSword1",
+        "VariationIndex": 0,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/DLC_1/Art/Character/Weapon/Sword/CH_W_Sword_01_Co_Ni/Materials/MI_CH_W_Sword_Co_ni.MI_CH_W_Sword_Co_ni'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part1_V0_M0": {
+        "ID": 100000,
+        "Group": "EM_Hair_Default_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeA.MI_EVE_HR_01_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V0.Hair_000_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part2_V0_M0": {
+        "ID": 200000,
+        "Group": "EM_Hair_Default_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_Tail_TypeA.MI_EVE_HR_01_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part1_V1_M0": {
+        "ID": 100010,
+        "Group": "EM_Hair_Default_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeB.MI_EVE_HR_01_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V1.Hair_000_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part2_V1_M0": {
+        "ID": 200010,
+        "Group": "EM_Hair_Default_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_Tail_TypeB.MI_EVE_HR_01_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part1_V2_M0": {
+        "ID": 100020,
+        "Group": "EM_Hair_Default_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeC.MI_EVE_HR_01_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V2.Hair_000_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part2_V2_M0": {
+        "ID": 200020,
+        "Group": "EM_Hair_Default_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_Tail_TypeC.MI_EVE_HR_01_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part1_V3_M0": {
+        "ID": 100030,
+        "Group": "EM_Hair_Default_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeD.MI_EVE_HR_01_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V3.Hair_000_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Default_Part2_V3_M0": {
+        "ID": 200030,
+        "Group": "EM_Hair_Default_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_Tail_TypeD.MI_EVE_HR_01_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part1_V0_M0": {
+        "ID": 100100,
+        "Group": "EM_Hair_001_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_TypeA.MI_EVE_HR_07_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_001/Hair_001_V0.Hair_001_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part2_V0_M0": {
+        "ID": 200100,
+        "Group": "EM_Hair_001_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_Tail_TypeA.MI_EVE_HR_07_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part1_V1_M0": {
+        "ID": 100110,
+        "Group": "EM_Hair_001_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_TypeB.MI_EVE_HR_07_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_001/Hair_001_V1.Hair_001_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part2_V1_M0": {
+        "ID": 200110,
+        "Group": "EM_Hair_001_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_Tail_TypeB.MI_EVE_HR_07_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part1_V2_M0": {
+        "ID": 100120,
+        "Group": "EM_Hair_001_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_TypeC.MI_EVE_HR_07_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_001/Hair_001_V2.Hair_001_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part2_V2_M0": {
+        "ID": 200120,
+        "Group": "EM_Hair_001_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_Tail_TypeC.MI_EVE_HR_07_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part1_V3_M0": {
+        "ID": 100130,
+        "Group": "EM_Hair_001_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_TypeD.MI_EVE_HR_07_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_001/Hair_001_V3.Hair_001_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_001_Part2_V3_M0": {
+        "ID": 200130,
+        "Group": "EM_Hair_001_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_07/Material/MI_EVE_HR_07_Tail_TypeD.MI_EVE_HR_07_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part1_V0_M0": {
+        "ID": 100200,
+        "Group": "EM_Hair_002_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_TypeA.MI_EVE_HR_02_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_002/Hair_002_V0.Hair_002_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part2_V0_M0": {
+        "ID": 200200,
+        "Group": "EM_Hair_002_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_Tail_TypeA.MI_EVE_HR_02_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part1_V1_M0": {
+        "ID": 100210,
+        "Group": "EM_Hair_002_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_TypeB.MI_EVE_HR_02_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_002/Hair_002_V1.Hair_002_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part2_V1_M0": {
+        "ID": 200210,
+        "Group": "EM_Hair_002_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_Tail_TypeB.MI_EVE_HR_02_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part1_V2_M0": {
+        "ID": 100220,
+        "Group": "EM_Hair_002_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_TypeC.MI_EVE_HR_02_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_002/Hair_002_V2.Hair_002_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part2_V2_M0": {
+        "ID": 200220,
+        "Group": "EM_Hair_002_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_Tail_TypeC.MI_EVE_HR_02_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part1_V3_M0": {
+        "ID": 100230,
+        "Group": "EM_Hair_002_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_TypeD.MI_EVE_HR_02_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_002/Hair_002_V3.Hair_002_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_002_Part2_V3_M0": {
+        "ID": 200230,
+        "Group": "EM_Hair_002_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_02/Materials/MI_EVE_HR_02_Tail_TypeD.MI_EVE_HR_02_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V0_M0": {
+        "ID": 100300,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_HR_003_HairPin.MI_HR_003_HairPin'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_003/Hair_003_V0.Hair_003_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V0_M1": {
+        "ID": 100301,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_TypeA.MI_EVE_HR_03_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part2_V0_M0": {
+        "ID": 200300,
+        "Group": "EM_Hair_003_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_Tail_TypeA.MI_EVE_HR_03_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V1_M0": {
+        "ID": 100310,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_HR_003_HairPin.MI_HR_003_HairPin'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_003/Hair_003_V1.Hair_003_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V1_M1": {
+        "ID": 100311,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_TypeB.MI_EVE_HR_03_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part2_V1_M0": {
+        "ID": 200310,
+        "Group": "EM_Hair_003_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_Tail_TypeB.MI_EVE_HR_03_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V2_M0": {
+        "ID": 100320,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_HR_003_HairPin.MI_HR_003_HairPin'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_003/Hair_003_V2.Hair_003_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V2_M1": {
+        "ID": 100321,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_TypeC.MI_EVE_HR_03_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part2_V2_M0": {
+        "ID": 200320,
+        "Group": "EM_Hair_003_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_Tail_TypeC.MI_EVE_HR_03_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V3_M0": {
+        "ID": 100330,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_HR_003_HairPin.MI_HR_003_HairPin'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_003/Hair_003_V3.Hair_003_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part1_V3_M1": {
+        "ID": 100331,
+        "Group": "EM_Hair_003_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_TypeD.MI_EVE_HR_03_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_003_Part2_V3_M0": {
+        "ID": 200330,
+        "Group": "EM_Hair_003_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_03/Materials/MI_EVE_HR_03_Tail_TypeD.MI_EVE_HR_03_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V0_M0": {
+        "ID": 100400,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_TypeA.MI_EVE_HR_04_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_004/Hair_004_V0.Hair_004_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V0_M1": {
+        "ID": 100401,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_HR_004_Strap.MI_HR_004_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part2_V0_M0": {
+        "ID": 200400,
+        "Group": "EM_Hair_004_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_Tail_TypeA.MI_EVE_HR_04_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V1_M0": {
+        "ID": 100410,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_TypeB.MI_EVE_HR_04_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_004/Hair_004_V1.Hair_004_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V1_M1": {
+        "ID": 100411,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_HR_004_Strap.MI_HR_004_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part2_V1_M0": {
+        "ID": 200410,
+        "Group": "EM_Hair_004_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_Tail_TypeB.MI_EVE_HR_04_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V2_M0": {
+        "ID": 100420,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_TypeC.MI_EVE_HR_04_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_004/Hair_004_V2.Hair_004_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V2_M1": {
+        "ID": 100421,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_HR_004_Strap.MI_HR_004_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part2_V2_M0": {
+        "ID": 200420,
+        "Group": "EM_Hair_004_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_Tail_TypeC.MI_EVE_HR_04_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V3_M0": {
+        "ID": 100430,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_TypeD.MI_EVE_HR_04_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_004/Hair_004_V3.Hair_004_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part1_V3_M1": {
+        "ID": 100431,
+        "Group": "EM_Hair_004_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_HR_004_Strap.MI_HR_004_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_004_Part2_V3_M0": {
+        "ID": 200430,
+        "Group": "EM_Hair_004_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_04/Material/MI_EVE_HR_04_Tail_TypeD.MI_EVE_HR_04_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V0_M0": {
+        "ID": 100500,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_TypeA.MI_EVE_HR_05_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_005/Hair_005_V0.Hair_005_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V0_M1": {
+        "ID": 100501,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_Lace.MI_Lace'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part2_V0_M0": {
+        "ID": 200500,
+        "Group": "EM_Hair_005_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_Tail_TypeA.MI_EVE_HR_05_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V1_M0": {
+        "ID": 100510,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_TypeB.MI_EVE_HR_05_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_005/Hair_005_V1.Hair_005_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V1_M1": {
+        "ID": 100511,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_Lace.MI_Lace'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part2_V1_M0": {
+        "ID": 200510,
+        "Group": "EM_Hair_005_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_Tail_TypeB.MI_EVE_HR_05_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V2_M0": {
+        "ID": 100520,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_TypeC.MI_EVE_HR_05_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_005/Hair_005_V2.Hair_005_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V2_M1": {
+        "ID": 100521,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_Lace.MI_Lace'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part2_V2_M0": {
+        "ID": 200520,
+        "Group": "EM_Hair_005_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_Tail_TypeC.MI_EVE_HR_05_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V3_M0": {
+        "ID": 100530,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_TypeD.MI_EVE_HR_05_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_005/Hair_005_V3.Hair_005_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part1_V3_M1": {
+        "ID": 100531,
+        "Group": "EM_Hair_005_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_Lace.MI_Lace'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_005_Part2_V3_M0": {
+        "ID": 200530,
+        "Group": "EM_Hair_005_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_05/Material/MI_EVE_HR_05_Tail_TypeD.MI_EVE_HR_05_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part1_V0_M0": {
+        "ID": 100600,
+        "Group": "EM_Hair_006_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_TypeA.MI_EVE_HR_06_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_006/Hair_006_V0.Hair_006_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part2_V0_M0": {
+        "ID": 200600,
+        "Group": "EM_Hair_006_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_Tail_TypeA.MI_EVE_HR_06_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part1_V1_M0": {
+        "ID": 100610,
+        "Group": "EM_Hair_006_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_TypeB.MI_EVE_HR_06_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_006/Hair_006_V1.Hair_006_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part2_V1_M0": {
+        "ID": 200610,
+        "Group": "EM_Hair_006_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_Tail_TypeB.MI_EVE_HR_06_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part1_V2_M0": {
+        "ID": 100620,
+        "Group": "EM_Hair_006_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_TypeC.MI_EVE_HR_06_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_006/Hair_006_V2.Hair_006_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part2_V2_M0": {
+        "ID": 200620,
+        "Group": "EM_Hair_006_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_Tail_TypeC.MI_EVE_HR_06_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part1_V3_M0": {
+        "ID": 100630,
+        "Group": "EM_Hair_006_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_TypeD.MI_EVE_HR_06_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_006/Hair_006_V3.Hair_006_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_006_Part2_V3_M0": {
+        "ID": 200630,
+        "Group": "EM_Hair_006_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_06/Material/MI_EVE_HR_06_Tail_TypeD.MI_EVE_HR_06_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V0_M0": {
+        "ID": 100700,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_TypeA.MI_EVE_HR_08_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_007/Hair_007_V0.Hair_007_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V0_M1": {
+        "ID": 100701,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Strap.MI_EVE_HR_08_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part2_V0_M0": {
+        "ID": 200700,
+        "Group": "EM_Hair_007_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Tail_TypeA.MI_EVE_HR_08_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V1_M0": {
+        "ID": 100710,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_TypeB.MI_EVE_HR_08_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_007/Hair_007_V1.Hair_007_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V1_M1": {
+        "ID": 100711,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Strap.MI_EVE_HR_08_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part2_V1_M0": {
+        "ID": 200710,
+        "Group": "EM_Hair_007_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Tail_TypeB.MI_EVE_HR_08_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V2_M0": {
+        "ID": 100720,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_TypeC.MI_EVE_HR_08_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_007/Hair_007_V2.Hair_007_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V2_M1": {
+        "ID": 100721,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Strap.MI_EVE_HR_08_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part2_V2_M0": {
+        "ID": 200720,
+        "Group": "EM_Hair_007_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Tail_TypeC.MI_EVE_HR_08_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V3_M0": {
+        "ID": 100730,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_TypeD.MI_EVE_HR_08_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_007/Hair_007_V3.Hair_007_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part1_V3_M1": {
+        "ID": 100731,
+        "Group": "EM_Hair_007_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Strap.MI_EVE_HR_08_Strap'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_007_Part2_V3_M0": {
+        "ID": 200730,
+        "Group": "EM_Hair_007_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_08/Materials/MI_EVE_HR_08_Tail_TypeD.MI_EVE_HR_08_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V0_M0": {
+        "ID": 100800,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_TypeA.MI_EVE_HR_09_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_008/Hair_008_V0.Hair_008_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V0_M1": {
+        "ID": 100801,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Hairband.MI_EVE_HR_09_Hairband'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part2_V0_M0": {
+        "ID": 200800,
+        "Group": "EM_Hair_008_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Tail_TypeA.MI_EVE_HR_09_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V1_M0": {
+        "ID": 100810,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_TypeB.MI_EVE_HR_09_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_008/Hair_008_V1.Hair_008_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V1_M1": {
+        "ID": 100811,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Hairband.MI_EVE_HR_09_Hairband'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part2_V1_M0": {
+        "ID": 200810,
+        "Group": "EM_Hair_008_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Tail_TypeB.MI_EVE_HR_09_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V2_M0": {
+        "ID": 100820,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_TypeC.MI_EVE_HR_09_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_008/Hair_008_V2.Hair_008_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V2_M1": {
+        "ID": 100821,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Hairband.MI_EVE_HR_09_Hairband'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part2_V2_M0": {
+        "ID": 200820,
+        "Group": "EM_Hair_008_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Tail_TypeC.MI_EVE_HR_09_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V3_M0": {
+        "ID": 100830,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_TypeD.MI_EVE_HR_09_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_008/Hair_008_V3.Hair_008_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part1_V3_M1": {
+        "ID": 100831,
+        "Group": "EM_Hair_008_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Hairband.MI_EVE_HR_09_Hairband'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_008_Part2_V3_M0": {
+        "ID": 200830,
+        "Group": "EM_Hair_008_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_09/Materials/MI_EVE_HR_09_Tail_TypeD.MI_EVE_HR_09_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V0_M0": {
+        "ID": 100900,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_TypeA.MI_EVE_HR_10_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_009/Hair_009_V0.Hair_009_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V0_M1": {
+        "ID": 100901,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_LayerHair.MI_EVE_HR_10_LayerHair'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V0_M2": {
+        "ID": 100902,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Acc.MI_EVE_HR_10_Acc'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part2_V0_M0": {
+        "ID": 200900,
+        "Group": "EM_Hair_009_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Tail_TypeA.MI_EVE_HR_10_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V1_M0": {
+        "ID": 100910,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_TypeB.MI_EVE_HR_10_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_009/Hair_009_V1.Hair_009_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V1_M1": {
+        "ID": 100911,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_LayerHair_TypeB.MI_EVE_HR_10_LayerHair_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V1_M2": {
+        "ID": 100912,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Acc_TypeB.MI_EVE_HR_10_Acc_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part2_V1_M0": {
+        "ID": 200910,
+        "Group": "EM_Hair_009_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Tail_TypeB.MI_EVE_HR_10_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V2_M0": {
+        "ID": 100920,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_TypeC.MI_EVE_HR_10_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_009/Hair_009_V2.Hair_009_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V2_M1": {
+        "ID": 100921,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_LayerHair.MI_EVE_HR_10_LayerHair'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V2_M2": {
+        "ID": 100922,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Acc_TypeC.MI_EVE_HR_10_Acc_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part2_V2_M0": {
+        "ID": 200920,
+        "Group": "EM_Hair_009_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Tail_TypeC.MI_EVE_HR_10_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V3_M0": {
+        "ID": 100930,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_TypeD.MI_EVE_HR_10_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_009/Hair_009_V3.Hair_009_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V3_M1": {
+        "ID": 100931,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_LayerHair.MI_EVE_HR_10_LayerHair'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part1_V3_M2": {
+        "ID": 100932,
+        "Group": "EM_Hair_009_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Acc.MI_EVE_HR_10_Acc'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_009_Part2_V3_M0": {
+        "ID": 200930,
+        "Group": "EM_Hair_009_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_10/Materials/MI_EVE_HR_10_Tail_TypeD.MI_EVE_HR_10_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V0_M0": {
+        "ID": 101000,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_TypeA.MI_EVE_HR_11_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_010/Hair_010_V0.Hair_010_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V0_M1": {
+        "ID": 101001,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Hairpin.MI_EVE_HR_11_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part2_V0_M0": {
+        "ID": 201000,
+        "Group": "EM_Hair_010_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Tail_TypeA.MI_EVE_HR_11_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V1_M0": {
+        "ID": 101010,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_TypeB.MI_EVE_HR_11_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_010/Hair_010_V1.Hair_010_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V1_M1": {
+        "ID": 101011,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Hairpin.MI_EVE_HR_11_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part2_V1_M0": {
+        "ID": 201010,
+        "Group": "EM_Hair_010_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Tail_TypeB.MI_EVE_HR_11_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V2_M0": {
+        "ID": 101020,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_TypeC.MI_EVE_HR_11_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_010/Hair_010_V2.Hair_010_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V2_M1": {
+        "ID": 101021,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Hairpin.MI_EVE_HR_11_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part2_V2_M0": {
+        "ID": 201020,
+        "Group": "EM_Hair_010_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Tail_TypeC.MI_EVE_HR_11_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V3_M0": {
+        "ID": 101030,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_TypeD.MI_EVE_HR_11_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_010/Hair_010_V3.Hair_010_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part1_V3_M1": {
+        "ID": 101031,
+        "Group": "EM_Hair_010_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "Material'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Hairpin.MI_EVE_HR_11_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_010_Part2_V3_M0": {
+        "ID": 201030,
+        "Group": "EM_Hair_010_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_11/Materials/MI_EVE_HR_11_Tail_TypeD.MI_EVE_HR_11_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part1_V0_M0": {
+        "ID": 101100,
+        "Group": "EM_Hair_011_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_TypeA.MI_EVE_HR_12_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_011/Hair_011_V0.Hair_011_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part2_V0_M0": {
+        "ID": 201100,
+        "Group": "EM_Hair_011_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_Tail_TypeA.MI_EVE_HR_12_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part1_V1_M0": {
+        "ID": 101110,
+        "Group": "EM_Hair_011_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_TypeB.MI_EVE_HR_12_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_011/Hair_011_V1.Hair_011_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part2_V1_M0": {
+        "ID": 201110,
+        "Group": "EM_Hair_011_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_Tail_TypeB.MI_EVE_HR_12_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part1_V2_M0": {
+        "ID": 101120,
+        "Group": "EM_Hair_011_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_TypeC.MI_EVE_HR_12_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_011/Hair_011_V2.Hair_011_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part2_V2_M0": {
+        "ID": 201120,
+        "Group": "EM_Hair_011_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_Tail_TypeC.MI_EVE_HR_12_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part1_V3_M0": {
+        "ID": 101130,
+        "Group": "EM_Hair_011_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_TypeD.MI_EVE_HR_12_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_011/Hair_011_V3.Hair_011_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_011_Part2_V3_M0": {
+        "ID": 201130,
+        "Group": "EM_Hair_011_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_12/Materials/MI_EVE_HR_12_Tail_TypeD.MI_EVE_HR_12_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V0_M0": {
+        "ID": 101200,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_TypeA.MI_EVE_HR_13_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_012/Hair_012_V0.Hair_012_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V0_M1": {
+        "ID": 101201,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Hairpin.MI_EVE_HR_13_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part2_V0_M0": {
+        "ID": 201200,
+        "Group": "EM_Hair_012_Part2",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Tail_TypeA.MI_EVE_HR_13_Tail_TypeA'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V1_M0": {
+        "ID": 101210,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_TypeB.MI_EVE_HR_13_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_012/Hair_012_V1.Hair_012_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V1_M1": {
+        "ID": 101211,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Hairpin.MI_EVE_HR_13_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part2_V1_M0": {
+        "ID": 201210,
+        "Group": "EM_Hair_012_Part2",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Tail_TypeB.MI_EVE_HR_13_Tail_TypeB'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V2_M0": {
+        "ID": 101220,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_TypeC.MI_EVE_HR_13_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_012/Hair_012_V2.Hair_012_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V2_M1": {
+        "ID": 101221,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Hairpin.MI_EVE_HR_13_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part2_V2_M0": {
+        "ID": 201220,
+        "Group": "EM_Hair_012_Part2",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Tail_TypeC.MI_EVE_HR_13_Tail_TypeC'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V3_M0": {
+        "ID": 101230,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_TypeD.MI_EVE_HR_13_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_012/Hair_012_V3.Hair_012_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part1_V3_M1": {
+        "ID": 101231,
+        "Group": "EM_Hair_012_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Hairpin.MI_EVE_HR_13_Hairpin'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_012_Part2_V3_M0": {
+        "ID": 201230,
+        "Group": "EM_Hair_012_Part2",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_13/Materials/MI_EVE_HR_13_Tail_TypeD.MI_EVE_HR_13_Tail_TypeD'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nier_001_Part1_V0_M0": {
+        "ID": 203010,
+        "Group": "EM_Hair_Nier_001_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_1/Art/UI/Texture/Hair/Color/Hair_Nier_001/Hair_Nier_001_V0.Hair_Nier_001_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nier_002_Part1_V0_M0": {
+        "ID": 203020,
+        "Group": "EM_Hair_Nier_002_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_1/Art/UI/Texture/Hair/Color/Hair_Nier_002/Hair_Nier_002_V0.Hair_Nier_002_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nier_003_Part1_V0_M0": {
+        "ID": 203030,
+        "Group": "EM_Hair_Nier_003_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_1/Art/UI/Texture/Hair/Color/Hair_Nier_003/Hair_Nier_003_V0.Hair_Nier_003_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V0_M0": {
+        "ID": 204000,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeA.MI_EVE_HR_01_TypeA'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V0.Hair_000_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V0_M1": {
+        "ID": 204001,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01_Fur.MI_EVE_HR_Christmas_01_Fur'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V0_M2": {
+        "ID": 204002,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01.MI_EVE_HR_Christmas_01'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V1_M0": {
+        "ID": 204010,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeB.MI_EVE_HR_01_TypeB'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V1.Hair_000_V1'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V1_M1": {
+        "ID": 204011,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01_Fur.MI_EVE_HR_Christmas_01_Fur'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V1_M2": {
+        "ID": 204012,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 1,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01.MI_EVE_HR_Christmas_01'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V2_M0": {
+        "ID": 204020,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeC.MI_EVE_HR_01_TypeC'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V2.Hair_000_V2'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V2_M1": {
+        "ID": 204021,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01_Fur.MI_EVE_HR_Christmas_01_Fur'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V2_M2": {
+        "ID": 204022,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 2,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01.MI_EVE_HR_Christmas_01'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V3_M0": {
+        "ID": 204030,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_01/Materials/MI_EVE_HR_01_TypeD.MI_EVE_HR_01_TypeD'",
+        "IconColorAssetPath": "Texture2D'/Game/Art/UI/Texture/Hair/Color/Hair_000/Hair_000_V3.Hair_000_V3'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V3_M1": {
+        "ID": 204031,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 1,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01_Fur.MI_EVE_HR_Christmas_01_Fur'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Christmas_01_Part1_V3_M2": {
+        "ID": 204032,
+        "Group": "EM_Hair_Christmas_01_Part1",
+        "VariationIndex": 3,
+        "MaterialIndex": 2,
+        "MaterialAssetPath": "MaterialInstanceConstant'/Game/Art/Character/PC/00_HR/EVE_HR_Christmas_01/Materials/MI_EVE_HR_Christmas_01.MI_EVE_HR_Christmas_01'",
+        "IconColorAssetPath": "",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nikke_01_Part1_V0_M0": {
+        "ID": 205010,
+        "Group": "EM_Hair_Nikke_01_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_2/Art/UI/texture/Hair/Color/Hair_Nikke_01/Hair_Nikke_01_V0.Hair_Nikke_01_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nikke_02_Part1_V0_M0": {
+        "ID": 205020,
+        "Group": "EM_Hair_Nikke_02_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_2/Art/UI/texture/Hair/Color/Hair_Nikke_02/Hair_Nikke_02_V0.Hair_Nikke_02_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nikke_03_Part1_V0_M0": {
+        "ID": 205030,
+        "Group": "EM_Hair_Nikke_03_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_2/Art/UI/texture/Hair/Color/Hair_Nikke_03/Hair_Nikke_03_V0.Hair_Nikke_03_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nikke_04_Part1_V0_M0": {
+        "ID": 205040,
+        "Group": "EM_Hair_Nikke_04_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_2/Art/UI/texture/Hair/Color/Hair_Nikke_04/Hair_Nikke_04_V0.Hair_Nikke_04_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nikke_05_Part1_V0_M0": {
+        "ID": 205050,
+        "Group": "EM_Hair_Nikke_05_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_2/Art/UI/texture/Hair/Color/Hair_Nikke_05/Hair_Nikke_05_V0.Hair_Nikke_05_V0'",
+        "FileSuffix": "None"
+      },
+      "EM_Hair_Nikke_06_Part1_V0_M0": {
+        "ID": 205060,
+        "Group": "EM_Hair_Nikke_06_Part1",
+        "VariationIndex": 0,
+        "MaterialIndex": 0,
+        "MaterialAssetPath": "",
+        "IconColorAssetPath": "Texture2D'/Game/DLC_2/Art/UI/texture/Hair/Color/Hair_Nikke_06/Hair_Nikke_06_V0.Hair_Nikke_06_V0'",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

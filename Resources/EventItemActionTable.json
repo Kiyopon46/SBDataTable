@@ -1,0 +1,366 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EventItemActionTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBEventItemActionTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "DED40_E_ItemA_001": {
+        "ID": 1,
+        "ActionType": "ESBItemActionType::ESBItemActionType_None",
+        "Item": "None",
+        "Count": 0,
+        "TargetFilter": "None",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "JYS_testmap_E_ItemA_001": {
+        "ID": 2,
+        "ActionType": "ESBItemActionType::ESBItemActionType_None",
+        "Item": "None",
+        "Count": 0,
+        "TargetFilter": "None",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Map_E_ItemA_001": {
+        "ID": 3,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "EQ_Item_IED",
+        "Count": 0,
+        "TargetFilter": "LV_Test_Map_LevelTargetFilter_003",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_22_E_ItemA_001": {
+        "ID": 5,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "EQ_Item_HyperCell",
+        "Count": 1,
+        "TargetFilter": "Xion_22_LevelTargetFilter_004",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemA_004": {
+        "ID": 11,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "EQ_SE_Item_PropulsionControlBoard",
+        "Count": 1,
+        "TargetFilter": "Xion_10_LevelTargetFilter_013",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemA_003": {
+        "ID": 10,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "EQ_SE_Item_PropulsionControlBoard",
+        "Count": 1,
+        "TargetFilter": "Xion_10_LevelTargetFilter_013",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemA_001": {
+        "ID": 8,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "EQ_Item_HyperCell",
+        "Count": 1,
+        "TargetFilter": "DED20_LevelTargetFilter_009",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ItemA_002": {
+        "ID": 20,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "EQ_Item_HyperCell",
+        "Count": 1,
+        "TargetFilter": "Xion_11_LevelTargetFilter_007",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemA_002": {
+        "ID": 7,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "ExospineCore",
+        "Count": 1,
+        "TargetFilter": "Xion_10_LevelTargetFilter_013",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemA_001": {
+        "ID": 6,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "Bullet_Normal",
+        "Count": 5,
+        "TargetFilter": "Xion_10_LevelTargetFilter_013",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Test01_E_ItemA_001": {
+        "ID": 12,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "Bullet_Missile",
+        "Count": 1,
+        "TargetFilter": "Test01_LevelTargetFilter_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_010_E_ItemA__014_001": {
+        "ID": 4,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "RQ_010_Item_Bag",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_010_LevelTargetFilter__04_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_016_E_ItemA__014_001": {
+        "ID": 13,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "SQ_024_Item_Wine_1",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_016_LevelTargetFilter__04_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_008_E_ItemA__014_001": {
+        "ID": 14,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "RQ_008_Item_Terminal",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_008_LevelTargetFilter__04_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_018_E_ItemA__014_001": {
+        "ID": 15,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "RQ_018_Item_Potion",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_018_LevelTargetFilter__04_003",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_021_E_ItemA__014_002": {
+        "ID": 17,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "RQ_021_Item_MemoryStick",
+        "Count": 0,
+        "TargetFilter": "Quest_Request_021_LevelTargetFilter__04_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_021_E_ItemA__014_001": {
+        "ID": 16,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "RQ_021_Item_MemoryStick",
+        "Count": 0,
+        "TargetFilter": "Quest_Request_021_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_006_E_ItemA__014_002": {
+        "ID": 19,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "RQ_006_Item_MemoryStick_Dona",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_006_LevelTargetFilter__04_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_006_E_ItemA__014_001": {
+        "ID": 18,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "RQ_006_Item_MemoryStick_Amanda",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_006_LevelTargetFilter__04_003",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_11_E_ItemA_001": {
+        "ID": 9,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "EQ_Item_HyperCell",
+        "Count": 1,
+        "TargetFilter": "Xion_11_LevelTargetFilter_006",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_023_E_ItemA__014_001": {
+        "ID": 22,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Fish_PorcupineFish",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_023_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_024_E_ItemA__014_001": {
+        "ID": 23,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Fish_ChannelCatfish",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_024_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_025_E_ItemA__014_001": {
+        "ID": 24,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Fish_Halibut",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_025_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_028_E_ItemA__014_001": {
+        "ID": 25,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Fish_WhaleShark",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_028_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "LV_Test_Puzzle_01_E_ItemA_001": {
+        "ID": 26,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "Bullet_Normal",
+        "Count": 50,
+        "TargetFilter": "LV_Test_Puzzle_01_LevelTargetFilter_003",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SYS03_E_ItemA_001": {
+        "ID": 21,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "ResurrectionItem",
+        "Count": 100,
+        "TargetFilter": "SYS01_LevelTargetFilter_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SYS01_E_ItemA_001": {
+        "ID": 27,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "ResurrectionItem",
+        "Count": 1,
+        "TargetFilter": "SYS01_LevelTargetFilter_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_029_E_ItemA__014_001": {
+        "ID": 28,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Acquire",
+        "Item": "Camera",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_029_LevelTargetFilter__04_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ItemA_001": {
+        "ID": 29,
+        "ActionType": "ESBItemActionType::ESBItemActionType_MustAcquisition",
+        "Item": "None",
+        "Count": 0,
+        "TargetFilter": "SE_08_LevelTargetFilter_005",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Xion_24_E_ItemA_001": {
+        "ID": 30,
+        "ActionType": "ESBItemActionType::ESBItemActionType_MustAcquisition",
+        "Item": "None",
+        "Count": 0,
+        "TargetFilter": "Xion_24_LevelTargetFilter_002",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_033_E_ItemA__014_001": {
+        "ID": 31,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Nikke_LostItem_Rapi",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_033_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_034_E_ItemA__014_001": {
+        "ID": 32,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Nikke_LostItem_Anis",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_034_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_035_E_ItemA__014_001": {
+        "ID": 33,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Nikke_LostItem_Dorothy",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_035_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_036_E_ItemA__014_001": {
+        "ID": 34,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Nikke_LostItem_Alice",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_036_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_037_E_ItemA__014_001": {
+        "ID": 35,
+        "ActionType": "ESBItemActionType::ESBItemActionType_Remove",
+        "Item": "Nikke_LostItem_Modernia",
+        "Count": 1,
+        "TargetFilter": "Quest_Request_037_LevelTargetFilter__04_001",
+        "EventCondition": "None",
+        "EventConditionGroup": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

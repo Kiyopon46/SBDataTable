@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ConditionTriggerTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBConditionTriggerTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "EnterZone": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_None",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "LeaveZone": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_EnterZone",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "EffectAttach": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_LeaveZone",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "DetachEffect": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_AttachEffect",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "CharacterDead": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_DetachEffect",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "TouchTrigger": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_UseSkill",
+        "ResultType": "ESBConditionResultType::ESBResult_Touch",
+        "FileSuffix": "None"
+      },
+      "UnTouchTrigger": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_UseSkill",
+        "ResultType": "ESBConditionResultType::ESBResult_UnTouch",
+        "FileSuffix": "None"
+      },
+      "SpawnCharacter": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_TouchTrigger",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "FinishTheater": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_SpawnItem",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "AcquireItem": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_EngineEventTheater",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "Interaction": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_AcquireItem",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "AcquireQuest": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_FinishInteraction",
+        "ResultType": "ESBConditionResultType::ESBResult_Success",
+        "FileSuffix": "None"
+      },
+      "UpdateQuest": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_AcquireQuest",
+        "ResultType": "ESBConditionResultType::ESBResult_Success",
+        "FileSuffix": "None"
+      },
+      "CompleteQuest": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_UpdateQuest",
+        "ResultType": "ESBConditionResultType::ESBResult_Success",
+        "FileSuffix": "None"
+      },
+      "FinishPuzzle": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_ChangeEnvState",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "FinishGrab": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_FinishPuzzle",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "ChangeEnvState": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_QuestPathProgress",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "CompleteInitializeZone": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_FinishGrab",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "Scan": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_CompleteInitializeZone",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "UpdateAchievement": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_Scan",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      },
+      "FailQuest": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_CompleteQuest",
+        "ResultType": "ESBConditionResultType::ESBResult_Success",
+        "FileSuffix": "None"
+      },
+      "QuestPathProgress": {
+        "ConditionType": "ESBConditionEventType::ESBCondition_FailQuest",
+        "ResultType": "ESBConditionResultType::ESBResult_None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

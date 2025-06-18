@@ -1,0 +1,608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StudioTransitionTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBStudioTransitionTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Menu_Start": {
+        "ID": 0,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_None",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Menu_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Menu_Loop": {
+        "ID": 1,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_None",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Menu_Loop",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Exospine_Start": {
+        "ID": 2,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "Exospine_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Gear_Start": {
+        "ID": 3,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "Gear_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Nanosuit_Start": {
+        "ID": 4,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "Nanosuit_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "FaceAcc_Start": {
+        "ID": 5,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "FaceAcc_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Earring_Start": {
+        "ID": 6,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "Earring_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Drone_Start": {
+        "ID": 7,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "Drone_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Lily_Start": {
+        "ID": 8,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "Lily_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Adam_Start": {
+        "ID": 9,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "Adam_Start",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Exospine_End": {
+        "ID": 10,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Exospine_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Body_loop": {
+        "ID": 11,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "Body_loop",
+        "TransitionSequenceTag": "Gear_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_ExospineToNanosuit": {
+        "ID": 12,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "BodyToLook_ExospineToNanosuit",
+        "TransitionSequenceTag": "Costume_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_ExospineToFaceAcc": {
+        "ID": 13,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "BodyToLook_ExospineToFaceAcc",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_ExospineToEarring": {
+        "ID": 14,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "BodyToLook_ExospineToEarring",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_ExospineToDrone": {
+        "ID": 15,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "BodyToLook_ExospineToDrone",
+        "TransitionSequenceTag": "Object_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_ExospineToLily": {
+        "ID": 16,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "BodyToLook_ExospineToLily",
+        "TransitionSequenceTag": "Lily_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_ExospineToAdam": {
+        "ID": 17,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "BodyToLook_ExospineToAdam",
+        "TransitionSequenceTag": "Adam_Start_NoBlend",
+        "bFade": true
+      },
+      "Gear_End": {
+        "ID": 18,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Gear_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "Body_loop_2": {
+        "ID": 19,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "Body_loop_2",
+        "TransitionSequenceTag": "Exospine_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_GearToNanosuit": {
+        "ID": 20,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "BodyToLook_GearToNanosuit",
+        "TransitionSequenceTag": "Costume_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_GearToFaceAcc": {
+        "ID": 21,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "BodyToLook_GearToFaceAcc",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_GearToEarring": {
+        "ID": 22,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "BodyToLook_GearToEarring",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_GearToDrone": {
+        "ID": 23,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "BodyToLook_GearToDrone",
+        "TransitionSequenceTag": "Object_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_GearToLily": {
+        "ID": 24,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "BodyToLook_GearToLily",
+        "TransitionSequenceTag": "Lily_Start_NoBlend",
+        "bFade": true
+      },
+      "BodyToLook_GearToAdam": {
+        "ID": 25,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "BodyToLook_GearToAdam",
+        "TransitionSequenceTag": "Adam_Start_NoBlend",
+        "bFade": true
+      },
+      "Nanosuit_End": {
+        "ID": 26,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Nanosuit_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "LookToBody_NanosuitToExospine": {
+        "ID": 27,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "LookToBody_NanosuitToExospine",
+        "TransitionSequenceTag": "Exospine_Start_NoBlend",
+        "bFade": true
+      },
+      "LookToBody_NanosuitToGear": {
+        "ID": 28,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "LookToBody_NanosuitToGear",
+        "TransitionSequenceTag": "Gear_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop": {
+        "ID": 29,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "Look_Loop",
+        "TransitionSequenceTag": "Shop_CostumeToAccessory",
+        "bFade": false
+      },
+      "Look_Loop_2": {
+        "ID": 30,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "Look_Loop_2",
+        "TransitionSequenceTag": "Shop_CostumeToAccessory",
+        "bFade": false
+      },
+      "Look_Loop_3": {
+        "ID": 31,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "Look_Loop_3",
+        "TransitionSequenceTag": "Shop_CostumeToObject",
+        "bFade": false
+      },
+      "Look_Loop_4": {
+        "ID": 32,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "Look_Loop_4",
+        "TransitionSequenceTag": "Lily_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_5": {
+        "ID": 33,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "Look_Loop_5",
+        "TransitionSequenceTag": "Adam_Start_NoBlend",
+        "bFade": true
+      },
+      "FaceAcc_End": {
+        "ID": 34,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "FaceAcc_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "LookToBody_FaceAccToExospine": {
+        "ID": 35,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "LookToBody_FaceAccToExospine",
+        "TransitionSequenceTag": "Exospine_Start_NoBlend",
+        "bFade": true
+      },
+      "LookToBody_FaceAccToGear": {
+        "ID": 36,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "LookToBody_FaceAccToGear",
+        "TransitionSequenceTag": "Gear_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_6": {
+        "ID": 37,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "Look_Loop_6",
+        "TransitionSequenceTag": "Shop_AccessoryToCostume",
+        "bFade": false
+      },
+      "Look_Loop_7": {
+        "ID": 38,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "None",
+        "TransitionSequenceTag": "Shop_Accessory_Loop_NoBlend",
+        "bFade": false
+      },
+      "Look_Loop_8": {
+        "ID": 39,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "Look_Loop_8",
+        "TransitionSequenceTag": "Shop_AccessoryToObject",
+        "bFade": false
+      },
+      "Look_Loop_9": {
+        "ID": 40,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "Look_Loop_9",
+        "TransitionSequenceTag": "Shop_AccessoryToLily",
+        "bFade": true
+      },
+      "Look_Loop_10": {
+        "ID": 41,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "Look_Loop_10",
+        "TransitionSequenceTag": "Shop_AccessoryToAdam",
+        "bFade": true
+      },
+      "Earring_End": {
+        "ID": 42,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Earring_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "LookToBody_EarringToExospine": {
+        "ID": 43,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "LookToBody_EarringToExospine",
+        "TransitionSequenceTag": "Exospine_Start_NoBlend",
+        "bFade": true
+      },
+      "LookToBody_EarringToGear": {
+        "ID": 44,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "LookToBody_EarringToGear",
+        "TransitionSequenceTag": "Gear_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_11": {
+        "ID": 45,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "Look_Loop_11",
+        "TransitionSequenceTag": "Shop_AccessoryToCostume",
+        "bFade": false
+      },
+      "Look_Loop_12": {
+        "ID": 46,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "None",
+        "TransitionSequenceTag": "Shop_Accessory_Loop_NoBlend",
+        "bFade": false
+      },
+      "Look_Loop_13": {
+        "ID": 47,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "Look_Loop_13",
+        "TransitionSequenceTag": "Shop_AccessoryToObject",
+        "bFade": false
+      },
+      "Look_Loop_14": {
+        "ID": 48,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "Look_Loop_14",
+        "TransitionSequenceTag": "Shop_AccessoryToLily",
+        "bFade": true
+      },
+      "Look_Loop_15": {
+        "ID": 49,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "Look_Loop_15",
+        "TransitionSequenceTag": "Shop_AccessoryToAdam",
+        "bFade": true
+      },
+      "Drone_End": {
+        "ID": 50,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Drone_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "LookToBody_DroneToExospine": {
+        "ID": 51,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "LookToBody_DroneToExospine",
+        "TransitionSequenceTag": "Exospine_Start_NoBlend",
+        "bFade": true
+      },
+      "LookToBody_DroneToGear": {
+        "ID": 52,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "LookToBody_DroneToGear",
+        "TransitionSequenceTag": "Gear_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_16": {
+        "ID": 53,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "Look_Loop_16",
+        "TransitionSequenceTag": "Shop_ObjectToCostume",
+        "bFade": false
+      },
+      "Look_Loop_17": {
+        "ID": 54,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "Look_Loop_17",
+        "TransitionSequenceTag": "Shop_ObjectToAccessory",
+        "bFade": false
+      },
+      "Look_Loop_18": {
+        "ID": 55,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "Look_Loop_18",
+        "TransitionSequenceTag": "Shop_ObjectToAccessory",
+        "bFade": false
+      },
+      "Look_Loop_19": {
+        "ID": 56,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "Look_Loop_19",
+        "TransitionSequenceTag": "Shop_ObjectToLily",
+        "bFade": true
+      },
+      "Look_Loop_20": {
+        "ID": 57,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "Look_Loop_20",
+        "TransitionSequenceTag": "Shop_ObjectToAdam",
+        "bFade": true
+      },
+      "Lily_End": {
+        "ID": 58,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Lily_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "LookToBody_LilyToExospine": {
+        "ID": 59,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "LookToBody_LilyToExospine",
+        "TransitionSequenceTag": "Exospine_Start_NoBlend",
+        "bFade": true
+      },
+      "LookToBody_LilyToGear": {
+        "ID": 60,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "LookToBody_LilyToGear",
+        "TransitionSequenceTag": "Gear_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_21": {
+        "ID": 61,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "Look_Loop_21",
+        "TransitionSequenceTag": "Shop_Costume_Loop",
+        "bFade": false
+      },
+      "Look_Loop_22": {
+        "ID": 62,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "Look_Loop_22",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_23": {
+        "ID": 63,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "Look_Loop_23",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_24": {
+        "ID": 64,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "Look_Loop_24",
+        "TransitionSequenceTag": "Object_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_25": {
+        "ID": 65,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TransitionShowTag": "Look_Loop_25",
+        "TransitionSequenceTag": "Adam_Start_NoBlend",
+        "bFade": true
+      },
+      "Adam_End": {
+        "ID": 66,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDefault",
+        "TransitionShowTag": "Adam_End",
+        "TransitionSequenceTag": "None",
+        "bFade": false
+      },
+      "LookToBody_AdamToExospine": {
+        "ID": 67,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipExospine",
+        "TransitionShowTag": "LookToBody_AdamToExospine",
+        "TransitionSequenceTag": "Exospine_Start_NoBlend",
+        "bFade": true
+      },
+      "LookToBody_AdamToGear": {
+        "ID": 68,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipGear",
+        "TransitionShowTag": "LookToBody_AdamToGear",
+        "TransitionSequenceTag": "Gear_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_26": {
+        "ID": 69,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipNanoSuit",
+        "TransitionShowTag": "Look_Loop_26",
+        "TransitionSequenceTag": "Shop_Costume_Loop",
+        "bFade": false
+      },
+      "Look_Loop_27": {
+        "ID": 70,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAcc",
+        "TransitionShowTag": "Look_Loop_27",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_28": {
+        "ID": 71,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipEarring",
+        "TransitionShowTag": "Look_Loop_28",
+        "TransitionSequenceTag": "Accessory_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_29": {
+        "ID": 72,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipDrone",
+        "TransitionShowTag": "Look_Loop_29",
+        "TransitionSequenceTag": "Object_Start_NoBlend",
+        "bFade": true
+      },
+      "Look_Loop_30": {
+        "ID": 73,
+        "StartState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipAdam",
+        "TargetState": "ESBUIStudioState::ESBUIStudioState_GameMenuEquipLily",
+        "TransitionShowTag": "Look_Loop_30",
+        "TransitionSequenceTag": "Lily_Start_NoBlend",
+        "bFade": true
+      }
+    }
+  }
+]

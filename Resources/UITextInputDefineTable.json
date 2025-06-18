@@ -1,0 +1,5125 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "UITextInputDefineTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBUITextInputDefineProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "Key",
+        "Platform",
+        "AxisScale"
+      ]
+    },
+    "Rows": {
+      "Default_CommandKey1": {
+        "ID": 900001,
+        "Key": "CommandKey1",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_FaceButton_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey2": {
+        "ID": 900002,
+        "Key": "CommandKey2",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_FaceButton_Top\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey3": {
+        "ID": 900003,
+        "Key": "CommandKey3",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_FaceButton_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey4": {
+        "ID": 900004,
+        "Key": "CommandKey4",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_FaceButton_Bottom\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey5": {
+        "ID": 900005,
+        "Key": "CommandKey5",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_LeftShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey6": {
+        "ID": 900006,
+        "Key": "CommandKey6",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_RightShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey7": {
+        "ID": 900007,
+        "Key": "CommandKey7",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_LeftTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey8": {
+        "ID": 900008,
+        "Key": "CommandKey8",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_RightTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey9": {
+        "ID": 900009,
+        "Key": "CommandKey9",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_SpecialLeft\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey10": {
+        "ID": 900010,
+        "Key": "CommandKey10",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_LeftThumbstickButton\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CommandKey11": {
+        "ID": 900011,
+        "Key": "CommandKey11",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"UI_RightThumbstickButton\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftThumbstick": {
+        "ID": 100000,
+        "Key": "Gamepad_LeftThumbstick",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightThumbstick": {
+        "ID": 100001,
+        "Key": "Gamepad_RightThumbstick",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Special_Left": {
+        "ID": 100002,
+        "Key": "Gamepad_Special_Left",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Special_Right": {
+        "ID": 100003,
+        "Key": "Gamepad_Special_Right",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_FaceButton_Left": {
+        "ID": 100004,
+        "Key": "Gamepad_FaceButton_Left",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_FaceButton_Top": {
+        "ID": 100005,
+        "Key": "Gamepad_FaceButton_Top",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Top\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_FaceButton_Right": {
+        "ID": 100006,
+        "Key": "Gamepad_FaceButton_Right",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_FaceButton_Bottom": {
+        "ID": 100007,
+        "Key": "Gamepad_FaceButton_Bottom",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Bottom\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftShoulder": {
+        "ID": 100008,
+        "Key": "Gamepad_LeftShoulder",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightShoulder": {
+        "ID": 100009,
+        "Key": "Gamepad_RightShoulder",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftTrigger": {
+        "ID": 100010,
+        "Key": "Gamepad_LeftTrigger",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightTrigger": {
+        "ID": 100011,
+        "Key": "Gamepad_RightTrigger",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_Up": {
+        "ID": 100012,
+        "Key": "Gamepad_DPad_Up",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_Down": {
+        "ID": 100013,
+        "Key": "Gamepad_DPad_Down",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_Right": {
+        "ID": 100014,
+        "Key": "Gamepad_DPad_Right",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_Left": {
+        "ID": 100015,
+        "Key": "Gamepad_DPad_Left",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad2D": {
+        "ID": 100016,
+        "Key": "Gamepad_DPad2D",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_2D\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_H": {
+        "ID": 100017,
+        "Key": "Gamepad_DPad_H",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_X\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_V": {
+        "ID": 100018,
+        "Key": "Gamepad_DPad_V",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Left2D": {
+        "ID": 100019,
+        "Key": "Gamepad_Left2D",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Left2D\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftX": {
+        "ID": 100020,
+        "Key": "Gamepad_LeftX",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftX\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftY": {
+        "ID": 100021,
+        "Key": "Gamepad_LeftY",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftY\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftStick_Up": {
+        "ID": 100022,
+        "Key": "Gamepad_LeftStick_Up",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftStick_Down": {
+        "ID": 100023,
+        "Key": "Gamepad_LeftStick_Down",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftStick_Right": {
+        "ID": 100024,
+        "Key": "Gamepad_LeftStick_Right",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_LeftStick_Left": {
+        "ID": 100025,
+        "Key": "Gamepad_LeftStick_Left",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Right2D": {
+        "ID": 100026,
+        "Key": "Gamepad_Right2D",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Right2D\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightX": {
+        "ID": 100027,
+        "Key": "Gamepad_RightX",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightX\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightY": {
+        "ID": 100028,
+        "Key": "Gamepad_RightY",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightY\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightStick_Up": {
+        "ID": 100029,
+        "Key": "Gamepad_RightStick_Up",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightStick_Down": {
+        "ID": 100030,
+        "Key": "Gamepad_RightStick_Down",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightStick_Left": {
+        "ID": 100031,
+        "Key": "Gamepad_RightStick_Left",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_RightStick_Right": {
+        "ID": 100032,
+        "Key": "Gamepad_RightStick_Right",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Undefined": {
+        "ID": 100033,
+        "Key": "Undefined",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"ETC_Undefined\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseX": {
+        "ID": 100034,
+        "Key": "MouseX",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseX\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseUp": {
+        "ID": 100035,
+        "Key": "MouseUp",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseUp\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseDown": {
+        "ID": 100036,
+        "Key": "MouseDown",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseDown\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseLeft": {
+        "ID": 100037,
+        "Key": "MouseLeft",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseLeft\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseRight": {
+        "ID": 100038,
+        "Key": "MouseRight",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseRight\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_DragX": {
+        "ID": 100039,
+        "Key": "DragX",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_DragX\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Drag2D": {
+        "ID": 100040,
+        "Key": "Drag2D",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_Drag2D\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseY": {
+        "ID": 100041,
+        "Key": "MouseY",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseY\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Mouse2D": {
+        "ID": 100042,
+        "Key": "Mouse2D",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_Mouse2D\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseScrollUp": {
+        "ID": 100043,
+        "Key": "MouseScrollUp",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseScrollUp\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseScrollDown": {
+        "ID": 100044,
+        "Key": "MouseScrollDown",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseScrollDown\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MouseWheelAxis": {
+        "ID": 100045,
+        "Key": "MouseWheelAxis",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseWheelAxis\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_LeftMouseButton": {
+        "ID": 100046,
+        "Key": "LeftMouseButton",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_LeftMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_RightMouseButton": {
+        "ID": 100047,
+        "Key": "RightMouseButton",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_RightMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MiddleMouseButton": {
+        "ID": 100048,
+        "Key": "MiddleMouseButton",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MiddleMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_ThumbMouseButton": {
+        "ID": 100049,
+        "Key": "ThumbMouseButton",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_ThumbMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_ThumbMouseButton2": {
+        "ID": 100050,
+        "Key": "ThumbMouseButton2",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_ThumbMouseButton2\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_A": {
+        "ID": 100051,
+        "Key": "A",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_A\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_B": {
+        "ID": 100052,
+        "Key": "B",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_B\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_C": {
+        "ID": 100053,
+        "Key": "C",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_C\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_D": {
+        "ID": 100054,
+        "Key": "D",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_D\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_E": {
+        "ID": 100055,
+        "Key": "E",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F": {
+        "ID": 100056,
+        "Key": "F",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_G": {
+        "ID": 100057,
+        "Key": "G",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_G\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_H": {
+        "ID": 100058,
+        "Key": "H",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_H\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_I": {
+        "ID": 100059,
+        "Key": "I",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_I\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_J": {
+        "ID": 100060,
+        "Key": "J",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_J\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_K": {
+        "ID": 100061,
+        "Key": "K",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_K\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_L": {
+        "ID": 100062,
+        "Key": "L",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_L\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_M": {
+        "ID": 100063,
+        "Key": "M",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_M\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_N": {
+        "ID": 100064,
+        "Key": "N",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_N\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_O": {
+        "ID": 100065,
+        "Key": "O",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_O\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_P": {
+        "ID": 100066,
+        "Key": "P",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_P\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Q": {
+        "ID": 100067,
+        "Key": "Q",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Q\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_R": {
+        "ID": 100068,
+        "Key": "R",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_R\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_S": {
+        "ID": 100069,
+        "Key": "S",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_S\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_T": {
+        "ID": 100070,
+        "Key": "T",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_T\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_U": {
+        "ID": 100071,
+        "Key": "U",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_U\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_V": {
+        "ID": 100072,
+        "Key": "V",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_V\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_W": {
+        "ID": 100073,
+        "Key": "W",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_W\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_X": {
+        "ID": 100074,
+        "Key": "X",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_X\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Y": {
+        "ID": 100075,
+        "Key": "Y",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Z": {
+        "ID": 100076,
+        "Key": "Z",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Z\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MoveAll": {
+        "ID": 100077,
+        "Key": "MoveAll",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveAll\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MoveAll_AZERTY": {
+        "ID": 100078,
+        "Key": "MoveAll_AZERTY",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveAll_AZERTY\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MoveHorizontal": {
+        "ID": 100079,
+        "Key": "MoveHorizontal",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveHorizontal\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_MoveHorizontal_AZERTY": {
+        "ID": 100080,
+        "Key": "MoveHorizontal_AZERTY",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveHorizontal_AZERTY\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_DirectionAll": {
+        "ID": 100081,
+        "Key": "DirectionAll",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_DirectionAll\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Left": {
+        "ID": 100082,
+        "Key": "Left",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Up": {
+        "ID": 100083,
+        "Key": "Up",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Right": {
+        "ID": 100084,
+        "Key": "Right",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Down": {
+        "ID": 100085,
+        "Key": "Down",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_BackSpace": {
+        "ID": 100086,
+        "Key": "BackSpace",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_BackSpace\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Tab": {
+        "ID": 100087,
+        "Key": "Tab",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Tab\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Enter": {
+        "ID": 100088,
+        "Key": "Enter",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Enter\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_CapsLock": {
+        "ID": 100089,
+        "Key": "CapsLock",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_CapsLock\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Escape": {
+        "ID": 100090,
+        "Key": "Escape",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Escape\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_SpaceBar": {
+        "ID": 100091,
+        "Key": "SpaceBar",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_SpaceBar\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Ctrl": {
+        "ID": 100092,
+        "Key": "Ctrl",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Ctrl\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Alt": {
+        "ID": 100093,
+        "Key": "Alt",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Alt\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Shift": {
+        "ID": 100094,
+        "Key": "Shift",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Shift\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_LeftShift": {
+        "ID": 100095,
+        "Key": "LeftShift",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftShift\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_RightShift": {
+        "ID": 100096,
+        "Key": "RightShift",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightShift\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_LeftControl": {
+        "ID": 100097,
+        "Key": "LeftControl",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftControl\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_RightControl": {
+        "ID": 100098,
+        "Key": "RightControl",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightControl\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_LeftAlt": {
+        "ID": 100099,
+        "Key": "LeftAlt",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftAlt\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_RightAlt": {
+        "ID": 100100,
+        "Key": "RightAlt",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightAlt\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_LeftCommand": {
+        "ID": 100101,
+        "Key": "LeftCommand",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftCommand\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_RightCommand": {
+        "ID": 100102,
+        "Key": "RightCommand",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightCommand\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_PageUp": {
+        "ID": 100103,
+        "Key": "PageUp",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_PageUp\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_PageDown": {
+        "ID": 100104,
+        "Key": "PageDown",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_PageDown\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Home": {
+        "ID": 100105,
+        "Key": "Home",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Home\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_End": {
+        "ID": 100106,
+        "Key": "End",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_End\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Insert": {
+        "ID": 100107,
+        "Key": "Insert",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Insert\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Delete": {
+        "ID": 100108,
+        "Key": "Delete",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Delete\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_ScrollLock": {
+        "ID": 100109,
+        "Key": "ScrollLock",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_ScrollLock\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Pause": {
+        "ID": 100110,
+        "Key": "Pause",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Pause\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Zero": {
+        "ID": 100111,
+        "Key": "Zero",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Zero\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_One": {
+        "ID": 100112,
+        "Key": "One",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_One\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Two": {
+        "ID": 100113,
+        "Key": "Two",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Two\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Three": {
+        "ID": 100114,
+        "Key": "Three",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Three\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Four": {
+        "ID": 100115,
+        "Key": "Four",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Four\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Five": {
+        "ID": 100116,
+        "Key": "Five",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Five\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Six": {
+        "ID": 100117,
+        "Key": "Six",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Six\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Seven": {
+        "ID": 100118,
+        "Key": "Seven",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Seven\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Eight": {
+        "ID": 100119,
+        "Key": "Eight",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Eight\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Nine": {
+        "ID": 100120,
+        "Key": "Nine",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Nine\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadZero": {
+        "ID": 100121,
+        "Key": "NumPadZero",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadZero\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadOne": {
+        "ID": 100122,
+        "Key": "NumPadOne",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadOne\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadTwo": {
+        "ID": 100123,
+        "Key": "NumPadTwo",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadTwo\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadThree": {
+        "ID": 100124,
+        "Key": "NumPadThree",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadThree\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadFour": {
+        "ID": 100125,
+        "Key": "NumPadFour",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadFour\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadFive": {
+        "ID": 100126,
+        "Key": "NumPadFive",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadFive\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadSix": {
+        "ID": 100127,
+        "Key": "NumPadSix",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadSix\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadSeven": {
+        "ID": 100128,
+        "Key": "NumPadSeven",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadSeven\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadEight": {
+        "ID": 100129,
+        "Key": "NumPadEight",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadEight\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumPadNine": {
+        "ID": 100130,
+        "Key": "NumPadNine",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadNine\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Multiply": {
+        "ID": 100131,
+        "Key": "Multiply",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Multiply\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Add": {
+        "ID": 100132,
+        "Key": "Add",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Add\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Subtract": {
+        "ID": 100133,
+        "Key": "Subtract",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Subtract\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Divide": {
+        "ID": 100134,
+        "Key": "Divide",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Divide\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Decimal": {
+        "ID": 100135,
+        "Key": "Decimal",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Decimal\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_NumLock": {
+        "ID": 100136,
+        "Key": "NumLock",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumLock\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F1": {
+        "ID": 100137,
+        "Key": "F1",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F1\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F2": {
+        "ID": 100138,
+        "Key": "F2",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F2\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F3": {
+        "ID": 100139,
+        "Key": "F3",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F3\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F4": {
+        "ID": 100140,
+        "Key": "F4",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F4\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F5": {
+        "ID": 100141,
+        "Key": "F5",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F5\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F6": {
+        "ID": 100142,
+        "Key": "F6",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F6\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F7": {
+        "ID": 100143,
+        "Key": "F7",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F7\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F8": {
+        "ID": 100144,
+        "Key": "F8",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F8\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F9": {
+        "ID": 100145,
+        "Key": "F9",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F9\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F10": {
+        "ID": 100146,
+        "Key": "F10",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F10\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F11": {
+        "ID": 100147,
+        "Key": "F11",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F11\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_F12": {
+        "ID": 100148,
+        "Key": "F12",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F12\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Tilde": {
+        "ID": 100149,
+        "Key": "Tilde",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Tilde\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Hyphen": {
+        "ID": 100150,
+        "Key": "Hyphen",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Hyphen\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Underscore": {
+        "ID": 100151,
+        "Key": "Underscore",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Underscore\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Equals": {
+        "ID": 100152,
+        "Key": "Equals",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Equals\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_LeftBracket": {
+        "ID": 100153,
+        "Key": "LeftBracket",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftBracket\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_RightBracket": {
+        "ID": 100154,
+        "Key": "RightBracket",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightBracket\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Backslash": {
+        "ID": 100155,
+        "Key": "Backslash",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Backslash\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Colon": {
+        "ID": 100156,
+        "Key": "Colon",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Colon\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Semicolon": {
+        "ID": 100157,
+        "Key": "Semicolon",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Semicolon\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Apostrophe": {
+        "ID": 100158,
+        "Key": "Apostrophe",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Apostrophe\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Quote": {
+        "ID": 100159,
+        "Key": "Quote",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Quote\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Comma": {
+        "ID": 100160,
+        "Key": "Comma",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Comma\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Period": {
+        "ID": 100161,
+        "Key": "Period",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Period\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Slash": {
+        "ID": 100162,
+        "Key": "Slash",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Slash\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Ampersand": {
+        "ID": 100163,
+        "Key": "Ampersand",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Ampersand\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Asterix": {
+        "ID": 100164,
+        "Key": "Asterix",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Asterix\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Caret": {
+        "ID": 100165,
+        "Key": "Caret",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Caret\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Dollar": {
+        "ID": 100166,
+        "Key": "Dollar",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Dollar\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Exclamation": {
+        "ID": 100167,
+        "Key": "Exclamation",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Exclamation\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_LeftParantheses": {
+        "ID": 100168,
+        "Key": "LeftParantheses",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftParantheses\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_RightParantheses": {
+        "ID": 100169,
+        "Key": "RightParantheses",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightParantheses\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_A_AccentGrave": {
+        "ID": 100170,
+        "Key": "A_AccentGrave",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_A_AccentGrave\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_E_AccentGrave": {
+        "ID": 100171,
+        "Key": "E_AccentGrave",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E_AccentGrave\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_E_AccentAigu": {
+        "ID": 100172,
+        "Key": "E_AccentAigu",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E_AccentAigu\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_C_Cedille": {
+        "ID": 100173,
+        "Key": "C_Cedille",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_C_Cedille\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Section": {
+        "ID": 100174,
+        "Key": "Section",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Section\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_AZERTY_U_WithGraveAccent": {
+        "ID": 100175,
+        "Key": "ù",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_U_WithGraveAccent\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_AZERTY_SuperscriptTwo": {
+        "ID": 100176,
+        "Key": "²",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_SuperscriptTwo\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_AZERTY_Caret": {
+        "ID": 100177,
+        "Key": "^",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_Caret\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_AZERTY_Mu": {
+        "ID": 100178,
+        "Key": "µ",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_Mu\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Platform_Delete": {
+        "ID": 100179,
+        "Key": "Platform_Delete",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Platform_Delete\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_X": {
+        "ID": 100180,
+        "Key": "Gamepad_DPad_X",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_X\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_Y": {
+        "ID": 100181,
+        "Key": "Gamepad_DPad_Y",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_DPad_2D": {
+        "ID": 100182,
+        "Key": "Gamepad_DPad_2D",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_2D\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Special_Left_Swipe_Up": {
+        "ID": 100183,
+        "Key": "Gamepad_Special_Left_Swipe_Up",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Special_Left_Swipe_Down": {
+        "ID": 100184,
+        "Key": "Gamepad_Special_Left_Swipe_Down",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Special_Left_Swipe_Left": {
+        "ID": 100185,
+        "Key": "Gamepad_Special_Left_Swipe_Left",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "Default_Gamepad_Special_Left_Swipe_Right": {
+        "ID": 100186,
+        "Key": "Gamepad_Special_Left_Swipe_Right",
+        "Platform": "Default",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Undefined": {
+        "ID": 100187,
+        "Key": "Undefined",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"ETC_Undefined\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseUp": {
+        "ID": 100188,
+        "Key": "MouseUp",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseUp\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseDown": {
+        "ID": 100189,
+        "Key": "MouseDown",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseDown\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseLeft": {
+        "ID": 100190,
+        "Key": "MouseLeft",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseLeft\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseRight": {
+        "ID": 100191,
+        "Key": "MouseRight",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseRight\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseX": {
+        "ID": 100192,
+        "Key": "MouseX",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseX\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_DragX": {
+        "ID": 100193,
+        "Key": "DragX",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_DragX\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseY": {
+        "ID": 100194,
+        "Key": "MouseY",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseY\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Mouse2D": {
+        "ID": 100195,
+        "Key": "Mouse2D",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_Mouse2D\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseScrollUp": {
+        "ID": 100196,
+        "Key": "MouseScrollUp",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseScrollUp\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseScrollDown": {
+        "ID": 100197,
+        "Key": "MouseScrollDown",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseScrollDown\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MouseWheelAxis": {
+        "ID": 100198,
+        "Key": "MouseWheelAxis",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseWheelAxis\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_LeftMouseButton": {
+        "ID": 100199,
+        "Key": "LeftMouseButton",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_LeftMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_RightMouseButton": {
+        "ID": 100200,
+        "Key": "RightMouseButton",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_RightMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MiddleMouseButton": {
+        "ID": 100201,
+        "Key": "MiddleMouseButton",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MiddleMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_ThumbMouseButton": {
+        "ID": 100202,
+        "Key": "ThumbMouseButton",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_ThumbMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_ThumbMouseButton2": {
+        "ID": 100203,
+        "Key": "ThumbMouseButton2",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_ThumbMouseButton2\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_A": {
+        "ID": 100204,
+        "Key": "A",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_A\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_B": {
+        "ID": 100205,
+        "Key": "B",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_B\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_C": {
+        "ID": 100206,
+        "Key": "C",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_C\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_D": {
+        "ID": 100207,
+        "Key": "D",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_D\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_E": {
+        "ID": 100208,
+        "Key": "E",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F": {
+        "ID": 100209,
+        "Key": "F",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_G": {
+        "ID": 100210,
+        "Key": "G",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_G\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_H": {
+        "ID": 100211,
+        "Key": "H",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_H\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_I": {
+        "ID": 100212,
+        "Key": "I",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_I\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_J": {
+        "ID": 100213,
+        "Key": "J",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_J\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_K": {
+        "ID": 100214,
+        "Key": "K",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_K\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_L": {
+        "ID": 100215,
+        "Key": "L",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_L\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_M": {
+        "ID": 100216,
+        "Key": "M",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_M\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_N": {
+        "ID": 100217,
+        "Key": "N",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_N\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_O": {
+        "ID": 100218,
+        "Key": "O",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_O\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_P": {
+        "ID": 100219,
+        "Key": "P",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_P\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Q": {
+        "ID": 100220,
+        "Key": "Q",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Q\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_R": {
+        "ID": 100221,
+        "Key": "R",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_R\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_S": {
+        "ID": 100222,
+        "Key": "S",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_S\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_T": {
+        "ID": 100223,
+        "Key": "T",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_T\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_U": {
+        "ID": 100224,
+        "Key": "U",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_U\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_V": {
+        "ID": 100225,
+        "Key": "V",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_V\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_W": {
+        "ID": 100226,
+        "Key": "W",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_W\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_X": {
+        "ID": 100227,
+        "Key": "X",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_X\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Y": {
+        "ID": 100228,
+        "Key": "Y",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Z": {
+        "ID": 100229,
+        "Key": "Z",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Z\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MoveAll": {
+        "ID": 100230,
+        "Key": "MoveAll",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveAll\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MoveAll_AZERTY": {
+        "ID": 100231,
+        "Key": "MoveAll_AZERTY",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveAll_AZERTY\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MoveHorizontal": {
+        "ID": 100232,
+        "Key": "MoveHorizontal",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveHorizontal\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_MoveHorizontal_AZERTY": {
+        "ID": 100233,
+        "Key": "MoveHorizontal_AZERTY",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveHorizontal_AZERTY\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_DirectionAll": {
+        "ID": 100234,
+        "Key": "DirectionAll",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_DirectionAll\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Left": {
+        "ID": 100235,
+        "Key": "Left",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Up": {
+        "ID": 100236,
+        "Key": "Up",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Right": {
+        "ID": 100237,
+        "Key": "Right",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Down": {
+        "ID": 100238,
+        "Key": "Down",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_BackSpace": {
+        "ID": 100239,
+        "Key": "BackSpace",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_BackSpace\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Tab": {
+        "ID": 100240,
+        "Key": "Tab",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Tab\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Enter": {
+        "ID": 100241,
+        "Key": "Enter",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Enter\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_CapsLock": {
+        "ID": 100242,
+        "Key": "CapsLock",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_CapsLock\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Escape": {
+        "ID": 100243,
+        "Key": "Escape",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Escape\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_SpaceBar": {
+        "ID": 100244,
+        "Key": "SpaceBar",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_SpaceBar\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Ctrl": {
+        "ID": 100245,
+        "Key": "Ctrl",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Ctrl\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Alt": {
+        "ID": 100246,
+        "Key": "Alt",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Alt\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Shift": {
+        "ID": 100247,
+        "Key": "Shift",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Shift\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_LeftShift": {
+        "ID": 100248,
+        "Key": "LeftShift",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftShift\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_RightShift": {
+        "ID": 100249,
+        "Key": "RightShift",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightShift\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_LeftControl": {
+        "ID": 100250,
+        "Key": "LeftControl",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftControl\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_RightControl": {
+        "ID": 100251,
+        "Key": "RightControl",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightControl\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_LeftAlt": {
+        "ID": 100252,
+        "Key": "LeftAlt",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftAlt\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_RightAlt": {
+        "ID": 100253,
+        "Key": "RightAlt",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightAlt\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_LeftCommand": {
+        "ID": 100254,
+        "Key": "LeftCommand",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftCommand\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_RightCommand": {
+        "ID": 100255,
+        "Key": "RightCommand",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightCommand\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_PageUp": {
+        "ID": 100256,
+        "Key": "PageUp",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_PageUp\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_PageDown": {
+        "ID": 100257,
+        "Key": "PageDown",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_PageDown\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Home": {
+        "ID": 100258,
+        "Key": "Home",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Home\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_End": {
+        "ID": 100259,
+        "Key": "End",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_End\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Insert": {
+        "ID": 100260,
+        "Key": "Insert",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Insert\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Delete": {
+        "ID": 100261,
+        "Key": "Delete",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Delete\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_ScrollLock": {
+        "ID": 100262,
+        "Key": "ScrollLock",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_ScrollLock\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Pause": {
+        "ID": 100263,
+        "Key": "Pause",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Pause\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Zero": {
+        "ID": 100264,
+        "Key": "Zero",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Zero\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_One": {
+        "ID": 100265,
+        "Key": "One",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_One\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Two": {
+        "ID": 100266,
+        "Key": "Two",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Two\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Three": {
+        "ID": 100267,
+        "Key": "Three",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Three\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Four": {
+        "ID": 100268,
+        "Key": "Four",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Four\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Five": {
+        "ID": 100269,
+        "Key": "Five",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Five\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Six": {
+        "ID": 100270,
+        "Key": "Six",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Six\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Seven": {
+        "ID": 100271,
+        "Key": "Seven",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Seven\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Eight": {
+        "ID": 100272,
+        "Key": "Eight",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Eight\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Nine": {
+        "ID": 100273,
+        "Key": "Nine",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Nine\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadZero": {
+        "ID": 100274,
+        "Key": "NumPadZero",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadZero\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadOne": {
+        "ID": 100275,
+        "Key": "NumPadOne",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadOne\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadTwo": {
+        "ID": 100276,
+        "Key": "NumPadTwo",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadTwo\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadThree": {
+        "ID": 100277,
+        "Key": "NumPadThree",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadThree\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadFour": {
+        "ID": 100278,
+        "Key": "NumPadFour",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadFour\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadFive": {
+        "ID": 100279,
+        "Key": "NumPadFive",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadFive\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadSix": {
+        "ID": 100280,
+        "Key": "NumPadSix",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadSix\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadSeven": {
+        "ID": 100281,
+        "Key": "NumPadSeven",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadSeven\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadEight": {
+        "ID": 100282,
+        "Key": "NumPadEight",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadEight\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumPadNine": {
+        "ID": 100283,
+        "Key": "NumPadNine",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadNine\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Multiply": {
+        "ID": 100284,
+        "Key": "Multiply",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Multiply\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Add": {
+        "ID": 100285,
+        "Key": "Add",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Add\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Subtract": {
+        "ID": 100286,
+        "Key": "Subtract",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Subtract\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Divide": {
+        "ID": 100287,
+        "Key": "Divide",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Divide\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Decimal": {
+        "ID": 100288,
+        "Key": "Decimal",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Decimal\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_NumLock": {
+        "ID": 100289,
+        "Key": "NumLock",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumLock\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F1": {
+        "ID": 100290,
+        "Key": "F1",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F1\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F2": {
+        "ID": 100291,
+        "Key": "F2",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F2\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F3": {
+        "ID": 100292,
+        "Key": "F3",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F3\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F4": {
+        "ID": 100293,
+        "Key": "F4",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F4\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F5": {
+        "ID": 100294,
+        "Key": "F5",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F5\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F6": {
+        "ID": 100295,
+        "Key": "F6",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F6\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F7": {
+        "ID": 100296,
+        "Key": "F7",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F7\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F8": {
+        "ID": 100297,
+        "Key": "F8",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F8\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F9": {
+        "ID": 100298,
+        "Key": "F9",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F9\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F10": {
+        "ID": 100299,
+        "Key": "F10",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F10\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F11": {
+        "ID": 100300,
+        "Key": "F11",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F11\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_F12": {
+        "ID": 100301,
+        "Key": "F12",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F12\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Tilde": {
+        "ID": 100302,
+        "Key": "Tilde",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Tilde\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Hyphen": {
+        "ID": 100303,
+        "Key": "Hyphen",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Hyphen\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Underscore": {
+        "ID": 100304,
+        "Key": "Underscore",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Underscore\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Equals": {
+        "ID": 100305,
+        "Key": "Equals",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Equals\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_LeftBracket": {
+        "ID": 100306,
+        "Key": "LeftBracket",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftBracket\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_RightBracket": {
+        "ID": 100307,
+        "Key": "RightBracket",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightBracket\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Backslash": {
+        "ID": 100308,
+        "Key": "Backslash",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Backslash\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Colon": {
+        "ID": 100309,
+        "Key": "Colon",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Colon\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Semicolon": {
+        "ID": 100310,
+        "Key": "Semicolon",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Semicolon\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Apostrophe": {
+        "ID": 100311,
+        "Key": "Apostrophe",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Apostrophe\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Quote": {
+        "ID": 100312,
+        "Key": "Quote",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Quote\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Comma": {
+        "ID": 100313,
+        "Key": "Comma",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Comma\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Period": {
+        "ID": 100314,
+        "Key": "Period",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Period\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Slash": {
+        "ID": 100315,
+        "Key": "Slash",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Slash\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Ampersand": {
+        "ID": 100316,
+        "Key": "Ampersand",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Ampersand\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Asterix": {
+        "ID": 100317,
+        "Key": "Asterix",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Asterix\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Caret": {
+        "ID": 100318,
+        "Key": "Caret",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Caret\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Dollar": {
+        "ID": 100319,
+        "Key": "Dollar",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Dollar\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Exclamation": {
+        "ID": 100320,
+        "Key": "Exclamation",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Exclamation\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_LeftParantheses": {
+        "ID": 100321,
+        "Key": "LeftParantheses",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftParantheses\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_RightParantheses": {
+        "ID": 100322,
+        "Key": "RightParantheses",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightParantheses\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_A_AccentGrave": {
+        "ID": 100323,
+        "Key": "A_AccentGrave",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_A_AccentGrave\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_E_AccentGrave": {
+        "ID": 100324,
+        "Key": "E_AccentGrave",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E_AccentGrave\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_E_AccentAigu": {
+        "ID": 100325,
+        "Key": "E_AccentAigu",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E_AccentAigu\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_C_Cedille": {
+        "ID": 100326,
+        "Key": "C_Cedille",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_C_Cedille\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Section": {
+        "ID": 100327,
+        "Key": "Section",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Section\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_AZERTY_U_WithGraveAccent": {
+        "ID": 100328,
+        "Key": "ù",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_U_WithGraveAccent\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_AZERTY_SuperscriptTwo": {
+        "ID": 100329,
+        "Key": "²",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_SuperscriptTwo\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_AZERTY_Caret": {
+        "ID": 100330,
+        "Key": "^",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_Caret\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_AZERTY_Mu": {
+        "ID": 100331,
+        "Key": "µ",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_Mu\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardKeyboard_Platform_Delete": {
+        "ID": 100332,
+        "Key": "Platform_Delete",
+        "Platform": "StandardKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Platform_Delete\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Undefined": {
+        "ID": 100333,
+        "Key": "Undefined",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"ETC_Undefined\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseUp": {
+        "ID": 100334,
+        "Key": "MouseUp",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseUp\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseDown": {
+        "ID": 100335,
+        "Key": "MouseDown",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseDown\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseLeft": {
+        "ID": 100336,
+        "Key": "MouseLeft",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseLeft\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseRight": {
+        "ID": 100337,
+        "Key": "MouseRight",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseRight\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseX": {
+        "ID": 100338,
+        "Key": "MouseX",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseX\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_DragX": {
+        "ID": 100339,
+        "Key": "DragX",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_DragX\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseY": {
+        "ID": 100340,
+        "Key": "MouseY",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseY\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Mouse2D": {
+        "ID": 100341,
+        "Key": "Mouse2D",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_Mouse2D\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseScrollUp": {
+        "ID": 100342,
+        "Key": "MouseScrollUp",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseScrollUp\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseScrollDown": {
+        "ID": 100343,
+        "Key": "MouseScrollDown",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseScrollDown\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MouseWheelAxis": {
+        "ID": 100344,
+        "Key": "MouseWheelAxis",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MouseWheelAxis\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_LeftMouseButton": {
+        "ID": 100345,
+        "Key": "LeftMouseButton",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_LeftMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_RightMouseButton": {
+        "ID": 100346,
+        "Key": "RightMouseButton",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_RightMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MiddleMouseButton": {
+        "ID": 100347,
+        "Key": "MiddleMouseButton",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_MiddleMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_ThumbMouseButton": {
+        "ID": 100348,
+        "Key": "ThumbMouseButton",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_ThumbMouseButton\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_ThumbMouseButton2": {
+        "ID": 100349,
+        "Key": "ThumbMouseButton2",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"Mouse_ThumbMouseButton2\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_A": {
+        "ID": 100350,
+        "Key": "A",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_A\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_B": {
+        "ID": 100351,
+        "Key": "B",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_B\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_C": {
+        "ID": 100352,
+        "Key": "C",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_C\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_D": {
+        "ID": 100353,
+        "Key": "D",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_D\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_E": {
+        "ID": 100354,
+        "Key": "E",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F": {
+        "ID": 100355,
+        "Key": "F",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_G": {
+        "ID": 100356,
+        "Key": "G",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_G\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_H": {
+        "ID": 100357,
+        "Key": "H",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_H\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_I": {
+        "ID": 100358,
+        "Key": "I",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_I\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_J": {
+        "ID": 100359,
+        "Key": "J",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_J\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_K": {
+        "ID": 100360,
+        "Key": "K",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_K\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_L": {
+        "ID": 100361,
+        "Key": "L",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_L\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_M": {
+        "ID": 100362,
+        "Key": "M",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_M\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_N": {
+        "ID": 100363,
+        "Key": "N",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_N\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_O": {
+        "ID": 100364,
+        "Key": "O",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_O\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_P": {
+        "ID": 100365,
+        "Key": "P",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_P\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Q": {
+        "ID": 100366,
+        "Key": "Q",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Q\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_R": {
+        "ID": 100367,
+        "Key": "R",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_R\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_S": {
+        "ID": 100368,
+        "Key": "S",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_S\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_T": {
+        "ID": 100369,
+        "Key": "T",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_T\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_U": {
+        "ID": 100370,
+        "Key": "U",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_U\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_V": {
+        "ID": 100371,
+        "Key": "V",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_V\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_W": {
+        "ID": 100372,
+        "Key": "W",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_W\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_X": {
+        "ID": 100373,
+        "Key": "X",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_X\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Y": {
+        "ID": 100374,
+        "Key": "Y",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Z": {
+        "ID": 100375,
+        "Key": "Z",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Z\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MoveAll": {
+        "ID": 100376,
+        "Key": "MoveAll",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveAll\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MoveAll_AZERTY": {
+        "ID": 100377,
+        "Key": "MoveAll_AZERTY",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveAll_AZERTY\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MoveHorizontal": {
+        "ID": 100378,
+        "Key": "MoveHorizontal",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveHorizontal\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_MoveHorizontal_AZERTY": {
+        "ID": 100379,
+        "Key": "MoveHorizontal_AZERTY",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_MoveHorizontal_AZERTY\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_DirectionAll": {
+        "ID": 100380,
+        "Key": "DirectionAll",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_DirectionAll\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Left": {
+        "ID": 100381,
+        "Key": "Left",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Up": {
+        "ID": 100382,
+        "Key": "Up",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Right": {
+        "ID": 100383,
+        "Key": "Right",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Down": {
+        "ID": 100384,
+        "Key": "Down",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_BackSpace": {
+        "ID": 100385,
+        "Key": "BackSpace",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_BackSpace\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Tab": {
+        "ID": 100386,
+        "Key": "Tab",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Tab\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Enter": {
+        "ID": 100387,
+        "Key": "Enter",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Enter\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_CapsLock": {
+        "ID": 100388,
+        "Key": "CapsLock",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_CapsLock\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Escape": {
+        "ID": 100389,
+        "Key": "Escape",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Escape\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_SpaceBar": {
+        "ID": 100390,
+        "Key": "SpaceBar",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_SpaceBar\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Ctrl": {
+        "ID": 100391,
+        "Key": "Ctrl",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Ctrl\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Alt": {
+        "ID": 100392,
+        "Key": "Alt",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Alt\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Shift": {
+        "ID": 100393,
+        "Key": "Shift",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Shift\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_LeftShift": {
+        "ID": 100394,
+        "Key": "LeftShift",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftShift\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_RightShift": {
+        "ID": 100395,
+        "Key": "RightShift",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightShift\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_LeftControl": {
+        "ID": 100396,
+        "Key": "LeftControl",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftControl\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_RightControl": {
+        "ID": 100397,
+        "Key": "RightControl",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightControl\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_LeftAlt": {
+        "ID": 100398,
+        "Key": "LeftAlt",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftAlt\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_RightAlt": {
+        "ID": 100399,
+        "Key": "RightAlt",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightAlt\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_LeftCommand": {
+        "ID": 100400,
+        "Key": "LeftCommand",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftCommand\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_RightCommand": {
+        "ID": 100401,
+        "Key": "RightCommand",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightCommand\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_PageUp": {
+        "ID": 100402,
+        "Key": "PageUp",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_PageUp\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_PageDown": {
+        "ID": 100403,
+        "Key": "PageDown",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_PageDown\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Home": {
+        "ID": 100404,
+        "Key": "Home",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Home\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_End": {
+        "ID": 100405,
+        "Key": "End",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_End\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Insert": {
+        "ID": 100406,
+        "Key": "Insert",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Insert\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Delete": {
+        "ID": 100407,
+        "Key": "Delete",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Delete\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_ScrollLock": {
+        "ID": 100408,
+        "Key": "ScrollLock",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_ScrollLock\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Pause": {
+        "ID": 100409,
+        "Key": "Pause",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Pause\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Zero": {
+        "ID": 100410,
+        "Key": "Zero",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Zero\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_One": {
+        "ID": 100411,
+        "Key": "One",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_One\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Two": {
+        "ID": 100412,
+        "Key": "Two",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Two\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Three": {
+        "ID": 100413,
+        "Key": "Three",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Three\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Four": {
+        "ID": 100414,
+        "Key": "Four",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Four\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Five": {
+        "ID": 100415,
+        "Key": "Five",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Five\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Six": {
+        "ID": 100416,
+        "Key": "Six",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Six\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Seven": {
+        "ID": 100417,
+        "Key": "Seven",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Seven\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Eight": {
+        "ID": 100418,
+        "Key": "Eight",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Eight\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Nine": {
+        "ID": 100419,
+        "Key": "Nine",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Nine\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadZero": {
+        "ID": 100420,
+        "Key": "NumPadZero",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadZero\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadOne": {
+        "ID": 100421,
+        "Key": "NumPadOne",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadOne\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadTwo": {
+        "ID": 100422,
+        "Key": "NumPadTwo",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadTwo\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadThree": {
+        "ID": 100423,
+        "Key": "NumPadThree",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadThree\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadFour": {
+        "ID": 100424,
+        "Key": "NumPadFour",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadFour\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadFive": {
+        "ID": 100425,
+        "Key": "NumPadFive",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadFive\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadSix": {
+        "ID": 100426,
+        "Key": "NumPadSix",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadSix\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadSeven": {
+        "ID": 100427,
+        "Key": "NumPadSeven",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadSeven\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadEight": {
+        "ID": 100428,
+        "Key": "NumPadEight",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadEight\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumPadNine": {
+        "ID": 100429,
+        "Key": "NumPadNine",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumPadNine\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Multiply": {
+        "ID": 100430,
+        "Key": "Multiply",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Multiply\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Add": {
+        "ID": 100431,
+        "Key": "Add",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Add\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Subtract": {
+        "ID": 100432,
+        "Key": "Subtract",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Subtract\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Divide": {
+        "ID": 100433,
+        "Key": "Divide",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Divide\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Decimal": {
+        "ID": 100434,
+        "Key": "Decimal",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Decimal\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_NumLock": {
+        "ID": 100435,
+        "Key": "NumLock",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_NumLock\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F1": {
+        "ID": 100436,
+        "Key": "F1",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F1\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F2": {
+        "ID": 100437,
+        "Key": "F2",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F2\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F3": {
+        "ID": 100438,
+        "Key": "F3",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F3\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F4": {
+        "ID": 100439,
+        "Key": "F4",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F4\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F5": {
+        "ID": 100440,
+        "Key": "F5",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F5\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F6": {
+        "ID": 100441,
+        "Key": "F6",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F6\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F7": {
+        "ID": 100442,
+        "Key": "F7",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F7\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F8": {
+        "ID": 100443,
+        "Key": "F8",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F8\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F9": {
+        "ID": 100444,
+        "Key": "F9",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F9\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F10": {
+        "ID": 100445,
+        "Key": "F10",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F10\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F11": {
+        "ID": 100446,
+        "Key": "F11",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F11\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_F12": {
+        "ID": 100447,
+        "Key": "F12",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_F12\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Tilde": {
+        "ID": 100448,
+        "Key": "Tilde",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Tilde\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Hyphen": {
+        "ID": 100449,
+        "Key": "Hyphen",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Hyphen\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Underscore": {
+        "ID": 100450,
+        "Key": "Underscore",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Underscore\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Equals": {
+        "ID": 100451,
+        "Key": "Equals",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Equals\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_LeftBracket": {
+        "ID": 100452,
+        "Key": "LeftBracket",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftBracket\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_RightBracket": {
+        "ID": 100453,
+        "Key": "RightBracket",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightBracket\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Backslash": {
+        "ID": 100454,
+        "Key": "Backslash",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Backslash\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Colon": {
+        "ID": 100455,
+        "Key": "Colon",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Colon\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Semicolon": {
+        "ID": 100456,
+        "Key": "Semicolon",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Semicolon\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Apostrophe": {
+        "ID": 100457,
+        "Key": "Apostrophe",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Apostrophe\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Quote": {
+        "ID": 100458,
+        "Key": "Quote",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Quote\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Comma": {
+        "ID": 100459,
+        "Key": "Comma",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Comma\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Period": {
+        "ID": 100460,
+        "Key": "Period",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Period\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Slash": {
+        "ID": 100461,
+        "Key": "Slash",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Slash\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Ampersand": {
+        "ID": 100462,
+        "Key": "Ampersand",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Ampersand\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Asterix": {
+        "ID": 100463,
+        "Key": "Asterix",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Asterix\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Caret": {
+        "ID": 100464,
+        "Key": "Caret",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Caret\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Dollar": {
+        "ID": 100465,
+        "Key": "Dollar",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Dollar\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Exclamation": {
+        "ID": 100466,
+        "Key": "Exclamation",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Exclamation\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_LeftParantheses": {
+        "ID": 100467,
+        "Key": "LeftParantheses",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_LeftParantheses\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_RightParantheses": {
+        "ID": 100468,
+        "Key": "RightParantheses",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_RightParantheses\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_A_AccentGrave": {
+        "ID": 100469,
+        "Key": "A_AccentGrave",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_A_AccentGrave\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_E_AccentGrave": {
+        "ID": 100470,
+        "Key": "E_AccentGrave",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E_AccentGrave\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_E_AccentAigu": {
+        "ID": 100471,
+        "Key": "E_AccentAigu",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_E_AccentAigu\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_C_Cedille": {
+        "ID": 100472,
+        "Key": "C_Cedille",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_C_Cedille\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Section": {
+        "ID": 100473,
+        "Key": "Section",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Section\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_AZERTY_U_WithGraveAccent": {
+        "ID": 100474,
+        "Key": "ù",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_U_WithGraveAccent\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_AZERTY_SuperscriptTwo": {
+        "ID": 100475,
+        "Key": "²",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_SuperscriptTwo\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_AZERTY_Caret": {
+        "ID": 100476,
+        "Key": "^",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_Caret\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_AZERTY_Mu": {
+        "ID": 100477,
+        "Key": "µ",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_AZERTY_Mu\"/>",
+        "FileSuffix": "None"
+      },
+      "AZERTYKeyboard_Platform_Delete": {
+        "ID": 100478,
+        "Key": "Platform_Delete",
+        "Platform": "AZERTYKeyboard",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"KeyBoard_Platform_Delete\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Undefined": {
+        "ID": 100479,
+        "Key": "Undefined",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"ETC_Undefined\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Left2D": {
+        "ID": 100480,
+        "Key": "Gamepad_Left2D",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Left2D\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftX": {
+        "ID": 100481,
+        "Key": "Gamepad_LeftX",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftX\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftY": {
+        "ID": 100482,
+        "Key": "Gamepad_LeftY",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftY\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftStick_Up": {
+        "ID": 100483,
+        "Key": "Gamepad_LeftStick_Up",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftStick_Down": {
+        "ID": 100484,
+        "Key": "Gamepad_LeftStick_Down",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftStick_Left": {
+        "ID": 100485,
+        "Key": "Gamepad_LeftStick_Left",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftStick_Right": {
+        "ID": 100486,
+        "Key": "Gamepad_LeftStick_Right",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftThumbstick": {
+        "ID": 100487,
+        "Key": "Gamepad_LeftThumbstick",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Right2D": {
+        "ID": 100488,
+        "Key": "Gamepad_Right2D",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Right2D\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightX": {
+        "ID": 100489,
+        "Key": "Gamepad_RightX",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightX\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightY": {
+        "ID": 100490,
+        "Key": "Gamepad_RightY",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightY\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightStick_Up": {
+        "ID": 100491,
+        "Key": "Gamepad_RightStick_Up",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightStick_Down": {
+        "ID": 100492,
+        "Key": "Gamepad_RightStick_Down",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightStick_Left": {
+        "ID": 100493,
+        "Key": "Gamepad_RightStick_Left",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightStick_Right": {
+        "ID": 100494,
+        "Key": "Gamepad_RightStick_Right",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightThumbstick": {
+        "ID": 100495,
+        "Key": "Gamepad_RightThumbstick",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Special_Left": {
+        "ID": 100496,
+        "Key": "Gamepad_Special_Left",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Special_Left_Swipe_Up": {
+        "ID": 100497,
+        "Key": "Gamepad_Special_Left_Swipe_Up",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Special_Left_Swipe_Down": {
+        "ID": 100498,
+        "Key": "Gamepad_Special_Left_Swipe_Down",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Special_Left_Swipe_Left": {
+        "ID": 100499,
+        "Key": "Gamepad_Special_Left_Swipe_Left",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Special_Left_Swipe_Right": {
+        "ID": 100500,
+        "Key": "Gamepad_Special_Left_Swipe_Right",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_Special_Right": {
+        "ID": 100501,
+        "Key": "Gamepad_Special_Right",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_FaceButton_Bottom": {
+        "ID": 100502,
+        "Key": "Gamepad_FaceButton_Bottom",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Bottom\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_FaceButton_Right": {
+        "ID": 100503,
+        "Key": "Gamepad_FaceButton_Right",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_FaceButton_Left": {
+        "ID": 100504,
+        "Key": "Gamepad_FaceButton_Left",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_FaceButton_Top": {
+        "ID": 100505,
+        "Key": "Gamepad_FaceButton_Top",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Top\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftShoulder": {
+        "ID": 100506,
+        "Key": "Gamepad_LeftShoulder",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightShoulder": {
+        "ID": 100507,
+        "Key": "Gamepad_RightShoulder",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_LeftTrigger": {
+        "ID": 100508,
+        "Key": "Gamepad_LeftTrigger",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_RightTrigger": {
+        "ID": 100509,
+        "Key": "Gamepad_RightTrigger",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_DPad_Up": {
+        "ID": 100510,
+        "Key": "Gamepad_DPad_Up",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_DPad_Down": {
+        "ID": 100511,
+        "Key": "Gamepad_DPad_Down",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_DPad_Left": {
+        "ID": 100512,
+        "Key": "Gamepad_DPad_Left",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_DPad_Right": {
+        "ID": 100513,
+        "Key": "Gamepad_DPad_Right",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_DPad_X": {
+        "ID": 100514,
+        "Key": "Gamepad_DPad_X",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_X\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_DPad_Y": {
+        "ID": 100515,
+        "Key": "Gamepad_DPad_Y",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "StandardGamePad_Gamepad_DPad_2D": {
+        "ID": 100516,
+        "Key": "Gamepad_DPad_2D",
+        "Platform": "StandardGamePad",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_2D\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Undefined": {
+        "ID": 100517,
+        "Key": "Undefined",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"ETC_Undefined\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Left2D": {
+        "ID": 100518,
+        "Key": "Gamepad_Left2D",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Left2D\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftX": {
+        "ID": 100519,
+        "Key": "Gamepad_LeftX",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftX\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftY": {
+        "ID": 100520,
+        "Key": "Gamepad_LeftY",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftY\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftStick_Up": {
+        "ID": 100521,
+        "Key": "Gamepad_LeftStick_Up",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftStick_Down": {
+        "ID": 100522,
+        "Key": "Gamepad_LeftStick_Down",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftStick_Left": {
+        "ID": 100523,
+        "Key": "Gamepad_LeftStick_Left",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftStick_Right": {
+        "ID": 100524,
+        "Key": "Gamepad_LeftStick_Right",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftThumbstick": {
+        "ID": 100525,
+        "Key": "Gamepad_LeftThumbstick",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Right2D": {
+        "ID": 100526,
+        "Key": "Gamepad_Right2D",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Right2D\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightX": {
+        "ID": 100527,
+        "Key": "Gamepad_RightX",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightX\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightY": {
+        "ID": 100528,
+        "Key": "Gamepad_RightY",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightY\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightStick_Up": {
+        "ID": 100529,
+        "Key": "Gamepad_RightStick_Up",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightStick_Down": {
+        "ID": 100530,
+        "Key": "Gamepad_RightStick_Down",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightStick_Left": {
+        "ID": 100531,
+        "Key": "Gamepad_RightStick_Left",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightStick_Right": {
+        "ID": 100532,
+        "Key": "Gamepad_RightStick_Right",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightThumbstick": {
+        "ID": 100533,
+        "Key": "Gamepad_RightThumbstick",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Special_Left": {
+        "ID": 100534,
+        "Key": "Gamepad_Special_Left",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Special_Left_Swipe_Up": {
+        "ID": 100535,
+        "Key": "Gamepad_Special_Left_Swipe_Up",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Special_Left_Swipe_Down": {
+        "ID": 100536,
+        "Key": "Gamepad_Special_Left_Swipe_Down",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Special_Left_Swipe_Left": {
+        "ID": 100537,
+        "Key": "Gamepad_Special_Left_Swipe_Left",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Special_Left_Swipe_Right": {
+        "ID": 100538,
+        "Key": "Gamepad_Special_Left_Swipe_Right",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Left_Swipe_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_Special_Right": {
+        "ID": 100539,
+        "Key": "Gamepad_Special_Right",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_Special_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_FaceButton_Bottom": {
+        "ID": 100540,
+        "Key": "Gamepad_FaceButton_Bottom",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Bottom\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_FaceButton_Right": {
+        "ID": 100541,
+        "Key": "Gamepad_FaceButton_Right",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_FaceButton_Left": {
+        "ID": 100542,
+        "Key": "Gamepad_FaceButton_Left",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_FaceButton_Top": {
+        "ID": 100543,
+        "Key": "Gamepad_FaceButton_Top",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_FaceButton_Top\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftShoulder": {
+        "ID": 100544,
+        "Key": "Gamepad_LeftShoulder",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightShoulder": {
+        "ID": 100545,
+        "Key": "Gamepad_RightShoulder",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_LeftTrigger": {
+        "ID": 100546,
+        "Key": "Gamepad_LeftTrigger",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_LeftTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_RightTrigger": {
+        "ID": 100547,
+        "Key": "Gamepad_RightTrigger",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_RightTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_DPad_Up": {
+        "ID": 100548,
+        "Key": "Gamepad_DPad_Up",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_DPad_Down": {
+        "ID": 100549,
+        "Key": "Gamepad_DPad_Down",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_DPad_Left": {
+        "ID": 100550,
+        "Key": "Gamepad_DPad_Left",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_DPad_Right": {
+        "ID": 100551,
+        "Key": "Gamepad_DPad_Right",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_DPad_X": {
+        "ID": 100552,
+        "Key": "Gamepad_DPad_X",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_X\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_DPad_Y": {
+        "ID": 100553,
+        "Key": "Gamepad_DPad_Y",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "PS5_Gamepad_DPad_2D": {
+        "ID": 100554,
+        "Key": "Gamepad_DPad_2D",
+        "Platform": "PS5",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualSense_Gamepad_DPad_2D\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Undefined": {
+        "ID": 100555,
+        "Key": "Undefined",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"ETC_Undefined\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Left2D": {
+        "ID": 100556,
+        "Key": "Gamepad_Left2D",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Left2D\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftX": {
+        "ID": 100557,
+        "Key": "Gamepad_LeftX",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftX\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftY": {
+        "ID": 100558,
+        "Key": "Gamepad_LeftY",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftY\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftStick_Up": {
+        "ID": 100559,
+        "Key": "Gamepad_LeftStick_Up",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftStick_Down": {
+        "ID": 100560,
+        "Key": "Gamepad_LeftStick_Down",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftStick_Left": {
+        "ID": 100561,
+        "Key": "Gamepad_LeftStick_Left",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftStick_Right": {
+        "ID": 100562,
+        "Key": "Gamepad_LeftStick_Right",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftThumbstick": {
+        "ID": 100563,
+        "Key": "Gamepad_LeftThumbstick",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Right2D": {
+        "ID": 100564,
+        "Key": "Gamepad_Right2D",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Right2D\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightX": {
+        "ID": 100565,
+        "Key": "Gamepad_RightX",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightX\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightY": {
+        "ID": 100566,
+        "Key": "Gamepad_RightY",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightY\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightStick_Up": {
+        "ID": 100567,
+        "Key": "Gamepad_RightStick_Up",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightStick_Down": {
+        "ID": 100568,
+        "Key": "Gamepad_RightStick_Down",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightStick_Left": {
+        "ID": 100569,
+        "Key": "Gamepad_RightStick_Left",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightStick_Right": {
+        "ID": 100570,
+        "Key": "Gamepad_RightStick_Right",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightThumbstick": {
+        "ID": 100571,
+        "Key": "Gamepad_RightThumbstick",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Special_Left": {
+        "ID": 100572,
+        "Key": "Gamepad_Special_Left",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Special_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Special_Left_Swipe_Up": {
+        "ID": 100573,
+        "Key": "Gamepad_Special_Left_Swipe_Up",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Special_Left_Swipe_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Special_Left_Swipe_Down": {
+        "ID": 100574,
+        "Key": "Gamepad_Special_Left_Swipe_Down",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Special_Left_Swipe_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Special_Left_Swipe_Left": {
+        "ID": 100575,
+        "Key": "Gamepad_Special_Left_Swipe_Left",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Special_Left_Swipe_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Special_Left_Swipe_Right": {
+        "ID": 100576,
+        "Key": "Gamepad_Special_Left_Swipe_Right",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Special_Left_Swipe_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_Special_Right": {
+        "ID": 100577,
+        "Key": "Gamepad_Special_Right",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_Special_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_FaceButton_Bottom": {
+        "ID": 100578,
+        "Key": "Gamepad_FaceButton_Bottom",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_FaceButton_Bottom\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_FaceButton_Right": {
+        "ID": 100579,
+        "Key": "Gamepad_FaceButton_Right",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_FaceButton_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_FaceButton_Left": {
+        "ID": 100580,
+        "Key": "Gamepad_FaceButton_Left",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_FaceButton_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_FaceButton_Top": {
+        "ID": 100581,
+        "Key": "Gamepad_FaceButton_Top",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_FaceButton_Top\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftShoulder": {
+        "ID": 100582,
+        "Key": "Gamepad_LeftShoulder",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightShoulder": {
+        "ID": 100583,
+        "Key": "Gamepad_RightShoulder",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_LeftTrigger": {
+        "ID": 100584,
+        "Key": "Gamepad_LeftTrigger",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_LeftTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_RightTrigger": {
+        "ID": 100585,
+        "Key": "Gamepad_RightTrigger",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_RightTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_DPad_Up": {
+        "ID": 100586,
+        "Key": "Gamepad_DPad_Up",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_DPad_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_DPad_Down": {
+        "ID": 100587,
+        "Key": "Gamepad_DPad_Down",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_DPad_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_DPad_Left": {
+        "ID": 100588,
+        "Key": "Gamepad_DPad_Left",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_DPad_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_DPad_Right": {
+        "ID": 100589,
+        "Key": "Gamepad_DPad_Right",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_DPad_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_DPad_X": {
+        "ID": 100590,
+        "Key": "Gamepad_DPad_X",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_DPad_X\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_DPad_Y": {
+        "ID": 100591,
+        "Key": "Gamepad_DPad_Y",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_DPad_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "PS4_Gamepad_DPad_2D": {
+        "ID": 100592,
+        "Key": "Gamepad_DPad_2D",
+        "Platform": "PS4",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"DualShock4_Gamepad_DPad_2D\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Undefined": {
+        "ID": 100593,
+        "Key": "Undefined",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"ETC_Undefined\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_Left2D": {
+        "ID": 100594,
+        "Key": "Gamepad_Left2D",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_Left2D\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftX": {
+        "ID": 100595,
+        "Key": "Gamepad_LeftX",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftX\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftY": {
+        "ID": 100596,
+        "Key": "Gamepad_LeftY",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftY\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftStick_Up": {
+        "ID": 100597,
+        "Key": "Gamepad_LeftStick_Up",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftStick_Down": {
+        "ID": 100598,
+        "Key": "Gamepad_LeftStick_Down",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftStick_Left": {
+        "ID": 100599,
+        "Key": "Gamepad_LeftStick_Left",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftStick_Right": {
+        "ID": 100600,
+        "Key": "Gamepad_LeftStick_Right",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftThumbstick": {
+        "ID": 100601,
+        "Key": "Gamepad_LeftThumbstick",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_Right2D": {
+        "ID": 100602,
+        "Key": "Gamepad_Right2D",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_Right2D\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightX": {
+        "ID": 100603,
+        "Key": "Gamepad_RightX",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightX\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightY": {
+        "ID": 100604,
+        "Key": "Gamepad_RightY",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightY\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightStick_Up": {
+        "ID": 100605,
+        "Key": "Gamepad_RightStick_Up",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightStick_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightStick_Down": {
+        "ID": 100606,
+        "Key": "Gamepad_RightStick_Down",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightStick_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightStick_Left": {
+        "ID": 100607,
+        "Key": "Gamepad_RightStick_Left",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightStick_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightStick_Right": {
+        "ID": 100608,
+        "Key": "Gamepad_RightStick_Right",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightStick_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightThumbstick": {
+        "ID": 100609,
+        "Key": "Gamepad_RightThumbstick",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightThumbstick\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_Special_Left": {
+        "ID": 100610,
+        "Key": "Gamepad_Special_Left",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_Special_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_Special_Right": {
+        "ID": 100611,
+        "Key": "Gamepad_Special_Right",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_Special_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_FaceButton_Bottom": {
+        "ID": 100612,
+        "Key": "Gamepad_FaceButton_Bottom",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_FaceButton_Bottom\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_FaceButton_Right": {
+        "ID": 100613,
+        "Key": "Gamepad_FaceButton_Right",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_FaceButton_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_FaceButton_Left": {
+        "ID": 100614,
+        "Key": "Gamepad_FaceButton_Left",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_FaceButton_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_FaceButton_Top": {
+        "ID": 100615,
+        "Key": "Gamepad_FaceButton_Top",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_FaceButton_Top\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftShoulder": {
+        "ID": 100616,
+        "Key": "Gamepad_LeftShoulder",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightShoulder": {
+        "ID": 100617,
+        "Key": "Gamepad_RightShoulder",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightShoulder\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_LeftTrigger": {
+        "ID": 100618,
+        "Key": "Gamepad_LeftTrigger",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_LeftTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_RightTrigger": {
+        "ID": 100619,
+        "Key": "Gamepad_RightTrigger",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_RightTrigger\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_DPad_Up": {
+        "ID": 100620,
+        "Key": "Gamepad_DPad_Up",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_DPad_Up\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_DPad_Down": {
+        "ID": 100621,
+        "Key": "Gamepad_DPad_Down",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_DPad_Down\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_DPad_Left": {
+        "ID": 100622,
+        "Key": "Gamepad_DPad_Left",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_DPad_Left\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_DPad_Right": {
+        "ID": 100623,
+        "Key": "Gamepad_DPad_Right",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_DPad_Right\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_DPad_X": {
+        "ID": 100624,
+        "Key": "Gamepad_DPad_X",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_DPad_X\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_DPad_Y": {
+        "ID": 100625,
+        "Key": "Gamepad_DPad_Y",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_DPad_Y\"/>",
+        "FileSuffix": "None"
+      },
+      "XBox_Gamepad_DPad_2D": {
+        "ID": 100626,
+        "Key": "Gamepad_DPad_2D",
+        "Platform": "XBox",
+        "AxisScale": "ESBKeyMappingAxisScaleType::Positive",
+        "text": "<img id=\"XboxOne_Gamepad_DPad_2D\"/>",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

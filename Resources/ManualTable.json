@@ -1,0 +1,1316 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ManualTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBManualTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Manual_Combat_BasicAttack": {
+        "ID": 1,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_ChainAttack_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_ChainAttack_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Combat_BasicAttack.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_Shield": {
+        "ID": 2,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_Shield_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_Shield_Desc_1",
+          "Guide_Manual_Combat_Shield_Desc_2",
+          "Guide_Manual_Combat_Shield_Desc_3"
+        ],
+        "MoviePathArray": [
+          "",
+          "Movies/Guide_Shield_2.bk2",
+          "Movies/Guide_Shield_3.bk2"
+        ],
+        "ImagePathArray": [
+          "Texture2D'/Game/Art/UI/Texture/InGameGuide/Guide_Shield_1.Guide_Shield_1'",
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_Shield",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_Guard": {
+        "ID": 3,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_Parrying_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_Parrying_Desc_1_PC",
+          "Guide_Manual_Combat_Parrying_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Combat_Guard_1.bk2",
+          "Movies/Manual_Combat_Guard_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_Guard",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_Evade": {
+        "ID": 4,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_Evade_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_Evade_Desc_1_PC",
+          "Guide_Manual_Combat_Evade_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Combat_Evade.bk2",
+          "Movies/SkillPreview_JustEvade1.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_Evade",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_Balance": {
+        "ID": 5,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_Balance_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_Balance_Desc_1",
+          "Guide_Manual_Combat_Balance_Desc_2"
+        ],
+        "MoviePathArray": [
+          "",
+          "Movies/Guide_Balance_2.bk2"
+        ],
+        "ImagePathArray": [
+          "Texture2D'/Game/Art/UI/Texture/InGameGuide/Guide_Balance_1.Guide_Balance_1'",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_Balance",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_FastGetUp": {
+        "ID": 6,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_RecoverPosition_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_RecoverPosition_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_FastGetup1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_FastGetUp",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_MonSkillUnblockable": {
+        "ID": 7,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_MonSkillUnblockable_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_MonSkillUnblockable_Desc_1"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Combat_MonSkillUnblockable_1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_MonSkill_NoGuard",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_MonSkillCombo": {
+        "ID": 8,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_MonSkillCombo_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_MonSkillCombo_Desc_1"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Combat_MonSkillCombo_1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_MonSkill_Combo",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combat_RavenInstaKill": {
+        "ID": 9,
+        "ManualType": "ESBManualType::ESBManualType_Combat",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_RavenInstaKill_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_RavenInstaKill_Popup_Desc_1"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_RavenInstaKill_1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_RavenInstaKill",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_SkillUnlock": {
+        "ID": 10,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_SkillUI_SkillUnlock_Title",
+        "DescStringKeyArray": [
+          "Guide_SkillUnlock_Popup_Desc_1",
+          "Guide_SkillUnlock_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_SkillUnlock_1.bk2",
+          "Movies/Guide_SkillUnlock_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_SkillUnlock",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_Dash": {
+        "ID": 11,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Combat_DashAttack_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Combat_DashAttack_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Skill_Dash.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_Dash",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_BetaSkill": {
+        "ID": 12,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Skill_BetaSkill_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Skill_BetaSkill_Desc_1_PC",
+          "Guide_Manual_Skill_BetaSkill_Desc_2",
+          "Guide_Manual_Skill_BetaSkill_Desc_3"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Skill_BetaSkill.bk2",
+          "Movies/SkillPreview_JustParryStrongAttack1.bk2",
+          "Movies/SkillPreview_StrongAttackAdditionalCombo1_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_BetaSkill",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_BackStab": {
+        "ID": 13,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Manual_Skill_BackStab_Title",
+        "DescStringKeyArray": [
+          "Guide_Manual_Skill_BackStab_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Skill_BackStab.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_BackStab",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_Blink": {
+        "ID": 14,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Skill_Blink_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Skill_Blink_Popup_Desc_1"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_FlashBehindAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_Blink",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_Repulse": {
+        "ID": 15,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Skill_Repulse_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Skill_Repulse_Popup_Desc_1"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_MoveBackAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_Repulse",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_BurstSkill": {
+        "ID": 16,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_BurstSkill_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_BurstSkill_Popup_Desc_1",
+          "Guide_BurstSkill_Popup_Desc_2_PC",
+          "Guide_BurstSkill_Popup_Desc_3_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_BurstSkill_1.bk2",
+          "Movies/SkillPreview_BurstSpinAttack1.bk2",
+          "Movies/SkillPreview_JustParryLightAttack1Combo1.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_BurstSkill",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_TachyMode": {
+        "ID": 17,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_TachyMode_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_TachyMode_Popup_Desc_1_PC",
+          "Guide_TachyMode_Popup_Desc_2_PC",
+          "Guide_TachyMode_Popup_Desc_3"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_TachyMode_1.bk2",
+          "Movies/Guide_TachyMode_2.bk2",
+          "Movies/Guide_TachyMode_3.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_TachyMode",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Skill_TrainingRoom": {
+        "ID": 18,
+        "ManualType": "ESBManualType::ESBManualType_Skill",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_TrainingRoom_Title",
+        "DescStringKeyArray": [
+          "Guide_TrainingRoom_Desc_1",
+          "Guide_TrainingRoom_Desc_2"
+        ],
+        "MoviePathArray": [
+          "",
+          "Movies/Guide_TrainingRoom_2.bk2"
+        ],
+        "ImagePathArray": [
+          "Texture2D'/Game/Art/UI/Texture/InGameGuide/Guide_TrainingRoom_1.Guide_TrainingRoom_1'",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_TrainingRoom",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Ranged_RangedAttack": {
+        "ID": 19,
+        "ManualType": "ESBManualType::ESBManualType_Ranged",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_RangeAttack_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_RangeAttack_Popup_Desc_1_PC_Format",
+          "Guide_RangeAttack_Popup_Desc_2",
+          "Guide_RangeAttack_Popup_Desc_3_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_RangeAttack_1.bk2",
+          "Movies/Guide_RangeAttack_2.bk2",
+          "Movies/Guide_RangeAttack_3.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Ranged_RangedAttack",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Ranged_Missile": {
+        "ID": 20,
+        "ManualType": "ESBManualType::ESBManualType_Ranged",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Skill_Missile_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Skill_Missile_Popup_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Skill_Missile_1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Ranged_Missile",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Ranged_Railgun": {
+        "ID": 21,
+        "ManualType": "ESBManualType::ESBManualType_Ranged",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Skill_Railgun_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Skill_Railgun_Popup_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Skill_Railgun_1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Ranged_Railgun",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Item_Gear": {
+        "ID": 22,
+        "ManualType": "ESBManualType::ESBManualType_Item",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Gear_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Gear_Popup_Desc_1",
+          "Guide_Gear_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Gear_1.bk2",
+          "Movies/Guide_Gear_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Item_Gear",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Item_ExoSpine": {
+        "ID": 23,
+        "ManualType": "ESBManualType::ESBManualType_Item",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Exospine_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Exospine_Popup_Desc_1",
+          "Guide_Exospine_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Exospine_1.bk2",
+          "Movies/Guide_Exospine_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Item_ExoSpine",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Item_Potion": {
+        "ID": 24,
+        "ManualType": "ESBManualType::ESBManualType_Item",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Potion_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Potion_Popup_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Manual_Item_Potion.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Item_Potion",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Item_Grenade": {
+        "ID": 25,
+        "ManualType": "ESBManualType::ESBManualType_Item",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Grenade_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Grenade_Popup_Desc_1_PC",
+          "Guide_Grenade_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Grenade_1.bk2",
+          "Movies/Guide_Grenade_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Item_Grenade",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Item_NanosuitMaking": {
+        "ID": 26,
+        "ManualType": "ESBManualType::ESBManualType_Item",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_NanosuitMaking_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_NanosuitMaking_Popup_Desc_1",
+          "Guide_NanosuitMaking_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_NanoSuit_1.bk2",
+          "Movies/Guide_NanoSuit_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Item_NanosuitMaking",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Item_Camera": {
+        "ID": 71,
+        "ManualType": "ESBManualType::ESBManualType_Item",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Camera_Title",
+        "DescStringKeyArray": [
+          "Guide_Camera_Popup_Desc_1_PC",
+          "Guide_Camera_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Camera_1.bk2",
+          "Movies/Guide_Camera_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Item_Camera",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_Camp": {
+        "ID": 27,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Camp_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Camp_Popup_Desc_1",
+          "Guide_Camp_Popup_Desc_2",
+          "Guide_Camp_Popup_Desc_3"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Camp_1.bk2",
+          "Movies/Guide_Camp_2.bk2",
+          ""
+        ],
+        "ImagePathArray": [
+          "",
+          "",
+          "Texture2D'/Game/Art/UI/Texture/InGameGuide/Guide_Camp_3.Guide_Camp_3'"
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_Camp",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_FullCamp": {
+        "ID": 28,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_FullCamp_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_FullCamp_Popup_Desc_1",
+          "Guide_FullCamp_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_FullCamp_1.bk2",
+          "Movies/Guide_FullCamp_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_FullCamp",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_Scan": {
+        "ID": 29,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Scan_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Scan_Popup_Desc_1_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_ScanEventMoveObject_1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_Scan",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_Quest": {
+        "ID": 30,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Quest_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Quest_Popup_Desc_1",
+          "Guide_Quest_Popup_Desc_3_PC"
+        ],
+        "MoviePathArray": [
+          "",
+          "Movies/Guide_Quest_2.bk2"
+        ],
+        "ImagePathArray": [
+          "Texture2D'/Game/Art/UI/Texture/InGameGuide/Guide_Quest_1.Guide_Quest_1'",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_Quest",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_Request": {
+        "ID": 31,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Request_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Request_Popup_Desc_1",
+          "Guide_Request_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Request_1.bk2",
+          "Movies/Guide_Request_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_Request",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_Fishing": {
+        "ID": 32,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Fishing_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Fishing_Popup_Desc_1",
+          "Guide_Fishing_Popup_Desc_2_PC",
+          "Guide_Fishing_Popup_Desc_3_PC",
+          "Guide_Fishing_Popup_Desc_4_PC",
+          "Guide_Fishing_Popup_Desc_5"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Fishing_1.bk2",
+          "Movies/Guide_Fishing_2.bk2",
+          "Movies/Guide_Fishing_3.bk2",
+          "Movies/Guide_Fishing_4.bk2",
+          ""
+        ],
+        "ImagePathArray": [
+          "",
+          "",
+          "",
+          "",
+          "Texture2D'/Game/Art/UI/Texture/InGameGuide/Guide_Fishing_5.Guide_Fishing_5'"
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_Fishing",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_CanCollection": {
+        "ID": 33,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_CanCollect_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_CanCollect_Popup_Desc_1",
+          "Guide_CanCollect_Popup_Desc_2"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_CanCollection_1.bk2",
+          "Movies/Guide_CanCollection_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_CanCollection",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_Map": {
+        "ID": 34,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Map_Unlock_Title",
+        "DescStringKeyArray": [
+          "Guide_Map_Unlock_Desc_1",
+          "Guide_Map_Unlock_Desc_2_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Map_Unlock_1.bk2",
+          "Movies/Guide_Map_Unlock_2.bk2"
+        ],
+        "ImagePathArray": [
+          "",
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_Map",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Expedition_Friendship": {
+        "ID": 35,
+        "ManualType": "ESBManualType::ESBManualType_Expedition",
+        "bUseAcquisitionSkillString": false,
+        "GroupStringKey": "Guide_Friendship_Popup_Title",
+        "DescStringKeyArray": [
+          "Guide_Friendship_Popup_Desc_1"
+        ],
+        "MoviePathArray": [
+          "Movies/Guide_Friendship_1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Expedition_Friendship",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_0": {
+        "ID": 36,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackCombo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackCombo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackCombo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_0_Beta": {
+        "ID": 37,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackCombo1_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackCombo1_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackCombo1_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_AirLightAttack": {
+        "ID": 38,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_AirRollingAttack1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_AirLightAttackCombo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_AirLightAttackCombo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_AirLightAttack_Beta": {
+        "ID": 39,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_AirRollingAttack1_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_AirRollingAttack1_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_AirRollingAttack1_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_1": {
+        "ID": 40,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo2_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo2_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo2.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_1_Beta": {
+        "ID": 41,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo2_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo2_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo2_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_2": {
+        "ID": 42,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo3_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo3_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo3.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_2_Beta": {
+        "ID": 43,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo3_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo3_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo3_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_3": {
+        "ID": 44,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo5.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_3_Beta": {
+        "ID": 45,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo1_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo1_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo5_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_4": {
+        "ID": 46,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo4_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo4_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo4.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_LightAttack_4_Beta": {
+        "ID": 47,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_LightAttackAdditionalCombo4_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_LightAttackAdditionalCombo4_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_LightAttackAdditionalCombo4_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_1": {
+        "ID": 48,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_1_Beta": {
+        "ID": 49,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo1_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo1_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo1_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_2": {
+        "ID": 50,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo2_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo2_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo2.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_2_Beta": {
+        "ID": 51,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo2_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo2_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo2_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_3": {
+        "ID": 52,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo3_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo3_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo3.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_3_Beta": {
+        "ID": 53,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo3_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo3_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo3_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_4": {
+        "ID": 54,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo4_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo4_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo4.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "None",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_StrongAttack_4_Beta": {
+        "ID": 55,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_StrongAttackAdditionalCombo4_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_StrongAttackAdditionalCombo4_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_StrongAttackAdditionalCombo4_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_NormalSkillUpgrade4_1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_DashAttack_0": {
+        "ID": 56,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_DashAttack1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_DashAttack1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_DashAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Skill_Dash",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_DashAttack_1": {
+        "ID": 57,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_DashAttack1Combo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_DashAttack1Combo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_DashAttack1Combo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_DashAttack1Combo1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_DashAttack_1_Beta": {
+        "ID": 58,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_DashAttack1Combo1_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_DashAttack1Combo1_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_DashAttack1Combo1_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_DashAttack1Combo1",
+        "GroupUnlockConditionGroupAlias": "CG_Acquire_BetaChain"
+      },
+      "Manual_Combo_DashAttack_2": {
+        "ID": 59,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_DashAttack1Combo2_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_DashAttack1Combo2_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_DashAttack1Combo2.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_DashAttack1Combo2",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustEvadeDashAttack": {
+        "ID": 60,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustEvade_DashAttack1_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_JustEvade_DashAttack1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustEvade_DashAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Ach_Open_Manual_Combat_Evade",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_AirGuardBreak": {
+        "ID": 61,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_AirGuardBreak1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_AirGuardBreak1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_AirGuardBreak1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_AirGuardBreak1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_AirGuardBreak_Beta": {
+        "ID": 62,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_AirGuardBreak1_BetaChain_Name_Manual",
+        "DescStringKeyArray": [
+          "AcqSkill_AirGuardBreak1_BetaChain_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_AirGuardBreak1_BetaChain.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_AirGuardBreak1",
+        "GroupUnlockConditionGroupAlias": "CG_Acquire_BetaChain"
+      },
+      "Manual_Combo_JustParryCounter_1": {
+        "ID": 63,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustParryLightAttack1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustParryLightAttack1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustParryLightAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustParryLightAttack1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustParryCounter_1_Beta": {
+        "ID": 64,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustParryLightAttack1Combo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustParryLightAttack1Combo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustParryLightAttack1Combo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustParryLightAttack1Combo1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustParryCounter_2": {
+        "ID": 65,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustParryStrongAttack1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustParryStrongAttack1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustParryStrongAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustParryStrongAttack1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustParryCounter_2_Beta": {
+        "ID": 66,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustParryStrongAttack1Combo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustParryStrongAttack1Combo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustParryStrongAttack1Combo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustParryStrongAttack1Combo1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustEvadeCounter_1": {
+        "ID": 67,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustEvadeLightAttack1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustEvadeLightAttack1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustEvadeLightAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustEvadeLightAttack1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustEvadeCounter_1_Beta": {
+        "ID": 68,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustEvadeLightAttack1Combo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustEvadeLightAttack1Combo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustEvadeLightAttack1Combo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustEvadeLightAttack1Combo1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustEvadeCounter_2": {
+        "ID": 69,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustEvadeStrongAttack1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustEvadeStrongAttack1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustEvadeStrongAttack1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustEvadeStrongAttack1",
+        "GroupUnlockConditionGroupAlias": "None"
+      },
+      "Manual_Combo_JustEvadeCounter_2_Beta": {
+        "ID": 70,
+        "ManualType": "ESBManualType::ESBManualType_Combo",
+        "bUseAcquisitionSkillString": true,
+        "GroupStringKey": "AcqSkill_JustEvadeStrongAttack1Combo1_Name",
+        "DescStringKeyArray": [
+          "AcqSkill_JustEvadeStrongAttack1Combo1_Command_PC"
+        ],
+        "MoviePathArray": [
+          "Movies/SkillPreview_JustEvadeStrongAttack1Combo1.bk2"
+        ],
+        "ImagePathArray": [
+          ""
+        ],
+        "GroupUnlockAchievementAlias": "Acquire_Skill_JustEvadeStrongAttack1Combo1",
+        "GroupUnlockConditionGroupAlias": "None"
+      }
+    }
+  }
+]

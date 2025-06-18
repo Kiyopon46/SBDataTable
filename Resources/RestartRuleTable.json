@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RestartRuleTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBRestartRuleTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "TestRestartRule": {
+        "ID": 1,
+        "MainLevelTarget": "DED30_LevelTargetFilter_004",
+        "LookAtLevelTarget": "TQ_SysTest_Quest_02_LevelTargetFilter__04_001",
+        "SafetyDistance": 1000.0,
+        "OutsideLimitTime": 4.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "None",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_OutSide": {
+        "ID": 1710001,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 6000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_024",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_InOcean": {
+        "ID": 1710002,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 6000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_025",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_FrontEffectVol": {
+        "ID": 1710003,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 6000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_026",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_BackEffectVol": {
+        "ID": 1710004,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 6000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_027",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_M01": {
+        "ID": 1710005,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 5000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_028",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_M02": {
+        "ID": 1710006,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 6000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_028",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_M03": {
+        "ID": 1710007,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 4000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_029",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_M04": {
+        "ID": 1710008,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 6000.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "SD_10_E_Theater_028",
+        "FileSuffix": "None"
+      },
+      "RR_CQ_SD10_RR_M05": {
+        "ID": 1710009,
+        "MainLevelTarget": "SD_10_LevelTargetFilter_009",
+        "LookAtLevelTarget": "SD_10_LevelTargetFilter_013",
+        "SafetyDistance": 2200.0,
+        "OutsideLimitTime": 10.0,
+        "OutSideLevelSequence": "None",
+        "OutSideTheaterEvent": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

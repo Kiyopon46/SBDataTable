@@ -1,0 +1,314 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemConsumableTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBItemConsumableTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "HP_Recovery_Small": {
+        "ID": 1001,
+        "ConditionGroup": "CG_Item_ConsumeAllow_HP",
+        "EffectAliasArray": [
+          "Item_HP_Recovery_Small",
+          "P_Protector_Recovery2_Trigger",
+          "P_Protector_Recovery3_Trigger",
+          "P_Protector_Recovery2_MK2_Trigger",
+          "P_Protector_Recovery3_MK2_Trigger"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_Potion_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "HP_Recovery": {
+        "ID": 1002,
+        "ConditionGroup": "CG_Item_ConsumeAllow_HP",
+        "EffectAliasArray": [
+          "Item_HP_Recovery",
+          "P_Protector_Recovery2_Trigger",
+          "P_Protector_Recovery3_Trigger",
+          "P_Protector_Recovery2_MK2_Trigger",
+          "P_Protector_Recovery3_MK2_Trigger"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_Potion_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "HP_RPotion": {
+        "ID": 1003,
+        "ConditionGroup": "CG_Item_ConsumeAllow_HP",
+        "EffectAliasArray": [
+          "Item_HP_RPotion",
+          "P_Protector_Recovery2_Trigger",
+          "P_Protector_Recovery3_Trigger",
+          "P_Protector_Recovery2_MK2_Trigger",
+          "P_Protector_Recovery3_MK2_Trigger"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_Potion_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "HP2Burst_Potion": {
+        "ID": 1004,
+        "ConditionGroup": "CG_Item_ConsumeAllow_HP2Burst",
+        "EffectAliasArray": [
+          "Item_HP2Burst_Potion_ConsumeHP",
+          "Item_HP2Burst_Potion_GainBurstGauge"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_Buff_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "FishingRod": {
+        "ID": 1012,
+        "ConditionGroup": "CG_Use_FishingRod",
+        "EffectAliasArray": [
+          "P_Eve_FishingMode"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_FishingRod",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": true,
+        "FileSuffix": "None"
+      },
+      "C_Grenade": {
+        "ID": 1014,
+        "ConditionGroup": "CG_Item_UseGrenade",
+        "EffectAliasArray": [
+          "Item_C_Grenade",
+          "Item_C_Grenade_BelowNormalEnhanced",
+          "Item_C_Grenade_RangeEnhanced"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 1000,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_CGrenade",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "P_Grenade": {
+        "ID": 1015,
+        "ConditionGroup": "CG_Item_UseGrenade",
+        "EffectAliasArray": [
+          "Item_P_Grenade",
+          "Item_P_Grenade_RangeEnhanced"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 2000,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_PGrenade",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Trap_Grenade": {
+        "ID": 1016,
+        "ConditionGroup": "CG_Item_UseGrenade",
+        "EffectAliasArray": [
+          "Item_Trap_Grenade"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 1000,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_TarpGrenade",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Flash_Grenade": {
+        "ID": 1017,
+        "ConditionGroup": "CG_Item_UseGrenade",
+        "EffectAliasArray": [
+          "Item_Flash_Grenade",
+          "Item_Flash_Grenade_RangeEnhanced"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 2000,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_FlashGrenade",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Heal_Grenade": {
+        "ID": 1018,
+        "ConditionGroup": "CG_Item_UseGrenade",
+        "EffectAliasArray": [
+          "Item_Heal_Grenade"
+        ],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 2000,
+        "ConsumeSkillAlias": "P_Eve_Sword_Normal_HealGrenade",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Resurrection": {
+        "ID": 1021,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [
+          "Item_Resurrection_Ground",
+          "Item_Resurrection_Swim",
+          "Item_Resurrection_UWSwim",
+          "Item_Resurrection_EventMove"
+        ],
+        "ConsumeImmidiate": true,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "None",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "LureConsume": {
+        "ID": 1022,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": true,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "None",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Bullet_Normal_Consume": {
+        "ID": 1023,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Gun_ShootSlug1_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Bullet_Missile_Consume": {
+        "ID": 1024,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": true,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Gun_ShootMissile1_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Bullet_Railgun_Consume": {
+        "ID": 1025,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": true,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Gun_ShootRailgun1_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Bullet_Scatter_Consume": {
+        "ID": 1026,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 500,
+        "ConsumeSkillAlias": "P_Eve_Gun_ShootScatterSlug1_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Bullet_Shock_Consume": {
+        "ID": 1027,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 1500,
+        "ConsumeSkillAlias": "P_Eve_Gun_ShootShockSlug1_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Bullet_Explosive_Consume": {
+        "ID": 1028,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_Gun_ShootExplosiveSlug1_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Camera": {
+        "ID": 1029,
+        "ConditionGroup": "CG_Use_Camera",
+        "EffectAliasArray": [
+          "SelfieMode"
+        ],
+        "ConsumeImmidiate": true,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "None",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": true,
+        "FileSuffix": "None"
+      },
+      "Bullet_Nikke_Consume": {
+        "ID": 1030,
+        "ConditionGroup": "None",
+        "EffectAliasArray": [],
+        "ConsumeImmidiate": false,
+        "ConsumeCoolTime": 0,
+        "ConsumeSkillAlias": "P_Eve_GunNikke_ShootSlug1_1",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      },
+      "Potion_Nikke_Consume": {
+        "ID": 1031,
+        "ConditionGroup": "CG_Item_ConsumeAllow_HP",
+        "EffectAliasArray": [
+          "P_Eve_Potion_Nikke_Consume"
+        ],
+        "ConsumeImmidiate": true,
+        "ConsumeCoolTime": 1,
+        "ConsumeSkillAlias": "None",
+        "ConsumeEnergyType": "ESBSkillEnergyType::SkillEnergyType_None",
+        "ConsumeEnergyAmount": 0.0,
+        "NotRemoveItem": false,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

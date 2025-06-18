@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceCacheSequenceTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBResourceCacheSequenceTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "Zone",
+        "QuestEpic",
+        "CustomGroup1"
+      ]
+    },
+    "Rows": {
+      "Quest_Epic_03_MV_Xion01_Phase1_SmallTalk_Street_01": {
+        "ID": 103002,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_03",
+        "CustomGroup1": "Quest_Epic_03_M01",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_Phase1_SmallTalk_Street_01_Theater.MV_Xion01_Phase1_SmallTalk_Street_01_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_03_MV_Xion06_ElderFirstMeeting": {
+        "ID": 103003,
+        "Zone": "Zone_Xion_20",
+        "QuestEpic": "Quest_Epic_03",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion06/Theater/MV_Xion06_ElderFirstMeeting.MV_Xion06_ElderFirstMeeting'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_03_MV_Xion07_HyperDriveOperation1st": {
+        "ID": 103004,
+        "Zone": "Zone_Xion_22",
+        "QuestEpic": "Quest_Epic_03",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion07/Theater/MV_Xion07_HyperDriveOperation1st.MV_Xion07_HyperDriveOperation1st'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_03_MV_Xion01_DroneUpgrade_Main": {
+        "ID": 103005,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_03",
+        "CustomGroup1": "Quest_Epic_03_M04",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_DroneUpgrade_Theater.MV_Xion01_DroneUpgrade_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_03_MV_Xion01_DroneUpgrade_SetPosition": {
+        "ID": 103006,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_03",
+        "CustomGroup1": "Quest_Epic_03_M04",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_DroneUpgrade_SetPosition_Theater.MV_Xion01_DroneUpgrade_SetPosition_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_03_MV_Xion01_PODFirstLanding_LookingAround_Main": {
+        "ID": 103007,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_03",
+        "CustomGroup1": "Quest_Epic_03_M01",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_PODFirstLanding_LookingAround_Theater.MV_Xion01_PODFirstLanding_LookingAround_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_03_MV_Xion01_PODFirstLanding_TowerView": {
+        "ID": 103008,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_03",
+        "CustomGroup1": "Quest_Epic_03_M01",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_PODFirstLanding_ElevatorUpper_Theater.MV_Xion01_PODFirstLanding_ElevatorUpper_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_05_MV_Xion07_Phase2_HyperDriveOperation": {
+        "ID": 105001,
+        "Zone": "Zone_Xion_22",
+        "QuestEpic": "Quest_Epic_05",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion07/Theater/MV_Xion07_Phase2_HyperDriveOperation.MV_Xion07_Phase2_HyperDriveOperation'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_06_MV_Xion01_POD_Xion_To_Matrix_Main": {
+        "ID": 106001,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_06",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_POD_Xion_To_Matrix_Theater.MV_Xion01_POD_Xion_To_Matrix_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_07_MV_Xion01_Legacy2_Hologram": {
+        "ID": 107002,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_07",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_Legacy2_Hologram.MV_Xion01_Legacy2_Hologram'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_07_MV_Xion01_AfterSecondLegacy": {
+        "ID": 107003,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_07",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_AfterSecondLegacy_Theater.MV_Xion01_AfterSecondLegacy_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_11_MV_Xion01_P5_BurningXion_Main": {
+        "ID": 111001,
+        "Zone": "Zone_Xion_10",
+        "QuestEpic": "Quest_Epic_11",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion01/Theater/MV_Xion01_P5_BurningXion_Theater.MV_Xion01_P5_BurningXion_Theater'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_11_MV_Xion06_RavenAppearance": {
+        "ID": 111002,
+        "Zone": "Zone_Xion_20",
+        "QuestEpic": "Quest_Epic_11",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion06/Theater/MV_Xion06_RavenAppearance.MV_Xion06_RavenAppearance'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_11_MV_Xion06_RavenFinish_QTE_Master": {
+        "ID": 111003,
+        "Zone": "Zone_Xion_20",
+        "QuestEpic": "Quest_Epic_11",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion06/Theater/MV_Xion06_RavenFinish_QTE.MV_Xion06_RavenFinish_QTE'",
+        "FileSuffix": "None"
+      },
+      "Quest_Epic_11_MV_Xion07_GoodbyeElder": {
+        "ID": 111004,
+        "Zone": "Zone_Xion_22",
+        "QuestEpic": "Quest_Epic_11",
+        "CustomGroup1": "None",
+        "AssetPath": "SBTheaterData'/Game/GameDesign/Level/Theater/Xion/Xion07/Theater/MV_Xion07_GoodbyeElder.MV_Xion07_GoodbyeElder'",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

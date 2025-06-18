@@ -1,0 +1,3994 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemSpawnTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBItemSpawnTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "DED10_E_ItemS_024": {
+        "ID": 1,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_030": {
+        "ID": 2,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_047": {
+        "ID": 3,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 45,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_049": {
+        "ID": 4,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 54,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_057": {
+        "ID": 5,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_058": {
+        "ID": 6,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_060": {
+        "ID": 7,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_061": {
+        "ID": 8,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_062": {
+        "ID": 9,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_063": {
+        "ID": 10,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_064": {
+        "ID": 11,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_067": {
+        "ID": 12,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 42,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_070": {
+        "ID": 13,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_072": {
+        "ID": 14,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_077": {
+        "ID": 15,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_078": {
+        "ID": 16,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_081": {
+        "ID": 17,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_083": {
+        "ID": 18,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_084": {
+        "ID": 19,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_085": {
+        "ID": 20,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 36,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_086": {
+        "ID": 21,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_087": {
+        "ID": 22,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_088": {
+        "ID": 23,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 56,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_089": {
+        "ID": 24,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_090": {
+        "ID": 25,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_091": {
+        "ID": 26,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_092": {
+        "ID": 27,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 14,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_093": {
+        "ID": 28,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_094": {
+        "ID": 29,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 17,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_095": {
+        "ID": 30,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_096": {
+        "ID": 31,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 40,
+        "FileSuffix": "None"
+      },
+      "DED10_E_ItemS_097": {
+        "ID": 32,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_005": {
+        "ID": 33,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_007": {
+        "ID": 34,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_008": {
+        "ID": 35,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_014": {
+        "ID": 36,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_017": {
+        "ID": 37,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_018": {
+        "ID": 38,
+        "ItemAlias": "EQ_Item_IED",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_019": {
+        "ID": 39,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_020": {
+        "ID": 40,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_021": {
+        "ID": 41,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_022": {
+        "ID": 42,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_024": {
+        "ID": 43,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_025": {
+        "ID": 44,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_028": {
+        "ID": 45,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_034": {
+        "ID": 46,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 42,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_035": {
+        "ID": 47,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_036": {
+        "ID": 48,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_037": {
+        "ID": 49,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_038": {
+        "ID": 50,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_039": {
+        "ID": 51,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 37,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_040": {
+        "ID": 52,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_041": {
+        "ID": 53,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_042": {
+        "ID": 54,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_043": {
+        "ID": 55,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_044": {
+        "ID": 56,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_045": {
+        "ID": 57,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_046": {
+        "ID": 58,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_047": {
+        "ID": 59,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 51,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_048": {
+        "ID": 60,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_053": {
+        "ID": 61,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 45,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_052": {
+        "ID": 62,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_051": {
+        "ID": 63,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_050": {
+        "ID": 64,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_049": {
+        "ID": 65,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_067": {
+        "ID": 66,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_068": {
+        "ID": 67,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 42,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_066": {
+        "ID": 68,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 45,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_065": {
+        "ID": 69,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_064": {
+        "ID": 70,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 45,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_063": {
+        "ID": 71,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_062": {
+        "ID": 72,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 47,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_061": {
+        "ID": 73,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 58,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_060": {
+        "ID": 74,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_059": {
+        "ID": 75,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_058": {
+        "ID": 76,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_057": {
+        "ID": 77,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_056": {
+        "ID": 78,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_069": {
+        "ID": 79,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 46,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_070": {
+        "ID": 80,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED20_E_ItemS_071": {
+        "ID": 81,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_010": {
+        "ID": 82,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_011": {
+        "ID": 83,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_012": {
+        "ID": 84,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_014": {
+        "ID": 85,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_016": {
+        "ID": 86,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_020": {
+        "ID": 87,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 39,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_021": {
+        "ID": 88,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "DED30_E_ItemS_022": {
+        "ID": 89,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 39,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_001": {
+        "ID": 90,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_002": {
+        "ID": 91,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_003": {
+        "ID": 92,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_004": {
+        "ID": 93,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_005": {
+        "ID": 94,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 49,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_009": {
+        "ID": 95,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 56,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_010": {
+        "ID": 96,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_011": {
+        "ID": 97,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 47,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_012": {
+        "ID": 98,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_013": {
+        "ID": 99,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_014": {
+        "ID": 100,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_015": {
+        "ID": 101,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 14,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_016": {
+        "ID": 102,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_017": {
+        "ID": 103,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_018": {
+        "ID": 104,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 52,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_019": {
+        "ID": 105,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "Xion_10_E_ItemS_020": {
+        "ID": 106,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "Xion_20_E_ItemS_001": {
+        "ID": 107,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_001": {
+        "ID": 108,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_005": {
+        "ID": 109,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_009": {
+        "ID": 110,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_010": {
+        "ID": 111,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_011": {
+        "ID": 112,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_012": {
+        "ID": 113,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_013": {
+        "ID": 114,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_014": {
+        "ID": 115,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_015": {
+        "ID": 116,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_016": {
+        "ID": 117,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 50,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_017": {
+        "ID": 118,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_019": {
+        "ID": 119,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 39,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_020": {
+        "ID": 120,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_021": {
+        "ID": 121,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_022": {
+        "ID": 122,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_023": {
+        "ID": 123,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_024": {
+        "ID": 124,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_025": {
+        "ID": 125,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 45,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_029": {
+        "ID": 126,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_10_E_ItemS_030": {
+        "ID": 127,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_001": {
+        "ID": 128,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_002": {
+        "ID": 129,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_003": {
+        "ID": 130,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_004": {
+        "ID": 131,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_005": {
+        "ID": 132,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_006": {
+        "ID": 133,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_007": {
+        "ID": 134,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_008": {
+        "ID": 135,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_009": {
+        "ID": 136,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_010": {
+        "ID": 137,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 54,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_011": {
+        "ID": 138,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_012": {
+        "ID": 139,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 16,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_013": {
+        "ID": 140,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_014": {
+        "ID": 141,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_015": {
+        "ID": 142,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_016": {
+        "ID": 143,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_019": {
+        "ID": 144,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 55,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_020": {
+        "ID": 145,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_021": {
+        "ID": 146,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 56,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_022": {
+        "ID": 147,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_023": {
+        "ID": 148,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_024": {
+        "ID": 149,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLA_30_E_ItemS_025": {
+        "ID": 150,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_016": {
+        "ID": 151,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_015": {
+        "ID": 152,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_014": {
+        "ID": 153,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_013": {
+        "ID": 154,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_011": {
+        "ID": 155,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_010": {
+        "ID": 156,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_009": {
+        "ID": 157,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 55,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_008": {
+        "ID": 158,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_001": {
+        "ID": 159,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_002": {
+        "ID": 160,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_003": {
+        "ID": 161,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 42,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_004": {
+        "ID": 162,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_005": {
+        "ID": 163,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_006": {
+        "ID": 164,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_017": {
+        "ID": 165,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_018": {
+        "ID": 166,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_019": {
+        "ID": 167,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 36,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_020": {
+        "ID": 168,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_40_E_ItemS_021": {
+        "ID": 169,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_ItemS_013": {
+        "ID": 170,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_ItemS_014": {
+        "ID": 171,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_ItemS_015": {
+        "ID": 172,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_ItemS_016": {
+        "ID": 173,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "WLA_50_E_ItemS_017": {
+        "ID": 174,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ItemS_001": {
+        "ID": 175,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ItemS_002": {
+        "ID": 176,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ItemS_003": {
+        "ID": 177,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 37,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ItemS_004": {
+        "ID": 178,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ItemS_005": {
+        "ID": 179,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ItemS_006": {
+        "ID": 180,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ATL_01_E_ItemS_007": {
+        "ID": 181,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_001": {
+        "ID": 182,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_002": {
+        "ID": 183,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_003": {
+        "ID": 184,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_004": {
+        "ID": 185,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_005": {
+        "ID": 186,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_006": {
+        "ID": 187,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_007": {
+        "ID": 188,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_008": {
+        "ID": 189,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_009": {
+        "ID": 190,
+        "ItemAlias": "EQ_Item_IED",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_010": {
+        "ID": 191,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_02_E_ItemS_011": {
+        "ID": 192,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_001": {
+        "ID": 193,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_002": {
+        "ID": 194,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_003": {
+        "ID": 195,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_004": {
+        "ID": 196,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_005": {
+        "ID": 197,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_006": {
+        "ID": 198,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 46,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_007": {
+        "ID": 199,
+        "ItemAlias": "Bullet_Missile",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_008": {
+        "ID": 200,
+        "ItemAlias": "Bullet_Railgun",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_009": {
+        "ID": 201,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_010": {
+        "ID": 202,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_011": {
+        "ID": 203,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_012": {
+        "ID": 204,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_013": {
+        "ID": 205,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_014": {
+        "ID": 206,
+        "ItemAlias": "Bullet_Missile",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_015": {
+        "ID": 207,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_016": {
+        "ID": 208,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_017": {
+        "ID": 209,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_018": {
+        "ID": 210,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_019": {
+        "ID": 211,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_020": {
+        "ID": 212,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_021": {
+        "ID": 213,
+        "ItemAlias": "Bullet_Railgun",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_022": {
+        "ID": 214,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_023": {
+        "ID": 215,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_024": {
+        "ID": 216,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_025": {
+        "ID": 217,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_033": {
+        "ID": 218,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 58,
+        "FileSuffix": "None"
+      },
+      "ATL_03_E_ItemS_034": {
+        "ID": 219,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_001": {
+        "ID": 220,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_002": {
+        "ID": 221,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_003": {
+        "ID": 222,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_004": {
+        "ID": 223,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 36,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_005": {
+        "ID": 224,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_006": {
+        "ID": 225,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_008": {
+        "ID": 226,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_010": {
+        "ID": 227,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_013": {
+        "ID": 228,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_018": {
+        "ID": 229,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 51,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_022": {
+        "ID": 230,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_023": {
+        "ID": 231,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_025": {
+        "ID": 232,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_027": {
+        "ID": 233,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_029": {
+        "ID": 234,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_030": {
+        "ID": 235,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ME_01_E_ItemS_031": {
+        "ID": 236,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 35,
+        "FileSuffix": "None"
+      },
+      "ME_02_E_ItemS_001": {
+        "ID": 237,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ME_02_E_ItemS_002": {
+        "ID": 238,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "ME_02_E_ItemS_003": {
+        "ID": 239,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "ME_02_E_ItemS_005": {
+        "ID": 240,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "ME_02_E_ItemS_007": {
+        "ID": 241,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 17,
+        "FileSuffix": "None"
+      },
+      "ME_02_E_ItemS_008": {
+        "ID": 242,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ME_02_E_ItemS_009": {
+        "ID": 243,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_001": {
+        "ID": 244,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_003": {
+        "ID": 245,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_004": {
+        "ID": 246,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_006": {
+        "ID": 247,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_007": {
+        "ID": 248,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_008": {
+        "ID": 249,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_009": {
+        "ID": 250,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_011": {
+        "ID": 251,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_014": {
+        "ID": 252,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "ME_03_E_ItemS_015": {
+        "ID": 253,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_003": {
+        "ID": 254,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_004": {
+        "ID": 255,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_005": {
+        "ID": 256,
+        "ItemAlias": "EQ_Item_IED",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_010": {
+        "ID": 257,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 55,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_014": {
+        "ID": 258,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_015": {
+        "ID": 259,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_017": {
+        "ID": 260,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_020": {
+        "ID": 261,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 14,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_022": {
+        "ID": 262,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 46,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_023": {
+        "ID": 263,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_026": {
+        "ID": 264,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_030": {
+        "ID": 265,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_032": {
+        "ID": 266,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_033": {
+        "ID": 267,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_034": {
+        "ID": 268,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 37,
+        "FileSuffix": "None"
+      },
+      "ME_04_E_ItemS_039": {
+        "ID": 269,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_003": {
+        "ID": 270,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_005": {
+        "ID": 271,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_007": {
+        "ID": 272,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_008": {
+        "ID": 273,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_009": {
+        "ID": 274,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_013": {
+        "ID": 275,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_016": {
+        "ID": 276,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_017": {
+        "ID": 277,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_019": {
+        "ID": 278,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_020": {
+        "ID": 279,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 21,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_022": {
+        "ID": 280,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 29,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_023": {
+        "ID": 281,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 21,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_024": {
+        "ID": 282,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 18,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_025": {
+        "ID": 283,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 27,
+        "FileSuffix": "None"
+      },
+      "ME_05_E_ItemS_030": {
+        "ID": 284,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "ME_06_E_ItemS_002": {
+        "ID": 285,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "ME_06_E_ItemS_003": {
+        "ID": 286,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "ME_06_E_ItemS_004": {
+        "ID": 287,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_001": {
+        "ID": 288,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_002": {
+        "ID": 289,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_005": {
+        "ID": 290,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_006": {
+        "ID": 291,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_007": {
+        "ID": 292,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_008": {
+        "ID": 293,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_009": {
+        "ID": 294,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_010": {
+        "ID": 295,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_013": {
+        "ID": 296,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 54,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_014": {
+        "ID": 297,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_015": {
+        "ID": 298,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_016": {
+        "ID": 299,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_017": {
+        "ID": 300,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 35,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_024": {
+        "ID": 301,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_023": {
+        "ID": 302,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 37,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_022": {
+        "ID": 303,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_021": {
+        "ID": 304,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_020": {
+        "ID": 305,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 47,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_019": {
+        "ID": 306,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 55,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_026": {
+        "ID": 307,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_028": {
+        "ID": 308,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_10_E_ItemS_027": {
+        "ID": 309,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_001": {
+        "ID": 310,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_002": {
+        "ID": 311,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_004": {
+        "ID": 312,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_006": {
+        "ID": 313,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_015": {
+        "ID": 314,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_016": {
+        "ID": 315,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_017": {
+        "ID": 316,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_025": {
+        "ID": 317,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 55,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_024": {
+        "ID": 318,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_023": {
+        "ID": 319,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_022": {
+        "ID": 320,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_020": {
+        "ID": 321,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_019": {
+        "ID": 322,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_018": {
+        "ID": 323,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_027": {
+        "ID": 324,
+        "ItemAlias": "ConcussionGrenade",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_028": {
+        "ID": 325,
+        "ItemAlias": "PulseGrenade",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_029": {
+        "ID": 326,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 42,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_030": {
+        "ID": 327,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_031": {
+        "ID": 328,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_032": {
+        "ID": 329,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_033": {
+        "ID": 330,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 36,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_034": {
+        "ID": 331,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 56,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_036": {
+        "ID": 332,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_035": {
+        "ID": 333,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_026": {
+        "ID": 334,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_20_E_ItemS_037": {
+        "ID": 335,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_001": {
+        "ID": 336,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_003": {
+        "ID": 337,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_004": {
+        "ID": 338,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 42,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_005": {
+        "ID": 339,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_006": {
+        "ID": 340,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_007": {
+        "ID": 341,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_008": {
+        "ID": 342,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_009": {
+        "ID": 343,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_010": {
+        "ID": 344,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_30_E_ItemS_011": {
+        "ID": 345,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_40_E_ItemS_001": {
+        "ID": 346,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_001": {
+        "ID": 347,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_002": {
+        "ID": 348,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_003": {
+        "ID": 349,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_004": {
+        "ID": 350,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_005": {
+        "ID": 351,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_006": {
+        "ID": 352,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_007": {
+        "ID": 353,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 58,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_008": {
+        "ID": 354,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 16,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_009": {
+        "ID": 355,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_012": {
+        "ID": 356,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_013": {
+        "ID": 357,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_014": {
+        "ID": 358,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_015": {
+        "ID": 359,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_016": {
+        "ID": 360,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_017": {
+        "ID": 361,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_018": {
+        "ID": 362,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 50,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_019": {
+        "ID": 363,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_020": {
+        "ID": 364,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_021": {
+        "ID": 365,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_022": {
+        "ID": 366,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 52,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_023": {
+        "ID": 367,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 57,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_024": {
+        "ID": 368,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 54,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_025": {
+        "ID": 369,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 39,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_026": {
+        "ID": 370,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_027": {
+        "ID": 371,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_028": {
+        "ID": 372,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_029": {
+        "ID": 373,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 46,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_030": {
+        "ID": 374,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 36,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_031": {
+        "ID": 375,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_032": {
+        "ID": 376,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_034": {
+        "ID": 377,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_035": {
+        "ID": 378,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_036": {
+        "ID": 379,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_033": {
+        "ID": 380,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_046": {
+        "ID": 381,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_047": {
+        "ID": 382,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_048": {
+        "ID": 383,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_037": {
+        "ID": 384,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_049": {
+        "ID": 385,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_050": {
+        "ID": 386,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_051": {
+        "ID": 387,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_052": {
+        "ID": 388,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_053": {
+        "ID": 389,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_054": {
+        "ID": 390,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_055": {
+        "ID": 391,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_056": {
+        "ID": 392,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_057": {
+        "ID": 393,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_038": {
+        "ID": 394,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_039": {
+        "ID": 395,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_058": {
+        "ID": 396,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_040": {
+        "ID": 397,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_059": {
+        "ID": 398,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_060": {
+        "ID": 399,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_061": {
+        "ID": 400,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_062": {
+        "ID": 401,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_063": {
+        "ID": 402,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_064": {
+        "ID": 403,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_065": {
+        "ID": 404,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_041": {
+        "ID": 405,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_042": {
+        "ID": 406,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_043": {
+        "ID": 407,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_066": {
+        "ID": 408,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_067": {
+        "ID": 409,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_068": {
+        "ID": 410,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_044": {
+        "ID": 411,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_069": {
+        "ID": 412,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_070": {
+        "ID": 413,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_071": {
+        "ID": 414,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_072": {
+        "ID": 415,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 47,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_073": {
+        "ID": 416,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_074": {
+        "ID": 417,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 35,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_075": {
+        "ID": 418,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 40,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_077": {
+        "ID": 419,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "WLB_50_E_ItemS_076": {
+        "ID": 420,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_020": {
+        "ID": 421,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_019": {
+        "ID": 422,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_018": {
+        "ID": 423,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_017": {
+        "ID": 424,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_016": {
+        "ID": 425,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_015": {
+        "ID": 426,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_014": {
+        "ID": 427,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 54,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_013": {
+        "ID": 428,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_012": {
+        "ID": 429,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_011": {
+        "ID": 430,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_01_E_ItemS_007": {
+        "ID": 431,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ItemS_007": {
+        "ID": 432,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ItemS_006": {
+        "ID": 433,
+        "ItemAlias": "Bullet_Missile",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ItemS_005": {
+        "ID": 434,
+        "ItemAlias": "Bullet_Railgun",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ItemS_004": {
+        "ID": 435,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ItemS_003": {
+        "ID": 436,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ItemS_002": {
+        "ID": 437,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_02_E_ItemS_001": {
+        "ID": 438,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_03_E_ItemS_003": {
+        "ID": 439,
+        "ItemAlias": "HP_Potion",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_03_E_ItemS_002": {
+        "ID": 440,
+        "ItemAlias": "HP_Potion_Small",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_03_E_ItemS_001": {
+        "ID": 441,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_022": {
+        "ID": 442,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_021": {
+        "ID": 443,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_020": {
+        "ID": 444,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_019": {
+        "ID": 445,
+        "ItemAlias": "Bullet_Missile",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_018": {
+        "ID": 446,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_017": {
+        "ID": 447,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_016": {
+        "ID": 448,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_015": {
+        "ID": 449,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_014": {
+        "ID": 450,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_013": {
+        "ID": 451,
+        "ItemAlias": "Bullet_Missile",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_012": {
+        "ID": 452,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_011": {
+        "ID": 453,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_010": {
+        "ID": 454,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_009": {
+        "ID": 455,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_008": {
+        "ID": 456,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_007": {
+        "ID": 457,
+        "ItemAlias": "Bullet_Scatter",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_006": {
+        "ID": 458,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_005": {
+        "ID": 459,
+        "ItemAlias": "Bullet_Normal",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_004": {
+        "ID": 460,
+        "ItemAlias": "Bullet_Explosive",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_003": {
+        "ID": 461,
+        "ItemAlias": "Bullet_Railgun",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_002": {
+        "ID": 462,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_001": {
+        "ID": 463,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_04_E_ItemS_023": {
+        "ID": 464,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_ItemS_006": {
+        "ID": 465,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 49,
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_ItemS_005": {
+        "ID": 466,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_ItemS_004": {
+        "ID": 467,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_ItemS_003": {
+        "ID": 468,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_ItemS_002": {
+        "ID": 469,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "AYL_05_E_ItemS_001": {
+        "ID": 470,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "AYL_06_E_ItemS_001": {
+        "ID": 471,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_059": {
+        "ID": 472,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_058": {
+        "ID": 473,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_057": {
+        "ID": 474,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_056": {
+        "ID": 475,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 51,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_055": {
+        "ID": 476,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_054": {
+        "ID": 477,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 44,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_053": {
+        "ID": 478,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 52,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_052": {
+        "ID": 479,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_051": {
+        "ID": 480,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_050": {
+        "ID": 481,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_049": {
+        "ID": 482,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_048": {
+        "ID": 483,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_047": {
+        "ID": 484,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_046": {
+        "ID": 485,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 54,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_045": {
+        "ID": 486,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_044": {
+        "ID": 487,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_043": {
+        "ID": 488,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_042": {
+        "ID": 489,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 14,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_041": {
+        "ID": 490,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_040": {
+        "ID": 491,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_039": {
+        "ID": 492,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_038": {
+        "ID": 493,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 58,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_037": {
+        "ID": 494,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 49,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_036": {
+        "ID": 495,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 14,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_033": {
+        "ID": 496,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_032": {
+        "ID": 497,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_031": {
+        "ID": 498,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_030": {
+        "ID": 499,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_029": {
+        "ID": 500,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_028": {
+        "ID": 501,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_027": {
+        "ID": 502,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_026": {
+        "ID": 503,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_025": {
+        "ID": 504,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_024": {
+        "ID": 505,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_023": {
+        "ID": 506,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_022": {
+        "ID": 507,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_020": {
+        "ID": 508,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_019": {
+        "ID": 509,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_018": {
+        "ID": 510,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 14,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_013": {
+        "ID": 511,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_010": {
+        "ID": 512,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_009": {
+        "ID": 513,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_006": {
+        "ID": 514,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_002": {
+        "ID": 515,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_060": {
+        "ID": 516,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 52,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_061": {
+        "ID": 517,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 52,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_062": {
+        "ID": 518,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 37,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_063": {
+        "ID": 519,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 46,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_067": {
+        "ID": 520,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_066": {
+        "ID": 521,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_065": {
+        "ID": 522,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_064": {
+        "ID": 523,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 39,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_070": {
+        "ID": 524,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 39,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_071": {
+        "ID": 525,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_072": {
+        "ID": 526,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "DED40_E_ItemS_073": {
+        "ID": 527,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_01_E_ItemS_006": {
+        "ID": 528,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_01_E_ItemS_010": {
+        "ID": 529,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "SE_01_E_ItemS_012": {
+        "ID": 530,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_01_E_ItemS_014": {
+        "ID": 531,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "SE_01_E_ItemS_017": {
+        "ID": 532,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 39,
+        "FileSuffix": "None"
+      },
+      "SE_01_E_ItemS_019": {
+        "ID": 533,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 38,
+        "FileSuffix": "None"
+      },
+      "SE_01_E_ItemS_020": {
+        "ID": 534,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "SE_02_E_ItemS_001": {
+        "ID": 535,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_02_E_ItemS_002": {
+        "ID": 536,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 55,
+        "FileSuffix": "None"
+      },
+      "SE_02_E_ItemS_003": {
+        "ID": 537,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 41,
+        "FileSuffix": "None"
+      },
+      "SE_02_E_ItemS_004": {
+        "ID": 538,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 43,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_071": {
+        "ID": 539,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_070": {
+        "ID": 540,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_069": {
+        "ID": 541,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_068": {
+        "ID": 542,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_067": {
+        "ID": 543,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_066": {
+        "ID": 544,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_065": {
+        "ID": 545,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_064": {
+        "ID": 546,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_063": {
+        "ID": 547,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_062": {
+        "ID": 548,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_061": {
+        "ID": 549,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_060": {
+        "ID": 550,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_059": {
+        "ID": 551,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_058": {
+        "ID": 552,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_057": {
+        "ID": 553,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_056": {
+        "ID": 554,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_055": {
+        "ID": 555,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_054": {
+        "ID": 556,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_053": {
+        "ID": 557,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_052": {
+        "ID": 558,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_051": {
+        "ID": 559,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_050": {
+        "ID": 560,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_049": {
+        "ID": 561,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_048": {
+        "ID": 562,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_047": {
+        "ID": 563,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_046": {
+        "ID": 564,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_045": {
+        "ID": 565,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_044": {
+        "ID": 566,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_043": {
+        "ID": 567,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_042": {
+        "ID": 568,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_041": {
+        "ID": 569,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_040": {
+        "ID": 570,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_039": {
+        "ID": 571,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_038": {
+        "ID": 572,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_037": {
+        "ID": 573,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_036": {
+        "ID": 574,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_035": {
+        "ID": 575,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_034": {
+        "ID": 576,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_033": {
+        "ID": 577,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_032": {
+        "ID": 578,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_031": {
+        "ID": 579,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_030": {
+        "ID": 580,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_029": {
+        "ID": 581,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_028": {
+        "ID": 582,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_027": {
+        "ID": 583,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_026": {
+        "ID": 584,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_025": {
+        "ID": 585,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_024": {
+        "ID": 586,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_023": {
+        "ID": 587,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_022": {
+        "ID": 588,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_021": {
+        "ID": 589,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_020": {
+        "ID": 590,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_019": {
+        "ID": 591,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_018": {
+        "ID": 592,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_017": {
+        "ID": 593,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_016": {
+        "ID": 594,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_015": {
+        "ID": 595,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_014": {
+        "ID": 596,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_013": {
+        "ID": 597,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_012": {
+        "ID": 598,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_011": {
+        "ID": 599,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_010": {
+        "ID": 600,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_009": {
+        "ID": 601,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_008": {
+        "ID": 602,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_007": {
+        "ID": 603,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_006": {
+        "ID": 604,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_005": {
+        "ID": 605,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_004": {
+        "ID": 606,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 13,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_003": {
+        "ID": 607,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_002": {
+        "ID": 608,
+        "ItemAlias": "Potion_ForInstance",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_03_E_ItemS_001": {
+        "ID": 609,
+        "ItemAlias": "BetaCrystal_ForLarge",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_001": {
+        "ID": 610,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_002": {
+        "ID": 611,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_003": {
+        "ID": 612,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_005": {
+        "ID": 613,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_006": {
+        "ID": 614,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_009": {
+        "ID": 615,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_013": {
+        "ID": 616,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_014": {
+        "ID": 617,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_016": {
+        "ID": 618,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 45,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_018": {
+        "ID": 619,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 7,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_023": {
+        "ID": 620,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_025": {
+        "ID": 621,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_026": {
+        "ID": 622,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_027": {
+        "ID": 623,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_028": {
+        "ID": 624,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_029": {
+        "ID": 625,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_030": {
+        "ID": 626,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 11,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_031": {
+        "ID": 627,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 47,
+        "FileSuffix": "None"
+      },
+      "SE_05_E_ItemS_033": {
+        "ID": 628,
+        "ItemAlias": "DroneCore",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_001": {
+        "ID": 629,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_002": {
+        "ID": 630,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_003": {
+        "ID": 631,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 53,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_005": {
+        "ID": 632,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_006": {
+        "ID": 633,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_007": {
+        "ID": 634,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_008": {
+        "ID": 635,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_013": {
+        "ID": 636,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_018": {
+        "ID": 637,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 8,
+        "FileSuffix": "None"
+      },
+      "SE_06_E_ItemS_023": {
+        "ID": 638,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 48,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_001": {
+        "ID": 639,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 4,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_005": {
+        "ID": 640,
+        "ItemAlias": "ECelluloseRayon",
+        "ItemCount": 5,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_006": {
+        "ID": 641,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_009": {
+        "ID": 642,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_010": {
+        "ID": 643,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 37,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_012": {
+        "ID": 644,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 37,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_013": {
+        "ID": 645,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 35,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_018": {
+        "ID": 646,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_019": {
+        "ID": 647,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_027": {
+        "ID": 648,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_028": {
+        "ID": 649,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_029": {
+        "ID": 650,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 10,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_030": {
+        "ID": 651,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 42,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_031": {
+        "ID": 652,
+        "ItemAlias": "HighDensityWafer",
+        "ItemCount": 6,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_032": {
+        "ID": 653,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_040": {
+        "ID": 654,
+        "ItemAlias": "PolymerOrganicFilm",
+        "ItemCount": 9,
+        "FileSuffix": "None"
+      },
+      "SE_07_E_ItemS_042": {
+        "ID": 655,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ItemS_008": {
+        "ID": 656,
+        "ItemAlias": "BetaCrystal",
+        "ItemCount": 36,
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ItemS_012": {
+        "ID": 657,
+        "ItemAlias": "LowDensityWafer",
+        "ItemCount": 12,
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ItemS_013": {
+        "ID": 658,
+        "ItemAlias": "ElastomerFiber",
+        "ItemCount": 15,
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ItemS_016": {
+        "ID": 659,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 3,
+        "FileSuffix": "None"
+      },
+      "SE_08_E_ItemS_017": {
+        "ID": 660,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_09_E_ItemS_001": {
+        "ID": 661,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      },
+      "SE_09_E_ItemS_002": {
+        "ID": 662,
+        "ItemAlias": "2DQuantumWafer",
+        "ItemCount": 2,
+        "FileSuffix": "None"
+      },
+      "Nest_10_E_ItemS_001": {
+        "ID": 663,
+        "ItemAlias": "ETC_Item_VendingMachineCoin",
+        "ItemCount": 1,
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

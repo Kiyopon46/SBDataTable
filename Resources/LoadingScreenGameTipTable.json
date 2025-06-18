@@ -1,0 +1,512 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LoadingScreenGameTipTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBLoadingScreenGameTipTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "GameTip_1": {
+        "ID": 1,
+        "Description": "UI_Tip_001",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "GameTip_2": {
+        "ID": 2,
+        "Description": "UI_Tip_002",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_2",
+        "FileSuffix": "None"
+      },
+      "GameTip_3": {
+        "ID": 3,
+        "Description": "UI_Tip_003",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "GameTip_4": {
+        "ID": 4,
+        "Description": "UI_Tip_004",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_4",
+        "FileSuffix": "None"
+      },
+      "GameTip_5": {
+        "ID": 5,
+        "Description": "UI_Tip_005",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_5",
+        "FileSuffix": "None"
+      },
+      "GameTip_6": {
+        "ID": 6,
+        "Description": "UI_Tip_006",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_6",
+        "FileSuffix": "None"
+      },
+      "GameTip_7": {
+        "ID": 7,
+        "Description": "UI_Tip_007",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_7",
+        "FileSuffix": "None"
+      },
+      "GameTip_8": {
+        "ID": 8,
+        "Description": "UI_Tip_008",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_8",
+        "FileSuffix": "None"
+      },
+      "GameTip_9": {
+        "ID": 9,
+        "Description": "UI_Tip_009",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_9",
+        "FileSuffix": "None"
+      },
+      "GameTip_10": {
+        "ID": 10,
+        "Description": "UI_Tip_010",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_10",
+        "FileSuffix": "None"
+      },
+      "GameTip_11": {
+        "ID": 11,
+        "Description": "UI_Tip_011",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "GameTip_12": {
+        "ID": 12,
+        "Description": "UI_Tip_012",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_12",
+        "FileSuffix": "None"
+      },
+      "GameTip_13": {
+        "ID": 13,
+        "Description": "UI_Tip_013",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_13",
+        "FileSuffix": "None"
+      },
+      "GameTip_14": {
+        "ID": 14,
+        "Description": "UI_Tip_014",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_14",
+        "FileSuffix": "None"
+      },
+      "GameTip_15": {
+        "ID": 15,
+        "Description": "UI_Tip_015",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "GameTip_16": {
+        "ID": 16,
+        "Description": "UI_Tip_016",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "GameTip_17": {
+        "ID": 17,
+        "Description": "UI_Tip_017",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "GameTip_18": {
+        "ID": 18,
+        "Description": "UI_Tip_018",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_18",
+        "FileSuffix": "None"
+      },
+      "GameTip_19": {
+        "ID": 19,
+        "Description": "UI_Tip_019",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_19",
+        "FileSuffix": "None"
+      },
+      "GameTip_20": {
+        "ID": 20,
+        "Description": "UI_Tip_020",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_20",
+        "FileSuffix": "None"
+      },
+      "GameTip_21": {
+        "ID": 21,
+        "Description": "UI_Tip_021",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "GameTip_22": {
+        "ID": 22,
+        "Description": "UI_Tip_022",
+        "TipGroup": "None",
+        "Condition": "None",
+        "ConditionGroup": "CG_GameTip_22",
+        "FileSuffix": "None"
+      },
+      "NikkeStage1_Tip_1": {
+        "ID": 23,
+        "Description": "NikkeMiniGame_Tip_1",
+        "TipGroup": "NikkeStage1",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage1_Tip_2": {
+        "ID": 24,
+        "Description": "NikkeMiniGame_Tip_4",
+        "TipGroup": "NikkeStage1",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage1_Tip_3": {
+        "ID": 25,
+        "Description": "NikkeMiniGame_Tip_5",
+        "TipGroup": "NikkeStage1",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage1_Tip_4": {
+        "ID": 26,
+        "Description": "NikkeMiniGame_Tip_6",
+        "TipGroup": "NikkeStage1",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage1_Tip_5": {
+        "ID": 27,
+        "Description": "NikkeMiniGame_Tip_7",
+        "TipGroup": "NikkeStage1",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage1_Tip_6": {
+        "ID": 28,
+        "Description": "NikkeMiniGame_Tip_8",
+        "TipGroup": "NikkeStage1",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage1_Tip_7": {
+        "ID": 29,
+        "Description": "NikkeMiniGame_Tip_9",
+        "TipGroup": "NikkeStage1",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_1": {
+        "ID": 30,
+        "Description": "NikkeMiniGame_Tip_1",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_2": {
+        "ID": 31,
+        "Description": "NikkeMiniGame_Tip_3",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_3": {
+        "ID": 32,
+        "Description": "NikkeMiniGame_Tip_4",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_4": {
+        "ID": 33,
+        "Description": "NikkeMiniGame_Tip_5",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_5": {
+        "ID": 34,
+        "Description": "NikkeMiniGame_Tip_6",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_6": {
+        "ID": 35,
+        "Description": "NikkeMiniGame_Tip_7",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_7": {
+        "ID": 36,
+        "Description": "NikkeMiniGame_Tip_8",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage2_Tip_8": {
+        "ID": 37,
+        "Description": "NikkeMiniGame_Tip_9",
+        "TipGroup": "NikkeStage2",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_1": {
+        "ID": 38,
+        "Description": "NikkeMiniGame_Tip_1",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_2": {
+        "ID": 39,
+        "Description": "NikkeMiniGame_Tip_3",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_3": {
+        "ID": 40,
+        "Description": "NikkeMiniGame_Tip_4",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_4": {
+        "ID": 41,
+        "Description": "NikkeMiniGame_Tip_5",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_5": {
+        "ID": 42,
+        "Description": "NikkeMiniGame_Tip_6",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_6": {
+        "ID": 43,
+        "Description": "NikkeMiniGame_Tip_7",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_7": {
+        "ID": 44,
+        "Description": "NikkeMiniGame_Tip_8",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage3_Tip_8": {
+        "ID": 45,
+        "Description": "NikkeMiniGame_Tip_9",
+        "TipGroup": "NikkeStage3",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_1": {
+        "ID": 46,
+        "Description": "NikkeMiniGame_Tip_1",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_2": {
+        "ID": 47,
+        "Description": "NikkeMiniGame_Tip_2",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_3": {
+        "ID": 48,
+        "Description": "NikkeMiniGame_Tip_3",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_4": {
+        "ID": 49,
+        "Description": "NikkeMiniGame_Tip_4",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_5": {
+        "ID": 50,
+        "Description": "NikkeMiniGame_Tip_5",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_6": {
+        "ID": 51,
+        "Description": "NikkeMiniGame_Tip_6",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_7": {
+        "ID": 52,
+        "Description": "NikkeMiniGame_Tip_7",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_8": {
+        "ID": 53,
+        "Description": "NikkeMiniGame_Tip_8",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage4_Tip_9": {
+        "ID": 54,
+        "Description": "NikkeMiniGame_Tip_9",
+        "TipGroup": "NikkeStage4",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_1": {
+        "ID": 55,
+        "Description": "NikkeMiniGame_Tip_1",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_2": {
+        "ID": 56,
+        "Description": "NikkeMiniGame_Tip_3",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_3": {
+        "ID": 57,
+        "Description": "NikkeMiniGame_Tip_4",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_4": {
+        "ID": 58,
+        "Description": "NikkeMiniGame_Tip_5",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_5": {
+        "ID": 59,
+        "Description": "NikkeMiniGame_Tip_6",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_6": {
+        "ID": 60,
+        "Description": "NikkeMiniGame_Tip_7",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_7": {
+        "ID": 61,
+        "Description": "NikkeMiniGame_Tip_8",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      },
+      "NikkeStage5_Tip_8": {
+        "ID": 62,
+        "Description": "NikkeMiniGame_Tip_9",
+        "TipGroup": "NikkeStage5",
+        "Condition": "None",
+        "ConditionGroup": "None",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

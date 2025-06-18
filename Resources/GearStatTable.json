@@ -1,0 +1,2815 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GearStatTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBGearStatTableProperty'",
+        "ObjectPath": "/Script/SB"
+      },
+      "IndexPropertySet": [
+        "StatCategoryTag",
+        "ActorStatType",
+        "EffectStatTag",
+        "StatLevel",
+        "Rarity"
+      ]
+    },
+    "Rows": {
+      "CriticalPercentage_Common": {
+        "ID": 1000001,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalPercentage_1",
+          "Gear_CriticalPercentage_1_ForStatViewer"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalPercentage_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Uncommon": {
+        "ID": 1000002,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalPercentage_2",
+          "Gear_CriticalPercentage_2_ForStatViewer"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalPercentage_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Rare": {
+        "ID": 1000003,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalPercentage_3",
+          "Gear_CriticalPercentage_3_ForStatViewer"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalPercentage_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Common": {
+        "ID": 1000004,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveFixedDamage_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveFixedDamage_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Uncommon": {
+        "ID": 1000005,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveFixedDamage_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveFixedDamage_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Rare": {
+        "ID": 1000006,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveFixedDamage_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveFixedDamage_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Common": {
+        "ID": 1000007,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxShield_1_MaxShield",
+          "Gear_MaxShield_1_Shield",
+          "Gear_MaxShield_1_ShieldRegen",
+          "Gear_MaxShield_1_ShieldRegenWhenBattle"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxShield_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Uncommon": {
+        "ID": 1000008,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxShield_2_MaxShield",
+          "Gear_MaxShield_2_Shield",
+          "Gear_MaxShield_2_ShieldRegen",
+          "Gear_MaxShield_2_ShieldRegenWhenBattle"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxShield_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Rare": {
+        "ID": 1000009,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxShield_3_MaxShield",
+          "Gear_MaxShield_3_Shield",
+          "Gear_MaxShield_3_ShieldRegen",
+          "Gear_MaxShield_3_ShieldRegenWhenBattle"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxShield_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Common": {
+        "ID": 1000010,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaGaugeAdditiveRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaGaugeAdditiveRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Uncommon": {
+        "ID": 1000011,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaGaugeAdditiveRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaGaugeAdditiveRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Rare": {
+        "ID": 1000012,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaGaugeAdditiveRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaGaugeAdditiveRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Common": {
+        "ID": 1000013,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldIgnorePercentage_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldIgnorePercentage_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Uncommon": {
+        "ID": 1000014,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldIgnorePercentage_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldIgnorePercentage_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Rare": {
+        "ID": 1000015,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldIgnorePercentage_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldIgnorePercentage_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Common": {
+        "ID": 1000016,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldAttackPowerRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldAttackPowerRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Uncommon": {
+        "ID": 1000017,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldAttackPowerRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldAttackPowerRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Rare": {
+        "ID": 1000018,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldAttackPowerRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldAttackPowerRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Common": {
+        "ID": 1000019,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageReductionRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageReductionRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Uncommon": {
+        "ID": 1000020,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageReductionRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageReductionRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Rare": {
+        "ID": 1000021,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageReductionRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageReductionRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Common": {
+        "ID": 1000022,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageAdditiveRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageAdditiveRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Uncommon": {
+        "ID": 1000023,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageAdditiveRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageAdditiveRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Rare": {
+        "ID": 1000024,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageAdditiveRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageAdditiveRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Common": {
+        "ID": 1000025,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeAttackDamageReductionRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeAttackDamageReductionRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Uncommon": {
+        "ID": 1000026,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeAttackDamageReductionRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeAttackDamageReductionRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Rare": {
+        "ID": 1000027,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeAttackDamageReductionRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeAttackDamageReductionRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Common": {
+        "ID": 1000028,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_HighHpDamageAdditiveRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_HighHpDamageAdditiveRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Uncommon": {
+        "ID": 1000029,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_HighHpDamageAdditiveRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_HighHpDamageAdditiveRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Rare": {
+        "ID": 1000030,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_HighHpDamageAdditiveRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_HighHpDamageAdditiveRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Common": {
+        "ID": 1000031,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalValueRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalValueRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Uncommon": {
+        "ID": 1000032,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalValueRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalValueRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Rare": {
+        "ID": 1000033,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalValueRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalValueRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Common": {
+        "ID": 1000034,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_LowHpDamageAdditiveRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_LowHpDamageAdditiveRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Uncommon": {
+        "ID": 1000035,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_LowHpDamageAdditiveRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_LowHpDamageAdditiveRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Rare": {
+        "ID": 1000036,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_LowHpDamageAdditiveRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_LowHpDamageAdditiveRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup5_Common": {
+        "ID": 1000037,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup5_1_Beta",
+          "Gear_AdditiveSkillDamageGroup5_1_BetaCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup5_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup5_Uncommon": {
+        "ID": 1000038,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup5_2_Beta",
+          "Gear_AdditiveSkillDamageGroup5_2_BetaCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup5_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup5_Rare": {
+        "ID": 1000039,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup5_3_Beta",
+          "Gear_AdditiveSkillDamageGroup5_3_BetaCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup5_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup6_Common": {
+        "ID": 1000040,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup6_1_Burst",
+          "Gear_AdditiveSkillDamageGroup6_1_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup6_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup6_Uncommon": {
+        "ID": 1000041,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup6_2_Burst",
+          "Gear_AdditiveSkillDamageGroup6_2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup6_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup6_Rare": {
+        "ID": 1000042,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup6_3_Burst",
+          "Gear_AdditiveSkillDamageGroup6_3_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup6_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Common": {
+        "ID": 1000043,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveGiveAndReciveDamageRate_1_AtkPwrUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_1_AtkPwrUp_Range",
+          "Gear_AdditiveGiveAndReciveDamageRate_1_HitDmgUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_1_HitDmgUp_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveGiveAndReciveDamageRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Uncommon": {
+        "ID": 1000044,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveGiveAndReciveDamageRate_2_AtkPwrUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_2_AtkPwrUp_Range",
+          "Gear_AdditiveGiveAndReciveDamageRate_2_HitDmgUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_2_HitDmgUp_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveGiveAndReciveDamageRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Rare": {
+        "ID": 1000045,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveGiveAndReciveDamageRate_3_AtkPwrUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_3_AtkPwrUp_Range",
+          "Gear_AdditiveGiveAndReciveDamageRate_3_HitDmgUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_3_HitDmgUp_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveGiveAndReciveDamageRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Common": {
+        "ID": 1000046,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyAdditiveDamageRate_1_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyAdditiveDamageRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Uncommon": {
+        "ID": 1000047,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyAdditiveDamageRate_2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyAdditiveDamageRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Rare": {
+        "ID": 1000048,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyAdditiveDamageRate_3_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyAdditiveDamageRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Common": {
+        "ID": 1000049,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyHealHP_1_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyHealHP_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Uncommon": {
+        "ID": 1000050,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyHealHP_2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyHealHP_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Rare": {
+        "ID": 1000051,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyHealHP_3_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyHealHP_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Common": {
+        "ID": 1000052,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeRangeDamageReductionRate_1_Melee",
+          "Gear_MeleeRangeDamageReductionRate_1_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeRangeDamageReductionRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Uncommon": {
+        "ID": 1000053,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeRangeDamageReductionRate_2_Melee",
+          "Gear_MeleeRangeDamageReductionRate_2_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeRangeDamageReductionRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Rare": {
+        "ID": 1000054,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeRangeDamageReductionRate_3_Melee",
+          "Gear_MeleeRangeDamageReductionRate_3_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeRangeDamageReductionRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Common": {
+        "ID": 1000055,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ComboAttackAdditiveDamage_1_Combo",
+          "Gear_ComboAttackAdditiveDamage_1_BetaCombo",
+          "Gear_ComboAttackAdditiveDamage_1_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ComboAttackAdditiveDamage_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Uncommon": {
+        "ID": 1000056,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ComboAttackAdditiveDamage_2_Combo",
+          "Gear_ComboAttackAdditiveDamage_2_BetaCombo",
+          "Gear_ComboAttackAdditiveDamage_2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ComboAttackAdditiveDamage_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Rare": {
+        "ID": 1000057,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ComboAttackAdditiveDamage_3_Combo",
+          "Gear_ComboAttackAdditiveDamage_3_BetaCombo",
+          "Gear_ComboAttackAdditiveDamage_3_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ComboAttackAdditiveDamage_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Common": {
+        "ID": 1000058,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaCrystalAdditiveRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaCrystalAdditiveRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Uncommon": {
+        "ID": 1000059,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaCrystalAdditiveRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaCrystalAdditiveRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Rare": {
+        "ID": 1000060,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaCrystalAdditiveRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaCrystalAdditiveRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Common": {
+        "ID": 1000061,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BurstGaugeAdditiveRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BurstGaugeAdditiveRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Uncommon": {
+        "ID": 1000062,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BurstGaugeAdditiveRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BurstGaugeAdditiveRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Rare": {
+        "ID": 1000063,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BurstGaugeAdditiveRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BurstGaugeAdditiveRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Common": {
+        "ID": 1000064,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBetaGaugeValueOnDamaged_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBetaGaugeValueOnDamaged_Common_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Uncommon": {
+        "ID": 1000065,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBetaGaugeValueOnDamaged_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBetaGaugeValueOnDamaged_Uncommon_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Rare": {
+        "ID": 1000066,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBetaGaugeValueOnDamaged_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBetaGaugeValueOnDamaged_Rare_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Common": {
+        "ID": 1000067,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_SPExpAdditiveRate_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_SPExpAdditiveRate_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Uncommon": {
+        "ID": 1000068,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_SPExpAdditiveRate_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_SPExpAdditiveRate_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Rare": {
+        "ID": 1000069,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_SPExpAdditiveRate_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_SPExpAdditiveRate_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Common": {
+        "ID": 1000070,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AttackSpeed_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AttackSpeed_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Uncommon": {
+        "ID": 1000071,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AttackSpeed_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AttackSpeed_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Rare": {
+        "ID": 1000072,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AttackSpeed_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AttackSpeed_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Common": {
+        "ID": 1000073,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxBurstGauge_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxBurstGauge_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Uncommon": {
+        "ID": 1000074,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxBurstGauge_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxBurstGauge_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Rare": {
+        "ID": 1000075,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxBurstGauge_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxBurstGauge_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Common": {
+        "ID": 1000076,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBurstGaugeValueOnDamaged_1"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBurstGaugeValueOnDamaged_Common_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Uncommon": {
+        "ID": 1000077,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBurstGaugeValueOnDamaged_2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBurstGaugeValueOnDamaged_Uncommon_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Rare": {
+        "ID": 1000078,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBurstGaugeValueOnDamaged_3"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBurstGaugeValueOnDamaged_Rare_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "ShieldZero_Common": {
+        "ID": 1000079,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldZero",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "BS_SkinSuit_Effect"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Common_MK2": {
+        "ID": 1000080,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalPercentage_1_MK2",
+          "Gear_CriticalPercentage_1_MK2_ForStatViewer"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalPercentage_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Uncommon_MK2": {
+        "ID": 1000081,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalPercentage_2_MK2",
+          "Gear_CriticalPercentage_2_MK2_ForStatViewer"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalPercentage_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage_Rare_MK2": {
+        "ID": 1000082,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalPercentage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalPercentage_3_MK2",
+          "Gear_CriticalPercentage_3_MK2_ForStatViewer"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalPercentage_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Common_MK2": {
+        "ID": 1000083,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveFixedDamage_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveFixedDamage_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Uncommon_MK2": {
+        "ID": 1000084,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveFixedDamage_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveFixedDamage_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage_Rare_MK2": {
+        "ID": 1000085,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveFixedDamage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveFixedDamage_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveFixedDamage_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Common_MK2": {
+        "ID": 1000086,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxShield_1_MK2_MaxShield",
+          "Gear_MaxShield_1_MK2_Shield",
+          "Gear_MaxShield_1_MK2_ShieldRegen",
+          "Gear_MaxShield_1_MK2_ShieldRegenWhenBattle"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxShield_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Uncommon_MK2": {
+        "ID": 1000087,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxShield_2_MK2_MaxShield",
+          "Gear_MaxShield_2_MK2_Shield",
+          "Gear_MaxShield_2_MK2_ShieldRegen",
+          "Gear_MaxShield_2_MK2_ShieldRegenWhenBattle"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxShield_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxShield_Rare_MK2": {
+        "ID": 1000088,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxShield_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxShield_3_MK2_MaxShield",
+          "Gear_MaxShield_3_MK2_Shield",
+          "Gear_MaxShield_3_MK2_ShieldRegen",
+          "Gear_MaxShield_3_MK2_ShieldRegenWhenBattle"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxShield_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Common_MK2": {
+        "ID": 1000089,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaGaugeAdditiveRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaGaugeAdditiveRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Uncommon_MK2": {
+        "ID": 1000090,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaGaugeAdditiveRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaGaugeAdditiveRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate_Rare_MK2": {
+        "ID": 1000091,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaGaugeAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaGaugeAdditiveRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaGaugeAdditiveRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Common_MK2": {
+        "ID": 1000092,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldIgnorePercentage_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldIgnorePercentage_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Uncommon_MK2": {
+        "ID": 1000093,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldIgnorePercentage_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldIgnorePercentage_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage_Rare_MK2": {
+        "ID": 1000094,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldIgnorePercentage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldIgnorePercentage_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldIgnorePercentage_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Common_MK2": {
+        "ID": 1000095,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldAttackPowerRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldAttackPowerRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Uncommon_MK2": {
+        "ID": 1000096,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldAttackPowerRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldAttackPowerRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate_Rare_MK2": {
+        "ID": 1000097,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ShieldAttackPowerRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ShieldAttackPowerRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ShieldAttackPowerRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Common_MK2": {
+        "ID": 1000098,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageReductionRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageReductionRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Uncommon_MK2": {
+        "ID": 1000099,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageReductionRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageReductionRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate_Rare_MK2": {
+        "ID": 1000100,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageReductionRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageReductionRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Common_MK2": {
+        "ID": 1000101,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageAdditiveRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageAdditiveRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 1000102,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageAdditiveRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageAdditiveRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate_Rare_MK2": {
+        "ID": 1000103,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "RangeAttackDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_RangeAttackDamageAdditiveRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_RangeAttackDamageAdditiveRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Common_MK2": {
+        "ID": 1000104,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeAttackDamageReductionRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeAttackDamageReductionRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Uncommon_MK2": {
+        "ID": 1000105,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeAttackDamageReductionRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeAttackDamageReductionRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate_Rare_MK2": {
+        "ID": 1000106,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeAttackDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeAttackDamageReductionRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeAttackDamageReductionRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Common_MK2": {
+        "ID": 1000107,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_HighHpDamageAdditiveRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_HighHpDamageAdditiveRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 1000108,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_HighHpDamageAdditiveRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_HighHpDamageAdditiveRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate_Rare_MK2": {
+        "ID": 1000109,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "HighHpDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_HighHpDamageAdditiveRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_HighHpDamageAdditiveRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Common_MK2": {
+        "ID": 1000110,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalValueRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalValueRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Uncommon_MK2": {
+        "ID": 1000111,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalValueRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalValueRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate_Rare_MK2": {
+        "ID": 1000112,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "CriticalValueRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_CriticalValueRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_CriticalValueRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Common_MK2": {
+        "ID": 1000113,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_LowHpDamageAdditiveRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_LowHpDamageAdditiveRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Uncommon_MK2": {
+        "ID": 1000114,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_LowHpDamageAdditiveRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_LowHpDamageAdditiveRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate_Rare_MK2": {
+        "ID": 1000115,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "LowHpDamageAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_LowHpDamageAdditiveRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_LowHpDamageAdditiveRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup5_Common_MK2": {
+        "ID": 1000116,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup5_1_MK2_Beta",
+          "Gear_AdditiveSkillDamageGroup5_1_MK2_BetaCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup5_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup5_Uncommon_MK2": {
+        "ID": 1000117,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup5_2_MK2_Beta",
+          "Gear_AdditiveSkillDamageGroup5_2_MK2_BetaCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup5_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup5_Rare_MK2": {
+        "ID": 1000118,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup5_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup5_3_MK2_Beta",
+          "Gear_AdditiveSkillDamageGroup5_3_MK2_BetaCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup5_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup6_Common_MK2": {
+        "ID": 1000119,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup6_1_MK2_Burst",
+          "Gear_AdditiveSkillDamageGroup6_1_MK2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup6_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup6_Uncommon_MK2": {
+        "ID": 1000120,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup6_2_MK2_Burst",
+          "Gear_AdditiveSkillDamageGroup6_2_MK2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup6_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup6_Rare_MK2": {
+        "ID": 1000121,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveSkillDamageGroup6_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveSkillDamageGroup6_3_MK2_Burst",
+          "Gear_AdditiveSkillDamageGroup6_3_MK2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveSkillDamageGroup6_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Common_MK2": {
+        "ID": 1000122,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveGiveAndReciveDamageRate_1_MK2_AtkPwrUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_1_MK2_AtkPwrUp_Range",
+          "Gear_AdditiveGiveAndReciveDamageRate_1_MK2_HitDmgUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_1_MK2_HitDmgUp_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveGiveAndReciveDamageRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Uncommon_MK2": {
+        "ID": 1000123,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveGiveAndReciveDamageRate_2_MK2_AtkPwrUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_2_MK2_AtkPwrUp_Range",
+          "Gear_AdditiveGiveAndReciveDamageRate_2_MK2_HitDmgUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_2_MK2_HitDmgUp_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveGiveAndReciveDamageRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AdditiveGiveAndReciveDamageRate_Rare_MK2": {
+        "ID": 1000124,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AdditiveGiveAndReciveDamageRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AdditiveGiveAndReciveDamageRate_3_MK2_AtkPwrUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_3_MK2_AtkPwrUp_Range",
+          "Gear_AdditiveGiveAndReciveDamageRate_3_MK2_HitDmgUp_Melee",
+          "Gear_AdditiveGiveAndReciveDamageRate_3_MK2_HitDmgUp_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AdditiveGiveAndReciveDamageRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Common_MK2": {
+        "ID": 1000125,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyAdditiveDamageRate_1_MK2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyAdditiveDamageRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Uncommon_MK2": {
+        "ID": 1000126,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyAdditiveDamageRate_2_MK2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyAdditiveDamageRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyAdditiveDamageRate_Rare_MK2": {
+        "ID": 1000127,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyAdditiveDamageRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyAdditiveDamageRate_3_MK2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyAdditiveDamageRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Common_MK2": {
+        "ID": 1000128,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyHealHP_1_MK2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyHealHP_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Uncommon_MK2": {
+        "ID": 1000129,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyHealHP_2_MK2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyHealHP_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "KillEnemyHealHP_Rare_MK2": {
+        "ID": 1000130,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "KillEnemyHealHP_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_KillEnemyHealHP_3_MK2_Condition"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_KillEnemyHealHP_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Common_MK2": {
+        "ID": 1000131,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeRangeDamageReductionRate_1_MK2_Melee",
+          "Gear_MeleeRangeDamageReductionRate_1_MK2_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeRangeDamageReductionRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Uncommon_MK2": {
+        "ID": 1000132,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeRangeDamageReductionRate_2_MK2_Melee",
+          "Gear_MeleeRangeDamageReductionRate_2_MK2_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeRangeDamageReductionRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MeleeRangeDamageReductionRate_Rare_MK2": {
+        "ID": 1000133,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MeleeRangeDamageReductionRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MeleeRangeDamageReductionRate_3_MK2_Melee",
+          "Gear_MeleeRangeDamageReductionRate_3_MK2_Range"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MeleeRangeDamageReductionRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Common_MK2": {
+        "ID": 1000134,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ComboAttackAdditiveDamage_1_MK2_Combo",
+          "Gear_ComboAttackAdditiveDamage_1_MK2_BetaCombo",
+          "Gear_ComboAttackAdditiveDamage_1_MK2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ComboAttackAdditiveDamage_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Uncommon_MK2": {
+        "ID": 1000135,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ComboAttackAdditiveDamage_2_MK2_Combo",
+          "Gear_ComboAttackAdditiveDamage_2_MK2_BetaCombo",
+          "Gear_ComboAttackAdditiveDamage_2_MK2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ComboAttackAdditiveDamage_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "ComboAttackAdditiveDamage_Rare_MK2": {
+        "ID": 1000136,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ComboAttackAdditiveDamage_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_ComboAttackAdditiveDamage_3_MK2_Combo",
+          "Gear_ComboAttackAdditiveDamage_3_MK2_BetaCombo",
+          "Gear_ComboAttackAdditiveDamage_3_MK2_BurstCombo"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_ComboAttackAdditiveDamage_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Common_MK2": {
+        "ID": 1000137,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaCrystalAdditiveRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaCrystalAdditiveRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Uncommon_MK2": {
+        "ID": 1000138,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaCrystalAdditiveRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaCrystalAdditiveRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate_Rare_MK2": {
+        "ID": 1000139,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BetaCrystalAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BetaCrystalAdditiveRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BetaCrystalAdditiveRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Common_MK2": {
+        "ID": 1000140,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BurstGaugeAdditiveRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BurstGaugeAdditiveRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Uncommon_MK2": {
+        "ID": 1000141,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BurstGaugeAdditiveRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BurstGaugeAdditiveRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate_Rare_MK2": {
+        "ID": 1000142,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "BurstGaugeAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_BurstGaugeAdditiveRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_BurstGaugeAdditiveRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Common_MK2": {
+        "ID": 1000143,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBetaGaugeValueOnDamaged_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBetaGaugeValueOnDamaged_MK2_Common_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Uncommon_MK2": {
+        "ID": 1000144,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBetaGaugeValueOnDamaged_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBetaGaugeValueOnDamaged_MK2_Uncommon_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged_Rare_MK2": {
+        "ID": 1000145,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBetaGaugeValueOnDamaged_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBetaGaugeValueOnDamaged_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBetaGaugeValueOnDamaged_MK2_Rare_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Common_MK2": {
+        "ID": 1000146,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_SPExpAdditiveRate_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_SPExpAdditiveRate_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Uncommon_MK2": {
+        "ID": 1000147,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_SPExpAdditiveRate_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_SPExpAdditiveRate_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate_Rare_MK2": {
+        "ID": 1000148,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "SPExpAdditiveRate_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_SPExpAdditiveRate_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_SPExpAdditiveRate_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Common_MK2": {
+        "ID": 1000149,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AttackSpeed_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AttackSpeed_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Uncommon_MK2": {
+        "ID": 1000150,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AttackSpeed_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AttackSpeed_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed_Rare_MK2": {
+        "ID": 1000151,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "AttackSpeed_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_AttackSpeed_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_AttackSpeed_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Common_MK2": {
+        "ID": 1000152,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxBurstGauge_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxBurstGauge_MK2_Common_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Uncommon_MK2": {
+        "ID": 1000153,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxBurstGauge_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxBurstGauge_MK2_Uncommon_Desc",
+        "FileSuffix": "None"
+      },
+      "MaxBurstGauge_Rare_MK2": {
+        "ID": 1000154,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "MaxBurstGauge_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_MaxBurstGauge_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_MaxBurstGauge_MK2_Rare_Desc",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Common_MK2": {
+        "ID": 1000155,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Common",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBurstGaugeValueOnDamaged_1_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBurstGaugeValueOnDamaged_MK2_Common_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Uncommon_MK2": {
+        "ID": 1000156,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Uncommon",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBurstGaugeValueOnDamaged_2_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBurstGaugeValueOnDamaged_MK2_Uncommon_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "GainBurstGaugeValueOnDamaged_Rare_MK2": {
+        "ID": 1000157,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "GainBurstGaugeValueOnDamaged_MK2",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Gear_GainBurstGaugeValueOnDamaged_3_MK2"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "Effect_Gear_GainBurstGaugeValueOnDamaged_MK2_Rare_Desc_v2",
+        "FileSuffix": "None"
+      },
+      "TachyFusionEarring_Rare": {
+        "ID": 1000158,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "TachyFusionEarring",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "P_Eve_TachyFusionModeItem"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "",
+        "FileSuffix": "None"
+      },
+      "ScarletNanoSuit_Rare": {
+        "ID": 1000159,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ScarletNanoSuit",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "BS_Nikke_01_Effect"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "",
+        "FileSuffix": "None"
+      },
+      "ScarletHair_Rare": {
+        "ID": 1000160,
+        "StatCategoryTag": "Base",
+        "GearStatType": "ESBGearStatType::ESBGearStatType_Effect",
+        "ActorStatType": "ESBActorStatType::ActorStatType_None",
+        "EffectStatTag": "ScarletHair",
+        "StatLevel": 1,
+        "Rarity": "ESBItemRarityType::ESBItemRarityType_Rare",
+        "StatValueMin": 0.0,
+        "StatValueMax": 0.0,
+        "EffectAliasArray": [
+          "Hair_Nikke_01_Effect"
+        ],
+        "TextEffectName": "",
+        "TextEffectDesc": "",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

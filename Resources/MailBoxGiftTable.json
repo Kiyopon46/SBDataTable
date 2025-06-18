@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MailBoxGiftTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBMailBoxGiftTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Mail_1": {
+        "ID": 1001,
+        "TitleStringKey": "UI_Mail_1_Title",
+        "DescStringKey": "UI_Mail_1_Desc",
+        "ReceivableConditionGroup": "None",
+        "EnableMailBoxEnvSpawnList": [
+          "SysTestD_01_EnvS_007"
+        ],
+        "EventGiftAlias": "Update_v1003_01",
+        "MailImagePath": "Texture2D'/Game/Art/UI/Texture/Quest/image_BS_Christmas_01.image_BS_Christmas_01'"
+      },
+      "Mail_2": {
+        "ID": 1002,
+        "TitleStringKey": "UI_Mail_2_Title",
+        "DescStringKey": "UI_Mail_2_Desc",
+        "ReceivableConditionGroup": "None",
+        "EnableMailBoxEnvSpawnList": [
+          "SysTestD_01_EnvS_007"
+        ],
+        "EventGiftAlias": "Gift_Mail_CompleteEdition",
+        "MailImagePath": "Texture2D'/Game/Art/UI/Texture/Quest/image_BS_55.image_BS_55'"
+      }
+    }
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActorStatTextTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBActorStatTextTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "HP": {
+        "ID": 1,
+        "StatType": "ESBActorStatType::ActorStatType_HP",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxHP": {
+        "ID": 2,
+        "StatType": "ESBActorStatType::ActorStatType_MaxHP",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxHPValue": {
+        "ID": 3,
+        "StatType": "ESBActorStatType::ActorStatType_MaxHPValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxHPRate": {
+        "ID": 4,
+        "StatType": "ESBActorStatType::ActorStatType_MaxHPRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "SP": {
+        "ID": 5,
+        "StatType": "ESBActorStatType::ActorStatType_SP",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MoveSpeedRate": {
+        "ID": 6,
+        "StatType": "ESBActorStatType::ActorStatType_MoveSpeedRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "Shield": {
+        "ID": 7,
+        "StatType": "ESBActorStatType::ActorStatType_Shield",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxShield": {
+        "ID": 8,
+        "StatType": "ESBActorStatType::ActorStatType_MaxShield",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxShieldValue": {
+        "ID": 9,
+        "StatType": "ESBActorStatType::ActorStatType_MaxShieldValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxShieldRate": {
+        "ID": 10,
+        "StatType": "ESBActorStatType::ActorStatType_MaxShieldRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "ShieldBlock": {
+        "ID": 11,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldBlock",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "Stamina": {
+        "ID": 12,
+        "StatType": "ESBActorStatType::ActorStatType_Stamina",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxStamina": {
+        "ID": 13,
+        "StatType": "ESBActorStatType::ActorStatType_MaxStamina",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "BetaGauge": {
+        "ID": 14,
+        "StatType": "ESBActorStatType::ActorStatType_BetaGauge",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxBetaGauge": {
+        "ID": 15,
+        "StatType": "ESBActorStatType::ActorStatType_MaxBetaGauge",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxBetaGaugeValue": {
+        "ID": 16,
+        "StatType": "ESBActorStatType::ActorStatType_MaxBetaGaugeValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "MaxBetaGaugeRate": {
+        "ID": 17,
+        "StatType": "ESBActorStatType::ActorStatType_MaxBetaGaugeRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "PhysicAttackPower": {
+        "ID": 18,
+        "StatType": "ESBActorStatType::ActorStatType_PhysicAttackPower",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "PhysicAttackPowerValue": {
+        "ID": 19,
+        "StatType": "ESBActorStatType::ActorStatType_PhysicAttackPowerValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "PhysicAttackPowerRate": {
+        "ID": 20,
+        "StatType": "ESBActorStatType::ActorStatType_PhysicAttackPowerRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPower": {
+        "ID": 21,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldAttackPower",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerValue": {
+        "ID": 22,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldAttackPowerValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ShieldAttackPowerRate": {
+        "ID": 23,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldAttackPowerRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "StaminaAttackPower": {
+        "ID": 24,
+        "StatType": "ESBActorStatType::ActorStatType_StaminaAttackPower",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "AttackSpeed": {
+        "ID": 25,
+        "StatType": "ESBActorStatType::ActorStatType_AttackSpeed",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "HitDefenseLevel": {
+        "ID": 26,
+        "StatType": "ESBActorStatType::ActorStatType_HitDefenseLevel",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "CriticalPercentage": {
+        "ID": 27,
+        "StatType": "ESBActorStatType::ActorStatType_CriticalPercentage",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "CriticalValueRate": {
+        "ID": 28,
+        "StatType": "ESBActorStatType::ActorStatType_CriticalValueRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "ShieldIgnorePercentage": {
+        "ID": 29,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldIgnorePercentage",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageRate": {
+        "ID": 30,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "DamageReductionbyShield": {
+        "ID": 31,
+        "StatType": "ESBActorStatType::ActorStatType_None",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "ShieldRegenPerSecond": {
+        "ID": 32,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldRegenPerSecond",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ShieldRegenPerSecondValue": {
+        "ID": 33,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldRegenPerSecondValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ShieldRegenPerSecondRate": {
+        "ID": 34,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldRegenPerSecondRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "StaminaRegenPerSecond": {
+        "ID": 35,
+        "StatType": "ESBActorStatType::ActorStatType_StaminaRegenPerSecond",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "HPRegenPerSecond": {
+        "ID": 36,
+        "StatType": "ESBActorStatType::ActorStatType_HPRegenPerSecond",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "HPRegenPerSecondValue": {
+        "ID": 37,
+        "StatType": "ESBActorStatType::ActorStatType_HPRegenPerSecondValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "HPRegenPerSecondRate": {
+        "ID": 38,
+        "StatType": "ESBActorStatType::ActorStatType_HPRegenPerSecondRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "SmallWeightTypeDamageAdditiveRate": {
+        "ID": 39,
+        "StatType": "ESBActorStatType::ActorStatType_SmallWeightTypeDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "LargeWeightTypeDamageAdditiveRate": {
+        "ID": 40,
+        "StatType": "ESBActorStatType::ActorStatType_LargeWeightTypeDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageAdditiveRate": {
+        "ID": 41,
+        "StatType": "ESBActorStatType::ActorStatType_RangeAttackDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "MeleeAttackDamageReductionRate": {
+        "ID": 42,
+        "StatType": "ESBActorStatType::ActorStatType_MeleeAttackDamageReductionRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "RangeAttackDamageReductionRate": {
+        "ID": 43,
+        "StatType": "ESBActorStatType::ActorStatType_RangeAttackDamageReductionRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "DownStateDamageAdditiveRate": {
+        "ID": 44,
+        "StatType": "ESBActorStatType::ActorStatType_DownStateDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "GroggyStateDamageAdditiveRate": {
+        "ID": 45,
+        "StatType": "ESBActorStatType::ActorStatType_GroggyStateDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AirborneStateDamageAdditiveRate": {
+        "ID": 46,
+        "StatType": "ESBActorStatType::ActorStatType_AirborneStateDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "FireAttributeDamageReductionRate": {
+        "ID": 47,
+        "StatType": "ESBActorStatType::ActorStatType_FireAttributeDamageReductionRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "IceAttributeDamageReductionRate": {
+        "ID": 48,
+        "StatType": "ESBActorStatType::ActorStatType_IceAttributeDamageReductionRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "LightningAttributeDamageReductionRate": {
+        "ID": 49,
+        "StatType": "ESBActorStatType::ActorStatType_LightningAttributeDamageReductionRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "PoisonAttributeDamageReductionRate": {
+        "ID": 50,
+        "StatType": "ESBActorStatType::ActorStatType_PoisonAttributeDamageReductionRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "BetaGaugeAdditiveRate": {
+        "ID": 51,
+        "StatType": "ESBActorStatType::ActorStatType_BetaGaugeAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveFixedDamage": {
+        "ID": 52,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveFixedDamage",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "LowHpDamageAdditiveRate": {
+        "ID": 53,
+        "StatType": "ESBActorStatType::ActorStatType_LowHpDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "HighHpDamageAdditiveRate": {
+        "ID": 54,
+        "StatType": "ESBActorStatType::ActorStatType_HighHpDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "DOTDamageAdditiveRate": {
+        "ID": 55,
+        "StatType": "ESBActorStatType::ActorStatType_DOTDamageAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "Luck": {
+        "ID": 56,
+        "StatType": "ESBActorStatType::ActorStatType_Luck",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup1": {
+        "ID": 57,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup1",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup2": {
+        "ID": 58,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup2",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup3": {
+        "ID": 59,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup3",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup4": {
+        "ID": 60,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup4",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup5": {
+        "ID": 61,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup5",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup6": {
+        "ID": 62,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup6",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup7": {
+        "ID": 63,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup7",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup8": {
+        "ID": 64,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup8",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup9": {
+        "ID": 65,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup9",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "AdditiveSkillDamageGroup10": {
+        "ID": 66,
+        "StatType": "ESBActorStatType::ActorStatType_AdditiveSkillDamageGroup10",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "DrainHpByAttackPowerRate": {
+        "ID": 67,
+        "StatType": "ESBActorStatType::ActorStatType_DrainHpByAttackPowerRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "DrainHpFixedValue": {
+        "ID": 68,
+        "StatType": "ESBActorStatType::ActorStatType_DrainHpFixedValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "SprintableStaminaValue": {
+        "ID": 69,
+        "StatType": "ESBActorStatType::ActorStatType_SprintableStaminaValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ItemStackRecoveryPotion": {
+        "ID": 70,
+        "StatType": "ESBActorStatType::ActorStatType_ItemStackRecoveryPotion",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ShieldRegenPerSecondWhenBattle": {
+        "ID": 71,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldRegenPerSecondWhenBattle",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ShieldRegenPerSecondWhenBattleValue": {
+        "ID": 72,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldRegenPerSecondWhenBattleValue",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "ShieldRegenPerSecondWhenBattleRate": {
+        "ID": 73,
+        "StatType": "ESBActorStatType::ActorStatType_ShieldRegenPerSecondWhenBattleRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "GainBetaGaugeValueOnDamaged": {
+        "ID": 74,
+        "StatType": "ESBActorStatType::ActorStatType_GainBetaGaugeValueOnDamaged",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "BurstGaugeAdditiveRate": {
+        "ID": 75,
+        "StatType": "ESBActorStatType::ActorStatType_BurstGaugeAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "BetaCrystalAdditiveRate": {
+        "ID": 76,
+        "StatType": "ESBActorStatType::ActorStatType_BetaCrystalAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "SPExpAdditiveRate": {
+        "ID": 77,
+        "StatType": "ESBActorStatType::ActorStatType_SPExpAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "MaxDamageReduction": {
+        "ID": 78,
+        "StatType": "ESBActorStatType::ActorStatType_None",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_MaxDamageReduction",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "HealAdditiveRate": {
+        "ID": 79,
+        "StatType": "ESBActorStatType::ActorStatType_HealAdditiveRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "TachyGaugeAdditiveGainRate": {
+        "ID": 80,
+        "StatType": "ESBActorStatType::ActorStatType_TachyGaugeAdditiveGainRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "TachyGaugeReduceConsumeRate": {
+        "ID": 81,
+        "StatType": "ESBActorStatType::ActorStatType_TachyGaugeReduceConsumeRate",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "OnlyForStatViewer1": {
+        "ID": 82,
+        "StatType": "ESBActorStatType::ActorStatType_OnlyForStatViewer1",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "OnlyForStatViewer2": {
+        "ID": 83,
+        "StatType": "ESBActorStatType::ActorStatType_OnlyForStatViewer2",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "OnlyForStatViewer3": {
+        "ID": 84,
+        "StatType": "ESBActorStatType::ActorStatType_OnlyForStatViewer3",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Static",
+        "FileSuffix": "None"
+      },
+      "OnlyForStatViewer4": {
+        "ID": 85,
+        "StatType": "ESBActorStatType::ActorStatType_OnlyForStatViewer4",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      },
+      "OnlyForStatViewer5": {
+        "ID": 86,
+        "StatType": "ESBActorStatType::ActorStatType_OnlyForStatViewer5",
+        "CalculatedStatType": "ESBActorCalculatedStatType::ESBActorCalculatedStatType_None",
+        "TextType": "ESBActorStatTextType::ESBActorStatTextType_Percent",
+        "FileSuffix": "None"
+      }
+    }
+  }
+]

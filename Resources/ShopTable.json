@@ -1,0 +1,765 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ShopTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBShopTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Shop_SimpleCamp": {
+        "ID": 1001,
+        "UnionLimitedItem": false,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "VendingMachine"
+        ],
+        "ShopItems": [
+          "Camp_ResurrectionItem_x3_Buy",
+          "Camp_HP_Potion_Buy",
+          "Camp_HP_Potion_Small_Buy",
+          "Camp_Bullet_Package_Dummy_Buy",
+          "Camp_Bullet_Normal_Buy",
+          "Camp_Bullet_Scatter_Buy",
+          "Camp_Bullet_Explosive_Buy",
+          "Camp_Bullet_Missile_Buy",
+          "Camp_Bullet_Railgun_Buy",
+          "Camp_ConcussionGrenade_Buy",
+          "Camp_PulseGrenade_Buy",
+          "Camp_FlashGrenade_Buy",
+          "Camp_TrapGrenade_Buy",
+          "Camp_HealGrenade_Buy",
+          "Camp_SPInitializer_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_FullCamp": {
+        "ID": 1002,
+        "UnionLimitedItem": false,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "VendingMachine"
+        ],
+        "ShopItems": [
+          "Camp_ResurrectionItem_x3_Buy",
+          "Camp_HP_Potion_Buy",
+          "Camp_HP_Potion_Small_Buy",
+          "Camp_Bullet_Package_Dummy_Buy",
+          "Camp_Bullet_Normal_Buy",
+          "Camp_Bullet_Scatter_Buy",
+          "Camp_Bullet_Explosive_Buy",
+          "Camp_Bullet_Missile_Buy",
+          "Camp_Bullet_Railgun_Buy",
+          "Camp_ConcussionGrenade_Buy",
+          "Camp_PulseGrenade_Buy",
+          "Camp_FlashGrenade_Buy",
+          "Camp_TrapGrenade_Buy",
+          "Camp_HealGrenade_Buy",
+          "Camp_SPInitializer_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_Kaya": {
+        "ID": 1010,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "CG_Shop_Discount",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "KayaShop"
+        ],
+        "ShopItems": [
+          "Kaya_SQ_Item_Mindmap_Part1_x1_Buy",
+          "Kaya_ElastomerFiber_Buy",
+          "Kaya_PolymerOrganicFilm_Buy",
+          "Kaya_ECelluloseRayon_Buy",
+          "Kaya_ResurrectionItem_Buy",
+          "Kaya_HP_Potion_Buy",
+          "Kaya_HP_Potion_Small_Buy",
+          "Kaya_ConcussionGrenade_Buy",
+          "Kaya_PulseGrenade_Buy",
+          "Kaya_FlashGrenade_Buy",
+          "Kaya_TrapGrenade_Buy",
+          "Kaya_HealGrenade_Buy",
+          "Kaya_SPInitializer_Buy",
+          "Kaya_Gear_CriticalPercentage_Rare_x1_Buy",
+          "Kaya_Gear_CriticalPercentage_Rare_Mk2_x1_Buy",
+          "Kaya_Gear_AdditiveBustSkillDamage_Uncommon_x1_Buy",
+          "Kaya_Gear_AdditiveBustSkillDamage_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_GainBetaGaugeValueOnDamaged_Uncommon_x1_Buy",
+          "Kaya_Gear_GainBetaGaugeValueOnDamaged_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_ShieldIgnorePercentage_Uncommon_x1_Buy",
+          "Kaya_Gear_ShieldIgnorePercentage_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_HighHpDamageAdditiveRate_Uncommon_x1_Buy",
+          "Kaya_Gear_HighHpDamageAdditiveRate_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_LowHpDamageAdditiveRate_Uncommon_x1_Buy",
+          "Kaya_Gear_LowHpDamageAdditiveRate_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_MeleeRangeDamageReductionRate_Uncommon_x1_Buy",
+          "Kaya_Gear_MeleeRangeDamageReductionRate_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_MaxShield_Uncommon_x1_Buy",
+          "Kaya_Gear_MaxShield_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_KillEnemyHealHP_Uncommon_x1_Buy",
+          "Kaya_Gear_KillEnemyHealHP_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_SPExpAdditiveRate_Uncommon_x1_Buy",
+          "Kaya_Gear_SPExpAdditiveRate_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_BetaCrystalAdditiveRate_Uncommon_x1_Buy",
+          "Kaya_Gear_BetaCrystalAdditiveRate_Uncommon_Mk2_x1_Buy",
+          "Kaya_Gear_AdditiveGiveAndReciveDamageRate_Common_x1_Buy",
+          "Kaya_Gear_AdditiveGiveAndReciveDamageRate_Common_Mk2_x1_Buy",
+          "Kaya_Earring_004_x1_Buy",
+          "Kaya_Earring_005_x1_Buy",
+          "Kaya_Earring_006_x1_Buy",
+          "Kaya_Earring_007_x1_Buy",
+          "Kaya_Earring_009_x1_Buy",
+          "Kaya_Earring_010_x1_Buy",
+          "Kaya_Earring_015_x1_Buy",
+          "Kaya_Earring_016_x1_Buy",
+          "Kaya_Earring_017_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [
+          5000.0,
+          10000.0
+        ],
+        "FriendShipLevelUpSound": [
+          "SoundWave'/Game/Sound/Dialogue/Quest/Kaya/Seq_Subtitle_NPC_Kaya_INShopLV2_01_01_VO.Seq_Subtitle_NPC_Kaya_INShopLV2_01_01_VO'",
+          "SoundWave'/Game/Sound/Dialogue/Quest/Kaya/Seq_Subtitle_NPC_Kaya_INShopLV1_01_01_VO.Seq_Subtitle_NPC_Kaya_INShopLV1_01_01_VO'"
+        ],
+        "FriendShipLevelUpSubtitleType": [
+          "ESBSequencerSubtitleType_ShowImmidate"
+        ],
+        "FriendShipLevelUpSubtitleDuration": [
+          9.3,
+          3.9
+        ],
+        "FriendShipLevelUpSubtitleTitle": [
+          "Seq_Actor_Kaya",
+          "Seq_Actor_Kaya"
+        ],
+        "FriendShipLevelUpSubtitleMessage": [
+          "Seq_Subtitle_NPC_Kaya_INShopLV2_01_01",
+          "Seq_Subtitle_NPC_Kaya_INShopLV1_01_01"
+        ]
+      },
+      "Shop_Digger": {
+        "ID": 1020,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "CG_Shop_Discount",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "DiggerShop"
+        ],
+        "ShopItems": [
+          "Digger_WeaponCore_x2_Buy",
+          "Digger_TumblerCore_x3_Buy",
+          "Digger_DroneCore_x5_Buy",
+          "Digger_GearCore_x3_Buy",
+          "Digger_SQ_Item_Mindmap_Part2_x1_Buy",
+          "Digger_LowDensityWafer_Buy",
+          "Digger_HighDensityWafer_Buy",
+          "Digger_2DQuantumWafer_Buy",
+          "Digger_Item_Records_WLA_Memory_29_x1_Buy",
+          "Digger_Item_Records_WLA_Memory_31_x1_Buy",
+          "Digger_Item_Records_WLA_Memory_34_x1_Buy",
+          "Digger_FaceAccessory_001_x1_Buy",
+          "Digger_FaceAccessory_003_x1_Buy",
+          "Digger_FaceAccessory_004_x1_Buy",
+          "Digger_FaceAccessory_005_x1_Buy",
+          "Digger_FaceAccessory_006_x1_Buy",
+          "Digger_FaceAccessory_007_x1_Buy",
+          "Digger_FaceAccessory_008_x1_Buy",
+          "Digger_FaceAccessory_009_x1_Buy",
+          "Digger_FaceAccessory_010_x1_Buy",
+          "Digger_FaceAccessory_011_x1_Buy",
+          "Digger_FaceAccessory_013_x1_Buy",
+          "Digger_FaceAccessory_026_x1_Buy",
+          "Digger_FaceAccessory_027_x1_Buy",
+          "Digger_FaceAccessory_028_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [
+          5000.0,
+          10000.0
+        ],
+        "FriendShipLevelUpSound": [
+          "SoundWave'/Game/Sound/Dialogue/Quest/D1G-g2r/Seq_Subtitle_NPC_Digger_INShopLV1_01_01_VO.Seq_Subtitle_NPC_Digger_INShopLV1_01_01_VO'",
+          "SoundWave'/Game/Sound/Dialogue/Quest/D1G-g2r/Seq_Subtitle_NPC_Digger_INShopLV2_01_01_VO.Seq_Subtitle_NPC_Digger_INShopLV2_01_01_VO'"
+        ],
+        "FriendShipLevelUpSubtitleType": [
+          "ESBSequencerSubtitleType_ShowImmidate"
+        ],
+        "FriendShipLevelUpSubtitleDuration": [
+          2.7,
+          5.4
+        ],
+        "FriendShipLevelUpSubtitleTitle": [
+          "Seq_Actor_D1G-g2r",
+          "Seq_Actor_D1G-g2r"
+        ],
+        "FriendShipLevelUpSubtitleMessage": [
+          "Seq_Subtitle_NPC_Digger_INShopLV1_01_01",
+          "Seq_Subtitle_NPC_Digger_INShopLV2_01_01"
+        ]
+      },
+      "Shop_Spotter": {
+        "ID": 1025,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "ETC_Item_VendingMachineCoin",
+        "Tags": [
+          "AllShop",
+          "SpotterShop"
+        ],
+        "ShopItems": [
+          "Spotter_WeaponCore_Sell",
+          "Spotter_WeaponCore_Damaged_Sell",
+          "Spotter_BodyCore_Sell",
+          "Spotter_BetaCore_Sell",
+          "Spotter_TumblerCore_Sell",
+          "Spotter_DroneCore_Sell",
+          "Spotter_GearCore_Sell"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_Clyde": {
+        "ID": 1030,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "FishingPoint",
+        "Tags": [
+          "AllShop",
+          "ClydeShop"
+        ],
+        "ShopItems": [
+          "Clyde_FishingSkillBook1_x1_Buy",
+          "Clyde_FishingSkillBook2_x1_Buy",
+          "Clyde_FishingSkillBook3_x1_Buy",
+          "Clyde_Item_Shrimp_Bait_Buy",
+          "Clyde_Item_Worm_Bait_Buy",
+          "Clyde_Item_Fish_Slice_Bait_Buy",
+          "Clyde_Item_Special_Bait_Buy",
+          "Clyde_ResurrectionItem_Buy",
+          "Clyde_SPInitializer_Buy",
+          "Clyde_ETC_Item_VendingMachineCoin_Buy",
+          "Clyde_Money_JunkIron_A_Buy",
+          "Clyde_Money_JunkIron_B_Buy",
+          "Clyde_Money_JunkIron_C_Buy",
+          "Clyde_DesignPattern_BS_58_x1_Buy",
+          "Clyde_DesignPattern_BS_60_x1_Buy",
+          "Clyde_FaceAccessory_029_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_Roxane": {
+        "ID": 1040,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "RoxaneShop"
+        ],
+        "ShopItems": [
+          "Roxane_Item_Records_Xion_Memory_01_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_03_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_04_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_05_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_06_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_07_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_08_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_16_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_17_x1_Buy",
+          "Roxane_Item_Records_Xion_Memory_18_x1_Buy",
+          "Roxane_Item_Records_Day1_Memory_03_x1_Buy",
+          "Roxane_DesignPattern_BS_01_x1_Buy",
+          "Roxane_DesignPattern_BS_01_Var3_x1_Buy",
+          "Roxane_DesignPattern_BS_Yellow_Suit_x1_Buy",
+          "Roxane_DesignPattern_BS_Yellow_Suit_Var2_x1_Buy",
+          "Roxane_DesignPattern_BS_02_x1_Buy",
+          "Roxane_DesignPattern_BS_02_Var2_x1_Buy",
+          "Roxane_DesignPattern_BS_32_x1_Buy",
+          "Roxane_DesignPattern_BS_56_x1_Buy",
+          "Roxane_DesignPattern_BS_57_x1_Buy",
+          "Roxane_DesignPattern_BS_15_x1_Buy",
+          "Roxane_DesignPattern_BS_03_x1_Buy",
+          "Roxane_DesignPattern_BS_03_Var2_x1_Buy",
+          "Roxane_DesignPattern_BS_17_x1_Buy",
+          "Roxane_DesignPattern_BS_48_x1_Buy",
+          "Roxane_DesignPattern_BS_48_Var2_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [
+          900.0,
+          1500.0
+        ],
+        "FriendShipLevelUpSound": [
+          "SoundWave'/Game/Sound/Dialogue/Quest/Roxane/Seq_Subtitle_NPC_Roxane_Shop_Common_03_03_VO.Seq_Subtitle_NPC_Roxane_Shop_Common_03_03_VO'",
+          "SoundWave'/Game/Sound/Dialogue/Quest/Roxane/Seq_Subtitle_NPC_Roxane_Shop_VIP_01_02_VO.Seq_Subtitle_NPC_Roxane_Shop_VIP_01_02_VO'"
+        ],
+        "FriendShipLevelUpSubtitleType": [
+          "ESBSequencerSubtitleType_ShowImmidate"
+        ],
+        "FriendShipLevelUpSubtitleDuration": [
+          5.11,
+          5.16
+        ],
+        "FriendShipLevelUpSubtitleTitle": [
+          "Seq_Actor_Roxane",
+          "Seq_Actor_Roxane"
+        ],
+        "FriendShipLevelUpSubtitleMessage": [
+          "Seq_Subtitle_NPC_Roxane_Shop_Common_03_03",
+          "Seq_Subtitle_NPC_Roxane_Shop_VIP_01_02"
+        ]
+      },
+      "Shop_Lyle": {
+        "ID": 1050,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "LustyShop"
+        ],
+        "ShopItems": [
+          "Lyle_Item_Records_Xion_Memory_21_x1_Buy",
+          "Lyle_Item_Records_Xion_Memory_22_x1_Buy",
+          "Lyle_Item_Records_Xion_Memory_23_x1_Buy",
+          "Lyle_Item_Records_Xion_Memory_24_x1_Buy",
+          "Lyle_Item_Records_Xion_Memory_25_x1_Buy",
+          "Lyle_Item_Records_Xion_Memory_29_x1_Buy",
+          "Lyle_Item_Records_Day1_Memory_02_x1_Buy",
+          "Lyle_DesignPattern_BS_19_Var2_x1_Buy",
+          "Lyle_DesignPattern_BS_Leather_Jean_x1_Buy",
+          "Lyle_DesignPattern_BS_Leather_Jean_Var2_x1_Buy",
+          "Lyle_DesignPattern_BS_EVE_04_x1_Buy",
+          "Lyle_DesignPattern_BS_EVE_04_Var2_x1_Buy",
+          "Lyle_DesignPattern_BS_23_x1_Buy",
+          "Lyle_DesignPattern_BS_23_Var2_x1_Buy",
+          "Lyle_DesignPattern_BS_11_x1_Buy",
+          "Lyle_DesignPattern_BS_10_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [
+          900.0,
+          900.0
+        ],
+        "FriendShipLevelUpSound": [
+          "SoundWave'/Game/Sound/Dialogue/Quest/Lyle/Seq_Subtitle_NPC_Lyle_INShopLV1_01_01_VO.Seq_Subtitle_NPC_Lyle_INShopLV1_01_01_VO'",
+          "SoundWave'/Game/Sound/Dialogue/Quest/Lyle/Seq_Subtitle_NPC_Lyle_INShopLV2_01_01_VO.Seq_Subtitle_NPC_Lyle_INShopLV2_01_01_VO'"
+        ],
+        "FriendShipLevelUpSubtitleType": [
+          "ESBSequencerSubtitleType_ShowImmidate"
+        ],
+        "FriendShipLevelUpSubtitleDuration": [
+          6.0,
+          4.9
+        ],
+        "FriendShipLevelUpSubtitleTitle": [
+          "Seq_Actor_Lyle",
+          "Seq_Actor_Lyle"
+        ],
+        "FriendShipLevelUpSubtitleMessage": [
+          "Seq_Subtitle_NPC_Lyle_INShopLV1_01_01",
+          "Seq_Subtitle_NPC_Lyle_INShopLV2_01_01"
+        ]
+      },
+      "Shop_NightOperation": {
+        "ID": 1060,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "VendingMachine"
+        ],
+        "ShopItems": [
+          "NightOperation_Bullet_Normal_Buy",
+          "NightOperation_Bullet_Scatter_Buy",
+          "NightOperation_Bullet_Explosive_Buy",
+          "NightOperation_Bullet_Missile_Buy",
+          "NightOperation_Bullet_Railgun_Buy",
+          "NightOperation_HP_Potion_Buy",
+          "NightOperation_HP_Potion_Small_Buy",
+          "NightOperation_PulseGrenade_Buy",
+          "NightOperation_ConcussionGrenade_Buy",
+          "NightOperation_TrapGrenade_Buy",
+          "NightOperation_FlashGrenade_Buy",
+          "NightOperation_HealGrenade_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_Barry": {
+        "ID": 1070,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "BarryShop"
+        ],
+        "ShopItems": [
+          "Barry_Fish_Dunkleosteus_Sell",
+          "Barry_Fish_WhaleShark_Sell",
+          "Barry_Fish_GreatWhiteShark_Sell",
+          "Barry_Fish_Arowana_Sell",
+          "Barry_Fish_Pirarucu_Sell",
+          "Barry_Fish_SailFish_Sell",
+          "Barry_Fish_Tuna_Sell",
+          "Barry_Fish_MolaMola_Sell",
+          "Barry_Fish_Mahimahi_Sell",
+          "Barry_Fish_Halibut_Sell",
+          "Barry_Fish_FootBallfish_Sell",
+          "Barry_Fish_SeaBream_Sell",
+          "Barry_Fish_Salmon_Sell",
+          "Barry_Fish_FancyCarp_Sell",
+          "Barry_Fish_Triggerfish_Sell",
+          "Barry_Fish_SeaBass_Sell",
+          "Barry_Fish_ChannelCatfish_Sell",
+          "Barry_Fish_mackerel_Sell",
+          "Barry_Fish_FlyingFish_Sell",
+          "Barry_Fish_ButterflyFish_Sell",
+          "Barry_Fish_Betta_Sell",
+          "Barry_Fish_PorcupineFish_Sell",
+          "Barry_Fish_Lobster_Sell",
+          "Barry_Fish_Goby_Sell",
+          "Barry_Fish_GoldFish_Sell",
+          "Barry_Fish_FishCake_Sell",
+          "Barry_Fish_Tire_Sell",
+          "Barry_Fish_NuclearWaste_Sell",
+          "Barry_Fish_CannedFish_Sell",
+          "Barry_Fish_CannerHam_Sell"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_HairSalon": {
+        "ID": 9010,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "HairSalon"
+        ],
+        "ShopItems": [
+          "HairSalon_Hair_000_x1_Buy",
+          "HairSalon_Hair_006_x1_Buy",
+          "HairSalon_Hair_001_x1_Buy",
+          "HairSalon_Hair_002_x1_Buy",
+          "HairSalon_Hair_003_x1_Buy",
+          "HairSalon_Hair_004_x1_Buy",
+          "HairSalon_Hair_005_x1_Buy",
+          "HairSalon_Hair_007_x1_Buy",
+          "HairSalon_Hair_008_x1_Buy",
+          "HairSalon_Hair_009_x1_Buy",
+          "HairSalon_Hair_010_x1_Buy",
+          "HairSalon_Hair_011_x1_Buy",
+          "HairSalon_Hair_012_x1_Buy",
+          "HairSalon_Hair_Christmas_01_x1_Buy",
+          "HairSalon_Hair_Nier_001_x1_Buy",
+          "HairSalon_Hair_Nier_002_x1_Buy",
+          "HairSalon_Hair_Nier_003_x1_Buy",
+          "HairSalon_Hair_Nikke_01_x1_Buy",
+          "HairSalon_Hair_Nikke_02_x1_Buy",
+          "HairSalon_Hair_Nikke_03_x1_Buy",
+          "HairSalon_Hair_Nikke_04_x1_Buy",
+          "HairSalon_Hair_Nikke_05_x1_Buy",
+          "HairSalon_Hair_Nikke_06_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_NanosuitMaking_1": {
+        "ID": 9000,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "NanosuitMaking"
+        ],
+        "ShopItems": [
+          "NanosuitMaking_1_BS_Green_Suit_x1_Buy",
+          "NanosuitMaking_1_BS_09_2_x1_Buy",
+          "NanosuitMaking_1_BS_09_2_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_05_E_x1_Buy",
+          "NanosuitMaking_1_BS_05_Var2_E_x1_Buy",
+          "NanosuitMaking_1_BS_01_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_01_x1_Buy",
+          "NanosuitMaking_1_BS_01_Var3_x1_Buy",
+          "NanosuitMaking_1_BS_Raven_x1_Buy",
+          "NanosuitMaking_1_BS_Bear_x1_Buy",
+          "NanosuitMaking_1_BS_Bear_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_30_x1_Buy",
+          "NanosuitMaking_1_BS_30_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_37_x1_Buy",
+          "NanosuitMaking_1_BS_37_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_37_Var3_x1_Buy",
+          "NanosuitMaking_1_BS_20_x1_Buy",
+          "NanosuitMaking_1_BS_20_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_19_x1_Buy",
+          "NanosuitMaking_1_BS_19_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_22_x1_Buy",
+          "NanosuitMaking_1_BS_22_Var2_E_x1_Buy",
+          "NanosuitMaking_1_BS_Default_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_Default_x1_Buy",
+          "NanosuitMaking_1_BS_Default_Var3_x1_Buy",
+          "NanosuitMaking_1_BS_Blue_Suit_E_x1_Buy",
+          "NanosuitMaking_1_BS_Yellow_Suit_Jacket_x1_Buy",
+          "NanosuitMaking_1_BS_Yellow_Suit_Jacket_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_Yellow_Suit_x1_Buy",
+          "NanosuitMaking_1_BS_Yellow_Suit_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_02_x1_Buy",
+          "NanosuitMaking_1_BS_02_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_99_x1_Buy",
+          "NanosuitMaking_1_BS_52_x1_Buy",
+          "NanosuitMaking_1_BS_53_x1_Buy",
+          "NanosuitMaking_1_BS_53_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_50_x1_Buy",
+          "NanosuitMaking_1_BS_50_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_54_x1_Buy",
+          "NanosuitMaking_1_BS_RoyalGuard_01_x1_Buy",
+          "NanosuitMaking_1_BS_47_x1_Buy",
+          "NanosuitMaking_1_BS_47_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_13_x1_Buy",
+          "NanosuitMaking_1_BS_13_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_31_x1_Buy",
+          "NanosuitMaking_1_BS_31_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_Leather_Jean_x1_Buy",
+          "NanosuitMaking_1_BS_Leather_Jean_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_Sailor_Jean_x1_Buy",
+          "NanosuitMaking_1_BS_Sailor_Jean_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_EVE_04_x1_Buy",
+          "NanosuitMaking_1_BS_EVE_04_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_32_x1_Buy",
+          "NanosuitMaking_1_BS_26_x1_Buy",
+          "NanosuitMaking_1_BS_26_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_33_x1_Buy",
+          "NanosuitMaking_1_BS_33_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_24_E_x1_Buy",
+          "NanosuitMaking_1_BS_56_x1_Buy",
+          "NanosuitMaking_1_BS_57_x1_Buy",
+          "NanosuitMaking_1_BS_08_x1_Buy",
+          "NanosuitMaking_1_BS_08_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_SilverKunoichi_x1_Buy",
+          "NanosuitMaking_1_BS_SilverKunoichi_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_14_E_x1_Buy",
+          "NanosuitMaking_1_BS_14_Var2_E_x1_Buy",
+          "NanosuitMaking_1_BS_15_x1_Buy",
+          "NanosuitMaking_1_BS_15_Var2_E_x1_Buy",
+          "NanosuitMaking_1_BS_40_x1_Buy",
+          "NanosuitMaking_1_BS_40_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_40_Var3_x1_Buy",
+          "NanosuitMaking_1_BS_45_x1_Buy",
+          "NanosuitMaking_1_BS_45_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_16_x1_Buy",
+          "NanosuitMaking_1_BS_16_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_Black_Leather_bikini_x1_Buy",
+          "NanosuitMaking_1_BS_Black_Leather_bikini_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_44_x1_Buy",
+          "NanosuitMaking_1_BS_44_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_44_Var3_E_x1_Buy",
+          "NanosuitMaking_1_BS_03_x1_Buy",
+          "NanosuitMaking_1_BS_03_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_42_x1_Buy",
+          "NanosuitMaking_1_BS_42_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_55_x1_Buy",
+          "NanosuitMaking_1_BS_55_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_17_x1_Buy",
+          "NanosuitMaking_1_BS_21_x1_Buy",
+          "NanosuitMaking_1_BS_21_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_43_x1_Buy",
+          "NanosuitMaking_1_BS_43_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_OneMillion_01_x1_Buy",
+          "NanosuitMaking_1_BS_White_Jean_x1_Buy",
+          "NanosuitMaking_1_BS_White_Jean_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_48_x1_Buy",
+          "NanosuitMaking_1_BS_48_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_07_x1_Buy",
+          "NanosuitMaking_1_BS_07_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_41_x1_Buy",
+          "NanosuitMaking_1_BS_41_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_38_x1_Buy",
+          "NanosuitMaking_1_BS_38_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_34_x1_Buy",
+          "NanosuitMaking_1_BS_34_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_24_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_23_x1_Buy",
+          "NanosuitMaking_1_BS_23_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_11_x1_Buy",
+          "NanosuitMaking_1_BS_10_x1_Buy",
+          "NanosuitMaking_1_BS_04_x1_Buy",
+          "NanosuitMaking_1_BS_04_Var2_x1_Buy",
+          "NanosuitMaking_1_BS_Christmas_01_x1_Buy",
+          "NanosuitMaking_1_BS_58_x1_Buy",
+          "NanosuitMaking_1_BS_60_x1_Buy",
+          "NanosuitMaking_1_BS_Nier_01_x1_Buy",
+          "NanosuitMaking_1_BS_Nier_02_x1_Buy",
+          "NanosuitMaking_1_BS_Nier_03_x1_Buy",
+          "NanosuitMaking_1_BS_Nier_04_x1_Buy",
+          "NanosuitMaking_1_BS_Nikke_01_x1_Buy",
+          "NanosuitMaking_1_BS_Nikke_02_x1_Buy",
+          "NanosuitMaking_1_BS_Nikke_03_x1_Buy",
+          "NanosuitMaking_1_BS_Nikke_04_x1_Buy",
+          "NanosuitMaking_1_BS_Nikke_05_x1_Buy",
+          "NanosuitMaking_1_BS_Nikke_06_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_NestCamp": {
+        "ID": 1003,
+        "UnionLimitedItem": false,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "AllShop",
+          "VendingMachine"
+        ],
+        "ShopItems": [
+          "Camp_ResurrectionItem_Buy",
+          "Camp_HP_Potion_Buy",
+          "Camp_HP_Potion_Small_Buy",
+          "Camp_Bullet_Package_Dummy_Buy",
+          "Camp_Bullet_Normal_Buy",
+          "Camp_Bullet_Scatter_Buy",
+          "Camp_Bullet_Explosive_Buy",
+          "Camp_Bullet_Missile_Buy",
+          "Camp_Bullet_Railgun_Buy",
+          "Camp_ConcussionGrenade_Buy",
+          "Camp_PulseGrenade_Buy",
+          "Camp_FlashGrenade_Buy",
+          "Camp_TrapGrenade_Buy",
+          "Camp_HealGrenade_Buy",
+          "Camp_SPInitializer_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_Emil": {
+        "ID": 1080,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "Money_Nier",
+        "Tags": [
+          "EmilShop"
+        ],
+        "ShopItems": [
+          "Emil_BS_Nier_01_x1_Buy",
+          "Emil_BS_Nier_02_x1_Buy",
+          "Emil_BS_Nier_03_x1_Buy",
+          "Emil_BS_Nier_04_x1_Buy",
+          "Emil_DroneSeal_Nier_001_x1_Buy",
+          "Emil_FaceAccessory_Nier_001_x1_Buy",
+          "Emil_AdamCostume_Nier_001_x1_Buy",
+          "Emil_LilyCostume_Nier_001_x1_Buy",
+          "Emil_Hair_Nier_001_x1_Buy",
+          "Emil_Hair_Nier_002_x1_Buy",
+          "Emil_Hair_Nier_003_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_Bolt": {
+        "ID": 1090,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "Money_Nikke",
+        "Tags": [
+          "BoltShop"
+        ],
+        "ShopItems": [
+          "Bolt_BS_Nikke_02_x1_Buy",
+          "Bolt_Hair_Nikke_02_x1_Buy",
+          "Bolt_BS_Nikke_03_x1_Buy",
+          "Bolt_Hair_Nikke_03_x1_Buy",
+          "Bolt_BS_Nikke_04_x1_Buy",
+          "Bolt_Hair_Nikke_04_x1_Buy",
+          "Bolt_BS_Nikke_05_x1_Buy",
+          "Bolt_Hair_Nikke_05_x1_Buy",
+          "Bolt_BS_Nikke_06_x1_Buy",
+          "Bolt_Hair_Nikke_06_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      },
+      "Shop_StudioTest": {
+        "ID": 9990,
+        "UnionLimitedItem": true,
+        "ConditionGroup_ApplyDiscount": "None",
+        "CurrencyItemAlias": "BetaCrystal",
+        "Tags": [
+          "Test"
+        ],
+        "ShopItems": [
+          "StudioTest_BS_102_1_x1_Buy",
+          "StudioTest_FaceAccessory_001_x1_Buy",
+          "StudioTest_BS_Yellow_Suit_Jacket_x1_Buy",
+          "StudioTest_Earring_001_x1_Buy",
+          "StudioTest_FaceAccessory_002_x1_Buy",
+          "StudioTest_Bullet_Normal_Buy",
+          "StudioTest_AdamCostume_001_x1_Buy"
+        ],
+        "RequiredFriendShipLevelUp": [],
+        "FriendShipLevelUpSound": [],
+        "FriendShipLevelUpSubtitleType": [],
+        "FriendShipLevelUpSubtitleDuration": [],
+        "FriendShipLevelUpSubtitleTitle": [],
+        "FriendShipLevelUpSubtitleMessage": []
+      }
+    }
+  }
+]

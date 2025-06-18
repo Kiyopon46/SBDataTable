@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LevelGraphicsOptions",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBLevelGraphicsOptionsTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "PS5_Default": {
+        "ID": 1,
+        "FSR2QualityMode": "ESBFSR2QualityMode::SBFSR2QualityMode_Balanced"
+      },
+      "PS5_G03": {
+        "ID": 2,
+        "FSR2QualityMode": "ESBFSR2QualityMode::SBFSR2QualityMode_Performance"
+      },
+      "PS5_Quality": {
+        "ID": 3,
+        "FSR2QualityMode": "ESBFSR2QualityMode::SBFSR2QualityMode_Quality"
+      }
+    }
+  }
+]

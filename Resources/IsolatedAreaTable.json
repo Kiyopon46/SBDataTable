@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "IsolatedAreaTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SBIsolatedAreaTableProperty'",
+        "ObjectPath": "/Script/SB"
+      }
+    },
+    "Rows": {
+      "Xion_UnderGround": {
+        "ID": 1
+      },
+      "GreatDesert_MatrixEntrance": {
+        "ID": 2
+      }
+    }
+  }
+]
