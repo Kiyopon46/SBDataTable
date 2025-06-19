@@ -53,6 +53,15 @@ Follow these steps to set up the environment:
 
 3. Once created, you can package the DataTable into a chunk and pack it as usual.
 
+---
+
+## 🛠 How to Add a New DataTable
+
+A detailed guide will be provided at a later time.  
+Until then, please refer to [this commit where `BossChallengeTable` was added](https://github.com/Kiyopon46/SBDataTable/commit/baad337de9b6119d18309958a0242ec9f24725b5) for an example.
+
+---
+
 ## ⚠️ Attention!!
 You may encounter packing issues when compiling and running.  If so, you'll need to disable Smart App Control.  Only use this if you've already disabled it or have the ability to.
 
