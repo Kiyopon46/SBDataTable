@@ -27,8 +27,13 @@ Follow these steps to set up the environment:
 2. Create a `Source` folder at the root of your project and either extract the latest release ZIP of this repository or clone it directly.
 3. Similarly, create a `Plugins` folder at the root and extract or clone the sister project [SBEditorTools](https://github.com/Kiyopon46/SBEditorTools/) into it.
 4. At this point, your folder structure should look like this:
-    - `/YourProjectName/Plugins/SBEditorTools/`
-    - `/YourProjectName/Source/SBDataTable/`
+```
+/YourProjectName/
+├── Plugins/
+│ └── SBEditorTools/
+└── Source/
+  └── SBDataTable/
+```
 5. Restart the UE4 Editor if it is currently running.
 6. In the restarted UE4 Editor, go to **Edit → Plugins**, search for "SB", and enable the **SBEditorTools** plugin.
 7. You’ll be prompted to restart the UE4 Editor again—please do so.
