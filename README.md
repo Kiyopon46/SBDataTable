@@ -55,3 +55,16 @@ Follow these steps to set up the environment:
 
 ## ⚠️ Attention!!
 You may encounter packing issues when compiling and running.  If so, you'll need to disable Smart App Control.  Only use this if you've already disabled it or have the ability to.
+
+## ⚠️ Usage Restrictions
+
+This repository is not distributed under any formal open-source license.  
+It is intended primarily for sharing technical knowledge within the [**AyakaMods** community](https://discord.gg/stellarblademodding), not for wide public distribution of the source code.
+
+If you use the tools in this repository to create MODs that **significantly degrade the gameplay experience** of **Stellar Blade** (e.g., drastically lowering a boss's Max HP),  
+such use is tolerated **only for personal or private use among trusted individuals**.  
+**Public distribution** of such MODs, including on social media or mod-sharing platforms, is strictly prohibited.
+
+On the other hand, MODs that **enhance the gameplay experience** are welcome to be shared publicly.
+
+If you are unsure whether your MOD would significantly degrade the experience, **please refrain from using this repository**.
