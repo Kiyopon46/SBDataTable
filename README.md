@@ -53,5 +53,5 @@ Follow these steps to set up the environment:
 
 3. Once created, you can package the DataTable into a chunk and pack it as usual.
 
-## Attention!!
+## ⚠️ Attention!!
 You may encounter packing issues when compiling and running.  If so, you'll need to disable Smart App Control.  Only use this if you've already disabled it or have the ability to.
