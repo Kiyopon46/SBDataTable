@@ -8,8 +8,8 @@ This project is a tool designed to overwrite DataTable assets used in the PC ver
 
 This project consists of two GitHub repositories:
 
-1. [SBEditorTools](https://github.com/Kiyopon46/SBEditorTools/) – A plugin to be installed into the UE4 Editor.
-2. [SBDataTable](https://github.com/Kiyopon46/SBDataTable/) – Contains definitions and import logic for each DataTable.
+1. [SBDataTable](https://github.com/Kiyopon46/SBDataTable/) – Contains definitions and import logic for each DataTable.
+2. [SBEditorTools](https://github.com/Kiyopon46/SBEditorTools/) – A plugin to be installed into the UE4 Editor.
 
 Updates such as support for additional DataTables are primarily made to the [SBDataTable](https://github.com/Kiyopon46/SBDataTable/) repository.
 
@@ -21,37 +21,7 @@ Updates such as support for additional DataTables are primarily made to the [SBD
 
 ## Installation
 
-Follow these steps to set up the environment:
-
-1. Create a new UE4.26 project. The project name can be anything.
-2. Create a `Source` folder at the root of your project and either extract the latest release ZIP of this repository or clone it directly.
-3. Similarly, create a `Plugins` folder at the root and extract or clone the sister project [SBEditorTools](https://github.com/Kiyopon46/SBEditorTools/) into it.
-4. At this point, your folder structure should look like this:
-```
-/YourProjectName/
-├── Plugins/
-│ └── SBEditorTools/
-└── Source/
-  └── SBDataTable/
-```
-5. Restart the UE4 Editor if it is currently running.
-6. In the restarted UE4 Editor, go to **Edit → Plugins**, search for "SB", and enable the **SBEditorTools** plugin.
-7. You’ll be prompted to restart the UE4 Editor again—please do so.
-8. Upon restart, you will be asked to build SBEditorTools—proceed with the build.
-9. Once the build is complete and the UE4 Editor launches, setup is complete.
-10. You should now see a **"SB Tools"** menu added to the UE4 Editor’s main menu bar.
-
-## How to Use
-
-1. From the main menu bar, select **SB Tools → DataTable → (Target DataTable Name)**.  
-   If the selected DataTable hasn’t been created yet in the UE4 Editor, a file dialog will immediately appear for selecting a `.json` file.  
-   If it already exists, a confirmation dialog will prompt you for overwriting. If you select "Yes", the corresponding DataTable asset will be deleted from the UE4 Editor before the file dialog is shown—**please proceed with caution**.
-   
-2. After selecting the appropriate `.json` file, the DataTable will be created in the appropriate folder (typically under `Content/Local/Data`).  
-   Make sure the `.json` file matches the structure of the DataTable you are trying to import.  
-   For reference, sample `.json` files extracted from **Stellar Blade PC v1.1.2** are available in the `Resources/json/` folder.
-
-3. Once created, you can package the DataTable into a chunk and pack it as usual.
+For detailed **usage instructions**, please refer to the [README.md of SBEditorTools](https://github.com/Kiyopon46/SBEditorTools/blob/main/README.md).
 
 ---
 
@@ -62,8 +32,35 @@ Until then, please refer to [this commit where `BossChallengeTable` was added](h
 
 ---
 
-## ⚠️ Attention!!
-You may encounter packing issues when compiling and running.  If so, you'll need to disable Smart App Control.  Only use this if you've already disabled it or have the ability to.
+## ⚠️ Important Notes
+
+There may be security issues during compilation or packaging.
+
+### Smart App Control Blocking During Packaging
+
+In Windows 11, the following issues may occur when packaging a C++ project:
+
+- Temporary DLL files generated under `AppData/Local/Temp/UAT` fail to load
+- Packaging process is interrupted
+
+This issue arises due to **Smart App Control (SAC)** or **SmartScreen** blocking unsigned temporary files.  
+The `Output Log` may contain errors like the following:
+
+```
+ERROR: System.IO.FileLoadException: ファイルまたはアセンブリ 'file:///C:\Users\PC_User\AppData\Local\Temp\UAT\C+Program+Files+Epic+Games+UE_4.26\Rules\UATRules1622703478.dll'、またはその依存関係の 1 つが読み込めませんでした。アプリケーション制御ポリシーによってこのファイルがブロックされました。 (HRESULT からの例外:0x800711C7)
+       ファイル名 'file:///C:\Users\PC_User\AppData\Local\Temp\UAT\C+Program+Files+Epic+Games+UE_4.26\Rules\UATRules1622703478.dll' です。'file:///C:\Users\PC_User\AppData\Local\Temp\UAT\C+Program+Files+Epic+Games+UE_4.26\Rules\UATRules1622703478.dll'
+       ......
+
+PackagingResults: Error: System.IO.FileLoadException: ファイルまたはアセンブリ 'file:///C:\Users\PC_User\AppData\Local\Temp\UAT\C+Program+Files+Epic+Games+UE_4.26\Rules\UATRules1622703478.dll'、またはその依存関係の 1 つが読み込めませんでした。アプリケーション制御ポリシーによってこのファイルがブロックされました。 (HRESULT からの例外:0x800711C7)
+```
+
+### 🔧 Solution
+
+- Disable Smart App Control
+
+If this error occurs, you may need to disable Smart App Control in Windows 11.  
+Note that once disabled, re-enabling it requires OS reinstallation. Use this function only if you have already disabled SAC or do not mind it remaining disabled.
+
 
 ## ⚠️ Usage Restrictions
 
