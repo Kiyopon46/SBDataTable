@@ -6,24 +6,17 @@
 
 #define LOCTEXT_NAMESPACE "FSBCharacterTableImporter"
 
-FSBMenuEntry FSBCharacterTableImporter::GetMenuEntry()
+FString FSBCharacterTableImporter::GetDataTableName() const
 {
-    FSBMenuEntry Entry;
-    Entry.Name = "CharacterTableEntry";
-    Entry.Label = LOCTEXT("CharacterTableEntry", "CharacterTable");
-    Entry.Tooltip = LOCTEXT("CharacterTableEntry_Tooltip", "Run CharacterTable tool");
+    return "CharacterTable";
+}
 
-    Entry.Callback = [this]()
+TFunction<void()> FSBCharacterTableImporter::GetMenuCallback()
+{
+    return [this]()
     {
         this->Execute();
     };
-
-    return Entry;
-}
-
-FString FSBCharacterTableImporter::GetPackagePath() const
-{
-    return TEXT("/Game/Local/Data/CharacterTable");
 }
 
 UScriptStruct* FSBCharacterTableImporter::GetRowStruct() const

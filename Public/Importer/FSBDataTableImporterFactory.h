@@ -5,5 +5,5 @@
 class SB_API FSBDataTableImporterFactory
 {
 public:
-	TArray<TSharedPtr<FSBDataTableImporter>> GetInstanceArray() const;
+	TArray<TPair<FString, TSharedPtr<FSBDataTableImporter>>> GetImporterMapSortedByName() const;
 };

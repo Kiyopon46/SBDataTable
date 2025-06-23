@@ -6,24 +6,17 @@
 
 #define LOCTEXT_NAMESPACE "FSBBossChallengeTableImporter"
 
-FSBMenuEntry FSBBossChallengeTableImporter::GetMenuEntry()
+FString FSBBossChallengeTableImporter::GetDataTableName() const
 {
-    FSBMenuEntry Entry;
-    Entry.Name = "BossChallengeTableEntry";
-    Entry.Label = LOCTEXT("BossChallengeTableEntry", "BossChallengeTable");
-    Entry.Tooltip = LOCTEXT("BossChallengeTableEntry_Tooltip", "Run BossChallengeTable tool");
+    return "BossChallengeTable";
+}
 
-    Entry.Callback = [this]()
+TFunction<void()> FSBBossChallengeTableImporter::GetMenuCallback()
+{
+    return [this]()
     {
         this->Execute();
     };
-
-    return Entry;
-}
-
-FString FSBBossChallengeTableImporter::GetPackagePath() const
-{
-    return TEXT("/Game/Local/Data/BossChallengeTable");
 }
 
 UScriptStruct* FSBBossChallengeTableImporter::GetRowStruct() const

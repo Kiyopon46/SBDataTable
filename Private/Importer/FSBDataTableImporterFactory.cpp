@@ -7,21 +7,26 @@
 // どこかに保持（Editorモジュールなど）
 static TArray<TSharedPtr<FSBDataTableImporter>> GImporterList;
 
-TArray<TSharedPtr<FSBDataTableImporter>> FSBDataTableImporterFactory::GetInstanceArray() const
+TArray<TPair<FString, TSharedPtr<FSBDataTableImporter>>> FSBDataTableImporterFactory::GetImporterMapSortedByName() const
 {
-	TArray<TSharedPtr<FSBDataTableImporter>> Result;
+	TArray<TPair<FString, TSharedPtr<FSBDataTableImporter>>> Result;
 
-	TSharedPtr<FSBDataTableImporter> Importer1 = MakeShared<FSBCharacterTableImporter>();
-	TSharedPtr<FSBDataTableImporter> Importer2 = MakeShared<FSBPhotoModeImageTableImporter>();
-	TSharedPtr<FSBDataTableImporter> Importer3 = MakeShared<FSBBossChallengeTableImporter>();
+	GImporterList.Add(MakeShared<FSBCharacterTableImporter>());
+	GImporterList.Add(MakeShared<FSBPhotoModeImageTableImporter>());
+	GImporterList.Add(MakeShared<FSBBossChallengeTableImporter>());
 
-	GImporterList.Add(Importer1);
-	GImporterList.Add(Importer2);
-	GImporterList.Add(Importer3);
+	for (const TSharedPtr<FSBDataTableImporter>& Importer : GImporterList)
+	{
+		const FString TableName = Importer->GetDataTableName();
+		Result.Add(TPair<FString, TSharedPtr<FSBDataTableImporter>>(TableName, Importer));
+	}
 
-	Result.Add(Importer1);
-	Result.Add(Importer2);
-	Result.Add(Importer3);
+	// DataTable名順でソート
+	Result.Sort([](const TPair<FString, TSharedPtr<FSBDataTableImporter>>& A,
+		const TPair<FString, TSharedPtr<FSBDataTableImporter>>& B)
+		{
+			return A.Key < B.Key;
+		});
 
 	return Result;
 }

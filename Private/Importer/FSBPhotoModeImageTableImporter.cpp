@@ -6,24 +6,17 @@
 
 #define LOCTEXT_NAMESPACE "FSBPhotoModeImageTableImporter"
 
-FSBMenuEntry FSBPhotoModeImageTableImporter::GetMenuEntry()
+FString FSBPhotoModeImageTableImporter::GetDataTableName() const
 {
-    FSBMenuEntry Entry;
-    Entry.Name = "PhotoModeImageTableEntry";
-    Entry.Label = LOCTEXT("PhotoModeImageTableEntry", "PhotoModeImageTable");
-    Entry.Tooltip = LOCTEXT("PhotoModeImageTableEntry_Tooltip", "Run PhotoModeImageTable tool");
+    return "PhotoModeImageTable";
+}
 
-    Entry.Callback = [this]()
+TFunction<void()> FSBPhotoModeImageTableImporter::GetMenuCallback()
+{
+    return [this]()
     {
         this->Execute();
     };
-
-    return Entry;
-}
-
-FString FSBPhotoModeImageTableImporter::GetPackagePath() const
-{
-    return TEXT("/Game/Local/Data/PhotoModeImageTable");
 }
 
 UScriptStruct* FSBPhotoModeImageTableImporter::GetRowStruct() const

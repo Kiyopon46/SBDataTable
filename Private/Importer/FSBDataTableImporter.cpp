@@ -162,12 +162,17 @@ TSharedPtr<FJsonObject> FSBDataTableImporter::LoadJsonRows(const FString& FilePa
 UDataTable* FSBDataTableImporter::CreateDataTable()
 {
     // Create Package and DataTable
-    FString PackagePath = GetPackagePath();
-    UPackage* Package = CreatePackage(*PackagePath);
-    UDataTable* DataTable = NewObject<UDataTable>(Package, *FPaths::GetBaseFilename(PackagePath), RF_Public | RF_Transactional | RF_Standalone);
+    UDataTable* DataTable = CreateObject();
     DataTable->RowStruct = GetRowStruct();
 
     return DataTable;
+}
+
+UDataTable* FSBDataTableImporter::CreateObject()
+{
+    FString PackagePath = GetPackagePath();
+    UPackage* Package = CreatePackage(*PackagePath);
+    return NewObject<UDataTable>(Package, *FPaths::GetBaseFilename(PackagePath), RF_Public | RF_Transactional | RF_Standalone);
 }
 
 void FSBDataTableImporter::SaveDataTableAsset(UDataTable* DataTable, const FString& PackagePath)

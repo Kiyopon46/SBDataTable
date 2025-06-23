@@ -3,19 +3,23 @@
 #include "CoreMinimal.h"
 #include "Dom/JsonObject.h"
 #include "Engine/DataTable.h"
-#include "FSBMenuEntry.h"
 
 class FSBDataTableImporter
 {
 public:
     virtual ~FSBDataTableImporter() {}
 
-    virtual FSBMenuEntry GetMenuEntry() = 0;
+    virtual TFunction<void()> GetMenuCallback() = 0;
+
+    virtual FString GetDataTableName() const = 0;
 
     /**
      * Get the package path of the output DataTable (e.g. "/Game/Local/Data/CharacterTable")
      */
-    virtual FString GetPackagePath() const = 0;
+    FString GetPackagePath() const
+    {
+        return TEXT("/Game/Local/Data/" + GetDataTableName());
+    }
 
     /**
      * Returns the UScriptStruct object representing the type information of the DataTable row. 
@@ -60,6 +64,8 @@ protected:
     TSharedPtr<FJsonObject> LoadJsonRows(const FString& FilePath);
 
     UDataTable* CreateDataTable();
+
+    virtual UDataTable* CreateObject();
 
     void SaveDataTableAsset(
         UDataTable* DataTable, const FString& PackagePath);

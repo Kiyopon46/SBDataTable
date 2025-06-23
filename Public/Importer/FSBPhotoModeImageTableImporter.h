@@ -9,8 +9,8 @@
 class SB_API FSBPhotoModeImageTableImporter : public FSBDataTableImporter
 {
 public:
-    virtual FSBMenuEntry GetMenuEntry() override;
-    virtual FString GetPackagePath() const override;
+    virtual FString GetDataTableName() const override;
+    virtual TFunction<void()> GetMenuCallback() override;
     virtual UScriptStruct* GetRowStruct() const override;
     virtual void PopulateDataTable(UDataTable* TargetTable, const TSharedPtr<FJsonObject>& RowsObject) override;
 };
