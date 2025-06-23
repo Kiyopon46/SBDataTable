@@ -29,9 +29,11 @@ public:
     /**
      * Populating a DataTable with Row Data
      */
-    virtual void PopulateDataTable(UDataTable* Table, const TSharedPtr<FJsonObject>& RowsObject) = 0;
+    virtual void PopulateDataTable(UDataTable* Table, const TSharedPtr<FJsonObject>& DataTableObject) = 0;
 
 protected:
+
+    EObjectFlags Flags = RF_Public | RF_Transactional | RF_Standalone;
 
     /**
      * Main processing called for each handlers.
@@ -61,11 +63,11 @@ protected:
      * ]
      * </code>
      */
-    TSharedPtr<FJsonObject> LoadJsonRows(const FString& FilePath);
+    TSharedPtr<FJsonObject> LoadJsonDataTableObject(const FString& FilePath);
 
-    UDataTable* CreateDataTable();
+    UDataTable* CreateDataTable(const TSharedPtr<FJsonObject>& DataTableObject);
 
-    virtual UDataTable* CreateObject();
+    virtual UDataTable* CreateObject(const TSharedPtr<FJsonObject>& DataTableObject);
 
     void SaveDataTableAsset(
         UDataTable* DataTable, const FString& PackagePath);

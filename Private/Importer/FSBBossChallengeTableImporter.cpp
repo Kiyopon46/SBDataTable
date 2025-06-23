@@ -24,8 +24,16 @@ UScriptStruct* FSBBossChallengeTableImporter::GetRowStruct() const
     return FSBBossChallengeTableProperty::StaticStruct();
 }
 
-void FSBBossChallengeTableImporter::PopulateDataTable(UDataTable* TargetTable, const TSharedPtr<FJsonObject>& RowsObject)
+void FSBBossChallengeTableImporter::PopulateDataTable(UDataTable* TargetTable, const TSharedPtr<FJsonObject>& DataTableObject)
 {
+    // Get "Rows" Object
+    const TSharedPtr<FJsonObject>* RowsObjectPtr = nullptr;
+    if (!DataTableObject->TryGetObjectField(TEXT("Rows"), RowsObjectPtr) || !RowsObjectPtr) {
+        UE_LOG(LogTemp, Error, TEXT("Rows field missing or invalid."));
+        return;
+    }
+
+    const TSharedPtr<FJsonObject>& RowsObject = *RowsObjectPtr;
     for (const auto& RowPair : RowsObject->Values) {
         FString RowName = RowPair.Key;
 

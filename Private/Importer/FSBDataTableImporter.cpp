@@ -1,4 +1,5 @@
 #include "Importer/FSBDataTableImporter.h"
+#include "IndexedDataTable.h"
 #include "Engine/DataTable.h"
 #include "Serialization/JsonSerializer.h"
 #include "Serialization/JsonReader.h"
@@ -54,14 +55,14 @@ void FSBDataTableImporter::Execute()
         return;
     }
 
-    TSharedPtr<FJsonObject> RowsObject = LoadJsonRows(JsonPath);
-    if (!RowsObject.IsValid())
+    TSharedPtr<FJsonObject> DataTableObject = LoadJsonDataTableObject(JsonPath);
+    if (!DataTableObject.IsValid())
     {
-        UE_LOG(LogTemp, Warning, TEXT("LoadJsonRows() failed."));
+        UE_LOG(LogTemp, Warning, TEXT("LoadJsonDataTableObject() failed."));
         return;
     }
 
-    UDataTable* TargetTable = CreateDataTable();
+    UDataTable* TargetTable = CreateDataTable(DataTableObject);
     if (!TargetTable)
     {
         UE_LOG(LogTemp, Warning, TEXT("CreateCharacterDataTable() failed."));
@@ -69,7 +70,7 @@ void FSBDataTableImporter::Execute()
     }
 
     // Read data from JSON and set it in a DataTable.
-    PopulateDataTable(TargetTable, RowsObject);
+    PopulateDataTable(TargetTable, DataTableObject);
 
     SaveDataTableAsset(TargetTable, PackagePath);
 }
@@ -119,7 +120,7 @@ FString FSBDataTableImporter::GetJsonFilePath()
     return FilePath;
 }
 
-TSharedPtr<FJsonObject> FSBDataTableImporter::LoadJsonRows(const FString& FilePath)
+TSharedPtr<FJsonObject> FSBDataTableImporter::LoadJsonDataTableObject(const FString& FilePath)
 {
     // Loading a JSON file
     FString FileContent;
@@ -149,30 +150,62 @@ TSharedPtr<FJsonObject> FSBDataTableImporter::LoadJsonRows(const FString& FilePa
         return nullptr;
     }
 
-    // Get "Rows" Object
-    const TSharedPtr<FJsonObject>* RowsObjectPtr = nullptr;
-    if (!DataTableObject->TryGetObjectField(TEXT("Rows"), RowsObjectPtr) || !RowsObjectPtr) {
-        UE_LOG(LogTemp, Error, TEXT("Rows field missing or invalid."));
-        return nullptr;
-    }
-
-    return *RowsObjectPtr;
+    return DataTableObject;
 }
 
-UDataTable* FSBDataTableImporter::CreateDataTable()
+UDataTable* FSBDataTableImporter::CreateDataTable(const TSharedPtr<FJsonObject>& DataTableObject)
 {
     // Create Package and DataTable
-    UDataTable* DataTable = CreateObject();
+    UDataTable* DataTable = CreateObject(DataTableObject);
     DataTable->RowStruct = GetRowStruct();
 
     return DataTable;
 }
 
-UDataTable* FSBDataTableImporter::CreateObject()
+UDataTable* FSBDataTableImporter::CreateObject(const TSharedPtr<FJsonObject>& DataTableObject)
 {
     FString PackagePath = GetPackagePath();
     UPackage* Package = CreatePackage(*PackagePath);
-    return NewObject<UDataTable>(Package, *FPaths::GetBaseFilename(PackagePath), RF_Public | RF_Transactional | RF_Standalone);
+    UDataTable* Table = nullptr;
+
+    const TSharedPtr<FJsonObject>* PropertiesPtr = nullptr;
+    if (DataTableObject->TryGetObjectField(TEXT("Properties"), PropertiesPtr))
+    {
+        // IndexArrayPtr にアクセス
+        const TArray<TSharedPtr<FJsonValue>>* IndexArrayPtr = nullptr;
+        if ((*PropertiesPtr)->TryGetArrayField(TEXT("IndexPropertySet"), IndexArrayPtr))
+        {
+            Table = NewObject<UIndexedDataTable>(Package, *FPaths::GetBaseFilename(PackagePath), Flags);
+
+            // Cast to UIndexedDataTable*
+            UIndexedDataTable* IndexedTable = Cast<UIndexedDataTable>(Table);
+            if (IndexedTable)
+            {
+                for (const TSharedPtr<FJsonValue>& Value : *IndexArrayPtr)
+                {
+                    FString IndexStr;
+                    if (Value->TryGetString(IndexStr))
+                    {
+                        IndexedTable->IndexPropertySet.Add(FName(*IndexStr));
+                    }
+                }
+            }
+        }
+
+        if (Table == nullptr)
+        {
+            Table = NewObject<UDataTable>(Package, *FPaths::GetBaseFilename(PackagePath), Flags);
+        }
+
+        // bIgnoreMissingFields にアクセス
+        bool bIgnoreMissingFields = false;
+        if ((*PropertiesPtr)->TryGetBoolField(TEXT("bIgnoreMissingFields"), bIgnoreMissingFields))
+        {
+            Table->bIgnoreMissingFields = bIgnoreMissingFields;
+        }
+    }
+
+    return Table;
 }
 
 void FSBDataTableImporter::SaveDataTableAsset(UDataTable* DataTable, const FString& PackagePath)
