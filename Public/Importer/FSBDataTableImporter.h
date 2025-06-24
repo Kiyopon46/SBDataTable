@@ -4,12 +4,14 @@
 #include "Dom/JsonObject.h"
 #include "Engine/DataTable.h"
 
-class FSBDataTableImporter
+class SB_API FSBDataTableImporter
 {
 public:
     virtual ~FSBDataTableImporter() {}
 
     virtual TFunction<void()> GetMenuCallback() = 0;
+
+    void Execute(TSharedPtr<FJsonObject> DataTableJson);
 
     virtual FString GetDataTableName() const = 0;
 
@@ -37,7 +39,6 @@ protected:
 
     /**
      * Main processing called for each handlers.
-     * @param Importer Importer for each DataTable
      */
     void Execute();
 
@@ -176,5 +177,4 @@ protected:
             UE_LOG(LogTemp, Warning, TEXT("Invalid Data in Row '%s': Missing or invalid bool key '%s'"), *RowName, *Key);
         }
     }
-
 };

@@ -1,0 +1,16 @@
+#pragma once
+
+#include "FSBDataTableImporter.h"
+#include "%%%ROW_STRUCT_NAME%%%.h"
+
+/**
+ * Importer for %%%DATA_TABLE_NAME%%%.
+ */
+class SB_API FSB%%%DATA_TABLE_NAME%%%Importer : public FSBDataTableImporter
+{
+public:
+    virtual FString GetDataTableName() const override;
+    virtual TFunction<void()> GetMenuCallback() override;
+    virtual UScriptStruct* GetRowStruct() const override;
+    virtual void PopulateDataTable(UDataTable* TargetTable, const TSharedPtr<FJsonObject>& RowsObject) override;
+};

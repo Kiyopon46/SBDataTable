@@ -18,6 +18,22 @@
 
 #define LOCTEXT_NAMESPACE "FSBDataTableImporter"
 
+void FSBDataTableImporter::Execute(TSharedPtr<FJsonObject> DataTableObject)
+{
+    UDataTable* TargetTable = CreateDataTable(DataTableObject);
+    if (!TargetTable)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("CreateCharacterDataTable() failed."));
+        return;
+    }
+
+    // Read data from JSON and set it in a DataTable.
+    PopulateDataTable(TargetTable, DataTableObject);
+
+    FString PackagePath = GetPackagePath();
+    SaveDataTableAsset(TargetTable, PackagePath);
+}
+
 void FSBDataTableImporter::Execute()
 {
     FString PackagePath = GetPackagePath();
@@ -62,17 +78,19 @@ void FSBDataTableImporter::Execute()
         return;
     }
 
-    UDataTable* TargetTable = CreateDataTable(DataTableObject);
-    if (!TargetTable)
-    {
-        UE_LOG(LogTemp, Warning, TEXT("CreateCharacterDataTable() failed."));
-        return;
-    }
+    Execute(DataTableObject);
 
-    // Read data from JSON and set it in a DataTable.
-    PopulateDataTable(TargetTable, DataTableObject);
+    //UDataTable* TargetTable = CreateDataTable(DataTableObject);
+    //if (!TargetTable)
+    //{
+    //    UE_LOG(LogTemp, Warning, TEXT("CreateCharacterDataTable() failed."));
+    //    return;
+    //}
 
-    SaveDataTableAsset(TargetTable, PackagePath);
+    //// Read data from JSON and set it in a DataTable.
+    //PopulateDataTable(TargetTable, DataTableObject);
+
+    //SaveDataTableAsset(TargetTable, PackagePath);
 }
 
 UDataTable* FSBDataTableImporter::GetExistingTable(const FString& PackagePath)
