@@ -244,6 +244,83 @@
         "ImagePath": "Texture2D'/Game/Art/UI/Texture/DLC_2_Nikke/turntable/album_event_01.album_event_01'",
         "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/Nikke/CAMP/BGM_CAMP_NIKKE_08_NRT_CAMP.BGM_CAMP_NIKKE_08_NRT_CAMP'",
         "FileSuffix": "None"
+      },
+      "Turtable_Music_Bundle_1": {
+        "ID": 5001,
+        "ConditionGroup": "CG_TurntableMusicBundle",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ01_DFM_ON.BGM_CAMP_JZ01_DFM_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ01_DFM_OFF.BGM_CAMP_JZ01_DFM_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Bundle_01",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/UI_Turntable_Music_010.UI_Turntable_Music_010'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ01_DFM_NRT.BGM_CAMP_JZ01_DFM_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Bundle_2": {
+        "ID": 5002,
+        "ConditionGroup": "CG_TurntableMusicBundle",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ02_FCS_ON.BGM_CAMP_JZ02_FCS_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ02_FCS_OFF.BGM_CAMP_JZ02_FCS_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Bundle_02",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/UI_Turntable_Music_010.UI_Turntable_Music_010'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ02_FCS_NRT.BGM_CAMP_JZ02_FCS_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Bundle_3": {
+        "ID": 5003,
+        "ConditionGroup": "CG_TurntableMusicBundle",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ03_CT_ON.BGM_CAMP_JZ03_CT_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ03_CT_OFF.BGM_CAMP_JZ03_CT_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Bundle_03",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/UI_Turntable_Music_010.UI_Turntable_Music_010'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ03_CT_NRT.BGM_CAMP_JZ03_CT_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Bundle_4": {
+        "ID": 5004,
+        "ConditionGroup": "CG_TurntableMusicBundle",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ04_WN_ON.BGM_CAMP_JZ04_WN_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ04_WN_OFF.BGM_CAMP_JZ04_WN_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Bundle_04",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/UI_Turntable_Music_010.UI_Turntable_Music_010'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ04_WN_NRT.BGM_CAMP_JZ04_WN_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Bundle_5": {
+        "ID": 5005,
+        "ConditionGroup": "CG_TurntableMusicBundle",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ05_WLR_ON.BGM_CAMP_JZ05_WLR_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ05_WLR_OFF.BGM_CAMP_JZ05_WLR_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Bundle_05",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/UI_Turntable_Music_010.UI_Turntable_Music_010'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ05_WLR_NRT.BGM_CAMP_JZ05_WLR_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Bundle_6": {
+        "ID": 5006,
+        "ConditionGroup": "CG_TurntableMusicBundle",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ06_OASIS_ON.BGM_CAMP_JZ06_OASIS_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ06_OASIS_OFF.BGM_CAMP_JZ06_OASIS_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Bundle_06",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/UI_Turntable_Music_010.UI_Turntable_Music_010'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ06_OASIS_NRT.BGM_CAMP_JZ06_OASIS_NRT'",
+        "FileSuffix": "None"
+      },
+      "Turtable_Music_Bundle_7": {
+        "ID": 5007,
+        "ConditionGroup": "CG_TurntableMusicBundle",
+        "NotifyAchievement": "None",
+        "MusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ07_DFMV_ON.BGM_CAMP_JZ07_DFMV_ON'",
+        "NoiseMusicPath": "SoundWave'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ07_DFMV_OFF.BGM_CAMP_JZ07_DFMV_OFF'",
+        "TitleStringKey": "UI_Turntable_Music_Bundle_07",
+        "ImagePath": "Texture2D'/Game/Art/UI/Texture/Turntable/UI_Turntable_Music_010.UI_Turntable_Music_010'",
+        "QNRTAssetPath": "ConstantQNRT'/Game/Sound/World/BGM/VendingMachine/BGM_CAMP_JZ07_DFMV_NRT.BGM_CAMP_JZ07_DFMV_NRT'",
+        "FileSuffix": "None"
       }
     }
   }

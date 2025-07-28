@@ -209,7 +209,7 @@
       "LYC02GO_E_UIAction_001": {
         "ID": 24,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -224,7 +224,7 @@
       "LYC02GO_E_UIAction_002": {
         "ID": 25,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -239,7 +239,7 @@
       "LV_TempTestMap_E_UIAction_001": {
         "ID": 26,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -254,7 +254,7 @@
       "LV_Test_Map_E_UI_AreaName001": {
         "ID": 27,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_01_Title",
@@ -269,7 +269,7 @@
       "LV_Test_Divide01_E_UIAction_001": {
         "ID": 38,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -284,7 +284,7 @@
       "UIOpen_Puzzle27": {
         "ID": 61,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -299,7 +299,7 @@
       "LV_Test_Puzzle_01_E_UIAction_022": {
         "ID": 60,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -314,7 +314,7 @@
       "UIOpen_Puzzle24": {
         "ID": 59,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -329,7 +329,7 @@
       "UIOpen_Puzzle18": {
         "ID": 58,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -344,7 +344,7 @@
       "UIOpen_Puzzle19": {
         "ID": 57,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -359,7 +359,7 @@
       "UIOpen_Puzzle20": {
         "ID": 56,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -374,7 +374,7 @@
       "UIOpen_Puzzle15": {
         "ID": 55,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -389,7 +389,7 @@
       "UIOpen_Puzzle16": {
         "ID": 54,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -404,7 +404,7 @@
       "UIOpen_Puzzle17": {
         "ID": 53,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -419,7 +419,7 @@
       "UIOpen_Puzzle14": {
         "ID": 52,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -434,7 +434,7 @@
       "UIOpen_Puzzle13": {
         "ID": 51,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -449,7 +449,7 @@
       "UIOpen_Puzzle12": {
         "ID": 50,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -464,7 +464,7 @@
       "UIOpen_Puzzle11": {
         "ID": 49,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -479,7 +479,7 @@
       "UIOpen_Puzzle10": {
         "ID": 48,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -494,7 +494,7 @@
       "UIOpen_Puzzle09": {
         "ID": 47,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -509,7 +509,7 @@
       "UIOpen_Puzzle08": {
         "ID": 46,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -524,7 +524,7 @@
       "UIOpen_Puzzle07": {
         "ID": 45,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -539,7 +539,7 @@
       "UIOpen_Puzzle06": {
         "ID": 44,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -554,7 +554,7 @@
       "UIOpen_Puzzle05": {
         "ID": 43,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -569,7 +569,7 @@
       "UIOpen_Puzzle04": {
         "ID": 42,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -584,7 +584,7 @@
       "UIOpen_Puzzle03": {
         "ID": 41,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -599,7 +599,7 @@
       "LV_Test_Puzzle_01_E_UIAction_002": {
         "ID": 40,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -614,7 +614,7 @@
       "LV_Test_Puzzle_01_E_UIAction_001": {
         "ID": 39,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -629,7 +629,7 @@
       "ME_01_E_UI_AreaName001": {
         "ID": 62,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_01_Title",
@@ -644,7 +644,7 @@
       "ME_01_E_UI_AreaName002": {
         "ID": 63,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_02_Title",
@@ -659,7 +659,7 @@
       "ME_01_E_UI_AreaName003": {
         "ID": 64,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_01_Title",
@@ -674,7 +674,7 @@
       "ME_01_E_UIAction_001": {
         "ID": 65,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_Empty",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_DebugCommand",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -689,7 +689,7 @@
       "ME_02_E_UI_AreaName001": {
         "ID": 66,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_03_Title",
@@ -719,7 +719,7 @@
       "ME_04_E_UI_AreaName001": {
         "ID": 68,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_05_Title",
@@ -734,7 +734,7 @@
       "ME_04_E_UI_AreaName002": {
         "ID": 69,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_06_Title",
@@ -749,7 +749,7 @@
       "ME_05_E_UI_AreaName002": {
         "ID": 20,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_08_Title",
@@ -764,7 +764,7 @@
       "ME_05_E_UI_AreaName001": {
         "ID": 19,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_07_Title",
@@ -779,7 +779,7 @@
       "ME_05_E_UIAction_001": {
         "ID": 18,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -839,7 +839,7 @@
       "SE_01_E_UIAction_001": {
         "ID": 71,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -854,7 +854,7 @@
       "SE_02_E_UI_AreaName001": {
         "ID": 79,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Spire_IV_02_Title",
@@ -869,7 +869,7 @@
       "SE_07_E_UI_AreaName001": {
         "ID": 80,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Spire_IV_07_1_Title",
@@ -884,7 +884,7 @@
       "SE_07_E_UI_AreaName003": {
         "ID": 81,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Spire_IV_07_3_Title",
@@ -899,7 +899,7 @@
       "SE_08_E_UI_AreaName002": {
         "ID": 82,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Spire_IV_08_2_Title",
@@ -914,7 +914,7 @@
       "SE_09_E_UI_AreaName001": {
         "ID": 83,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Spire_IV_10_1_Title",
@@ -959,7 +959,7 @@
       "DED30_E_UIAction_001": {
         "ID": 21,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_ActionEvent",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_KeyMappingSlot",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_RequestBoard",
         "UIActionRequestIndex": "NextChapter_CompleteF02",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -1214,7 +1214,7 @@
       "Xion_10_E_UI_AreaName008": {
         "ID": 110,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_08_Title",
@@ -1229,7 +1229,7 @@
       "Xion_10_E_UI_AreaName007": {
         "ID": 109,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_07_Title",
@@ -1244,7 +1244,7 @@
       "Xion_10_E_UI_AreaName006": {
         "ID": 108,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_06_Title",
@@ -1259,7 +1259,7 @@
       "Xion_10_E_UI_AreaName005": {
         "ID": 107,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_05_Title",
@@ -1274,7 +1274,7 @@
       "Xion_10_E_UI_AreaName004": {
         "ID": 106,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_04_Title",
@@ -1289,7 +1289,7 @@
       "Xion_10_E_UI_AreaName003": {
         "ID": 105,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_03_Title",
@@ -1304,7 +1304,7 @@
       "Xion_10_E_UI_AreaName002": {
         "ID": 104,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_02_Title",
@@ -1319,7 +1319,7 @@
       "Xion_22_E_UI_AreaName001": {
         "ID": 111,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_10_Title",
@@ -1334,7 +1334,7 @@
       "Xion_10_E_UI_AreaName001": {
         "ID": 103,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Xion_01_00_Title",
@@ -1379,7 +1379,7 @@
       "WLB_10_E_UI_AreaName005": {
         "ID": 116,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_13_Title",
@@ -1394,7 +1394,7 @@
       "WLB_10_E_UI_AreaName004": {
         "ID": 115,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_03_Title",
@@ -1409,7 +1409,7 @@
       "LV_Test_Puzzle_01_E_UI_AreaName001": {
         "ID": 117,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_01_Title",
@@ -1589,7 +1589,7 @@
       "ATL_01_E_UI_AreaName001": {
         "ID": 129,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_01_Title",
@@ -1604,7 +1604,7 @@
       "ATL_01_E_UI_AreaName002": {
         "ID": 130,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_02_Title",
@@ -1619,7 +1619,7 @@
       "ATL_01_E_UI_AreaName003": {
         "ID": 131,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_03_Title",
@@ -1634,7 +1634,7 @@
       "ATL_01_E_UI_AreaName004": {
         "ID": 132,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_04_Title",
@@ -1649,7 +1649,7 @@
       "ATL_01_E_UI_AreaName005": {
         "ID": 133,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_05_Title",
@@ -1664,7 +1664,7 @@
       "ATL_02_E_UI_AreaName001": {
         "ID": 134,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_06_Title",
@@ -1679,7 +1679,7 @@
       "ATL_02_E_UI_AreaName002": {
         "ID": 135,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_07_Title",
@@ -1694,7 +1694,7 @@
       "ATL_03_E_UI_AreaName002": {
         "ID": 136,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_08_Title",
@@ -1709,7 +1709,7 @@
       "ATL_03_E_UI_AreaName003": {
         "ID": 137,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_09_Title",
@@ -1724,7 +1724,7 @@
       "ATL_03_E_UI_AreaName004": {
         "ID": 138,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_ATL_10_Title",
@@ -1919,7 +1919,7 @@
       "SD_10_E_UI_AreaName001": {
         "ID": 169,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_SD_00_Title",
@@ -1934,7 +1934,7 @@
       "ME_03_E_UIAction_001": {
         "ID": 67,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -1964,7 +1964,7 @@
       "DED40_E_UI_AreaName005": {
         "ID": 149,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Eidos_IX_Area_03_Title",
@@ -1979,7 +1979,7 @@
       "DED40_E_UI_AreaName004": {
         "ID": 147,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Eidos_IX_Area_02_Title",
@@ -1994,7 +1994,7 @@
       "DED40_E_UI_AreaName001": {
         "ID": 146,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Eidos_IX_Area_01_Title",
@@ -2009,7 +2009,7 @@
       "WLB_10_E_UI_AreaName003": {
         "ID": 114,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_02_Title",
@@ -2024,7 +2024,7 @@
       "WLB_10_E_UI_AreaName002": {
         "ID": 113,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_01_Title",
@@ -2144,7 +2144,7 @@
       "AYL_03_E_UI_AreaName001": {
         "ID": 143,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_AYL_03_Title",
@@ -2159,7 +2159,7 @@
       "AYL_04_E_UI_AreaName001": {
         "ID": 144,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_AYL_04_Title",
@@ -2174,7 +2174,7 @@
       "AYL_05_E_UI_AreaName001": {
         "ID": 145,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_AYL_05_Title",
@@ -2189,7 +2189,7 @@
       "AYL_06_E_UI_AreaName001": {
         "ID": 150,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_AYL_06_Title",
@@ -2204,7 +2204,7 @@
       "AYL_02_E_UI_AreaName001": {
         "ID": 151,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_AYL_02_Title",
@@ -2219,7 +2219,7 @@
       "WLB_20_E_UI_AreaName002": {
         "ID": 156,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_07_Title",
@@ -2234,7 +2234,7 @@
       "WLB_20_E_UI_AreaName001": {
         "ID": 155,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_06_Title",
@@ -2249,7 +2249,7 @@
       "WLB_40_E_UI_AreaName001": {
         "ID": 157,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_08_Title",
@@ -2264,7 +2264,7 @@
       "WLB_50_E_UI_AreaName002": {
         "ID": 159,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_10_Title",
@@ -2279,7 +2279,7 @@
       "WLB_50_E_UI_AreaName001": {
         "ID": 158,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_09_Title",
@@ -2309,7 +2309,7 @@
       "WLA_30_E_UI_AreaName003": {
         "ID": 173,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_10_Title",
@@ -2354,7 +2354,7 @@
       "WLA_40_E_UI_AreaName004": {
         "ID": 164,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_05_Title",
@@ -2369,7 +2369,7 @@
       "WLA_40_E_UI_AreaName003": {
         "ID": 163,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_08_Title",
@@ -2474,7 +2474,7 @@
       "SE_10_E_UI_AreaName002": {
         "ID": 84,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Spire_IV_10_2_Title",
@@ -2564,7 +2564,7 @@
       "WLA_30_E_UI_AreaName002": {
         "ID": 141,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_05_Title",
@@ -2699,7 +2699,7 @@
       "UIOpen_Puzzle02": {
         "ID": 9,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -2729,7 +2729,7 @@
       "WLB_30_E_UI_AreaName003": {
         "ID": 184,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_04_Title",
@@ -2744,7 +2744,7 @@
       "DED30_E_UI_AreaName001": {
         "ID": 185,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Eidos_VII_03_2_Title",
@@ -2774,7 +2774,7 @@
       "UIOpen_Puzzle01": {
         "ID": 8,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GamePause",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_MAX",
         "UIActionRequestIndex": "None",
         "DrawDuration": 0.0,
         "CustomStrValue1": "",
@@ -2939,7 +2939,7 @@
       "WLA_30_E_UI_AreaName001": {
         "ID": 95,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_01_Title",
@@ -2999,7 +2999,7 @@
       "DED10_E_UI_AreaName003": {
         "ID": 3,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Eidos_VII_01_2_Title",
@@ -3059,7 +3059,7 @@
       "SE_01_E_UI_AreaName001": {
         "ID": 70,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Spire_IV_01_Title",
@@ -3089,7 +3089,7 @@
       "Nest_10_E_UI_AreaName003": {
         "ID": 99,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Nest_00_Title",
@@ -3104,7 +3104,7 @@
       "DED10_E_UI_AreaName002": {
         "ID": 2,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Eidos_VII_01_1_Title",
@@ -3119,7 +3119,7 @@
       "DED10_E_UI_AreaName001": {
         "ID": 1,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Eidos_VII_00_Title",
@@ -3344,7 +3344,7 @@
       "AYL_01_E_UI_AreaName001": {
         "ID": 142,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_AYL_01_Title",
@@ -3389,7 +3389,7 @@
       "ME_06_E_UI_AreaName001": {
         "ID": 73,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_Matrix_XI_09_Title",
@@ -3404,7 +3404,7 @@
       "WLA_10_E_UI_AreaName003": {
         "ID": 165,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_03_Title",
@@ -3419,7 +3419,7 @@
       "WLA_10_E_UI_AreaName002": {
         "ID": 154,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_02_Title",
@@ -3494,7 +3494,7 @@
       "WLA_40_E_UI_AreaName002": {
         "ID": 162,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_09_Title",
@@ -3509,7 +3509,7 @@
       "WLB_30_E_UI_AreaName002": {
         "ID": 119,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_11_Title",
@@ -3569,7 +3569,7 @@
       "WLA_50_E_UI_AreaName001": {
         "ID": 100,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_06_Title",
@@ -3584,7 +3584,7 @@
       "WLA_40_E_UI_AreaName001": {
         "ID": 161,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_07_Title",
@@ -3614,7 +3614,7 @@
       "WLA_10_E_UI_AreaName001": {
         "ID": 139,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLA_00_Title",
@@ -3629,7 +3629,7 @@
       "WLB_30_E_UI_AreaName001": {
         "ID": 118,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_14_Title",
@@ -3644,7 +3644,7 @@
       "WLB_10_E_UI_AreaName001": {
         "ID": 96,
         "UIActionType": "ESBEventUIActionType::ESBEventUIActionType_OpenUI",
-        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideUnlockMode",
+        "UILogicType": "ESBUILogicType::ESBUILogicType_GuideMessage",
         "UIActionRequestIndex": "None",
         "DrawDuration": -1.0,
         "CustomStrValue1": "StringTable_AreaName.AreaName_WLB_03_Title",

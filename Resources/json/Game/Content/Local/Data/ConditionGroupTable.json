@@ -520,10 +520,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_DesignPattern_BS_60": {
-        "ID": 928,
+      "CG_TurntableMusicBundle_Not": {
+        "ID": 930,
         "Conditions": [
-          "Condition_ShopUnlock_DesignPattern_BS_60_NoHave"
+          "Condition_TurntableMusicBundle_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -899,10 +899,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_DesignPattern_BS_58": {
-        "ID": 927,
+      "CG_TurntableMusicBundle": {
+        "ID": 929,
         "Conditions": [
-          "Condition_ShopUnlock_DesignPattern_BS_58_NoHave"
+          "Condition_TurntableMusicBundle"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -1015,10 +1015,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_FaceAccessory_029": {
-        "ID": 926,
+      "CG_Shop_DesignPattern_BS_60": {
+        "ID": 928,
         "Conditions": [
-          "Condition_Condition_620"
+          "Condition_ShopUnlock_DesignPattern_BS_60_NoHave"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -1455,14 +1455,12 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_PassedDodgeTutorial": {
-        "ID": 925,
+      "CG_Shop_DesignPattern_BS_58": {
+        "ID": 927,
         "Conditions": [
-          "Shop_Unlock_isNewGamePlus",
-          "JustEvade_Acquired",
-          "Potion_Acquired"
+          "Condition_ShopUnlock_DesignPattern_BS_58_NoHave"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -1849,11 +1847,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Hair_Nier_003_NoHave": {
-        "ID": 924,
+      "CG_Shop_FaceAccessory_029": {
+        "ID": 926,
         "Conditions": [
-          "Condition_Hair_Nier_003_NoHave",
-          "Condition_NierDLC"
+          "Condition_Condition_620"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -2031,13 +2028,14 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Hair_Nier_002_NoHave": {
-        "ID": 923,
+      "CG_PassedDodgeTutorial": {
+        "ID": 925,
         "Conditions": [
-          "Condition_Hair_Nier_002_NoHave",
-          "Condition_NierDLC"
+          "Shop_Unlock_isNewGamePlus",
+          "JustEvade_Acquired",
+          "Potion_Acquired"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -2148,10 +2146,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Hair_Nier_001_NoHave": {
-        "ID": 922,
+      "CG_Hair_Nier_003_NoHave": {
+        "ID": 924,
         "Conditions": [
-          "Condition_Hair_Nier_001_NoHave",
+          "Condition_Hair_Nier_003_NoHave",
           "Condition_NierDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -2285,11 +2283,50 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_Hair_Nier_002_NoHave": {
+        "ID": 923,
+        "Conditions": [
+          "Condition_Hair_Nier_002_NoHave",
+          "Condition_NierDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Hair_Nier_001_NoHave": {
+        "ID": 922,
+        "Conditions": [
+          "Condition_Hair_Nier_001_NoHave",
+          "Condition_NierDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_LilyCostume_Nier_001_NoHave": {
         "ID": 921,
         "Conditions": [
           "Condition_LilyCostume_Nier_001_NoHave",
           "Condition_NierDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Quest_Request_010_ConditionGroup__022_001": {
+        "ID": 173,
+        "Conditions": [
+          "Quest_Request_010_Condition__021_001",
+          "Quest_Request_010_Condition__021_002"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -2316,19 +2353,6 @@
         "Conditions": [
           "Condition_FaceAccessory_Nier_001_NoHave",
           "Condition_NierDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "Quest_Request_010_ConditionGroup__022_001": {
-        "ID": 173,
-        "Conditions": [
-          "Quest_Request_010_Condition__021_001",
-          "Quest_Request_010_Condition__021_002"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -2367,32 +2391,6 @@
         "ID": 916,
         "Conditions": [
           "Condition_BS_Nier_03_NoHave",
-          "Condition_NierDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_BS_Nier_02_NoHave": {
-        "ID": 915,
-        "Conditions": [
-          "Condition_BS_Nier_02_NoHave",
-          "Condition_NierDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_BS_Nier_01_NoHave": {
-        "ID": 914,
-        "Conditions": [
-          "Condition_BS_Nier_01_NoHave",
           "Condition_NierDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -2482,35 +2480,36 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_BS_Nier_02_NoHave": {
+        "ID": 915,
+        "Conditions": [
+          "Condition_BS_Nier_02_NoHave",
+          "Condition_NierDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_BS_Nier_01_NoHave": {
+        "ID": 914,
+        "Conditions": [
+          "Condition_BS_Nier_01_NoHave",
+          "Condition_NierDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Shop_FaceAccessory_028": {
         "ID": 913,
         "Conditions": [
           "Condition_Condition_604"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_CompleteEdition_Entitlement": {
-        "ID": 912,
-        "Conditions": [
-          "Condition_CompleteEdition"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Shop_DesignPattern_BS_17": {
-        "ID": 906,
-        "Conditions": [
-          "Condition_Condition_600",
-          "Condition_Condition_599"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -2915,6 +2914,30 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_CompleteEdition_Entitlement": {
+        "ID": 912,
+        "Conditions": [
+          "Condition_CompleteEdition"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Shop_DesignPattern_BS_17": {
+        "ID": 906,
+        "Conditions": [
+          "Condition_Condition_599"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Shop_Earring_017": {
         "ID": 905,
         "Conditions": [
@@ -2963,31 +2986,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_FaceAccessory_027": {
-        "ID": 901,
-        "Conditions": [
-          "Condition_Condition_594"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "OR_TDPv3_TNSv3": {
-        "ID": 900,
-        "Conditions": [
-          "PreOrderRepeat_HavePreOrderDesignPattern_v3",
-          "PreOrderRepeat_HavePreOrderNanoSuit_v3"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "DED10_ConditionGroup_014": {
         "ID": 129,
         "Conditions": [
@@ -3029,26 +3027,25 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Preorder_Item_BS_Default_Var3_LoadValid": {
-        "ID": 899,
+      "CG_Shop_FaceAccessory_027": {
+        "ID": 901,
         "Conditions": [
-          "Condition_BuyItem_Item_BS_Default_Var3",
-          "Condition_PreOrder"
+          "Condition_Condition_594"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_PreorderBox_Reward_NanoSuit_forPC": {
-        "ID": 898,
+      "OR_TDPv3_TNSv3": {
+        "ID": 900,
         "Conditions": [
-          "Condition_PreOrder",
-          "PreOrderRepeat_NotHavePreOrderNanoSuit_v3"
+          "PreOrderRepeat_HavePreOrderDesignPattern_v3",
+          "PreOrderRepeat_HavePreOrderNanoSuit_v3"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -3201,6 +3198,32 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_Preorder_Item_BS_Default_Var3_LoadValid": {
+        "ID": 899,
+        "Conditions": [
+          "Condition_BuyItem_Item_BS_Default_Var3",
+          "Condition_PreOrder"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_PreorderBox_Reward_NanoSuit_forPC": {
+        "ID": 898,
+        "Conditions": [
+          "Condition_PreOrder",
+          "PreOrderRepeat_NotHavePreOrderNanoSuit_v3"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_PreorderBox_Reward_DitCoin_forPC": {
         "ID": 897,
         "Conditions": [
@@ -3236,33 +3259,6 @@
         "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "CG_PreorderRepeat_TNSv3_TDPv1_TDPv2",
         "GroupEq1": "ESBEquation::ESBEQ_OR",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_PreorderRepeat_v3": {
-        "ID": 894,
-        "Conditions": [
-          "PreOrderRepeat_HavePreOrderDesignPattern_v2",
-          "PreOrderRepeat_NotHavePreOrderDesignPattern_v3",
-          "PreOrderRepeat_NotHavePreOrderNanoSuit_v3"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_CompleteEdition": {
-        "ID": 890,
-        "Conditions": [
-          "Condition_CompleteEdition",
-          "Condition_NotOpenCompleteEditionBox"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
@@ -3427,13 +3423,12 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Modernia_Bolt": {
-        "ID": 889,
+      "CG_PreorderRepeat_v3": {
+        "ID": 894,
         "Conditions": [
-          "Condition_ActivateDLC_Nikke",
-          "Condition_NikkeDLC",
-          "Condition_Acquire_Quest_Quest_Request_037",
-          "Condition_Nikke_GetLostItem_Modernia_Not"
+          "PreOrderRepeat_HavePreOrderDesignPattern_v2",
+          "PreOrderRepeat_NotHavePreOrderDesignPattern_v3",
+          "PreOrderRepeat_NotHavePreOrderNanoSuit_v3"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -3480,13 +3475,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Alice_Bolt": {
-        "ID": 888,
+      "CG_CompleteEdition": {
+        "ID": 890,
         "Conditions": [
-          "Condition_ActivateDLC_Nikke",
-          "Condition_NikkeDLC",
-          "Condition_Acquire_Quest_Quest_Request_036",
-          "Condition_Nikke_GetLostItem_Alice_Not"
+          "Condition_CompleteEdition",
+          "Condition_NotOpenCompleteEditionBox"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -3495,13 +3488,13 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Dorothy_Bolt": {
-        "ID": 887,
+      "CG_Spawn_NikkeLostItem_Modernia_Bolt": {
+        "ID": 889,
         "Conditions": [
           "Condition_ActivateDLC_Nikke",
           "Condition_NikkeDLC",
-          "Condition_Acquire_Quest_Quest_Request_035",
-          "Condition_Nikke_GetLostItem_Dorothy_Not"
+          "Condition_Acquire_Quest_Quest_Request_037",
+          "Condition_Nikke_GetLostItem_Modernia_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -3590,13 +3583,13 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Anis_Bolt": {
-        "ID": 886,
+      "CG_Spawn_NikkeLostItem_Alice_Bolt": {
+        "ID": 888,
         "Conditions": [
           "Condition_ActivateDLC_Nikke",
           "Condition_NikkeDLC",
-          "Condition_Acquire_Quest_Quest_Request_034",
-          "Condition_Nikke_GetLostItem_Anis_Not"
+          "Condition_Acquire_Quest_Quest_Request_036",
+          "Condition_Nikke_GetLostItem_Alice_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -3710,13 +3703,13 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Rapi_Bolt": {
-        "ID": 884,
+      "CG_Spawn_NikkeLostItem_Dorothy_Bolt": {
+        "ID": 887,
         "Conditions": [
           "Condition_ActivateDLC_Nikke",
           "Condition_NikkeDLC",
-          "Condition_Acquire_Quest_Quest_Request_033",
-          "Condition_Nikke_GetLostItem_Rapi_Not"
+          "Condition_Acquire_Quest_Quest_Request_035",
+          "Condition_Nikke_GetLostItem_Dorothy_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -3751,27 +3744,34 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Guide_BulletChange": {
-        "ID": 883,
+      "CG_Spawn_NikkeLostItem_Anis_Bolt": {
+        "ID": 886,
         "Conditions": [
-          "Condition_Not_Complete_Guide_BulletChange",
-          "Condition_Enter_TPSMode"
+          "Condition_ActivateDLC_Nikke",
+          "Condition_NikkeDLC",
+          "Condition_Acquire_Quest_Quest_Request_034",
+          "Condition_Nikke_GetLostItem_Anis_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "CG_Get_Bullet",
-        "GroupEq1": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Get_Bullet": {
-        "ID": 882,
-        "Conditions": [],
-        "ConditionEq": "ESBEquation::ESBEQ_None",
-        "ConditionGroup1": "CG_Get_ScatterExplosive",
-        "GroupEq1": "ESBEquation::ESBEQ_OR",
-        "ConditionGroup2": "CG_Get_MissileRailgun",
-        "GroupEq2": "ESBEquation::ESBEQ_OR",
+      "CG_Spawn_NikkeLostItem_Rapi_Bolt": {
+        "ID": 884,
+        "Conditions": [
+          "Condition_ActivateDLC_Nikke",
+          "Condition_NikkeDLC",
+          "Condition_Acquire_Quest_Quest_Request_033",
+          "Condition_Nikke_GetLostItem_Rapi_Not"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
       "DED20_ConditionGroup_002": {
@@ -3787,14 +3787,17 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Get_MissileRailgun": {
-        "ID": 881,
-        "Conditions": [],
-        "ConditionEq": "ESBEquation::ESBEQ_None",
-        "ConditionGroup1": "CG_Get_ItemSkill_Missile",
-        "GroupEq1": "ESBEquation::ESBEQ_OR",
-        "ConditionGroup2": "CG_Get_ItemSkill_Railgun",
-        "GroupEq2": "ESBEquation::ESBEQ_OR",
+      "CG_Guide_BulletChange": {
+        "ID": 883,
+        "Conditions": [
+          "Condition_Not_Complete_Guide_BulletChange",
+          "Condition_Enter_TPSMode"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "CG_Get_Bullet",
+        "GroupEq1": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
       "ME_04_ConditionGroup_001": {
@@ -4019,6 +4022,26 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_Get_Bullet": {
+        "ID": 882,
+        "Conditions": [],
+        "ConditionEq": "ESBEquation::ESBEQ_None",
+        "ConditionGroup1": "CG_Get_ScatterExplosive",
+        "GroupEq1": "ESBEquation::ESBEQ_OR",
+        "ConditionGroup2": "CG_Get_MissileRailgun",
+        "GroupEq2": "ESBEquation::ESBEQ_OR",
+        "FileSuffix": "None"
+      },
+      "CG_Get_MissileRailgun": {
+        "ID": 881,
+        "Conditions": [],
+        "ConditionEq": "ESBEquation::ESBEQ_None",
+        "ConditionGroup1": "CG_Get_ItemSkill_Missile",
+        "GroupEq1": "ESBEquation::ESBEQ_OR",
+        "ConditionGroup2": "CG_Get_ItemSkill_Railgun",
+        "GroupEq2": "ESBEquation::ESBEQ_OR",
+        "FileSuffix": "None"
+      },
       "CG_Get_ScatterExplosive": {
         "ID": 880,
         "Conditions": [],
@@ -4117,30 +4140,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Nikke_GetLostItem_Anis": {
-        "ID": 872,
-        "Conditions": [
-          "Condition_Nikke_GetLostItem_Anis"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Nikke_GetLostItem_Rapi": {
-        "ID": 871,
-        "Conditions": [
-          "Condition_Nikke_GetLostItem_Rapi"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "DED40_ConditionGroup_007": {
         "ID": 210,
         "Conditions": [
@@ -4154,11 +4153,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Hair_Nikke_06_NoHave": {
-        "ID": 870,
+      "CG_Nikke_GetLostItem_Anis": {
+        "ID": 872,
         "Conditions": [
-          "Condition_Hair_Nikke_06_NoHave",
-          "Condition_NikkeDLC"
+          "Condition_Nikke_GetLostItem_Anis"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -4185,6 +4183,31 @@
         "Conditions": [
           "Nest_10_Condition_022",
           "Nest_10_Condition_024"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Nikke_GetLostItem_Rapi": {
+        "ID": 871,
+        "Conditions": [
+          "Condition_Nikke_GetLostItem_Rapi"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Hair_Nikke_06_NoHave": {
+        "ID": 870,
+        "Conditions": [
+          "Condition_Hair_Nikke_06_NoHave",
+          "Condition_NikkeDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -4271,32 +4294,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_BS_Nikke_03_NoHave": {
-        "ID": 863,
-        "Conditions": [
-          "Condition_BS_Nikke_03_NoHave",
-          "Condition_NikkeDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_BS_Nikke_02_NoHave": {
-        "ID": 862,
-        "Conditions": [
-          "Condition_BS_Nikke_02_NoHave",
-          "Condition_NikkeDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "AYL_01_ConditionGroup_001": {
         "ID": 240,
         "Conditions": [
@@ -4324,10 +4321,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_BS_Nikke_06_NoHave": {
-        "ID": 861,
+      "CG_BS_Nikke_03_NoHave": {
+        "ID": 863,
         "Conditions": [
-          "Condition_BS_Nikke_06_NoHave",
+          "Condition_BS_Nikke_03_NoHave",
           "Condition_NikkeDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -4337,13 +4334,13 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Modernia_Base": {
-        "ID": 860,
+      "CG_BS_Nikke_02_NoHave": {
+        "ID": 862,
         "Conditions": [
-          "Condition_Nikke_GetLostItem_Modernia",
-          "Condition_Acquire_Quest_Quest_Request_037"
+          "Condition_BS_Nikke_02_NoHave",
+          "Condition_NikkeDLC"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -4441,24 +4438,24 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Alice_Base": {
-        "ID": 859,
+      "CG_BS_Nikke_06_NoHave": {
+        "ID": 861,
         "Conditions": [
-          "Condition_Nikke_GetLostItem_Alice",
-          "Condition_Acquire_Quest_Quest_Request_036"
+          "Condition_BS_Nikke_06_NoHave",
+          "Condition_NikkeDLC"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Dorothy_Base": {
-        "ID": 858,
+      "CG_Spawn_NikkeLostItem_Modernia_Base": {
+        "ID": 860,
         "Conditions": [
-          "Condition_Nikke_GetLostItem_Dorothy",
-          "Condition_Acquire_Quest_Quest_Request_035"
+          "Condition_Nikke_GetLostItem_Modernia",
+          "Condition_Acquire_Quest_Quest_Request_037"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
@@ -4480,11 +4477,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Anis_Base": {
-        "ID": 857,
+      "CG_Spawn_NikkeLostItem_Alice_Base": {
+        "ID": 859,
         "Conditions": [
-          "Condition_Nikke_GetLostItem_Anis",
-          "Condition_Acquire_Quest_Quest_Request_034"
+          "Condition_Nikke_GetLostItem_Alice",
+          "Condition_Acquire_Quest_Quest_Request_036"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
@@ -4493,11 +4490,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Spawn_NikkeLostItem_Rapi_Base": {
-        "ID": 856,
+      "CG_Spawn_NikkeLostItem_Dorothy_Base": {
+        "ID": 858,
         "Conditions": [
-          "Condition_Nikke_GetLostItem_Rapi",
-          "Condition_Acquire_Quest_Quest_Request_033"
+          "Condition_Nikke_GetLostItem_Dorothy",
+          "Condition_Acquire_Quest_Quest_Request_035"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
@@ -4562,6 +4559,32 @@
           "WLA_10_Condition_097"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Spawn_NikkeLostItem_Anis_Base": {
+        "ID": 857,
+        "Conditions": [
+          "Condition_Nikke_GetLostItem_Anis",
+          "Condition_Acquire_Quest_Quest_Request_034"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Spawn_NikkeLostItem_Rapi_Base": {
+        "ID": 856,
+        "Conditions": [
+          "Condition_Nikke_GetLostItem_Rapi",
+          "Condition_Acquire_Quest_Quest_Request_033"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -4804,6 +4827,19 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "AYL_05_ConditionGroup_001": {
+        "ID": 357,
+        "Conditions": [
+          "AYL_05_Condition_002",
+          "AYL_05_Condition_003"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Album_Scarlet_1": {
         "ID": 836,
         "Conditions": [
@@ -4821,19 +4857,6 @@
         "ID": 835,
         "Conditions": [
           "Condition_Marker_Scarlet"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "AYL_05_ConditionGroup_001": {
-        "ID": 357,
-        "Conditions": [
-          "AYL_05_Condition_002",
-          "AYL_05_Condition_003"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -4932,6 +4955,19 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "AYL_04_ConditionGroup_001": {
+        "ID": 192,
+        "Conditions": [
+          "AYL_04_Condition_003",
+          "AYL_04_Condition_001"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Dororong_FirstMeetTrigger": {
         "ID": 827,
         "Conditions": [
@@ -4953,19 +4989,6 @@
           "Condition_Fishing_Item_Fish_Nikke_Poli",
           "Condition_Fishing_Item_Fish_Nikke_Rapunzel",
           "Condition_Fishing_Item_Fish_Nikke_Laplace"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "AYL_04_ConditionGroup_001": {
-        "ID": 192,
-        "Conditions": [
-          "AYL_04_Condition_003",
-          "AYL_04_Condition_001"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -5566,31 +5589,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_SummerEvent_Turntable_Music": {
-        "ID": 772,
-        "Conditions": [
-          "Condition_Enter_ZoneTrigger_SummerEventTrigger"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_NierDLC_Turntable_Music_EmilShop": {
-        "ID": 771,
-        "Conditions": [
-          "Condition_NierDLC",
-          "Condition_NierDLC_GoodBye_Equal"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "WLB_10_ConditionGroup_020": {
         "ID": 589,
         "Conditions": [
@@ -5656,10 +5654,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_NierDLC_Turntable_Music_Default": {
-        "ID": 770,
+      "CG_SummerEvent_Turntable_Music": {
+        "ID": 772,
         "Conditions": [
-          "Condition_NierDLC"
+          "Condition_Enter_ZoneTrigger_SummerEventTrigger"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -5836,6 +5834,31 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_NierDLC_Turntable_Music_EmilShop": {
+        "ID": 771,
+        "Conditions": [
+          "Condition_NierDLC",
+          "Condition_NierDLC_GoodBye_Equal"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_NierDLC_Turntable_Music_Default": {
+        "ID": 770,
+        "Conditions": [
+          "Condition_NierDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_NierDLC_GoodBye_Trigger": {
         "ID": 769,
         "Conditions": [
@@ -5860,34 +5883,6 @@
           "Condition_NierDLC_EmilShop_Valid_Not_WLB_2",
           "Condition_NierDLC_EmilShop_Valid_Not_WLB_3",
           "Condition_NierDLC_EmilShop_Valid_Not_WLB_4",
-          "Condition_ActivateDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_NierDLC_Album": {
-        "ID": 767,
-        "Conditions": [
-          "Condition_NierDLC",
-          "Condition_NierDLC_GoodBye_Not",
-          "Condition_ActivateDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_NierDLC_Tear_15": {
-        "ID": 766,
-        "Conditions": [
-          "Condition_NierDLC",
-          "Condition_NierDLC_Tear_15",
           "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -6206,11 +6201,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_NierDLC_Tear_14": {
-        "ID": 765,
+      "CG_NierDLC_Album": {
+        "ID": 767,
         "Conditions": [
           "Condition_NierDLC",
-          "Condition_NierDLC_Tear_14",
+          "Condition_NierDLC_GoodBye_Not",
           "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -6220,11 +6215,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_NierDLC_Tear_13": {
-        "ID": 764,
+      "CG_NierDLC_Tear_15": {
+        "ID": 766,
         "Conditions": [
           "Condition_NierDLC",
-          "Condition_NierDLC_Tear_13",
+          "Condition_NierDLC_Tear_15",
           "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -6248,11 +6243,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_NierDLC_Tear_12": {
-        "ID": 763,
+      "CG_NierDLC_Tear_14": {
+        "ID": 765,
         "Conditions": [
           "Condition_NierDLC",
-          "Condition_NierDLC_Tear_12",
+          "Condition_NierDLC_Tear_14",
           "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -6305,11 +6300,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_NierDLC_Tear_11": {
-        "ID": 762,
+      "CG_NierDLC_Tear_13": {
+        "ID": 764,
         "Conditions": [
           "Condition_NierDLC",
-          "Condition_NierDLC_Tear_11",
+          "Condition_NierDLC_Tear_13",
           "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -6395,6 +6390,34 @@
         "Conditions": [
           "Xion_11_Condition_018",
           "Xion_11_Condition_013"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_NierDLC_Tear_12": {
+        "ID": 763,
+        "Conditions": [
+          "Condition_NierDLC",
+          "Condition_NierDLC_Tear_12",
+          "Condition_ActivateDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_NierDLC_Tear_11": {
+        "ID": 762,
+        "Conditions": [
+          "Condition_NierDLC",
+          "Condition_NierDLC_Tear_11",
+          "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -6492,34 +6515,6 @@
         "Conditions": [
           "Condition_NierDLC",
           "Condition_NierDLC_Tear_4",
-          "Condition_ActivateDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_NierDLC_Tear_3": {
-        "ID": 754,
-        "Conditions": [
-          "Condition_NierDLC",
-          "Condition_NierDLC_Tear_3",
-          "Condition_ActivateDLC"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_NierDLC_Tear_2": {
-        "ID": 753,
-        "Conditions": [
-          "Condition_NierDLC",
-          "Condition_NierDLC_Tear_2",
           "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
@@ -6673,6 +6668,34 @@
         "Conditions": [
           "Xion_10_Condition_002",
           "Xion_10_Condition_049"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_NierDLC_Tear_3": {
+        "ID": 754,
+        "Conditions": [
+          "Condition_NierDLC",
+          "Condition_NierDLC_Tear_3",
+          "Condition_ActivateDLC"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_NierDLC_Tear_2": {
+        "ID": 753,
+        "Conditions": [
+          "Condition_NierDLC",
+          "Condition_NierDLC_Tear_2",
+          "Condition_ActivateDLC"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -7040,30 +7063,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_DeluxeEdition_Entitlement": {
-        "ID": 713,
-        "Conditions": [
-          "Condition_DeluxeEdition"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_QuestWarp_RequestBoardNotOpened": {
-        "ID": 711,
-        "Conditions": [
-          "Condition_RequestBoardNotOpened"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "WLB_50_ConditionGroup_019": {
         "ID": 596,
         "Conditions": [
@@ -7120,11 +7119,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_PreorderBox_Reward_NanoSuit": {
-        "ID": 708,
+      "CG_DeluxeEdition_Entitlement": {
+        "ID": 713,
         "Conditions": [
-          "Condition_PreOrder",
-          "PreOrderRepeat_NotHavePreOrderNanoSuit_v1"
+          "Condition_DeluxeEdition"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -7198,11 +7196,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_PreorderBox_Reward_DitCoin": {
-        "ID": 707,
+      "CG_QuestWarp_RequestBoardNotOpened": {
+        "ID": 711,
         "Conditions": [
-          "Condition_PreOrder",
-          "PreOrderRepeat_HavePreOrderNanoSuit_v1"
+          "Condition_RequestBoardNotOpened"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -7211,13 +7208,13 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Xion_Phase_3_ForShop": {
-        "ID": 706,
+      "CG_PreorderBox_Reward_NanoSuit": {
+        "ID": 708,
         "Conditions": [
-          "Xion_Phase_3_ForShop",
-          "Shop_Unlock_isNewGamePlus"
+          "Condition_PreOrder",
+          "PreOrderRepeat_NotHavePreOrderNanoSuit_v1"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -7244,6 +7241,32 @@
           "SE_07_Condition_034"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_PreorderBox_Reward_DitCoin": {
+        "ID": 707,
+        "Conditions": [
+          "Condition_PreOrder",
+          "PreOrderRepeat_HavePreOrderNanoSuit_v1"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Xion_Phase_3_ForShop": {
+        "ID": 706,
+        "Conditions": [
+          "Xion_Phase_3_ForShop",
+          "Shop_Unlock_isNewGamePlus"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -7280,30 +7303,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_SpotterShop_Open": {
-        "ID": 702,
-        "Conditions": [
-          "Condition_Condition_410"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "Condition_ConditionGroup_277",
-        "GroupEq1": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Item_Lure_Megabait_Have": {
-        "ID": 701,
-        "Conditions": [
-          "Condition_Item_Lure_Megabait_Have"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "WLA_40_ConditionGroup_009": {
         "ID": 415,
         "Conditions": [
@@ -7319,14 +7318,14 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Item_Lure_Megabait_NoHave": {
-        "ID": 700,
+      "CG_SpotterShop_Open": {
+        "ID": 702,
         "Conditions": [
-          "Condition_Item_Lure_Megabait_NoHave"
+          "Condition_Condition_410"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup1": "Condition_ConditionGroup_277",
+        "GroupEq1": "ESBEquation::ESBEQ_AND",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
@@ -7604,26 +7603,24 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Kill_Character_ATL_M_Maelstrom_01": {
-        "ID": 697,
+      "CG_Item_Lure_Megabait_Have": {
+        "ID": 701,
         "Conditions": [
-          "Condition_Kill_Character_ATL_M_Maelstrom_01",
-          "Shop_Unlock_isNewGamePlus"
+          "Condition_Item_Lure_Megabait_Have"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Kill_Character_UME_M_Sawshark_01": {
-        "ID": 696,
+      "CG_Item_Lure_Megabait_NoHave": {
+        "ID": 700,
         "Conditions": [
-          "Condition_Kill_Character_UME_M_Sawshark_01",
-          "Shop_Unlock_isNewGamePlus"
+          "Condition_Item_Lure_Megabait_NoHave"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -7777,12 +7774,13 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_ShopUnlock_Gear_AdditiveGiveAndReciveDamageRate_Common": {
-        "ID": 695,
+      "CG_Kill_Character_ATL_M_Maelstrom_01": {
+        "ID": 697,
         "Conditions": [
-          "Condition_ShopUnlock_Gear_AdditiveGiveAndReciveDamageRate_Common_NoHave"
+          "Condition_Kill_Character_ATL_M_Maelstrom_01",
+          "Shop_Unlock_isNewGamePlus"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -7802,14 +7800,15 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_ShopUnlock_Gear_BetaCrystalAdditiveRate_Uncommon": {
-        "ID": 694,
+      "CG_Kill_Character_UME_M_Sawshark_01": {
+        "ID": 696,
         "Conditions": [
-          "Condition_ShopUnlock_Gear_BetaCrystalAdditiveRate_Uncommon_NoHave"
+          "Condition_Kill_Character_UME_M_Sawshark_01",
+          "Shop_Unlock_isNewGamePlus"
         ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "CG_Kill_Character_ATL_M_Maelstrom_01",
-        "GroupEq1": "ESBEquation::ESBEQ_AND",
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
@@ -8203,14 +8202,14 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_ShopUnlock_Gear_SPExpAdditiveRate_Uncommon": {
-        "ID": 693,
+      "CG_ShopUnlock_Gear_AdditiveGiveAndReciveDamageRate_Common": {
+        "ID": 695,
         "Conditions": [
-          "Condition_ShopUnlock_Gear_SPExpAdditiveRate_Uncommon_NoHave"
+          "Condition_ShopUnlock_Gear_AdditiveGiveAndReciveDamageRate_Common_NoHave"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "CG_Kill_Character_ATL_M_Maelstrom_01",
-        "GroupEq1": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
@@ -8225,10 +8224,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_ShopUnlock_Gear_KillEnemyHealHP_Uncommon": {
-        "ID": 692,
+      "CG_ShopUnlock_Gear_BetaCrystalAdditiveRate_Uncommon": {
+        "ID": 694,
         "Conditions": [
-          "Condition_ShopUnlock_Gear_KillEnemyHealHP_Uncommon_NoHave"
+          "Condition_ShopUnlock_Gear_BetaCrystalAdditiveRate_Uncommon_NoHave"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "CG_Kill_Character_ATL_M_Maelstrom_01",
@@ -8516,6 +8515,30 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_ShopUnlock_Gear_SPExpAdditiveRate_Uncommon": {
+        "ID": 693,
+        "Conditions": [
+          "Condition_ShopUnlock_Gear_SPExpAdditiveRate_Uncommon_NoHave"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "CG_Kill_Character_ATL_M_Maelstrom_01",
+        "GroupEq1": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_ShopUnlock_Gear_KillEnemyHealHP_Uncommon": {
+        "ID": 692,
+        "Conditions": [
+          "Condition_ShopUnlock_Gear_KillEnemyHealHP_Uncommon_NoHave"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "CG_Kill_Character_ATL_M_Maelstrom_01",
+        "GroupEq1": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_ShopUnlock_Gear_MaxShield_Uncommon": {
         "ID": 691,
         "Conditions": [
@@ -8636,32 +8659,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_ClydeFishingSkillBook3": {
-        "ID": 681,
-        "Conditions": [
-          "Ach_LV_Clyde_Acquire_AllFish_Count15",
-          "ClydeFishingSkillBook3_NoHave"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_ClydeFishingSkillBook2": {
-        "ID": 680,
-        "Conditions": [
-          "Ach_LV_Clyde_Acquire_AllFish_Count5",
-          "ClydeFishingSkillBook2_NoHave"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "WLB_10_ConditionGroup_002": {
         "ID": 266,
         "Conditions": [
@@ -8700,6 +8697,32 @@
           "Test_Shop_Spotter_IACC__006"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_OR",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_ClydeFishingSkillBook3": {
+        "ID": 681,
+        "Conditions": [
+          "Ach_LV_Clyde_Acquire_AllFish_Count15",
+          "ClydeFishingSkillBook3_NoHave"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_ClydeFishingSkillBook2": {
+        "ID": 680,
+        "Conditions": [
+          "Ach_LV_Clyde_Acquire_AllFish_Count5",
+          "ClydeFishingSkillBook2_NoHave"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -9190,12 +9213,11 @@
         "ID": 640,
         "Conditions": [
           "Condition_Condition_337",
-          "Condition_Condition_338",
           "Shop_Unlock_isNewGamePlus"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup1": "Condition_ConditionGroup_473",
+        "GroupEq1": "ESBEquation::ESBEQ_AND",
         "ConditionGroup2": "None",
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
@@ -9332,30 +9354,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_FaceAccessory_011": {
-        "ID": 564,
-        "Conditions": [
-          "Condition_Condition_304"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Shop_Earring_006": {
-        "ID": 562,
-        "Conditions": [
-          "Condition_Condition_303"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "DED10_ConditionGroup_005": {
         "ID": 120,
         "Conditions": [
@@ -9381,6 +9379,30 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_Shop_FaceAccessory_011": {
+        "ID": 564,
+        "Conditions": [
+          "Condition_Condition_304"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Shop_Earring_006": {
+        "ID": 562,
+        "Conditions": [
+          "Condition_Condition_303"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_QuestWarp_HyperDriveScene": {
         "ID": 542,
         "Conditions": [
@@ -9397,6 +9419,18 @@
         "ID": 540,
         "Conditions": [
           "Condition_Condition_297"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "DED10_ConditionGroup_004": {
+        "ID": 119,
+        "Conditions": [
+          "DED10_Condition_004"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9431,18 +9465,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "DED10_ConditionGroup_004": {
-        "ID": 119,
-        "Conditions": [
-          "DED10_Condition_004"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "CG_SELostEarring_003": {
         "ID": 537,
         "Conditions": [
@@ -9459,32 +9481,6 @@
         "ID": 534,
         "Conditions": [
           "Condition_Condition_290"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Marker_Digger_WLA_1_2": {
-        "ID": 527,
-        "Conditions": [
-          "Condition_Condition_115",
-          "Condition_Condition_292"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Shop_DesignPattern_BS_02": {
-        "ID": 520,
-        "Conditions": [
-          "Condition_Condition_289",
-          "Condition_Condition_616"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9522,10 +9518,11 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_DoubleBossDead2": {
-        "ID": 515,
+      "CG_Marker_Digger_WLA_1_2": {
+        "ID": 527,
         "Conditions": [
-          "Condition_Condition_287"
+          "Condition_Condition_115",
+          "Condition_Condition_292"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9538,6 +9535,31 @@
         "ID": 608,
         "Conditions": [
           "LV_Test_Map_Condition_001"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Shop_DesignPattern_BS_02": {
+        "ID": 520,
+        "Conditions": [
+          "Condition_Condition_289",
+          "Condition_Condition_616"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_DoubleBossDead2": {
+        "ID": 515,
+        "Conditions": [
+          "Condition_Condition_287"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9668,30 +9690,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_DesignPattern_BS_15": {
-        "ID": 504,
-        "Conditions": [
-          "Condition_Condition_275"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Shop_DesignPattern_BS_03": {
-        "ID": 503,
-        "Conditions": [
-          "Condition_Condition_274"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "Xion_20_ConditionGroup_001": {
         "ID": 319,
         "Conditions": [
@@ -9720,10 +9718,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_DesignPattern_BS_01": {
-        "ID": 502,
+      "CG_Shop_DesignPattern_BS_15": {
+        "ID": 504,
         "Conditions": [
-          "Condition_Condition_273"
+          "Condition_Condition_275"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9772,34 +9770,34 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "CG_Shop_DesignPattern_BS_03": {
+        "ID": 503,
+        "Conditions": [
+          "Condition_Condition_274"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Shop_DesignPattern_BS_01": {
+        "ID": 502,
+        "Conditions": [
+          "Condition_Condition_273"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Shop_DesignPattern_BS_Yellow_Suit": {
         "ID": 501,
         "Conditions": [
           "Condition_Condition_272"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Shop_FaceAccessory_006": {
-        "ID": 500,
-        "Conditions": [
-          "Condition_Condition_271"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Shop_FaceAccessory_013": {
-        "ID": 499,
-        "Conditions": [
-          "Condition_Condition_270"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9833,10 +9831,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_FaceAccessory_010": {
-        "ID": 498,
+      "CG_Shop_FaceAccessory_006": {
+        "ID": 500,
         "Conditions": [
-          "Condition_Condition_269"
+          "Condition_Condition_271"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9874,10 +9872,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Shop_FaceAccessory_009": {
-        "ID": 497,
+      "CG_Shop_FaceAccessory_013": {
+        "ID": 499,
         "Conditions": [
-          "Condition_Condition_268"
+          "Condition_Condition_270"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9890,6 +9888,30 @@
         "ID": 740,
         "Conditions": [
           "TQ_SysTestD_PhotoChallenge_Condition__021_001"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Shop_FaceAccessory_010": {
+        "ID": 498,
+        "Conditions": [
+          "Condition_Condition_269"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Shop_FaceAccessory_009": {
+        "ID": 497,
+        "Conditions": [
+          "Condition_Condition_268"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -9970,6 +9992,18 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "Quest_Request_032_ConditionGroup__022_001": {
+        "ID": 749,
+        "Conditions": [
+          "Quest_Request_032_Condition__021_001"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Shop_Earring_010": {
         "ID": 490,
         "Conditions": [
@@ -9986,18 +10020,6 @@
         "ID": 489,
         "Conditions": [
           "Condition_Condition_260"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "Quest_Request_032_ConditionGroup__022_001": {
-        "ID": 749,
-        "Conditions": [
-          "Quest_Request_032_Condition__021_001"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -10512,30 +10534,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Album_Enya_4": {
-        "ID": 391,
-        "Conditions": [
-          "Condition_Album_Enya_4"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Album_Enya_3": {
-        "ID": 390,
-        "Conditions": [
-          "Condition_Album_Enya_3"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "Nikke_Stage01_ConditionGroup_004": {
         "ID": 796,
         "Conditions": [
@@ -10629,10 +10627,10 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Album_Enya_2": {
-        "ID": 389,
+      "CG_Album_Enya_4": {
+        "ID": 391,
         "Conditions": [
-          "Condition_Album_Enya_2"
+          "Condition_Album_Enya_4"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -10667,6 +10665,30 @@
           "Nikke_Stage02_Condition_004",
           "Nikke_Stage02_Condition_006",
           "Nikke_Stage02_Condition_007"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Album_Enya_3": {
+        "ID": 390,
+        "Conditions": [
+          "Condition_Album_Enya_3"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Album_Enya_2": {
+        "ID": 389,
+        "Conditions": [
+          "Condition_Album_Enya_2"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -10966,6 +10988,19 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "Xion_Boss_Mann_ConditionGroup_001": {
+        "ID": 826,
+        "Conditions": [
+          "Xion_Boss_Mann_Condition_002",
+          "Xion_Boss_Mann_Condition_003"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Request024": {
         "ID": 363,
         "Conditions": [
@@ -10988,19 +11023,6 @@
           "Condition_Condition_168",
           "Condition_Condition_221",
           "Condition_Condition_300"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "Xion_Boss_Mann_ConditionGroup_001": {
-        "ID": 826,
-        "Conditions": [
-          "Xion_Boss_Mann_Condition_002",
-          "Xion_Boss_Mann_Condition_003"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -11748,6 +11770,19 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
+      "Xion_10_ConditionGroup_001": {
+        "ID": 45,
+        "Conditions": [
+          "Xion_10_Condition_033",
+          "Xion_10_Condition_034"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
       "CG_Wasteland_Entered": {
         "ID": 222,
         "Conditions": [
@@ -11768,19 +11803,6 @@
           "Shop_Unlock_isNewGamePlus"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_OR",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "Xion_10_ConditionGroup_001": {
-        "ID": 45,
-        "Conditions": [
-          "Xion_10_Condition_033",
-          "Xion_10_Condition_034"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
@@ -11816,32 +11838,6 @@
         "ID": 218,
         "Conditions": [
           "Condition_Ach_SELostProperty_DesignPattern_BS_47_Not"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_Guide_TrainingRoom": {
-        "ID": 186,
-        "Conditions": [
-          "Guide_TrainingRoom_Guide",
-          "Guide_TrainingRoom_Blink",
-          "Guide_TrainingRoom_NotEntered"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_SELostCan": {
-        "ID": 185,
-        "Conditions": [
-          "Condition_Ach_SELostProperty_Can_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -11886,6 +11882,32 @@
           "WLA_10_Condition_014",
           "WLA_10_Condition_050",
           "WLA_10_Condition_077"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Guide_TrainingRoom": {
+        "ID": 186,
+        "Conditions": [
+          "Guide_TrainingRoom_Guide",
+          "Guide_TrainingRoom_Blink",
+          "Guide_TrainingRoom_NotEntered"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_SELostCan": {
+        "ID": 185,
+        "Conditions": [
+          "Condition_Ach_SELostProperty_Can_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -12029,35 +12051,6 @@
         "GroupEq2": "ESBEquation::ESBEQ_None",
         "FileSuffix": "None"
       },
-      "CG_Xion_Phase_1": {
-        "ID": 151,
-        "Conditions": [
-          "Xion_Phase_1"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
-      "CG_UT_SkillUnlock_Blink": {
-        "ID": 150,
-        "Conditions": [
-          "Condition_Condition_052",
-          "Condition_Condition_053",
-          "Condition_Condition_054",
-          "Condition_Condition_056",
-          "Condition_Condition_057",
-          "Condition_Condition_316"
-        ],
-        "ConditionEq": "ESBEquation::ESBEQ_AND",
-        "ConditionGroup1": "None",
-        "GroupEq1": "ESBEquation::ESBEQ_None",
-        "ConditionGroup2": "None",
-        "GroupEq2": "ESBEquation::ESBEQ_None",
-        "FileSuffix": "None"
-      },
       "WLA_10_ConditionGroup_001": {
         "ID": 19,
         "Conditions": [],
@@ -12113,6 +12106,35 @@
         "Conditions": [
           "WLB_30_Condition_017",
           "WLB_30_Condition_016"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_Xion_Phase_1": {
+        "ID": 151,
+        "Conditions": [
+          "Xion_Phase_1"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "CG_UT_SkillUnlock_Blink": {
+        "ID": 150,
+        "Conditions": [
+          "Condition_Condition_052",
+          "Condition_Condition_053",
+          "Condition_Condition_054",
+          "Condition_Condition_056",
+          "Condition_Condition_057",
+          "Condition_Condition_316"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
         "ConditionGroup1": "None",
@@ -12394,6 +12416,19 @@
           "ActorState_BlockBehavior_Not"
         ],
         "ConditionEq": "ESBEquation::ESBEQ_AND",
+        "ConditionGroup1": "None",
+        "GroupEq1": "ESBEquation::ESBEQ_None",
+        "ConditionGroup2": "None",
+        "GroupEq2": "ESBEquation::ESBEQ_None",
+        "FileSuffix": "None"
+      },
+      "Condition_ConditionGroup_473": {
+        "ID": 931,
+        "Conditions": [
+          "Condition_Condition_338",
+          "Condition_Condition_625"
+        ],
+        "ConditionEq": "ESBEquation::ESBEQ_OR",
         "ConditionGroup1": "None",
         "GroupEq1": "ESBEquation::ESBEQ_None",
         "ConditionGroup2": "None",
