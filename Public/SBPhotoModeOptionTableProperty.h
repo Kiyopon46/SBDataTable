@@ -97,7 +97,7 @@ struct SB_API FSBPhotoModeOptionTableProperty : public FTableRowBase
     FString MaterialMaskValue1;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    TArray<FString> FloatArrayValue1;
+    TArray<float> FloatArrayValue1;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     TArray<FString> OptionStringArray;

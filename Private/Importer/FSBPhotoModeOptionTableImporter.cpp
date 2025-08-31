@@ -74,7 +74,7 @@ void FSBPhotoModeOptionTableImporter::PopulateDataTable(UDataTable* TargetTable,
         TryApplyBoolField(RowDataObject, TEXT("bSetDefaultToFinalPostProcessing"), RowName, [&](bool Val) { NewRow.bSetDefaultToFinalPostProcessing = Val; });
         TryApplyBoolField(RowDataObject, TEXT("bEnableValueSnapToNearestUI"), RowName, [&](bool Val) { NewRow.bEnableValueSnapToNearestUI = Val; });
         TryApplyStringField(RowDataObject, TEXT("MaterialMaskValue1"), RowName, [&](const FString& Val) { NewRow.MaterialMaskValue1 = Val; });
-        TryApplyStringArrayField(RowDataObject, TEXT("FloatArrayValue1"), RowName, [&](const TArray<FString>& Val) { NewRow.FloatArrayValue1 = Val; });
+        TryApplyFloatArrayField(RowDataObject, TEXT("FloatArrayValue1"), RowName, [&](const TArray<float>& Val) { NewRow.FloatArrayValue1 = Val; });
         TryApplyStringArrayField(RowDataObject, TEXT("OptionStringArray"), RowName, [&](const TArray<FString>& Val) { NewRow.OptionStringArray = Val; });
         TryApplyStringArrayField(RowDataObject, TEXT("AliasArrayValue1"), RowName, [&](const TArray<FString>& Val) { NewRow.AliasArrayValue1 = Val; });
         TryApplyFloatField(RowDataObject, TEXT("EditorOnlyStepValue"), RowName, [&](float Val) { NewRow.EditorOnlyStepValue = Val; });

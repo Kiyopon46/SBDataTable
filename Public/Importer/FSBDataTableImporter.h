@@ -159,6 +159,31 @@ protected:
     }
 
     /**
+     * Get the float array value by specifying the key and set it in the DataTable.
+     */
+    void TryApplyFloatArrayField(
+        const TSharedPtr<FJsonObject>& JsonObject,
+        const FString& Key,
+        const FString& RowName,
+        TFunction<void(const TArray<float>&)> Setter)
+    {
+        const TArray<TSharedPtr<FJsonValue>>* JsonArray;
+        if (JsonObject->TryGetArrayField(Key, JsonArray))
+        {
+            TArray<float> Result;
+            for (const auto& Val : *JsonArray)
+            {
+                Result.Add(Val->AsNumber());
+            }
+            Setter(Result);
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("Invalid Data in Row '%s': Missing or invalid array key '%s'"), *RowName, *Key);
+        }
+    }
+
+    /**
      * Get the boolean value by specifying the key and set it in the DataTable.
      */
     void TryApplyBoolField(
